@@ -27,7 +27,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("workbook", type=Path)
     parser.add_argument("--sheet", default=DEFAULT_SHEET)
-    parser.add_argument("--output", type=Path, default=Path("src/data/rawMasterData.js"))
+    parser.add_argument("--output", type=Path, default=Path("Shark-Tank/src/data/rawMasterData.js"))
     args = parser.parse_args()
 
     df = pd.read_excel(args.workbook, sheet_name=args.sheet, header=2)
