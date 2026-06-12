@@ -27,13 +27,13 @@ python3 -m http.server 4173
 Then open:
 
 ```text
-http://localhost:4173/Shark-Tank/
+http://localhost:4173/Sharktank/
 ```
 
 ## Test
 
 ```bash
-/Users/bryandtabiadon/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node --test Shark-Tank/src/tests/*.test.js
+/Users/bryandtabiadon/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node --test Sharktank/src/tests/*.test.js
 ```
 
 ## Deploy to GitHub Pages
@@ -58,12 +58,12 @@ In GitHub, open the repo's **Settings > Pages**, set **Build and deployment** to
 After GitHub publishes the site, the public URL will be:
 
 ```text
-https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/Shark-Tank/
+https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/Sharktank/
 ```
 
 ## Data refresh path
 
-The dashboard imports `Shark-Tank/src/data/rawMasterData.js`, generated from the workbook. To refresh it:
+The dashboard imports `Sharktank/src/data/rawMasterData.js`, generated from the workbook. To refresh it:
 
 ```bash
 /Users/bryandtabiadon/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/import_workbook.py "/Users/bryandtabiadon/Downloads/Claude Handoff/shark_tank_MASTER_CLEAN.xlsx"
