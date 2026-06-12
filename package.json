@@ -1,0 +1,13 @@
+{
+  "name": "shark-tank-intelligence-platform",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test src/tests/*.test.js",
+    "start": "python3 -m http.server 4173"
+  },
+  "notes": {
+    "nextTarget": "Spec calls for Next.js + TypeScript. This dependency-free MVP preserves the architecture, formulas, and workbook-backed data layer for migration."
+  }
+}
