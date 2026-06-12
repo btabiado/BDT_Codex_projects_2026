@@ -4,10 +4,10 @@ function normalized(value, max) {
 }
 
 export function calculateAlphaScores(baseMetrics) {
-  const maxRevenue = Math.max(0, ...baseMetrics.map((metric) => metric.totalRevenue));
+  const maxRevenue = Math.max(0, ...baseMetrics.map((metric) => metric.attributedRevenue ?? metric.totalRevenue));
   const maxDeals = Math.max(0, ...baseMetrics.map((metric) => metric.totalDeals));
   return baseMetrics.map((metric) => {
-    const revenueScore = normalized(metric.totalRevenue, maxRevenue);
+    const revenueScore = normalized(metric.attributedRevenue ?? metric.totalRevenue, maxRevenue);
     const survivalScore = metric.survivalRate ?? 0;
     const dealSuccessScore = metric.dealSuccessRate ?? 0;
     const dealVolumeScore = normalized(metric.totalDeals, maxDeals);

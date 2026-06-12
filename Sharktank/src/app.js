@@ -1,10 +1,16 @@
 import { rawMasterRows } from "./data/rawMasterData.js";
+import { enrichmentOverrides } from "./data/enrichmentOverrides.js";
+import { supplementalRecords } from "./data/supplementalRecords.js";
+import { applyEnrichmentOverrides } from "./lib/enrichment.js";
+import { applyDataCurations, getAnalysisRecords } from "./lib/curateData.js";
 import { normalizeRows, MAJOR_SHARKS } from "./lib/normalizeData.js";
 import { getGlobalMetrics, getSharkMetrics, getTopCompanies, getIndustryMetrics } from "./lib/metrics.js";
 import { getQualityReport } from "./lib/qualityChecks.js";
 import { formatCurrency, formatNumber, formatPercent } from "./lib/formatters.js";
 
-const records = normalizeRows(rawMasterRows);
+const curatedRecords = applyEnrichmentOverrides(applyDataCurations([...normalizeRows(rawMasterRows), ...supplementalRecords]), enrichmentOverrides);
+const records = getAnalysisRecords(curatedRecords);
+const excludedArtifacts = curatedRecords.length - records.length;
 let state = {
   route: "command",
   search: "",
@@ -110,7 +116,8 @@ function sharkCards(rows) {
           <dl>
             <div><dt>Deals</dt><dd>${metric.totalDeals}</dd></div>
             <div><dt>Survival</dt><dd>${formatPercent(metric.survivalRate)}</dd></div>
-            <div><dt>Revenue</dt><dd>${formatCurrency(metric.totalRevenue)}</dd></div>
+            <div><dt>Portfolio Revenue</dt><dd>${formatCurrency(metric.totalRevenue)}</dd></div>
+            <div><dt>Attributed Revenue</dt><dd>${formatCurrency(metric.attributedRevenue)}</dd></div>
             <div><dt>Largest Winner</dt><dd>${html(metric.largestWinner ?? "N/A")}</dd></div>
             <div><dt>Favorite Industry</dt><dd>${html(metric.favoriteIndustry ?? "N/A")}</dd></div>
           </dl>
@@ -121,7 +128,7 @@ function sharkCards(rows) {
 
 function leaderboard(rows) {
   const metrics = getSharkMetrics(rows);
-  return `<section class="panel"><h2>Shark Alpha Leaderboard</h2><table><thead><tr><th>Rank</th><th>Shark</th><th>Alpha</th><th>Revenue</th><th>Survival</th><th>Movement</th></tr></thead><tbody>${metrics.map((metric, index) => `<tr><td>${index + 1}</td><td>${html(metric.sharkName)}</td><td>${metric.alphaScore}</td><td>${formatCurrency(metric.totalRevenue)}</td><td>${formatPercent(metric.survivalRate)}</td><td><span class="muted">New</span></td></tr>`).join("")}</tbody></table></section>`;
+  return `<section class="panel"><h2>Shark Alpha Leaderboard</h2><p class="muted">Alpha Score uses attributed revenue when deal equity is parseable, reducing full-company revenue overcounting.</p><table><thead><tr><th>Rank</th><th>Shark</th><th>Alpha</th><th>Attributed Revenue</th><th>Portfolio Revenue</th><th>Survival</th><th>Movement</th></tr></thead><tbody>${metrics.map((metric, index) => `<tr><td>${index + 1}</td><td>${html(metric.sharkName)}</td><td>${metric.alphaScore}</td><td>${formatCurrency(metric.attributedRevenue)}</td><td>${formatCurrency(metric.totalRevenue)}</td><td>${formatPercent(metric.survivalRate)}</td><td><span class="muted">New</span></td></tr>`).join("")}</tbody></table></section>`;
 }
 
 function commandPage(rows) {
@@ -163,7 +170,7 @@ function companiesPage(rows) {
 
 function qualityPage(rows) {
   const report = getQualityReport(rows);
-  return `<section class="panel quality-hero"><h2>Data Quality Center</h2><strong>${report.overallScore}/100</strong><p>Weighted completeness, consistency, source coverage, and revenue coverage.</p></section><section class="split"><div class="panel"><h2>Field Completeness</h2><table><thead><tr><th>Field</th><th>Complete</th><th>Missing</th><th>Coverage</th></tr></thead><tbody>${report.completeness.map((field) => `<tr><td><span class="dot ${field.severity}"></span>${field.field}</td><td>${field.complete}</td><td>${field.missing}</td><td>${formatPercent(field.percent)}</td></tr>`).join("")}</tbody></table></div><div class="panel"><h2>Coverage and Exceptions</h2><div class="bars">${report.seasonCoverage.map((item) => `<label>S${item.season}<span style="--w:${Math.max(6, item.count * 8)}%"></span><b>${item.count}</b></label>`).join("")}</div><p>Duplicate groups: ${report.duplicates.length}</p><p>Missing deal investors: ${report.investorQuality.missingDealInvestors}</p><p>Missing revenue: ${report.revenueQuality.missing}</p><p>Missing source URLs: ${report.sourceQuality.missing}</p></div></section>`;
+  return `<section class="panel quality-hero"><h2>Data Quality Center</h2><strong>${report.overallScore}/100</strong><p>Weighted completeness, consistency, source coverage, and revenue coverage.</p></section><section class="split"><div class="panel"><h2>Field Completeness</h2><table><thead><tr><th>Field</th><th>Complete</th><th>Missing</th><th>Coverage</th></tr></thead><tbody>${report.completeness.map((field) => `<tr><td><span class="dot ${field.severity}"></span>${field.field}</td><td>${field.complete}</td><td>${field.missing}</td><td>${formatPercent(field.percent)}</td></tr>`).join("")}</tbody></table></div><div class="panel"><h2>Coverage and Exceptions</h2><div class="bars">${report.seasonCoverage.map((item) => `<label>S${item.season}<span style="--w:${Math.max(6, item.count * 8)}%"></span><b>${item.count}</b></label>`).join("")}</div><p>Quarantined import artifacts: ${excludedArtifacts}</p><p>Duplicate groups: ${report.duplicates.length}</p><p>Missing deal investors: ${report.investorQuality.missingDealInvestors}</p><p>Missing revenue: ${report.revenueQuality.missing}</p><p>Missing source URLs: ${report.sourceQuality.missing}</p></div></section>`;
 }
 
 function sharksPage(rows) {
@@ -219,7 +226,8 @@ document.addEventListener("click", (event) => {
   const companyId = event.target.closest("[data-company]")?.dataset.company;
   if (companyId) {
     const record = records.find((item) => item.id === companyId);
-    document.querySelector("#drawer").innerHTML = `<aside class="drawer"><button class="close" data-close>Close</button><h2>${html(record.companyName)}</h2><p>${html(record.description ?? "")}</p><dl><div><dt>Season</dt><dd>${record.season ?? "N/A"} / Episode ${record.episode ?? "N/A"}</dd></div><div><dt>Deal Terms</dt><dd>${html(record.dealTermsRaw ?? "N/A")}</dd></div><div><dt>Investors</dt><dd>${html(record.investors.join(", ") || "N/A")}</dd></div><div><dt>Revenue</dt><dd>${html(record.revenueRaw ?? "N/A")}</dd></div><div><dt>Status</dt><dd>${html(record.businessStatus)}</dd></div></dl></aside>`;
+    const postShowStatus = record.postShowDealStatus ? `<div><dt>Post-show Deal</dt><dd>${html(record.postShowDealStatus.replace("_", " "))}</dd></div>` : "";
+    document.querySelector("#drawer").innerHTML = `<aside class="drawer"><button class="close" data-close>Close</button><h2>${html(record.companyName)}</h2><p>${html(record.description ?? "")}</p><dl><div><dt>Season</dt><dd>${record.season ?? "N/A"} / Episode ${record.episode ?? "N/A"}</dd></div><div><dt>Deal Terms</dt><dd>${html(record.dealTermsRaw ?? "N/A")}</dd></div>${postShowStatus}<div><dt>Investors</dt><dd>${html(record.investors.join(", ") || "N/A")}</dd></div><div><dt>Revenue</dt><dd>${html(record.revenueRaw ?? "N/A")}</dd></div><div><dt>Status</dt><dd>${html(record.businessStatus)}</dd></div></dl></aside>`;
   }
   if (event.target.matches("[data-close]")) document.querySelector("#drawer").innerHTML = "";
 });

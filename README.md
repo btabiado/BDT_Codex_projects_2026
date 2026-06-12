@@ -41,6 +41,27 @@ http://localhost:4173/Sharktank/
 /Users/bryandtabiadon/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node --test Sharktank/src/tests/*.test.js
 ```
 
+## Data enrichment
+
+Current data layers:
+
+- Workbook extract: `Sharktank/src/data/rawMasterData.js`
+- Local supplemental records for rows missing from the workbook: `Sharktank/src/data/supplementalRecords.js`
+- Local verified field overrides: `Sharktank/src/data/enrichmentOverrides.js`
+
+Generate the research queue and gap report:
+
+```bash
+/Users/bryandtabiadon/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/build_gap_report.mjs
+```
+
+Outputs:
+
+- `docs/data_enrichment_gap_report.md`
+- `docs/research_queue.json`
+
+The enrichment workflow is intentionally local-first. Add verified source-backed records or overrides, run the report generator, run tests, preview locally, then push.
+
 ## Deploy to GitHub Pages
 
 This folder is ready to deploy as a static GitHub Pages site. Push this folder as the repo root:
