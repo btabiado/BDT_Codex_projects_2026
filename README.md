@@ -1,6 +1,10 @@
-# Shark Tank Intelligence Platform
+# BDT Codex Projects 2026
 
-This is a dependency-free MVP built from `Shark_Tank_Intelligence_Platform_Developer_Build_Spec_v3.docx` and wired to `shark_tank_MASTER_CLEAN.xlsx`.
+This repo is a GitHub Pages project index. Each project gets its own named path after the repo URL.
+
+Current project:
+
+- `Sharktank/`: Shark Tank Intelligence Platform, built from `Shark_Tank_Intelligence_Platform_Developer_Build_Spec_v3.docx` and wired to `shark_tank_MASTER_CLEAN.xlsx`.
 
 ## What is included
 
@@ -27,6 +31,7 @@ python3 -m http.server 4173
 Then open:
 
 ```text
+http://localhost:4173/
 http://localhost:4173/Sharktank/
 ```
 
@@ -58,6 +63,7 @@ In GitHub, open the repo's **Settings > Pages**, set **Build and deployment** to
 After GitHub publishes the site, the public URL will be:
 
 ```text
+https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/
 https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/Sharktank/
 ```
 
