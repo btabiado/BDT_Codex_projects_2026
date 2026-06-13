@@ -2706,7 +2706,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue approaching $3 million as of August 2023; $700K in 2020 sales at pitch",
     "sourceUrl": "https://sharktankblog.com/business/curie/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/curie/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://curiebod.com",
+    "websiteStatus": "up"
   },
   "s13e15-nogginboss": {
     "businessStatus": "active",
@@ -8626,7 +8628,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://sharktankrecap.com/total-merchant-resources-update-shark-tank-season-5/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Multiple sources: 'the deal with Kevin never finalized'; fell through in post-show due diligence."
+    "portfolioScoringNote": "On-air deal did not close: Multiple sources: 'the deal with Kevin never finalized'; fell through in post-show due diligence.",
+    "website": "https://totalmerchantresources.com",
+    "websiteStatus": "up"
   },
   "s5e7-better-life": {
     "businessStatus": "active",
@@ -8654,7 +8658,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/180-cup/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://180cup.com",
+    "websiteStatus": "up"
   },
   "s5e7-tree-t-pee": {
     "businessStatus": "active",
@@ -13101,7 +13107,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3.6 million in annual revenue as of July 2022",
     "sourceUrl": "https://sharktankblog.com/business/icybreeze/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/icybreeze/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://icybreeze.com",
+    "websiteStatus": "blocked"
   },
   "s7e16-beartek": {
     "businessStatus": "inactive",
@@ -13998,7 +14006,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$6 million lifetime revenue as of April 2024, including over $1 million in sales during 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/kymera-body-board/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/kymera-body-board/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kymera.com",
+    "websiteStatus": "up"
   },
   "s5e8-schulzies-bread-pudding": {
     "businessStatus": "inactive",
@@ -14867,6 +14877,10 @@ export const enrichmentOverrides = {
   },
   "s17e17-powersoul-cafe": {
     "website": "https://powersoulcafe.com",
+    "websiteStatus": "up"
+  },
+  "s7e3-foot-cardigan": {
+    "website": "https://footcardigan.com",
     "websiteStatus": "up"
   }
 };
