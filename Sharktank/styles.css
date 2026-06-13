@@ -449,12 +449,26 @@ th[scope="row"] {
 }
 
 th.sortable {
-  cursor: pointer;
-  user-select: none;
+  padding: 0;
   white-space: nowrap;
 }
 
-th.sortable:hover {
+.th-sort {
+  display: block;
+  width: 100%;
+  padding: 7px 10px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+  text-transform: inherit;
+  letter-spacing: inherit;
+  cursor: pointer;
+  user-select: none;
+}
+
+.th-sort:hover {
   color: var(--text);
 }
 

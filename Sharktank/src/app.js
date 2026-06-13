@@ -70,11 +70,26 @@ function readHash() {
 // A table declares its sortable columns; clicking a header sets state.tsortKey/Dir.
 // applyTableSort only acts when the active key belongs to the current table, so a
 // sort set on one tab harmlessly falls back to the page's natural order elsewhere.
+const SORT_LABELS = {
+  companyName: "Company", season: "Season", dealStatus: "Deal", businessStatus: "Status",
+  revenueAmount: "Revenue", totalPitches: "Pitches", totalDeals: "Deals", dealRate: "Deal Rate",
+  survivalRate: "Survival", totalRevenue: "Revenue", industry: "Industry"
+};
+
+function announce(message) {
+  const node = document.getElementById("liveStatus");
+  if (node) node.textContent = message;
+}
+
 function sortableTh(label, key, { num = false } = {}) {
   const active = state.tsortKey === key;
   const ariaSort = active ? (state.tsortDir === "asc" ? "ascending" : "descending") : "none";
-  const indicator = active ? ` <span class="sort-ind">${state.tsortDir === "asc" ? "↑" : "↓"}</span>` : "";
-  return `<th scope="col" class="sortable${num ? " num" : ""}" data-sortkey="${html(key)}" aria-sort="${ariaSort}" tabindex="0">${html(label)}${indicator}</th>`;
+  const indicator = active ? ` <span class="sort-ind" aria-hidden="true">${state.tsortDir === "asc" ? "↑" : "↓"}</span>` : "";
+  const nextDir = active && state.tsortDir === "desc" ? "ascending" : "descending";
+  // A native <button> inside the columnheader: keeps the th's aria-sort semantics
+  // while exposing a real, keyboard-operable control (WCAG 4.1.2). No tabindex/keydown
+  // shim needed — the button activates on Enter/Space natively.
+  return `<th scope="col" class="sortable${num ? " num" : ""}" aria-sort="${ariaSort}"><button type="button" class="th-sort" data-sortkey="${html(key)}" aria-label="Sort by ${html(label)}, ${nextDir}">${html(label)}${indicator}</button></th>`;
 }
 
 function applyTableSort(rows, validKeys) {
@@ -343,6 +358,7 @@ document.addEventListener("click", (event) => {
     state.route = route;
     state.page = 1;
     render();
+    return;
   }
   const shark = event.target.closest("[data-shark]")?.dataset.shark;
   if (shark) {
@@ -350,11 +366,13 @@ document.addEventListener("click", (event) => {
     state.route = "companies";
     state.page = 1;
     render();
+    return;
   }
   const page = event.target.closest("[data-page]")?.dataset.page;
   if (page) {
     state.page = Math.max(1, Number(page));
     render();
+    return;
   }
   const sortKey = event.target.closest("[data-sortkey]")?.dataset.sortkey;
   if (sortKey) {
@@ -366,24 +384,33 @@ document.addEventListener("click", (event) => {
     }
     state.page = 1;
     render();
+    // Re-render destroys the focused header button; restore focus to its replacement
+    // and announce the new sort state for screen readers.
+    document.querySelector(`[data-sortkey="${sortKey}"]`)?.focus();
+    announce(`Sorted by ${SORT_LABELS[sortKey] ?? sortKey}, ${state.tsortDir === "asc" ? "ascending" : "descending"}`);
+    return;
   }
   if (event.target.closest("[data-copylink]")) {
     const button = event.target.closest("[data-copylink]");
     navigator.clipboard?.writeText(location.href).then(() => {
       button.textContent = "Copied";
+      announce("Link to this view copied to clipboard");
       setTimeout(() => { button.textContent = "Copy link"; }, 1200);
     }).catch(() => {});
+    return;
   }
   const clearFilter = event.target.closest("[data-clearfilter]")?.dataset.clearfilter;
   if (clearFilter) {
     state[clearFilter] = clearFilter === "search" ? "" : "all";
     state.page = 1;
     render();
+    return;
   }
   if (event.target.closest("[data-clearall]")) {
     for (const key of HASH_FILTER_KEYS) state[key] = key === "search" ? "" : "all";
     state.page = 1;
     render();
+    return;
   }
   // Source links inside a company row must open the link, not the detail drawer.
   if (event.target.closest("a")) return;
@@ -413,8 +440,29 @@ document.addEventListener("keydown", (event) => {
     closeDrawer();
     return;
   }
+  // Trap focus inside the open drawer dialog so it honors aria-modal="true".
+  if (event.key === "Tab") {
+    const drawer = document.querySelector(".drawer");
+    if (drawer) {
+      const focusables = [...drawer.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])')].filter((el) => !el.disabled);
+      if (focusables.length) {
+        const first = focusables[0];
+        const last = focusables[focusables.length - 1];
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first.focus();
+        }
+      }
+    }
+    return;
+  }
+  // Shark cards are role=button (not native), so they need an Enter/Space shim.
+  // Sortable headers use a real <button> and activate natively.
   if (event.key === "Enter" || event.key === " ") {
-    const activatable = event.target.closest?.("[data-shark],[data-sortkey]");
+    const activatable = event.target.closest?.("[data-shark]");
     if (activatable) {
       event.preventDefault();
       activatable.click();
