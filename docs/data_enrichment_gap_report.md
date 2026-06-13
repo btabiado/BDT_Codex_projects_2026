@@ -7,21 +7,21 @@ Generated from the normalized workbook, supplemental records, and enrichment ove
 | Metric | Count |
 | --- | ---: |
 | Workbook rows | 1408 |
-| Supplemental rows | 72 |
-| Source rows | 1480 |
-| Analysis rows after artifact quarantine | 1436 |
+| Supplemental rows | 140 |
+| Source rows | 1548 |
+| Analysis rows after artifact quarantine | 1504 |
 | Quarantined import artifacts | 44 |
 | Cleaned company names | 124 |
-| Data quality score | 61/100 |
+| Data quality score | 77/100 |
 | Unknown deal status | 1 |
-| Deal rows missing investors | 218 |
+| Deal rows missing investors | 4 |
 | Unknown business status | 170 |
-| Missing parsed revenue | 327 |
+| Missing parsed revenue | 335 |
 | Missing description | 1 |
 | Unclassified industry | 51 |
 | Likely boilerplate/import-name artifacts | 0 |
-| Research queue items | 531 |
-| Priority 1 queue items | 57 |
+| Research queue items | 356 |
+| Priority 1 queue items | 11 |
 
 ## Research Priority Rules
 
@@ -42,65 +42,65 @@ Generated from the normalized workbook, supplemental records, and enrichment ove
 
 | ID | Season | Episode | Company | Missing fields | Current source |
 | --- | ---: | ---: | --- | --- | --- |
-| s17e2-impeccable-chicken | 17 | 2 | Impeccable Chicken | revenue | https://www.sharktankblog.com/business/impeccable-chicken/ |
-| s17e10-left-field | 17 | 10 | Left Field | revenue | https://www.sharktankblog.com/business/left-field/ |
 | s17e17-hibertec | 17 | 17 | HiberTec | revenue | https://www.sharktankblog.com/business/hibertec/ |
 | s17e18-parrot-finance | 17 | 18 | Parrot Finance | revenue | https://www.sharktankblog.com/business/parrot-finance/ |
-| s16e1-trufit-customs | 16 | 1 | TruFit Customs | investors | https://www.sharktankblog.com/business/trufit-customs/ |
-| s16e1-card-io | 16 | 1 | Card.io | investors, revenue | https://www.sharktankblog.com/business/card-io/ |
-| s16e2-top-sail-steamer | 16 | 2 | Top Sail Steamer | investors | https://www.sharktankblog.com/business/topsail-steamer/ |
-| s16e2-bucketgolf | 16 | 2 | BucketGolf | investors | https://www.sharktankblog.com/business/bucketgolf/ |
-| s16e2-rigstrips | 16 | 2 | RigStrips | investors | https://sharktankblog.com/business/rigstrips/ |
-| s16e3-yardsale | 16 | 3 | Yardsale | investors | https://www.sharktankblog.com/business/yardsale/ |
-| s16e3-doatnut | 16 | 3 | Doatnut | investors | https://www.sharktankblog.com/doatnut/ |
-| s16e4-finneato-fysh-foods | 16 | 4 | Finneato Fysh Foods | investors | https://www.sharktankblog.com/business/finneato-fysh-foods/ |
-| s16e4-nineteentwenty | 16 | 4 | NineteenTwenty | investors | https://www.sharktankblog.com/nineteentwenty/ |
-| s16e5-chalkless | 16 | 5 | Chalkless | investors | https://www.sharktankblog.com/business/chalkless/ |
-| s16e5-chompshop | 16 | 5 | ChompShop | investors | https://www.sharktankblog.com/business/chompshop/ |
+| s16e1-card-io | 16 | 1 | Card.io | revenue | https://www.sharktankblog.com/business/card-io/ |
 | s16e5-y-all-sweet | 16 | 5 | Y’all Sweet | dealStatus, businessStatus, revenue, description, industry | https://www.sharktankblog.com/business/yall-sweet-tea/ |
-| s16e5-creator-camp | 16 | 5 | Creator Camp | investors | https://www.sharktankblog.com/business/creator-camp/ |
-| s16e6-pepper-pong | 16 | 6 | Pepper Pong | investors | https://www.sharktankblog.com/business/pepper-pong-shark-tank-season-16/ |
-| s16e6-taverns-to-go | 16 | 6 | Taverns To Go | investors | https://www.sharktankblog.com/business/taverns-to-go-shark-tank-season-16/ |
-| s16e6-kaans-designs | 16 | 6 | Kaans Designs | investors | https://www.sharktankblog.com/business/kaans-designs-shark-tank-season-16/ |
-| s16e6-foam-cooler | 16 | 6 | Foam Cooler | investors | https://www.sharktankblog.com/business/foam-cooler-shark-tank-season-16/ |
-| s16e7-coordinates | 16 | 7 | Coordinates | investors, revenue | https://www.sharktankblog.com/business/coordinates-shark-tank-season-16/ |
-| s16e7-snow-scholars | 16 | 7 | Snow Scholars | investors | https://www.sharktankblog.com/business/snow-scholars-shark-tank-season-16/ |
-| s16e7-wildcoat | 16 | 7 | Wildcoat | investors | https://www.sharktankblog.com/business/wildcoat-shark-tank-season-16/ |
-| s16e8-bro-glo | 16 | 8 | Bro Glo | investors | https://www.sharktankblog.com/business/bro-glo-shark-tank-season-16/ |
-| s16e8-triplelite | 16 | 8 | TripleLite | investors | https://www.sharktankblog.com/business/triplelite/ |
-| s16e8-pholicious | 16 | 8 | PhoLicious | investors | https://www.sharktankblog.com/business/pholicious/ |
-| s16e9-petite-keep | 16 | 9 | Petite Keep | investors | https://www.sharktankblog.com/business/petite-keep/ |
-| s16e9-legit-kits | 16 | 9 | Legit Kits | investors | https://www.sharktankblog.com/business/legit-kits/ |
-| s16e9-onewith | 16 | 9 | Onewith | investors | https://www.sharktankblog.com/business/onewith/ |
-| s16e9-toughcutie | 16 | 9 | ToughCutie | investors | https://www.sharktankblog.com/business/toughcutie/ |
-| s16e10-nameberry | 16 | 10 | Nameberry | investors | https://www.sharktankblog.com/business/nameberry/ |
-| s16e10-rinseroo | 16 | 10 | Rinseroo | investors | https://www.sharktankblog.com/business/rinseroo/ |
-| s16e10-tabeeze | 16 | 10 | Tabeeze | investors, revenue | https://www.sharktankblog.com/business/tabeeze/ |
-| s16e11-flamingo | 16 | 11 | FlaminGo | investors | https://www.sharktankblog.com/business/flamingo/ |
-| s16e11-lectec | 16 | 11 | Lectec | investors | https://www.sharktankblog.com/business/lectec/ |
-| s16e11-bumpeez | 16 | 11 | Bumpeez | investors | https://www.sharktankblog.com/business/bumpeez/ |
-| s16e12-kiid-coffee | 16 | 12 | Kiid Coffee | investors | https://www.sharktankblog.com/business/kiid-coffee/ |
-| s16e12-goodlove-foods | 16 | 12 | GoodLove Foods | investors | https://www.sharktankblog.com/business/goodlove-foods/ |
-| s16e12-remento | 16 | 12 | Remento | investors | https://www.sharktankblog.com/business/remento/ |
+| s16e7-coordinates | 16 | 7 | Coordinates | revenue | https://www.sharktankblog.com/business/coordinates-shark-tank-season-16/ |
+| s16e10-tabeeze | 16 | 10 | Tabeeze | revenue | https://www.sharktankblog.com/business/tabeeze/ |
+| s16e14-blackdot | 16 | 14 | Blackdot | revenue | https://www.sharktankblog.com/business/blackdot/ |
+| s16e15-dream-park | 16 | 15 | Dream Park | revenue | https://www.sharktankblog.com/business/dream-park/ |
+| s16e16-airtulip | 16 | 16 | AirTulip | revenue | https://www.sharktankblog.com/business/airtulip/ |
+| s16e17-frame-your-feline | 16 | 17 | Frame Your Feline | revenue | https://www.sharktankblog.com/business/frame-your-feline/ |
+| s16e18-fanion | 16 | 18 | Fanion | revenue | https://www.sharktankblog.com/business/fanion/ |
+| s8e11-hand-out-gloves | 8 | 11 | Hand Out Gloves | investors | https://www.sharktankblog.com/business/handout-gloves/ |
+| s7e11-piperwai | 7 | 11 | PiperWai | investors | https://www.sharktankblog.com/business/piperwai/ |
+| s5e11-virtuix-omni | 5 | 11 | Virtuix Omni | investors | https://www.sharktankblog.com/business/virtuix-omni/ |
+| s4e5-marz-sprays | 4 | 5 | Marz Sprays | investors | https://www.sharktankblog.com/business/marz-sprays/ |
+| s15e4-monosuit | 15 | 4 | Monosuit | businessStatus | https://www.sharktankblog.com/business/monosuit/ |
+| s15e8-black-paper-party | 15 | 8 | Black Paper Party | revenue | https://sharktankrecap.com/black-paper-party-update-shark-tank-season-15/ |
+| s15e8-pick-up-bricks | 15 | 8 | Pick-Up Bricks | revenue | https://www.sharktankblog.com/business/pick-up-bricks/ |
+| s15e9-flywithwine | 15 | 9 | FlyWithWine | revenue | https://www.sharktankblog.com/shark-tank/shark-tank-episodes/season-15-shark-tank-episodes/episode-1509/ |
+| s15e11-the-duo | 15 | 11 | The Duo | revenue | https://sharktankrecap.com/the-duo-shareable-umbrella-update-shark-tank-season-15/ |
+| s15e13-au-baby | 15 | 13 | AU Baby | revenue | https://sharktankinsights.com/au-baby-shark-tank-update/ |
+| s15e15-dogue | 15 | 15 | Dogue | revenue | https://sharktankrecap.com/dogue-artisan-dog-food-update-shark-tank-season-15/ |
+| s15e17-chefee | 15 | 17 | Chefee | revenue | https://www.sharktankblog.com/business/chefee/ |
+| s15e18-overplay | 15 | 18 | Overplay | revenue | https://www.sharktankblog.com/business/overplay/ |
+| s15e19-richualist | 15 | 19 | Richualist | revenue | https://www.sharktankblog.com/business/richualist/ |
+| s15e21-hood | 15 | 21 | Hood | revenue | https://www.sharktankblog.com/business/hood/ |
+| s14e4-woosh | 14 | 4 | Woosh | revenue | https://sharktankblog.com/business/woosh/ |
+| s14e7-action-glow | 14 | 7 | Action Glow | revenue | https://www.slashgear.com/1356348/what-happened-actionglow-lights-shark-tank-season-14/ |
+| s14e11-metric-mate | 14 | 11 | Metric Mate | revenue | https://sharktankblog.com/business/metric-mate/ |
+| s14e13-copy-keyboard | 14 | 13 | Copy Keyboard | revenue | https://sharktankblog.com/business/copy-keyboard/ |
+| s14e13-fryaway | 14 | 13 | FryAway | revenue | https://sharktankblog.com/business/fryaway/ |
+| s14e15-surf-band-pro | 14 | 15 | Surf Band Pro | revenue | https://sharktankblog.com/business/surf-band-pro/ |
+| s14e16-pluie | 14 | 16 | Pluie | revenue | https://sharktankblog.com/business/pluie/ |
+| s14e16-woof | 14 | 16 | Woof | revenue | https://sharktankblog.com/business/woof/ |
+| s14e18-happifloss | 14 | 18 | HappiFloss | revenue | https://www.sharktankblog.com/business/happi/ |
+| s14e22-influncers-in-the-wild-the-game | 14 | 22 | Influncers in the Wild - The Game | revenue | https://www.sharktankblog.com/business/influencers-in-the-wild/ |
+| s13e1-uprising | 13 | 1 | Uprising | revenue | https://www.sharktankblog.com/business/uprising/ |
+| s13e1-lion-latch | 13 | 1 | Lion Latch | revenue | https://www.sharktankblog.com/business/lion-latch/ |
+| s13e1-paskho | 13 | 1 | Paskho | revenue | https://www.sharktankblog.com/business/paskho/ |
+| s13e2-muteme | 13 | 2 | MuteMe | revenue | https://www.sharktankblog.com/business/muteme/ |
 
 ## Queue Items by Season
 
 | Season | Queue items |
 | ---: | ---: |
-| 17 | 4 |
-| 16 | 53 |
-| 15 | 1 |
-| 14 | 15 |
-| 13 | 18 |
-| 12 | 29 |
-| 11 | 37 |
-| 10 | 23 |
-| 9 | 28 |
-| 8 | 28 |
-| 7 | 42 |
-| 6 | 30 |
-| 5 | 45 |
-| 4 | 69 |
-| 3 | 39 |
-| 2 | 23 |
+| 17 | 2 |
+| 16 | 9 |
+| 15 | 11 |
+| 14 | 10 |
+| 13 | 12 |
+| 12 | 11 |
+| 11 | 22 |
+| 10 | 10 |
+| 9 | 11 |
+| 8 | 18 |
+| 7 | 17 |
+| 6 | 25 |
+| 5 | 36 |
+| 4 | 61 |
+| 3 | 37 |
+| 2 | 17 |
 | 1 | 47 |

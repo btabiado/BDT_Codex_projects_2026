@@ -106,6 +106,26 @@ test("applies Season 16 finale enrichment overrides", () => {
   assert.equal(tickMitt.dealStatus, "no_deal");
 });
 
+test("applies Season 16 early episode backfill overrides", () => {
+  const bucketGolf = records.find((record) => record.id === "s16e2-bucketgolf");
+  const charCharms = records.find((record) => record.id === "s16e10-charchams");
+  assert.equal(bucketGolf.dealStatus, "deal");
+  assert.deepEqual(bucketGolf.investors, ["Mark Cuban"]);
+  assert.equal(bucketGolf.revenueAmount, 5_900_000);
+  assert.equal(charCharms.companyName, "Char Charms");
+  assert.equal(charCharms.dealStatus, "no_deal");
+});
+
+test("applies Season 17 priority backfill corrections", () => {
+  const doublesoul = records.find((record) => record.id === "s17e1-doublesoul");
+  const leftField = records.find((record) => record.id === "s17e10-left-field");
+  const somnia = records.find((record) => record.id === "s17e11-somnia");
+  assert.equal(doublesoul.businessStatus, "active");
+  assert.equal(leftField.businessStatus, "inactive");
+  assert.equal(leftField.revenueAmount, 0);
+  assert.equal(somnia.revenueAmount, 188_000);
+});
+
 test("excludes not-closed post-show deals from shark portfolio scoring", () => {
   const morrison = records.find((record) => record.id === "s16e19-morrison-outdoors");
   const mark = getSharkMetrics(records).find((metric) => metric.sharkName === "Mark Cuban");

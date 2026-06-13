@@ -1,4 +1,141 @@
+const season16Abc = {
+  1: "https://abc.com/news/14614656-b909-4400-af47-2db5d646b346/category/2887649",
+  2: "https://abc.com/news/e8969ac2-cd44-4c0d-bf33-986b6aa33612/category/2887649",
+  3: "https://abc.com/news/bfe12b69-8655-41e3-b395-891781e53f52/category/2887649",
+  4: "https://abc.com/news/7c4d5b86-50f9-41a6-8181-57d20778e353/category/2887649",
+  5: "https://abc.com/news/5161d7b1-3cea-42b4-af4f-9cd7854b32e8/category/2887649",
+  6: "https://abc.com/news/97b387b4-1971-4625-94f2-85f8dacde5aa/category/2887649",
+  7: "https://abc.com/news/8dcde5c5-705a-4f39-9a30-c36fc100ed7c/category/2887649",
+  8: "https://abc.com/news/b69b3a56-3a1f-4eef-a732-888edeb019cd/category/2887649",
+  9: "https://abc.com/news/ef9838a1-4ee6-400d-940c-b0abff6202ee/category/2887649",
+  10: "https://abc.com/news/c41b4bc4-a25e-4509-b9cd-1bba47f39807/category/2887649",
+  11: "https://abc.com/news/16d12461-b74b-40fc-9f6f-94f4d204570d/category/2887649",
+  12: "https://abc.com/news/4f6bee14-02d1-4d44-a0d3-2f04859cf711/category/2887649",
+  13: "https://abc.com/news/3246d489-a4c9-4d14-90c8-5f5b7cacbbb2/category/2887649",
+  14: "https://abc.com/news/4458db47-52ee-45a7-abab-09c6f3582703/category/2887649",
+  15: "https://abc.com/news/113869a8-964e-4b2b-8dbd-776245a002df/category/2887649",
+  16: "https://abc.com/news/51c60505-04c6-4636-a7cd-a6636bbd03e6/category/2887649"
+};
+
+function s16({
+  id,
+  episode,
+  companyName,
+  description,
+  industry,
+  dealStatus,
+  postShowDealStatus = dealStatus === "deal" ? "accepted_on_air" : undefined,
+  investors = [],
+  dealTermsRaw = null,
+  revenueRaw = null,
+  revenueAmount = null,
+  sourceUrl,
+  extraSources = [],
+  confidence = "high"
+}) {
+  return {
+    id,
+    companyName,
+    description,
+    industry,
+    dealStatus,
+    postShowDealStatus,
+    dealTermsRaw,
+    investors,
+    businessStatus: "active",
+    revenueRaw,
+    revenueAmount,
+    revenueDate: `Season 16 Episode ${episode} pitch / research`,
+    sourceUrl,
+    sourceUrlsRaw: [season16Abc[episode], sourceUrl, ...extraSources].filter(Boolean).join(" | "),
+    enrichmentConfidence: confidence
+  };
+}
+
+const season16EarlyOverrides = Object.fromEntries([
+  s16({ id: "s16e1-little-saints", episode: 1, companyName: "Little Saints", description: "Non-alcoholic spirits brand built around botanical mood-enhancing drinks.", industry: "Food", dealStatus: "no_deal", dealTermsRaw: "No deal", revenueRaw: "$5M sales in prior 12 months; 500% year-over-year growth disclosed", revenueAmount: 5000000, sourceUrl: "https://www.sharktankblog.com/business/little-saints/", extraSources: ["https://www.littlesaints.com"] }),
+  s16({ id: "s16e1-trufit-customs", episode: 1, companyName: "TRUFIT Customs", description: "Custom-fit sports mouthguard company.", industry: "Sports", dealStatus: "deal", investors: ["Rashaun Williams"], dealTermsRaw: "$750,000 for 10% equity", revenueRaw: "$115,000 in 2022; $750,000 in 2023; $1.4M projected for 2024", revenueAmount: 1400000, sourceUrl: "https://www.sharktankblog.com/business/trufit-customs/", extraSources: ["https://trufitcustoms.com/pages/blog/trufit-customs-shark-tank-update"] }),
+  s16({ id: "s16e1-1587-sneakers", episode: 1, companyName: "1587 Sneakers", description: "Sneaker brand designing shoes for South Asian cultural events and everyday wear.", industry: "Apparel", dealStatus: "no_deal", dealTermsRaw: "No deal", revenueRaw: "$240,000 revenue in prior 10 months; $500,000 projected next year", revenueAmount: 240000, sourceUrl: "https://www.sharktankblog.com/business/1587-sneakers/", extraSources: ["https://www.1587sneakers.com"] }),
+  s16({ id: "s16e1-card-io", episode: 1, companyName: "Card.io", description: "Mobile game and fitness app that turns outdoor cardio into a territory-capture game.", industry: "Technology", dealStatus: "deal", investors: ["Rashaun Williams", "Daymond John"], dealTermsRaw: "$150,000 for 15% equity", revenueRaw: "22,000 users; 34% 30-day retention; $470,000 raised/grants disclosed; revenue not disclosed", sourceUrl: "https://www.sharktankblog.com/business/card-io/", extraSources: ["https://downloadcard.io"] }),
+
+  s16({ id: "s16e2-top-sail-steamer", episode: 2, companyName: "Topsail Steamer", description: "Seafood steam-pot meal kit company with retail and franchise locations.", industry: "Food", dealStatus: "deal", investors: ["Todd Graves", "Lori Greiner"], dealTermsRaw: "$350,000 for 18% equity", revenueRaw: "$4.5M sales in 2023; $5.7M projected for 2024", revenueAmount: 5700000, sourceUrl: "https://www.sharktankblog.com/business/topsail-steamer/", extraSources: ["https://topsailsteamer.com"] }),
+  s16({ id: "s16e2-life-raft-treats", episode: 2, companyName: "Life Raft Treats", description: "Novelty ice cream and dessert brand.", industry: "Food", dealStatus: "no_deal", dealTermsRaw: "No deal", revenueRaw: "$1.2M sales in 2023; $750,000 year-to-date; $1.7M projected for 2024", revenueAmount: 1700000, sourceUrl: "https://www.sharktankblog.com/business/life-raft-treats/", extraSources: ["https://www.liferafttreats.com"] }),
+  s16({ id: "s16e2-rigstrips", episode: 2, companyName: "RigStrips", description: "Magnetic vehicle and gear protection strips for outdoor equipment.", industry: "Consumer Goods", dealStatus: "deal", investors: ["Todd Graves"], dealTermsRaw: "$300,000 for 15% equity", revenueRaw: "$3M sales to date; $2.7M projected current-year sales; $450,000 prior-year EBITDA", revenueAmount: 3000000, sourceUrl: "https://sharktankblog.com/business/rigstrips/", extraSources: ["https://www.rigstrips.com"] }),
+  s16({ id: "s16e2-bucketgolf", episode: 2, companyName: "BucketGolf", description: "Portable golf-style lawn game.", industry: "Sports", dealStatus: "deal", investors: ["Mark Cuban"], dealTermsRaw: "$1M for 12.5% equity", revenueRaw: "$2.5M sales in 2022; $5.9M in 2023; $12M projected current year", revenueAmount: 12000000, sourceUrl: "https://www.sharktankblog.com/business/bucketgolf/", extraSources: ["https://www.bucketgolfgame.com"] }),
+
+  s16({ id: "s16e3-yardsale", episode: 3, companyName: "Yardsale", description: "Ski pole and ski gear brand built around magnetic poles and streamlined storage.", industry: "Sports", dealStatus: "deal", investors: ["Kendra Scott"], dealTermsRaw: "$250,000 for 10% equity plus $5/unit royalty until $300,000 recouped", sourceUrl: "https://www.sharktankblog.com/business/yardsale/", extraSources: ["https://yardsale.ski"] }),
+  s16({ id: "s16e3-kobee-s-co", episode: 3, companyName: "Kobee's Co.", description: "Natural lip balm and personal-care brand.", industry: "Beauty", dealStatus: "no_deal", dealTermsRaw: "No deal", sourceUrl: "https://www.sharktankblog.com/business/kobees/", extraSources: ["https://kobeesco.com"], confidence: "medium" }),
+  s16({ id: "s16e3-sugardoh", episode: 3, companyName: "Sugardoh", description: "At-home sugar waxing and body hair removal brand.", industry: "Beauty", dealStatus: "no_deal", dealTermsRaw: "No deal", sourceUrl: "https://www.sharktankblog.com/business/sugardoh/", extraSources: ["https://sugardoh.co"], confidence: "medium" }),
+  s16({ id: "s16e3-doatnut", episode: 3, companyName: "Doatnut", description: "Oat-based donut brand.", industry: "Food", dealStatus: "deal", investors: ["Lori Greiner", "Mark Cuban"], dealTermsRaw: "$200,000 for 30% equity", sourceUrl: "https://www.sharktankblog.com/doatnut/", extraSources: ["https://doatnut.com"] }),
+
+  s16({ id: "s16e4-finneato-fysh-foods", episode: 4, companyName: "Finneato Fysh Foods", description: "Plant-based seafood and fish-alternative food company.", industry: "Food", dealStatus: "deal", investors: ["Daniel Lubetzky"], dealTermsRaw: "$150,000 for 30% equity", sourceUrl: "https://www.sharktankblog.com/business/finneato-fysh-foods/", extraSources: ["https://www.fyshfoods.com"] }),
+  s16({ id: "s16e4-terrashroom", episode: 4, companyName: "Terrashroom", description: "Automated mushroom-growing chamber for home cultivation.", industry: "Consumer Goods", dealStatus: "no_deal", dealTermsRaw: "No deal", sourceUrl: "https://www.sharktankblog.com/business/terrashroom/", extraSources: ["https://terrashroom.io"], confidence: "medium" }),
+  s16({ id: "s16e4-moonies", episode: 4, companyName: "Moonies", description: "Apparel and baby clothing brand.", industry: "Apparel", dealStatus: "no_deal", dealTermsRaw: "No deal", sourceUrl: "https://www.sharktankblog.com/business/moonies/", extraSources: ["https://www.moonies.co"], confidence: "medium" }),
+  s16({ id: "s16e4-nineteentwenty", episode: 4, companyName: "NineteenTwenty", description: "Convertible apparel brand.", industry: "Apparel", dealStatus: "deal", investors: ["Robert Herjavec"], dealTermsRaw: "$250,000 for 25% equity", sourceUrl: "https://www.sharktankblog.com/nineteentwenty/", extraSources: ["https://www.heynineteentwenty.com"] }),
+
+  s16({ id: "s16e5-chompshop", episode: 5, companyName: "ChompShop", description: "Kid-safe cardboard cutting and construction tool.", industry: "Consumer Goods", dealStatus: "deal", investors: ["Mark Cuban", "Lori Greiner"], dealTermsRaw: "$250,000 for 15% equity", sourceUrl: "https://www.sharktankblog.com/business/chompshop/", extraSources: ["https://chompshop.com"] }),
+  s16({ id: "s16e5-chalkless", episode: 5, companyName: "Chalkless", description: "Liquid grip product for athletes.", industry: "Sports", dealStatus: "deal", investors: ["Kevin O'Leary", "Rashaun Williams"], dealTermsRaw: "$400,000 for 4% equity plus $2.50/unit royalty until $4M recouped, then $0.25/unit in perpetuity", revenueRaw: "$740,000 year-to-date sales reported", revenueAmount: 740000, sourceUrl: "https://www.sharktankblog.com/business/chalkless/", extraSources: ["https://www.chalkless.com"] }),
+  s16({ id: "s16e5-creator-camp", episode: 5, companyName: "Creator Camp", description: "Children's media, coding, and content-creation education camps.", industry: "Education", dealStatus: "deal", investors: ["Barbara Corcoran"], dealTermsRaw: "$350,000 for 18% equity; franchise-growth strategy discussed", sourceUrl: "https://www.sharktankblog.com/business/creator-camp/", extraSources: ["https://creatorcamp.org/shark-tank", "https://www.katymagazineonline.com/post/katy-based-kids-creator-camp-scores-shark-tank-deal"] }),
+  s16({ id: "s16e5-y-all-sweet", episode: 5, companyName: "Y'all Sweet Tea", description: "Ready-to-drink and packaged sweet tea brand.", industry: "Food", dealStatus: "deal", investors: ["Rashaun Williams", "Lori Greiner"], dealTermsRaw: "$500,000 for 15% equity", revenueRaw: "$10.3M total sales since 2021; $4M revenue in 2023; 2024 projected above $5M", revenueAmount: 10300000, sourceUrl: "https://www.sharktankblog.com/business/yall-sweet-tea/", extraSources: ["https://yallsweettea.com"] }),
+
+  s16({ id: "s16e6-pepper-pong", episode: 6, companyName: "Pepper Pong", description: "Portable paddle game blending pickleball-style play with tabletop convenience.", industry: "Sports", dealStatus: "deal", investors: ["Todd Graves"], dealTermsRaw: "$150,000 for 19% equity", sourceUrl: "https://www.sharktankblog.com/business/pepper-pong-shark-tank-season-16/", extraSources: ["https://pepperpong.com"] }),
+  s16({ id: "s16e6-taverns-to-go", episode: 6, companyName: "Taverns-To-Go", description: "Portable outdoor bar product.", industry: "Consumer Goods", dealStatus: "deal", investors: ["Lori Greiner"], dealTermsRaw: "$400,000 for 15% equity plus $30/bar royalty until Lori recoups $400,000 and makes $600,000", sourceUrl: "https://www.sharktankblog.com/business/taverns-to-go-shark-tank-season-16/", extraSources: ["https://www.taverns-to-go.com"] }),
+  s16({ id: "s16e6-kaans-designs", episode: 6, companyName: "Kaans Designs", description: "Custom furniture and woodworking design brand.", industry: "Consumer Goods", dealStatus: "deal", investors: ["Todd Graves"], dealTermsRaw: "$75,000 loan for 10% equity", sourceUrl: "https://www.sharktankblog.com/business/kaans-designs-shark-tank-season-16/", extraSources: ["https://www.kaansdesigns.com"] }),
+  s16({ id: "s16e6-foam-cooler", episode: 6, companyName: "Foam Cooler", description: "Foam cooler and fishing/outdoor utility product.", industry: "Sports", dealStatus: "deal", investors: ["Daymond John"], dealTermsRaw: "$150,000 for 30% equity", sourceUrl: "https://www.sharktankblog.com/business/foam-cooler-shark-tank-season-16/", extraSources: ["https://foamcooler.com"] }),
+
+  s16({ id: "s16e7-coordinates", episode: 7, companyName: "Coordinates", description: "Personalized jewelry brand based on meaningful map coordinates.", industry: "Apparel", dealStatus: "deal", investors: ["Robert Herjavec"], dealTermsRaw: "Deal made; exact terms not confirmed in accessible source", sourceUrl: "https://www.sharktankblog.com/business/coordinates-shark-tank-season-16/", extraSources: ["https://shopcoordinates.com"], confidence: "medium" }),
+  s16({ id: "s16e7-gnome-advent-calendar", episode: 7, companyName: "Gnome Advent Calendar", description: "Seasonal advent calendar built around collectible gnome gifts.", industry: "Consumer Goods", dealStatus: "no_deal", dealTermsRaw: "No deal", sourceUrl: "https://www.sharktankblog.com/business/gnome-advent-calendar-shark-tank-season-16/", extraSources: ["https://www.gnomeadventcalendar.com"] }),
+  s16({ id: "s16e7-snow-scholars", episode: 7, companyName: "Snow Scholars", description: "Snow removal service marketplace connecting students with local homeowners.", industry: "Services", dealStatus: "deal", investors: ["Mark Cuban"], dealTermsRaw: "$150,000 for 20% equity", sourceUrl: "https://www.sharktankblog.com/business/snow-scholars-shark-tank-season-16/", extraSources: ["https://www.snowscholars.com"] }),
+  s16({ id: "s16e7-wildcoat", episode: 7, companyName: "Wildcoat", description: "Statement outerwear and faux-fur coat brand.", industry: "Apparel", dealStatus: "deal", investors: ["Robert Herjavec"], dealTermsRaw: "$350,000 for 23% equity", revenueRaw: "$700,000 current-year sales estimate disclosed", revenueAmount: 700000, sourceUrl: "https://www.sharktankblog.com/business/wildcoat-shark-tank-season-16/", extraSources: ["https://wildcoat.com"] }),
+
+  s16({ id: "s16e8-bro-glo", episode: 8, companyName: "Bro Glo", description: "Self-tanner and grooming brand marketed to men.", industry: "Beauty", dealStatus: "deal", investors: ["Mark Cuban"], dealTermsRaw: "$200,000 for 10% equity", revenueRaw: "$482,000 sales in 2022; nearly $3.1M in 2023", revenueAmount: 3100000, sourceUrl: "https://www.sharktankblog.com/business/bro-glo-shark-tank-season-16/", extraSources: ["https://thebroglo.com"] }),
+  s16({ id: "s16e8-triplelite", episode: 8, companyName: "TripleLite", description: "Wide-beam flashlight designed for broader visibility.", industry: "Consumer Goods", dealStatus: "deal", investors: ["Lori Greiner", "Mark Cuban"], dealTermsRaw: "$400,000 for 25% equity", revenueRaw: "$4M sales over prior four years", revenueAmount: 4000000, sourceUrl: "https://www.sharktankblog.com/business/triplelite/", extraSources: ["https://triplelite.com"] }),
+  s16({ id: "s16e8-hiccup", episode: 8, companyName: "Hiccup", description: "Reusable kids cup and tableware brand.", industry: "Consumer Goods", dealStatus: "no_deal", dealTermsRaw: "No deal", revenueRaw: "$67,000 sales in 2023", revenueAmount: 67000, sourceUrl: "https://www.sharktankblog.com/business/hiccup/", extraSources: ["https://www.hiccupearth.com"] }),
+  s16({ id: "s16e8-pholicious", episode: 8, companyName: "PhoLicious", description: "Instant pho and Vietnamese food product brand.", industry: "Food", dealStatus: "deal", investors: ["Kevin O'Leary"], dealTermsRaw: "$500,000 for 15% equity", revenueRaw: "$2.1M sales in 2023; $5M-$6M projected for 2024", revenueAmount: 5500000, sourceUrl: "https://www.sharktankblog.com/business/pholicious/", extraSources: ["https://www.pholicious.net"] }),
+
+  s16({ id: "s16e9-petite-keep", episode: 9, companyName: "Petite Keep", description: "Heirloom trunk and keepsake storage brand.", industry: "Consumer Goods", dealStatus: "deal", investors: ["Mark Cuban", "Barbara Corcoran", "Jamie Kern Lima"], dealTermsRaw: "$400,000 for 15% equity", revenueRaw: "Projected about $10M sales for 2024", revenueAmount: 10000000, sourceUrl: "https://www.sharktankblog.com/business/petite-keep/", extraSources: ["https://petitekeep.com"] }),
+  s16({ id: "s16e9-legit-kits", episode: 9, companyName: "Legit Kits", description: "Paper craft and portrait kit company.", industry: "Consumer Goods", dealStatus: "deal", investors: ["Kevin O'Leary"], dealTermsRaw: "$150,000 for 5% equity plus $10/unit royalty in perpetuity", sourceUrl: "https://www.sharktankblog.com/business/legit-kits/", extraSources: ["https://legitkits.com"] }),
+  s16({ id: "s16e9-onewith", episode: 9, companyName: "onewith", description: "Swimwear brand designed to fit like seamless underwear.", industry: "Apparel", dealStatus: "deal", investors: ["Barbara Corcoran", "Jamie Kern Lima"], dealTermsRaw: "$200,000 for 20% equity", sourceUrl: "https://www.sharktankblog.com/business/onewith/", extraSources: ["https://onewithswim.com"], confidence: "high" }),
+  s16({ id: "s16e9-toughcutie", episode: 9, companyName: "ToughCutie", description: "Women's performance sock brand.", industry: "Apparel", dealStatus: "deal", investors: ["Barbara Corcoran"], dealTermsRaw: "$100,000 for 25% equity", sourceUrl: "https://www.sharktankblog.com/business/toughcutie/", extraSources: ["https://toughcutie.com"], confidence: "medium" }),
+
+  s16({ id: "s16e10-charchams", episode: 10, companyName: "Char Charms", description: "Accessories and charms for water bottles and tumblers.", industry: "Consumer Goods", dealStatus: "no_deal", dealTermsRaw: "No deal", revenueRaw: "$200,000 in 2023; reports cite about $6.5M annual by 2024", revenueAmount: 6500000, sourceUrl: "https://www.sharktankblog.com/business/charcharms/", extraSources: ["https://charcharms.com"], confidence: "medium" }),
+  s16({ id: "s16e10-nameberry", episode: 10, companyName: "Nameberry", description: "Baby-name website and naming platform.", industry: "Technology", dealStatus: "deal", investors: ["Kevin O'Leary"], dealTermsRaw: "$350,000 for 24.9% equity", revenueRaw: "Advertising revenue disclosed; outside recap cites about $650,000 net profit", revenueAmount: 650000, sourceUrl: "https://www.sharktankblog.com/business/nameberry/", extraSources: ["https://nameberry.com"], confidence: "medium" }),
+  s16({ id: "s16e10-rinseroo", episode: 10, companyName: "Rinseroo", description: "Slip-on hose attachment for rinsing showers, tubs, pets, and household items.", industry: "Consumer Goods", dealStatus: "deal", investors: ["Lori Greiner"], dealTermsRaw: "$343,000 for 5% equity", revenueRaw: "$1M in first year reported; pitch-time figure not isolated", revenueAmount: 1000000, sourceUrl: "https://www.sharktankblog.com/business/rinseroo/", extraSources: ["https://rinseroo.com"] }),
+  s16({ id: "s16e10-tabeeze", episode: 10, companyName: "Tabeeze", description: "Baby bodysuit brand with shoulder-snap design.", industry: "Apparel", dealStatus: "deal", investors: ["Daymond John"], dealTermsRaw: "$100,000 for 33.3% equity", revenueRaw: "$26,000 in 2023; $17,000 year-to-date 2024", revenueAmount: 26000, sourceUrl: "https://www.sharktankblog.com/business/tabeeze/", extraSources: ["https://tabeeze.com"] }),
+
+  s16({ id: "s16e11-flamingo", episode: 11, companyName: "FlaminGO", description: "Portable charger and power product.", industry: "Technology", dealStatus: "deal", investors: ["Barbara Corcoran"], dealTermsRaw: "$100,000 for 22% equity", sourceUrl: "https://www.sharktankblog.com/business/flamingo/", extraSources: ["https://www.flamingocharger.com"] }),
+  s16({ id: "s16e11-bumpeez", episode: 11, companyName: "Bumpeez", description: "Inflatable bumper and protective play product.", industry: "Consumer Goods", dealStatus: "deal", investors: ["Barbara Corcoran", "Robert Herjavec"], dealTermsRaw: "$100,000 for 15% equity plus $5 royalty on first 50,000 units", sourceUrl: "https://www.sharktankblog.com/business/bumpeez/", extraSources: ["https://bumpeez.com"] }),
+  s16({ id: "s16e11-joyebell", episode: 11, companyName: "Joyebells", description: "Bell-based wellness, decor, or gifting product.", industry: "Consumer Goods", dealStatus: "no_deal", dealTermsRaw: "No deal", sourceUrl: "https://www.sharktankblog.com/business/joyebells/", extraSources: ["https://joyebells.com"], confidence: "medium" }),
+  s16({ id: "s16e11-lectec", episode: 11, companyName: "Lectec", description: "Wearable pain-relief and therapeutic patch product.", industry: "Health", dealStatus: "deal", investors: ["Robert Herjavec"], dealTermsRaw: "$100,000 for 15% equity", revenueRaw: "$146,000 lifetime sales", revenueAmount: 146000, sourceUrl: "https://www.sharktankblog.com/business/lectec/", extraSources: ["https://lectec.com"] }),
+
+  s16({ id: "s16e12-kiid-coffee", episode: 12, companyName: "Kiid Coffee", description: "Decaf coffee brand marketed for kids and families.", industry: "Food", dealStatus: "deal", investors: ["Daniel Lubetzky"], dealTermsRaw: "$50,000 for 20% equity, with 5% stock-option giveback if founder goes full-time", revenueRaw: "$150,000 in 2024; $50,000 first four months also reported", revenueAmount: 150000, sourceUrl: "https://www.sharktankblog.com/business/kiid-coffee/", extraSources: ["https://kiidcoffee.com"] }),
+  s16({ id: "s16e12-goodlove-foods", episode: 12, companyName: "GoodLove Foods", description: "Gluten-free frozen comfort food brand.", industry: "Food", dealStatus: "deal", investors: ["Lori Greiner"], dealTermsRaw: "$150,000 for 18% equity", sourceUrl: "https://www.sharktankblog.com/business/goodlove-foods/", extraSources: ["https://goodlovefoods.com"] }),
+  s16({ id: "s16e12-happy-birdwatcher-co", episode: 12, companyName: "Happy Birdwatcher", description: "Birdwatching product and education brand.", industry: "Consumer Goods", dealStatus: "no_deal", dealTermsRaw: "No deal", sourceUrl: "https://www.sharktankblog.com/business/happy-birdwatcher/", extraSources: ["https://happybirdwatcher.com"] }),
+  s16({ id: "s16e12-remento", episode: 12, companyName: "Remento", description: "Family storytelling app that turns recorded memories into books.", industry: "Technology", dealStatus: "deal", investors: ["Mark Cuban"], dealTermsRaw: "$300,000 for 10% equity", sourceUrl: "https://www.sharktankblog.com/business/remento/", extraSources: ["https://www.remento.co"] }),
+
+  s16({ id: "s16e13-hella-awkward", episode: 13, companyName: "Hella Awkward", description: "Conversation card game for deeper social connection.", industry: "Consumer Goods", dealStatus: "deal", investors: ["Robert Herjavec"], dealTermsRaw: "$200,000 for 10% equity", revenueRaw: "$600,000 lifetime sales; $600,000 projected current year", revenueAmount: 600000, sourceUrl: "https://www.sharktankblog.com/business/hella-awkward/", extraSources: ["https://www.hellaawkward.com"] }),
+  s16({ id: "s16e13-riverbend-resources", episode: 13, companyName: "Riverbend Resources", description: "Educational resources and learning materials brand.", industry: "Education", dealStatus: "deal", investors: ["Daymond John"], dealTermsRaw: "$300,000 for 20% equity", revenueRaw: "$3M lifetime sales; $1M current year with $2M projection", revenueAmount: 3000000, sourceUrl: "https://www.sharktankblog.com/business/riverbend/", extraSources: ["https://riverbendresources.com"] }),
+  s16({ id: "s16e13-dig-world", episode: 13, companyName: "Dig World", description: "Construction-themed amusement park and franchising concept.", industry: "Services", dealStatus: "deal", investors: ["Robert Herjavec"], dealTermsRaw: "$200,000 for 10% of franchising business plus 10% of Dig World 1", sourceUrl: "https://www.sharktankblog.com/business/dig-world/", extraSources: ["https://digworldtx.com"], confidence: "medium" }),
+  s16({ id: "s16e13-dome-deck", episode: 13, companyName: "Dome Dock", description: "Portable geodesic-dome docking and outdoor shelter product.", industry: "Consumer Goods", dealStatus: "deal", investors: ["Kevin O'Leary"], dealTermsRaw: "$100,000 for 15% equity", sourceUrl: "https://www.sharktankblog.com/business/dome-dock/", extraSources: ["https://thedomedock.com"] }),
+
+  s16({ id: "s16e14-firefly-recovery", episode: 14, companyName: "Firefly Recovery", description: "Wearable recovery device for athletes and active users.", industry: "Health", dealStatus: "deal", postShowDealStatus: "not_closed", investors: ["Rashaun Williams", "Lori Greiner"], dealTermsRaw: "$500,000 for 5% equity; reported not closed after due diligence", sourceUrl: "https://www.sharktankblog.com/business/firefly-recovery/", extraSources: ["https://fireflyrecovery.com"] }),
+  s16({ id: "s16e14-blackdot", episode: 14, companyName: "Blackdot", description: "Automated tattooing technology company.", industry: "Technology", dealStatus: "no_deal", dealTermsRaw: "No deal", sourceUrl: "https://www.sharktankblog.com/business/blackdot/", extraSources: ["https://blackdot.co"] }),
+  s16({ id: "s16e14-bam", episode: 14, companyName: "BAM Buckwheat", description: "Buckwheat milk and plant-based beverage brand.", industry: "Food", dealStatus: "no_deal", dealTermsRaw: "No deal", revenueRaw: "$50,000 lifetime sales; $200,000 projected current year", revenueAmount: 50000, sourceUrl: "https://www.sharktankblog.com/business/bam/", extraSources: ["https://bamisbetter.com"] }),
+  s16({ id: "s16e14-duzter", episode: 14, companyName: "Duzter", description: "Reusable duster and household cleaning product.", industry: "Consumer Goods", dealStatus: "deal", investors: ["Mark Cuban"], dealTermsRaw: "$200,000 for 20% equity", revenueRaw: "$326,000 lifetime sales over two years", revenueAmount: 326000, sourceUrl: "https://www.sharktankblog.com/business/duzter/", extraSources: ["https://duzter.com"] }),
+
+  s16({ id: "s16e15-history-by-mail", episode: 15, companyName: "History By Mail", description: "Subscription and gift service sending replicas of historical documents by mail.", industry: "Education", dealStatus: "deal", investors: ["Barbara Corcoran", "Daniel Lubetzky"], dealTermsRaw: "$250,000 for 20% equity", sourceUrl: "https://www.sharktankblog.com/business/history-by-mail/", extraSources: ["https://historybymail.com"] }),
+  s16({ id: "s16e15-dream-park", episode: 15, companyName: "Future Circus", description: "Entertainment and immersive experience concept.", industry: "Services", dealStatus: "no_deal", dealTermsRaw: "No deal", sourceUrl: "https://www.sharktankblog.com/business/dream-park/", extraSources: ["https://futurecircus.com"], confidence: "medium" }),
+  s16({ id: "s16e15-cowpots", episode: 15, companyName: "CowPots", description: "Biodegradable plant pots made from composted cow manure.", industry: "Consumer Goods", dealStatus: "no_deal", dealTermsRaw: "No deal", sourceUrl: "https://www.sharktankblog.com/business/cowpots/", extraSources: ["https://cowpots.com"], confidence: "medium" }),
+  s16({ id: "s16e15-paper-tacos", episode: 15, companyName: "Paper Tacos", description: "Greeting card and paper goods brand.", industry: "Consumer Goods", dealStatus: "no_deal", dealTermsRaw: "No deal", sourceUrl: "https://www.sharktankblog.com/business/paper-tacos/", extraSources: ["https://papertacos.com"], confidence: "medium" }),
+
+  s16({ id: "s16e16-jane-foodie", episode: 16, companyName: "Jane Foodie", description: "Frozen gourmet meal and comfort food brand.", industry: "Food", dealStatus: "deal", investors: ["Lori Greiner"], dealTermsRaw: "$300,000 for 25% equity", revenueRaw: "$1.2M Q2 2025 post-airing reported; pitch-time sales not isolated", revenueAmount: 1200000, sourceUrl: "https://www.sharktankblog.com/business/jane-foodie/", extraSources: ["https://janefoodie.com"] }),
+  s16({ id: "s16e16-airtulip", episode: 16, companyName: "Air Tulip", description: "Air filtration and personal air-quality product.", industry: "Health", dealStatus: "no_deal", dealTermsRaw: "No deal", revenueRaw: "No sales outside crowdfunding disclosed", revenueAmount: 0, sourceUrl: "https://www.sharktankblog.com/business/airtulip/", extraSources: ["https://airtulip.co"] }),
+  s16({ id: "s16e16-sock-candy", episode: 16, companyName: "Sock Candy", description: "Fashion sock brand with sheer and statement sock designs.", industry: "Apparel", dealStatus: "deal", investors: ["Barbara Corcoran"], dealTermsRaw: "Deal secured; exact final terms need secondary confirmation", revenueRaw: "Sales progress disclosed; exact amount not found", sourceUrl: "https://www.sharktankblog.com/business/sock-candy/", extraSources: ["https://sockcandy.com"], confidence: "medium" }),
+  s16({ id: "s16e16-ruff-liners", episode: 16, companyName: "Ruff Liners", description: "Dog crate liner and pet comfort product.", industry: "Pet", dealStatus: "deal", investors: ["Robert Herjavec"], dealTermsRaw: "Deal secured; likely royalty component, exact terms need secondary confirmation", revenueRaw: "73% gross margin disclosed; sales amount not found", sourceUrl: "https://www.sharktankblog.com/business/ruff-liners/", extraSources: ["https://ruffliners.com"], confidence: "medium" })
+].map(({ id, ...override }) => [id, override]));
+
 export const enrichmentOverrides = {
+  ...season16EarlyOverrides,
   "s6e1-bombas": {
     "excludeFromSharkScoring": true,
     "portfolioScoringNote": "Excluded from Shark scoring to avoid treating Bombas' company-level revenue as Daymond John's owned-company performance. Bombas remains in the company database as a Shark Tank deal record.",
@@ -345,7 +482,7 @@ export const enrichmentOverrides = {
     "websiteStatus": "up"
   },
   "s17e10-left-field": {
-    "businessStatus": "active",
+    "businessStatus": "inactive",
     "sourceUrl": "https://www.sharktankblog.com/business/left-field/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/left-field/",
     "enrichmentConfidence": "medium",
@@ -901,6 +1038,7 @@ export const enrichmentOverrides = {
     "websiteStatus": "up"
   },
   "s16e10-charchams": {
+    "companyName": "Char Charms",
     "dealStatus": "no_deal",
     "businessStatus": "active",
     "description": "Water-bottle accessories — straw toppers, charms, bottle boots, bag charms, and wall hooks — that personalize reusable bottles.",

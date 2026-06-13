@@ -1,29 +1,5 @@
 [
   {
-    "id": "s17e2-impeccable-chicken",
-    "priority": 1,
-    "season": 17,
-    "episode": 2,
-    "companyName": "Impeccable Chicken",
-    "missingFields": [
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/impeccable-chicken/",
-    "sourceSearchHint": "Impeccable Chicken Shark Tank Season 17 Episode 2 deal revenue investors"
-  },
-  {
-    "id": "s17e10-left-field",
-    "priority": 1,
-    "season": 17,
-    "episode": 10,
-    "companyName": "Left Field",
-    "missingFields": [
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/left-field/",
-    "sourceSearchHint": "Left Field Shark Tank Season 17 Episode 10 deal revenue investors"
-  },
-  {
     "id": "s17e17-hibertec",
     "priority": 1,
     "season": 17,
@@ -48,137 +24,16 @@
     "sourceSearchHint": "Parrot Finance Shark Tank Season 17 Episode 18 deal revenue investors"
   },
   {
-    "id": "s16e1-trufit-customs",
-    "priority": 1,
-    "season": 16,
-    "episode": 1,
-    "companyName": "TruFit Customs",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/trufit-customs/",
-    "sourceSearchHint": "TruFit Customs Shark Tank Season 16 Episode 1 deal revenue investors"
-  },
-  {
     "id": "s16e1-card-io",
     "priority": 1,
     "season": 16,
     "episode": 1,
     "companyName": "Card.io",
     "missingFields": [
-      "investors",
       "revenue"
     ],
     "currentSource": "https://www.sharktankblog.com/business/card-io/",
     "sourceSearchHint": "Card.io Shark Tank Season 16 Episode 1 deal revenue investors"
-  },
-  {
-    "id": "s16e2-top-sail-steamer",
-    "priority": 1,
-    "season": 16,
-    "episode": 2,
-    "companyName": "Top Sail Steamer",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/topsail-steamer/",
-    "sourceSearchHint": "Top Sail Steamer Shark Tank Season 16 Episode 2 deal revenue investors"
-  },
-  {
-    "id": "s16e2-bucketgolf",
-    "priority": 1,
-    "season": 16,
-    "episode": 2,
-    "companyName": "BucketGolf",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/bucketgolf/",
-    "sourceSearchHint": "BucketGolf Shark Tank Season 16 Episode 2 deal revenue investors"
-  },
-  {
-    "id": "s16e2-rigstrips",
-    "priority": 1,
-    "season": 16,
-    "episode": 2,
-    "companyName": "RigStrips",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/rigstrips/",
-    "sourceSearchHint": "RigStrips Shark Tank Season 16 Episode 2 deal revenue investors"
-  },
-  {
-    "id": "s16e3-yardsale",
-    "priority": 1,
-    "season": 16,
-    "episode": 3,
-    "companyName": "Yardsale",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/yardsale/",
-    "sourceSearchHint": "Yardsale Shark Tank Season 16 Episode 3 deal revenue investors"
-  },
-  {
-    "id": "s16e3-doatnut",
-    "priority": 1,
-    "season": 16,
-    "episode": 3,
-    "companyName": "Doatnut",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/doatnut/",
-    "sourceSearchHint": "Doatnut Shark Tank Season 16 Episode 3 deal revenue investors"
-  },
-  {
-    "id": "s16e4-finneato-fysh-foods",
-    "priority": 1,
-    "season": 16,
-    "episode": 4,
-    "companyName": "Finneato Fysh Foods",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/finneato-fysh-foods/",
-    "sourceSearchHint": "Finneato Fysh Foods Shark Tank Season 16 Episode 4 deal revenue investors"
-  },
-  {
-    "id": "s16e4-nineteentwenty",
-    "priority": 1,
-    "season": 16,
-    "episode": 4,
-    "companyName": "NineteenTwenty",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/nineteentwenty/",
-    "sourceSearchHint": "NineteenTwenty Shark Tank Season 16 Episode 4 deal revenue investors"
-  },
-  {
-    "id": "s16e5-chalkless",
-    "priority": 1,
-    "season": 16,
-    "episode": 5,
-    "companyName": "Chalkless",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/chalkless/",
-    "sourceSearchHint": "Chalkless Shark Tank Season 16 Episode 5 deal revenue investors"
-  },
-  {
-    "id": "s16e5-chompshop",
-    "priority": 1,
-    "season": 16,
-    "episode": 5,
-    "companyName": "ChompShop",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/chompshop/",
-    "sourceSearchHint": "ChompShop Shark Tank Season 16 Episode 5 deal revenue investors"
   },
   {
     "id": "s16e5-y-all-sweet",
@@ -197,209 +52,16 @@
     "sourceSearchHint": "Y’all Sweet Shark Tank Season 16 Episode 5 deal revenue investors"
   },
   {
-    "id": "s16e5-creator-camp",
-    "priority": 1,
-    "season": 16,
-    "episode": 5,
-    "companyName": "Creator Camp",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/creator-camp/",
-    "sourceSearchHint": "Creator Camp Shark Tank Season 16 Episode 5 deal revenue investors"
-  },
-  {
-    "id": "s16e6-pepper-pong",
-    "priority": 1,
-    "season": 16,
-    "episode": 6,
-    "companyName": "Pepper Pong",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/pepper-pong-shark-tank-season-16/",
-    "sourceSearchHint": "Pepper Pong Shark Tank Season 16 Episode 6 deal revenue investors"
-  },
-  {
-    "id": "s16e6-taverns-to-go",
-    "priority": 1,
-    "season": 16,
-    "episode": 6,
-    "companyName": "Taverns To Go",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/taverns-to-go-shark-tank-season-16/",
-    "sourceSearchHint": "Taverns To Go Shark Tank Season 16 Episode 6 deal revenue investors"
-  },
-  {
-    "id": "s16e6-kaans-designs",
-    "priority": 1,
-    "season": 16,
-    "episode": 6,
-    "companyName": "Kaans Designs",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/kaans-designs-shark-tank-season-16/",
-    "sourceSearchHint": "Kaans Designs Shark Tank Season 16 Episode 6 deal revenue investors"
-  },
-  {
-    "id": "s16e6-foam-cooler",
-    "priority": 1,
-    "season": 16,
-    "episode": 6,
-    "companyName": "Foam Cooler",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/foam-cooler-shark-tank-season-16/",
-    "sourceSearchHint": "Foam Cooler Shark Tank Season 16 Episode 6 deal revenue investors"
-  },
-  {
     "id": "s16e7-coordinates",
     "priority": 1,
     "season": 16,
     "episode": 7,
     "companyName": "Coordinates",
     "missingFields": [
-      "investors",
       "revenue"
     ],
     "currentSource": "https://www.sharktankblog.com/business/coordinates-shark-tank-season-16/",
     "sourceSearchHint": "Coordinates Shark Tank Season 16 Episode 7 deal revenue investors"
-  },
-  {
-    "id": "s16e7-snow-scholars",
-    "priority": 1,
-    "season": 16,
-    "episode": 7,
-    "companyName": "Snow Scholars",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/snow-scholars-shark-tank-season-16/",
-    "sourceSearchHint": "Snow Scholars Shark Tank Season 16 Episode 7 deal revenue investors"
-  },
-  {
-    "id": "s16e7-wildcoat",
-    "priority": 1,
-    "season": 16,
-    "episode": 7,
-    "companyName": "Wildcoat",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/wildcoat-shark-tank-season-16/",
-    "sourceSearchHint": "Wildcoat Shark Tank Season 16 Episode 7 deal revenue investors"
-  },
-  {
-    "id": "s16e8-bro-glo",
-    "priority": 1,
-    "season": 16,
-    "episode": 8,
-    "companyName": "Bro Glo",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/bro-glo-shark-tank-season-16/",
-    "sourceSearchHint": "Bro Glo Shark Tank Season 16 Episode 8 deal revenue investors"
-  },
-  {
-    "id": "s16e8-triplelite",
-    "priority": 1,
-    "season": 16,
-    "episode": 8,
-    "companyName": "TripleLite",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/triplelite/",
-    "sourceSearchHint": "TripleLite Shark Tank Season 16 Episode 8 deal revenue investors"
-  },
-  {
-    "id": "s16e8-pholicious",
-    "priority": 1,
-    "season": 16,
-    "episode": 8,
-    "companyName": "PhoLicious",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/pholicious/",
-    "sourceSearchHint": "PhoLicious Shark Tank Season 16 Episode 8 deal revenue investors"
-  },
-  {
-    "id": "s16e9-petite-keep",
-    "priority": 1,
-    "season": 16,
-    "episode": 9,
-    "companyName": "Petite Keep",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/petite-keep/",
-    "sourceSearchHint": "Petite Keep Shark Tank Season 16 Episode 9 deal revenue investors"
-  },
-  {
-    "id": "s16e9-legit-kits",
-    "priority": 1,
-    "season": 16,
-    "episode": 9,
-    "companyName": "Legit Kits",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/legit-kits/",
-    "sourceSearchHint": "Legit Kits Shark Tank Season 16 Episode 9 deal revenue investors"
-  },
-  {
-    "id": "s16e9-onewith",
-    "priority": 1,
-    "season": 16,
-    "episode": 9,
-    "companyName": "Onewith",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/onewith/",
-    "sourceSearchHint": "Onewith Shark Tank Season 16 Episode 9 deal revenue investors"
-  },
-  {
-    "id": "s16e9-toughcutie",
-    "priority": 1,
-    "season": 16,
-    "episode": 9,
-    "companyName": "ToughCutie",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/toughcutie/",
-    "sourceSearchHint": "ToughCutie Shark Tank Season 16 Episode 9 deal revenue investors"
-  },
-  {
-    "id": "s16e10-nameberry",
-    "priority": 1,
-    "season": 16,
-    "episode": 10,
-    "companyName": "Nameberry",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/nameberry/",
-    "sourceSearchHint": "Nameberry Shark Tank Season 16 Episode 10 deal revenue investors"
-  },
-  {
-    "id": "s16e10-rinseroo",
-    "priority": 1,
-    "season": 16,
-    "episode": 10,
-    "companyName": "Rinseroo",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/rinseroo/",
-    "sourceSearchHint": "Rinseroo Shark Tank Season 16 Episode 10 deal revenue investors"
   },
   {
     "id": "s16e10-tabeeze",
@@ -408,143 +70,10 @@
     "episode": 10,
     "companyName": "Tabeeze",
     "missingFields": [
-      "investors",
       "revenue"
     ],
     "currentSource": "https://www.sharktankblog.com/business/tabeeze/",
     "sourceSearchHint": "Tabeeze Shark Tank Season 16 Episode 10 deal revenue investors"
-  },
-  {
-    "id": "s16e11-flamingo",
-    "priority": 1,
-    "season": 16,
-    "episode": 11,
-    "companyName": "FlaminGo",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/flamingo/",
-    "sourceSearchHint": "FlaminGo Shark Tank Season 16 Episode 11 deal revenue investors"
-  },
-  {
-    "id": "s16e11-lectec",
-    "priority": 1,
-    "season": 16,
-    "episode": 11,
-    "companyName": "Lectec",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/lectec/",
-    "sourceSearchHint": "Lectec Shark Tank Season 16 Episode 11 deal revenue investors"
-  },
-  {
-    "id": "s16e11-bumpeez",
-    "priority": 1,
-    "season": 16,
-    "episode": 11,
-    "companyName": "Bumpeez",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/bumpeez/",
-    "sourceSearchHint": "Bumpeez Shark Tank Season 16 Episode 11 deal revenue investors"
-  },
-  {
-    "id": "s16e12-kiid-coffee",
-    "priority": 1,
-    "season": 16,
-    "episode": 12,
-    "companyName": "Kiid Coffee",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/kiid-coffee/",
-    "sourceSearchHint": "Kiid Coffee Shark Tank Season 16 Episode 12 deal revenue investors"
-  },
-  {
-    "id": "s16e12-goodlove-foods",
-    "priority": 1,
-    "season": 16,
-    "episode": 12,
-    "companyName": "GoodLove Foods",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/goodlove-foods/",
-    "sourceSearchHint": "GoodLove Foods Shark Tank Season 16 Episode 12 deal revenue investors"
-  },
-  {
-    "id": "s16e12-remento",
-    "priority": 1,
-    "season": 16,
-    "episode": 12,
-    "companyName": "Remento",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/remento/",
-    "sourceSearchHint": "Remento Shark Tank Season 16 Episode 12 deal revenue investors"
-  },
-  {
-    "id": "s16e13-hella-awkward",
-    "priority": 1,
-    "season": 16,
-    "episode": 13,
-    "companyName": "Hella Awkward",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/hella-awkward/",
-    "sourceSearchHint": "Hella Awkward Shark Tank Season 16 Episode 13 deal revenue investors"
-  },
-  {
-    "id": "s16e13-dig-world",
-    "priority": 1,
-    "season": 16,
-    "episode": 13,
-    "companyName": "Dig World",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/dig-world/",
-    "sourceSearchHint": "Dig World Shark Tank Season 16 Episode 13 deal revenue investors"
-  },
-  {
-    "id": "s16e13-dome-deck",
-    "priority": 1,
-    "season": 16,
-    "episode": 13,
-    "companyName": "Dome Deck",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/dome-dock/",
-    "sourceSearchHint": "Dome Deck Shark Tank Season 16 Episode 13 deal revenue investors"
-  },
-  {
-    "id": "s16e13-riverbend-resources",
-    "priority": 1,
-    "season": 16,
-    "episode": 13,
-    "companyName": "Riverbend Resources",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/riverbend/",
-    "sourceSearchHint": "Riverbend Resources Shark Tank Season 16 Episode 13 deal revenue investors"
-  },
-  {
-    "id": "s16e14-firefly-recovery",
-    "priority": 1,
-    "season": 16,
-    "episode": 14,
-    "companyName": "Firefly Recovery",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/firefly-recovery/",
-    "sourceSearchHint": "Firefly Recovery Shark Tank Season 16 Episode 14 deal revenue investors"
   },
   {
     "id": "s16e14-blackdot",
@@ -559,30 +88,6 @@
     "sourceSearchHint": "Blackdot Shark Tank Season 16 Episode 14 deal revenue investors"
   },
   {
-    "id": "s16e14-duzter",
-    "priority": 1,
-    "season": 16,
-    "episode": 14,
-    "companyName": "Duzter",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/duzter/",
-    "sourceSearchHint": "Duzter Shark Tank Season 16 Episode 14 deal revenue investors"
-  },
-  {
-    "id": "s16e15-history-by-mail",
-    "priority": 1,
-    "season": 16,
-    "episode": 15,
-    "companyName": "History by Mail",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/history-by-mail/",
-    "sourceSearchHint": "History by Mail Shark Tank Season 16 Episode 15 deal revenue investors"
-  },
-  {
     "id": "s16e15-dream-park",
     "priority": 1,
     "season": 16,
@@ -595,42 +100,6 @@
     "sourceSearchHint": "Dream Park Shark Tank Season 16 Episode 15 deal revenue investors"
   },
   {
-    "id": "s16e15-cowpots",
-    "priority": 1,
-    "season": 16,
-    "episode": 15,
-    "companyName": "CowPots",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/cowpots/",
-    "sourceSearchHint": "CowPots Shark Tank Season 16 Episode 15 deal revenue investors"
-  },
-  {
-    "id": "s16e15-paper-tacos",
-    "priority": 1,
-    "season": 16,
-    "episode": 15,
-    "companyName": "Paper Tacos",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/paper-tacos/",
-    "sourceSearchHint": "Paper Tacos Shark Tank Season 16 Episode 15 deal revenue investors"
-  },
-  {
-    "id": "s16e16-jane-foodie",
-    "priority": 1,
-    "season": 16,
-    "episode": 16,
-    "companyName": "Jane Foodie",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/jane-foodie/",
-    "sourceSearchHint": "Jane Foodie Shark Tank Season 16 Episode 16 deal revenue investors"
-  },
-  {
     "id": "s16e16-airtulip",
     "priority": 1,
     "season": 16,
@@ -641,30 +110,6 @@
     ],
     "currentSource": "https://www.sharktankblog.com/business/airtulip/",
     "sourceSearchHint": "AirTulip Shark Tank Season 16 Episode 16 deal revenue investors"
-  },
-  {
-    "id": "s16e16-sock-candy",
-    "priority": 1,
-    "season": 16,
-    "episode": 16,
-    "companyName": "Sock Candy",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/sock-candy/",
-    "sourceSearchHint": "Sock Candy Shark Tank Season 16 Episode 16 deal revenue investors"
-  },
-  {
-    "id": "s16e16-ruff-liners",
-    "priority": 1,
-    "season": 16,
-    "episode": 16,
-    "companyName": "Ruff Liners",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/ruff-liners/",
-    "sourceSearchHint": "Ruff Liners Shark Tank Season 16 Episode 16 deal revenue investors"
   },
   {
     "id": "s16e17-frame-your-feline",
@@ -691,1122 +136,6 @@
     "sourceSearchHint": "Fanion Shark Tank Season 16 Episode 18 deal revenue investors"
   },
   {
-    "id": "s14e2-the-woobles",
-    "priority": 2,
-    "season": 14,
-    "episode": 2,
-    "companyName": "The Woobles",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/the-woobles/",
-    "sourceSearchHint": "The Woobles Shark Tank Season 14 Episode 2 deal revenue investors"
-  },
-  {
-    "id": "s14e3-stakt",
-    "priority": 2,
-    "season": 14,
-    "episode": 3,
-    "companyName": "Stakt",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/stakt/",
-    "sourceSearchHint": "Stakt Shark Tank Season 14 Episode 3 deal revenue investors"
-  },
-  {
-    "id": "s14e4-woosh",
-    "priority": 2,
-    "season": 14,
-    "episode": 4,
-    "companyName": "Woosh",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://sharktankblog.com/business/woosh/",
-    "sourceSearchHint": "Woosh Shark Tank Season 14 Episode 4 deal revenue investors"
-  },
-  {
-    "id": "s14e16-sweetkiwi",
-    "priority": 2,
-    "season": 14,
-    "episode": 16,
-    "companyName": "Sweetkiwi",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/sweetkiwi/",
-    "sourceSearchHint": "Sweetkiwi Shark Tank Season 14 Episode 16 deal revenue investors"
-  },
-  {
-    "id": "s14e17-tngnt-ski-bikes",
-    "priority": 2,
-    "season": 14,
-    "episode": 17,
-    "companyName": "Tngnt Ski Bikes",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/tngnt-ski-bikes/",
-    "sourceSearchHint": "Tngnt Ski Bikes Shark Tank Season 14 Episode 17 deal revenue investors"
-  },
-  {
-    "id": "s14e18-lavabox",
-    "priority": 2,
-    "season": 14,
-    "episode": 18,
-    "companyName": "Lavabox",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/lavabox/",
-    "sourceSearchHint": "Lavabox Shark Tank Season 14 Episode 18 deal revenue investors"
-  },
-  {
-    "id": "s13e5-wedfuly",
-    "priority": 2,
-    "season": 13,
-    "episode": 5,
-    "companyName": "Wedfuly",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/wedfuly/",
-    "sourceSearchHint": "Wedfuly Shark Tank Season 13 Episode 5 deal revenue investors"
-  },
-  {
-    "id": "s13e12-tristen-ikaika",
-    "priority": 2,
-    "season": 13,
-    "episode": 12,
-    "companyName": "Tristen Ikaika",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/tristen-ikaika/",
-    "sourceSearchHint": "Tristen Ikaika Shark Tank Season 13 Episode 12 deal revenue investors"
-  },
-  {
-    "id": "s13e13-calm-strips",
-    "priority": 2,
-    "season": 13,
-    "episode": 13,
-    "companyName": "Calm Strips",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/calm-strips/",
-    "sourceSearchHint": "Calm Strips Shark Tank Season 13 Episode 13 deal revenue investors"
-  },
-  {
-    "id": "s13e15-ade-and-ayo",
-    "priority": 2,
-    "season": 13,
-    "episode": 15,
-    "companyName": "Ade and Ayo",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/ade-ayo/",
-    "sourceSearchHint": "Ade and Ayo Shark Tank Season 13 Episode 15 deal revenue investors"
-  },
-  {
-    "id": "s13e17-round21",
-    "priority": 2,
-    "season": 13,
-    "episode": 17,
-    "companyName": "Round21",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/round-21/",
-    "sourceSearchHint": "Round21 Shark Tank Season 13 Episode 17 deal revenue investors"
-  },
-  {
-    "id": "s13e20-browndages",
-    "priority": 2,
-    "season": 13,
-    "episode": 20,
-    "companyName": "Browndages",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/browndages/",
-    "sourceSearchHint": "Browndages Shark Tank Season 13 Episode 20 deal revenue investors"
-  },
-  {
-    "id": "s12e3-animated-lure",
-    "priority": 2,
-    "season": 12,
-    "episode": 3,
-    "companyName": "Animated Lure",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/animated-lure/",
-    "sourceSearchHint": "Animated Lure Shark Tank Season 12 Episode 3 deal revenue investors"
-  },
-  {
-    "id": "s12e3-chirp",
-    "priority": 2,
-    "season": 12,
-    "episode": 3,
-    "companyName": "Chirp",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/chirp/",
-    "sourceSearchHint": "Chirp Shark Tank Season 12 Episode 3 deal revenue investors"
-  },
-  {
-    "id": "s12e4-sharks-mark-barbara-kevin-lori-daymond-jada-spices",
-    "priority": 2,
-    "season": 12,
-    "episode": 4,
-    "companyName": "Jada Spices",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/chicken-salt/",
-    "sourceSearchHint": "Jada Spices Shark Tank Season 12 Episode 4 deal revenue investors"
-  },
-  {
-    "id": "s12e4-flipstik",
-    "priority": 2,
-    "season": 12,
-    "episode": 4,
-    "companyName": "Flipstik",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/flipstik/",
-    "sourceSearchHint": "Flipstik Shark Tank Season 12 Episode 4 deal revenue investors"
-  },
-  {
-    "id": "s12e5-bee-d-vine",
-    "priority": 2,
-    "season": 12,
-    "episode": 5,
-    "companyName": "Bee D'Vine",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/bee-dvine/",
-    "sourceSearchHint": "Bee D'Vine Shark Tank Season 12 Episode 5 deal revenue investors"
-  },
-  {
-    "id": "s12e6-k9-mask",
-    "priority": 2,
-    "season": 12,
-    "episode": 6,
-    "companyName": "K9 Mask",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/k9-mask/",
-    "sourceSearchHint": "K9 Mask Shark Tank Season 12 Episode 6 deal revenue investors"
-  },
-  {
-    "id": "s12e7-toilet-timer",
-    "priority": 2,
-    "season": 12,
-    "episode": 7,
-    "companyName": "Toilet Timer",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/toilet-timer/",
-    "sourceSearchHint": "Toilet Timer Shark Tank Season 12 Episode 7 deal revenue investors"
-  },
-  {
-    "id": "s12e8-brake-free",
-    "priority": 2,
-    "season": 12,
-    "episode": 8,
-    "companyName": "Brake Free",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/brake-free/",
-    "sourceSearchHint": "Brake Free Shark Tank Season 12 Episode 8 deal revenue investors"
-  },
-  {
-    "id": "s12e14-byoot-company",
-    "priority": 2,
-    "season": 12,
-    "episode": 14,
-    "companyName": "Byoot Company",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://sharktankblog.com/business/byoot-company/",
-    "sourceSearchHint": "Byoot Company Shark Tank Season 12 Episode 14 deal revenue investors"
-  },
-  {
-    "id": "s12e14-sienna-sauce",
-    "priority": 2,
-    "season": 12,
-    "episode": 14,
-    "companyName": "Sienna Sauce",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/sienna-sauce/",
-    "sourceSearchHint": "Sienna Sauce Shark Tank Season 12 Episode 14 deal revenue investors"
-  },
-  {
-    "id": "s12e15-hopscotch",
-    "priority": 2,
-    "season": 12,
-    "episode": 15,
-    "companyName": "Hopscotch",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/hopscotch/",
-    "sourceSearchHint": "Hopscotch Shark Tank Season 12 Episode 15 deal revenue investors"
-  },
-  {
-    "id": "s12e16-sharks-mark-daymond-kevin-lori-robert-simply-good-jars",
-    "priority": 2,
-    "season": 12,
-    "episode": 16,
-    "companyName": "Simply Good Jars",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/simply-good-jars/",
-    "sourceSearchHint": "Simply Good Jars Shark Tank Season 12 Episode 16 deal revenue investors"
-  },
-  {
-    "id": "s12e16-pinch-me-therapy-dough",
-    "priority": 2,
-    "season": 12,
-    "episode": 16,
-    "companyName": "Pinch Me Therapy Dough",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/pinch-me/",
-    "sourceSearchHint": "Pinch Me Therapy Dough Shark Tank Season 12 Episode 16 deal revenue investors"
-  },
-  {
-    "id": "s12e19-sharks-mark-daymond-kevin-lori-robert-stepnpull",
-    "priority": 2,
-    "season": 12,
-    "episode": 19,
-    "companyName": "StepNPull",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/stepnpull/",
-    "sourceSearchHint": "StepNPull Shark Tank Season 12 Episode 19 deal revenue investors"
-  },
-  {
-    "id": "s12e19-dynosafe",
-    "priority": 2,
-    "season": 12,
-    "episode": 19,
-    "companyName": "DynoSafe",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/dynosafe/",
-    "sourceSearchHint": "DynoSafe Shark Tank Season 12 Episode 19 deal revenue investors"
-  },
-  {
-    "id": "s12e20-furzapper",
-    "priority": 2,
-    "season": 12,
-    "episode": 20,
-    "companyName": "FurZapper",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/furzapper/",
-    "sourceSearchHint": "FurZapper Shark Tank Season 12 Episode 20 deal revenue investors"
-  },
-  {
-    "id": "s12e23-sneakerasers",
-    "priority": 2,
-    "season": 12,
-    "episode": 23,
-    "companyName": "Sneakerasers",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/sneakerasers/",
-    "sourceSearchHint": "Sneakerasers Shark Tank Season 12 Episode 23 deal revenue investors"
-  },
-  {
-    "id": "s12e24-flinggolf",
-    "priority": 2,
-    "season": 12,
-    "episode": 24,
-    "companyName": "FlingGolf",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/flinggolf/",
-    "sourceSearchHint": "FlingGolf Shark Tank Season 12 Episode 24 deal revenue investors"
-  },
-  {
-    "id": "s12e24-the-original-stretchlace",
-    "priority": 2,
-    "season": 12,
-    "episode": 24,
-    "companyName": "The Original Stretchlace",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/stretchlace/",
-    "sourceSearchHint": "The Original Stretchlace Shark Tank Season 12 Episode 24 deal revenue investors"
-  },
-  {
-    "id": "s12e25-copper-cow-coffee",
-    "priority": 2,
-    "season": 12,
-    "episode": 25,
-    "companyName": "Copper Cow Coffee",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/copper-cow-coffee/",
-    "sourceSearchHint": "Copper Cow Coffee Shark Tank Season 12 Episode 25 deal revenue investors"
-  },
-  {
-    "id": "s12e25-super-potty-trainer",
-    "priority": 2,
-    "season": 12,
-    "episode": 25,
-    "companyName": "Super Potty Trainer",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/super-potty-trainer/",
-    "sourceSearchHint": "Super Potty Trainer Shark Tank Season 12 Episode 25 deal revenue investors"
-  },
-  {
-    "id": "s11e2-rohan-oza-circadian-optics",
-    "priority": 2,
-    "season": 11,
-    "episode": 2,
-    "companyName": "Circadian Optics",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/circadian-optics/",
-    "sourceSearchHint": "Circadian Optics Shark Tank Season 11 Episode 2 deal revenue investors"
-  },
-  {
-    "id": "s11e6-ezc-pak",
-    "priority": 2,
-    "season": 11,
-    "episode": 6,
-    "companyName": "EZC Pak",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/ezc-pak/",
-    "sourceSearchHint": "EZC Pak Shark Tank Season 11 Episode 6 deal revenue investors"
-  },
-  {
-    "id": "s11e7-dog-threads",
-    "priority": 2,
-    "season": 11,
-    "episode": 7,
-    "companyName": "Dog Threads",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://sharktankblog.com/business/dog-threads/",
-    "sourceSearchHint": "Dog Threads Shark Tank Season 11 Episode 7 deal revenue investors"
-  },
-  {
-    "id": "s11e7-the-yard",
-    "priority": 2,
-    "season": 11,
-    "episode": 7,
-    "companyName": "The Yard",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://sharktankblog.com/business/the-yard/",
-    "sourceSearchHint": "The Yard Shark Tank Season 11 Episode 7 deal revenue investors"
-  },
-  {
-    "id": "s11e8-daymond-gallant",
-    "priority": 2,
-    "season": 11,
-    "episode": 8,
-    "companyName": "Gallant",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/gallant/",
-    "sourceSearchHint": "Gallant Shark Tank Season 11 Episode 8 deal revenue investors"
-  },
-  {
-    "id": "s11e8-terra-core",
-    "priority": 2,
-    "season": 11,
-    "episode": 8,
-    "companyName": "Terra-Core",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/terra-core/",
-    "sourceSearchHint": "Terra-Core Shark Tank Season 11 Episode 8 deal revenue investors"
-  },
-  {
-    "id": "s11e8-outer",
-    "priority": 2,
-    "season": 11,
-    "episode": 8,
-    "companyName": "Outer",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/outer/",
-    "sourceSearchHint": "Outer Shark Tank Season 11 Episode 8 deal revenue investors"
-  },
-  {
-    "id": "s11e9-beardaments",
-    "priority": 2,
-    "season": 11,
-    "episode": 9,
-    "companyName": "Beardaments",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/beardaments/",
-    "sourceSearchHint": "Beardaments Shark Tank Season 11 Episode 9 deal revenue investors"
-  },
-  {
-    "id": "s11e10-robert-slumberpod",
-    "priority": 2,
-    "season": 11,
-    "episode": 10,
-    "companyName": "Slumberpod",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/slumberpod/",
-    "sourceSearchHint": "Slumberpod Shark Tank Season 11 Episode 10 deal revenue investors"
-  },
-  {
-    "id": "s11e12-rohan-oza-genius-juice",
-    "priority": 2,
-    "season": 11,
-    "episode": 12,
-    "companyName": "Genius Juice",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/genius-juice/",
-    "sourceSearchHint": "Genius Juice Shark Tank Season 11 Episode 12 deal revenue investors"
-  },
-  {
-    "id": "s11e18-robert-muvez",
-    "priority": 2,
-    "season": 11,
-    "episode": 18,
-    "companyName": "Muvez",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://sharktankblog.com/business/muvez/",
-    "sourceSearchHint": "Muvez Shark Tank Season 11 Episode 18 deal revenue investors"
-  },
-  {
-    "id": "s11e20-mural-painter",
-    "priority": 2,
-    "season": 11,
-    "episode": 20,
-    "companyName": "Mural Painter",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/mural-painter/",
-    "sourceSearchHint": "Mural Painter Shark Tank Season 11 Episode 20 deal revenue investors"
-  },
-  {
-    "id": "s11e21-daymond-unbuckle-me",
-    "priority": 2,
-    "season": 11,
-    "episode": 21,
-    "companyName": "Unbuckle Me",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/unbuckleme/",
-    "sourceSearchHint": "Unbuckle Me Shark Tank Season 11 Episode 21 deal revenue investors"
-  },
-  {
-    "id": "s11e22-robert-tough-tie",
-    "priority": 2,
-    "season": 11,
-    "episode": 22,
-    "companyName": "Tough Tie",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/tough-tie/",
-    "sourceSearchHint": "Tough Tie Shark Tank Season 11 Episode 22 deal revenue investors"
-  },
-  {
-    "id": "s11e22-potty-safe",
-    "priority": 2,
-    "season": 11,
-    "episode": 22,
-    "companyName": "Potty Safe",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/potty-safe/",
-    "sourceSearchHint": "Potty Safe Shark Tank Season 11 Episode 22 deal revenue investors"
-  },
-  {
-    "id": "s11e24-robert-dreamland-baby",
-    "priority": 2,
-    "season": 11,
-    "episode": 24,
-    "companyName": "Dreamland Baby",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/dreamland-baby/",
-    "sourceSearchHint": "Dreamland Baby Shark Tank Season 11 Episode 24 deal revenue investors"
-  },
-  {
-    "id": "s11e24-the-mad-optimist",
-    "priority": 2,
-    "season": 11,
-    "episode": 24,
-    "companyName": "The Mad Optimist",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/the-mad-optimist/",
-    "sourceSearchHint": "The Mad Optimist Shark Tank Season 11 Episode 24 deal revenue investors"
-  },
-  {
-    "id": "s11e24-rollin-greens",
-    "priority": 2,
-    "season": 11,
-    "episode": 24,
-    "companyName": "Rollin Greens",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/rollin-greens/",
-    "sourceSearchHint": "Rollin Greens Shark Tank Season 11 Episode 24 deal revenue investors"
-  },
-  {
-    "id": "s10e4-manscaped",
-    "priority": 2,
-    "season": 10,
-    "episode": 4,
-    "companyName": "Manscaped",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/manscaped/",
-    "sourceSearchHint": "Manscaped Shark Tank Season 10 Episode 4 deal revenue investors"
-  },
-  {
-    "id": "s10e5-the-kombucha-shop",
-    "priority": 2,
-    "season": 10,
-    "episode": 5,
-    "companyName": "The Kombucha Shop",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/kombucha-shop/",
-    "sourceSearchHint": "The Kombucha Shop Shark Tank Season 10 Episode 5 deal revenue investors"
-  },
-  {
-    "id": "s10e6-vade-nutrition",
-    "priority": 2,
-    "season": 10,
-    "episode": 6,
-    "companyName": "Vade Nutrition",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/vade-nutrition/",
-    "sourceSearchHint": "Vade Nutrition Shark Tank Season 10 Episode 6 deal revenue investors"
-  },
-  {
-    "id": "s10e6-bottlekeeper",
-    "priority": 2,
-    "season": 10,
-    "episode": 6,
-    "companyName": "Bottlekeeper",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/bottlekeeper/",
-    "sourceSearchHint": "Bottlekeeper Shark Tank Season 10 Episode 6 deal revenue investors"
-  },
-  {
-    "id": "s10e7-prank-o",
-    "priority": 2,
-    "season": 10,
-    "episode": 7,
-    "companyName": "Prank-O",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/prank-o-rynarik/",
-    "sourceSearchHint": "Prank-O Shark Tank Season 10 Episode 7 deal revenue investors"
-  },
-  {
-    "id": "s10e7-oatmeals",
-    "priority": 2,
-    "season": 10,
-    "episode": 7,
-    "companyName": "OatMeals",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/oatmeals/",
-    "sourceSearchHint": "OatMeals Shark Tank Season 10 Episode 7 deal revenue investors"
-  },
-  {
-    "id": "s10e8-yumble",
-    "priority": 2,
-    "season": 10,
-    "episode": 8,
-    "companyName": "Yumble",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/yumble/",
-    "sourceSearchHint": "Yumble Shark Tank Season 10 Episode 8 deal revenue investors"
-  },
-  {
-    "id": "s10e15-toybox-labs",
-    "priority": 2,
-    "season": 10,
-    "episode": 15,
-    "companyName": "Toybox Labs",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/toybox/",
-    "sourceSearchHint": "Toybox Labs Shark Tank Season 10 Episode 15 deal revenue investors"
-  },
-  {
-    "id": "s10e19-hydroviv",
-    "priority": 2,
-    "season": 10,
-    "episode": 19,
-    "companyName": "Hydroviv",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/hydroviv/",
-    "sourceSearchHint": "Hydroviv Shark Tank Season 10 Episode 19 deal revenue investors"
-  },
-  {
-    "id": "s10e20-mavens-creamery",
-    "priority": 2,
-    "season": 10,
-    "episode": 20,
-    "companyName": "Mavens Creamery",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/mavens-creamery/",
-    "sourceSearchHint": "Mavens Creamery Shark Tank Season 10 Episode 20 deal revenue investors"
-  },
-  {
-    "id": "s10e20-spare",
-    "priority": 2,
-    "season": 10,
-    "episode": 20,
-    "companyName": "Spare",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/spare/",
-    "sourceSearchHint": "Spare Shark Tank Season 10 Episode 20 deal revenue investors"
-  },
-  {
-    "id": "s10e20-somnifix",
-    "priority": 2,
-    "season": 10,
-    "episode": 20,
-    "companyName": "Somnifix",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/somnifix/",
-    "sourceSearchHint": "Somnifix Shark Tank Season 10 Episode 20 deal revenue investors"
-  },
-  {
-    "id": "s10e21-kymera-body-boards",
-    "priority": 2,
-    "season": 10,
-    "episode": 21,
-    "companyName": "Kymera Body Boards",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/kymera-body-board/",
-    "sourceSearchHint": "Kymera Body Boards Shark Tank Season 10 Episode 21 deal revenue investors"
-  },
-  {
-    "id": "s9e3-enso",
-    "priority": 2,
-    "season": 9,
-    "episode": 3,
-    "companyName": "Enso",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/enso-rings/",
-    "sourceSearchHint": "Enso Shark Tank Season 9 Episode 3 deal revenue investors"
-  },
-  {
-    "id": "s9e3-third-wave-water",
-    "priority": 2,
-    "season": 9,
-    "episode": 3,
-    "companyName": "Third Wave Water",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://en.wikipedia.org/wiki/Shark_Tank_season_9",
-    "sourceSearchHint": "Third Wave Water Shark Tank Season 9 Episode 3 deal revenue investors"
-  },
-  {
-    "id": "s9e4-delighted-by",
-    "priority": 2,
-    "season": 9,
-    "episode": 4,
-    "companyName": "Delighted By",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://en.wikipedia.org/wiki/Shark_Tank_season_9",
-    "sourceSearchHint": "Delighted By Shark Tank Season 9 Episode 4 deal revenue investors"
-  },
-  {
-    "id": "s9e5-ash-and-anvil",
-    "priority": 2,
-    "season": 9,
-    "episode": 5,
-    "companyName": "Ash and Anvil",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/ash-and-anvil/",
-    "sourceSearchHint": "Ash and Anvil Shark Tank Season 9 Episode 5 deal revenue investors"
-  },
-  {
-    "id": "s9e7-pearachute",
-    "priority": 2,
-    "season": 9,
-    "episode": 7,
-    "companyName": "Pearachute",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/pearachute/",
-    "sourceSearchHint": "Pearachute Shark Tank Season 9 Episode 7 deal revenue investors"
-  },
-  {
-    "id": "s9e8-snoofybee",
-    "priority": 2,
-    "season": 9,
-    "episode": 8,
-    "companyName": "SnoofyBee",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/snoofybee/",
-    "sourceSearchHint": "SnoofyBee Shark Tank Season 9 Episode 8 deal revenue investors"
-  },
-  {
-    "id": "s9e9-brilliant-pad",
-    "priority": 2,
-    "season": 9,
-    "episode": 9,
-    "companyName": "Brilliant Pad",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/brilliant-pad/",
-    "sourceSearchHint": "Brilliant Pad Shark Tank Season 9 Episode 9 deal revenue investors"
-  },
-  {
-    "id": "s9e9-bravo",
-    "priority": 2,
-    "season": 9,
-    "episode": 9,
-    "companyName": "Bravo",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/bravo/",
-    "sourceSearchHint": "Bravo Shark Tank Season 9 Episode 9 deal revenue investors"
-  },
-  {
-    "id": "s9e9-glovestix",
-    "priority": 2,
-    "season": 9,
-    "episode": 9,
-    "companyName": "GloveStix",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/glovestix/",
-    "sourceSearchHint": "GloveStix Shark Tank Season 9 Episode 9 deal revenue investors"
-  },
-  {
-    "id": "s9e10-dna-simple",
-    "priority": 2,
-    "season": 9,
-    "episode": 10,
-    "companyName": "DNA Simple",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://sharktankblog.com/business/dna-simple/",
-    "sourceSearchHint": "DNA Simple Shark Tank Season 9 Episode 10 deal revenue investors"
-  },
-  {
-    "id": "s9e10-smartgurlz",
-    "priority": 2,
-    "season": 9,
-    "episode": 10,
-    "companyName": "SmartGurlz",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/smartgurlz/",
-    "sourceSearchHint": "SmartGurlz Shark Tank Season 9 Episode 10 deal revenue investors"
-  },
-  {
-    "id": "s9e11-prontobev",
-    "priority": 2,
-    "season": 9,
-    "episode": 11,
-    "companyName": "ProntoBev",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://sharktankblog.com/business/prontobev/",
-    "sourceSearchHint": "ProntoBev Shark Tank Season 9 Episode 11 deal revenue investors"
-  },
-  {
-    "id": "s9e13-rokblok-by-pink-donut",
-    "priority": 2,
-    "season": 9,
-    "episode": 13,
-    "companyName": "RokBlok by Pink Donut",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://sharktankblog.com/business/rokblok/",
-    "sourceSearchHint": "RokBlok by Pink Donut Shark Tank Season 9 Episode 13 deal revenue investors"
-  },
-  {
-    "id": "s9e16-fish-fry",
-    "priority": 2,
-    "season": 9,
-    "episode": 16,
-    "companyName": "Fish fry",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/joes-gourmet-fish-fry/",
-    "sourceSearchHint": "Fish fry Shark Tank Season 9 Episode 16 deal revenue investors"
-  },
-  {
-    "id": "s9e16-g-o-a-t-pet-products",
-    "priority": 2,
-    "season": 9,
-    "episode": 16,
-    "companyName": "G.O.A.T. pet products",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/goat-pet-speaker/",
-    "sourceSearchHint": "G.O.A.T. pet products Shark Tank Season 9 Episode 16 deal revenue investors"
-  },
-  {
-    "id": "s9e18-guzzle-buddy",
-    "priority": 2,
-    "season": 9,
-    "episode": 18,
-    "companyName": "Guzzle Buddy",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankrecap.com/guzzle-buddy-update-shark-tank-season-9/",
-    "sourceSearchHint": "Guzzle Buddy Shark Tank Season 9 Episode 18 deal revenue investors"
-  },
-  {
-    "id": "s9e21-everytable",
-    "priority": 2,
-    "season": 9,
-    "episode": 21,
-    "companyName": "EveryTable",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/everytable/",
-    "sourceSearchHint": "EveryTable Shark Tank Season 9 Episode 21 deal revenue investors"
-  },
-  {
-    "id": "s9e22-gunnar-optiks",
-    "priority": 2,
-    "season": 9,
-    "episode": 22,
-    "companyName": "Gunnar Optiks",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/gunnar/",
-    "sourceSearchHint": "Gunnar Optiks Shark Tank Season 9 Episode 22 deal revenue investors"
-  },
-  {
-    "id": "s9e22-avocaderia",
-    "priority": 2,
-    "season": 9,
-    "episode": 22,
-    "companyName": "Avocaderia",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/avocaderia/",
-    "sourceSearchHint": "Avocaderia Shark Tank Season 9 Episode 22 deal revenue investors"
-  },
-  {
-    "id": "s9e22-solsource",
-    "priority": 2,
-    "season": 9,
-    "episode": 22,
-    "companyName": "Solsource",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/one-earth-designs/",
-    "sourceSearchHint": "Solsource Shark Tank Season 9 Episode 22 deal revenue investors"
-  },
-  {
-    "id": "s9e23-coinout",
-    "priority": 2,
-    "season": 9,
-    "episode": 23,
-    "companyName": "CoinOut",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/coinout/",
-    "sourceSearchHint": "CoinOut Shark Tank Season 9 Episode 23 deal revenue investors"
-  },
-  {
-    "id": "s8e5-silidog",
-    "priority": 2,
-    "season": 8,
-    "episode": 5,
-    "companyName": "SiliDog",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/silidog/",
-    "sourceSearchHint": "SiliDog Shark Tank Season 8 Episode 5 deal revenue investors"
-  },
-  {
-    "id": "s8e6-sunscreenr",
-    "priority": 2,
-    "season": 8,
-    "episode": 6,
-    "companyName": "Sunscreenr",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://sharktankblog.com/business/sunscreenr/",
-    "sourceSearchHint": "Sunscreenr Shark Tank Season 8 Episode 6 deal revenue investors"
-  },
-  {
-    "id": "s8e7-eco-flower",
-    "priority": 2,
-    "season": 8,
-    "episode": 7,
-    "companyName": "Eco Flower",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/ecoflower/",
-    "sourceSearchHint": "Eco Flower Shark Tank Season 8 Episode 7 deal revenue investors"
-  },
-  {
-    "id": "s8e10-inboard-technology",
-    "priority": 2,
-    "season": 8,
-    "episode": 10,
-    "companyName": "Inboard Technology",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/inboard-technology/",
-    "sourceSearchHint": "Inboard Technology Shark Tank Season 8 Episode 10 deal revenue investors"
-  },
-  {
-    "id": "s8e10-nomiku",
-    "priority": 2,
-    "season": 8,
-    "episode": 10,
-    "companyName": "Nomiku",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/nomiku/",
-    "sourceSearchHint": "Nomiku Shark Tank Season 8 Episode 10 deal revenue investors"
-  },
-  {
-    "id": "s8e11-sealed-by-santa",
-    "priority": 2,
-    "season": 8,
-    "episode": 11,
-    "companyName": "Sealed by Santa",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/sealed-by-santa/",
-    "sourceSearchHint": "Sealed by Santa Shark Tank Season 8 Episode 11 deal revenue investors"
-  },
-  {
-    "id": "s8e11-digiwrap",
-    "priority": 2,
-    "season": 8,
-    "episode": 11,
-    "companyName": "Digiwrap",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/digiwrap/",
-    "sourceSearchHint": "Digiwrap Shark Tank Season 8 Episode 11 deal revenue investors"
-  },
-  {
     "id": "s8e11-hand-out-gloves",
     "priority": 2,
     "season": 8,
@@ -1817,190 +146,6 @@
     ],
     "currentSource": "https://www.sharktankblog.com/business/handout-gloves/",
     "sourceSearchHint": "Hand Out Gloves Shark Tank Season 8 Episode 11 deal revenue investors"
-  },
-  {
-    "id": "s8e12-naturally-perfect-dolls",
-    "priority": 2,
-    "season": 8,
-    "episode": 12,
-    "companyName": "Naturally Perfect Dolls",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/naturally-perfect/",
-    "sourceSearchHint": "Naturally Perfect Dolls Shark Tank Season 8 Episode 12 deal revenue investors"
-  },
-  {
-    "id": "s8e13-grease-bags",
-    "priority": 2,
-    "season": 8,
-    "episode": 13,
-    "companyName": "Grease Bags",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://sharktankblog.com/business/grease-bags/",
-    "sourceSearchHint": "Grease Bags Shark Tank Season 8 Episode 13 deal revenue investors"
-  },
-  {
-    "id": "s8e17-toymail",
-    "priority": 2,
-    "season": 8,
-    "episode": 17,
-    "companyName": "Toymail",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://sharktankblog.com/business/toymail/",
-    "sourceSearchHint": "Toymail Shark Tank Season 8 Episode 17 deal revenue investors"
-  },
-  {
-    "id": "s8e19-blendtique-wine-company",
-    "priority": 2,
-    "season": 8,
-    "episode": 19,
-    "companyName": "Blendtique Wine Company",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/blendtique-wine-company/",
-    "sourceSearchHint": "Blendtique Wine Company Shark Tank Season 8 Episode 19 deal revenue investors"
-  },
-  {
-    "id": "s8e20-apollo-peak",
-    "priority": 2,
-    "season": 8,
-    "episode": 20,
-    "companyName": "Apollo Peak",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/apollo-peak/",
-    "sourceSearchHint": "Apollo Peak Shark Tank Season 8 Episode 20 deal revenue investors"
-  },
-  {
-    "id": "s8e20-under-the-weather",
-    "priority": 2,
-    "season": 8,
-    "episode": 20,
-    "companyName": "Under the Weather",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/under-the-weather/",
-    "sourceSearchHint": "Under the Weather Shark Tank Season 8 Episode 20 deal revenue investors"
-  },
-  {
-    "id": "s8e21-guard-llama",
-    "priority": 2,
-    "season": 8,
-    "episode": 21,
-    "companyName": "Guard Llama",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://sharktankblog.com/business/guard-llama/",
-    "sourceSearchHint": "Guard Llama Shark Tank Season 8 Episode 21 deal revenue investors"
-  },
-  {
-    "id": "s8e22-loctote-industrial-bag-co",
-    "priority": 2,
-    "season": 8,
-    "episode": 22,
-    "companyName": "Loctote Industrial Bag Co.",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/loctote/",
-    "sourceSearchHint": "Loctote Industrial Bag Co. Shark Tank Season 8 Episode 22 deal revenue investors"
-  },
-  {
-    "id": "s7e7-saavy-naturals",
-    "priority": 2,
-    "season": 7,
-    "episode": 7,
-    "companyName": "Saavy Naturals",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/saavy-naturals/",
-    "sourceSearchHint": "Saavy Naturals Shark Tank Season 7 Episode 7 deal revenue investors"
-  },
-  {
-    "id": "s7e8-unshrinkit",
-    "priority": 2,
-    "season": 7,
-    "episode": 8,
-    "companyName": "Unshrinkit",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/unshrinkit/",
-    "sourceSearchHint": "Unshrinkit Shark Tank Season 7 Episode 8 deal revenue investors"
-  },
-  {
-    "id": "s7e8-grip-clean",
-    "priority": 2,
-    "season": 7,
-    "episode": 8,
-    "companyName": "Grip Clean",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/gripclean/",
-    "sourceSearchHint": "Grip Clean Shark Tank Season 7 Episode 8 deal revenue investors"
-  },
-  {
-    "id": "s7e8-polarpro",
-    "priority": 2,
-    "season": 7,
-    "episode": 8,
-    "companyName": "PolarPro",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/polar-pro/",
-    "sourceSearchHint": "PolarPro Shark Tank Season 7 Episode 8 deal revenue investors"
-  },
-  {
-    "id": "s7e9-brazi-bites",
-    "priority": 2,
-    "season": 7,
-    "episode": 9,
-    "companyName": "Brazi Bites",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/brazi-bites/",
-    "sourceSearchHint": "Brazi Bites Shark Tank Season 7 Episode 9 deal revenue investors"
-  },
-  {
-    "id": "s7e10-glow-recipe",
-    "priority": 2,
-    "season": 7,
-    "episode": 10,
-    "companyName": "Glow Recipe",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/glow-recipe/",
-    "sourceSearchHint": "Glow Recipe Shark Tank Season 7 Episode 10 deal revenue investors"
-  },
-  {
-    "id": "s7e10-trunkster",
-    "priority": 2,
-    "season": 7,
-    "episode": 10,
-    "companyName": "Trunkster",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/trunkster/",
-    "sourceSearchHint": "Trunkster Shark Tank Season 7 Episode 10 deal revenue investors"
   },
   {
     "id": "s7e11-piperwai",
@@ -2015,370 +160,6 @@
     "sourceSearchHint": "PiperWai Shark Tank Season 7 Episode 11 deal revenue investors"
   },
   {
-    "id": "s7e12-abs-protein-pancakes",
-    "priority": 2,
-    "season": 7,
-    "episode": 12,
-    "companyName": "ABS Protein Pancakes",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/abs-protein-pancakes/",
-    "sourceSearchHint": "ABS Protein Pancakes Shark Tank Season 7 Episode 12 deal revenue investors"
-  },
-  {
-    "id": "s7e12-fireavert",
-    "priority": 2,
-    "season": 7,
-    "episode": 12,
-    "companyName": "FireAvert",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/fireavert/",
-    "sourceSearchHint": "FireAvert Shark Tank Season 7 Episode 12 deal revenue investors"
-  },
-  {
-    "id": "s7e13-controlled-chaos",
-    "priority": 2,
-    "season": 7,
-    "episode": 13,
-    "companyName": "Controlled Chaos",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/controlled-chaos/",
-    "sourceSearchHint": "Controlled Chaos Shark Tank Season 7 Episode 13 deal revenue investors"
-  },
-  {
-    "id": "s7e14-fixed",
-    "priority": 2,
-    "season": 7,
-    "episode": 14,
-    "companyName": "Fixed",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/fixed/",
-    "sourceSearchHint": "Fixed Shark Tank Season 7 Episode 14 deal revenue investors"
-  },
-  {
-    "id": "s7e14-beard-king",
-    "priority": 2,
-    "season": 7,
-    "episode": 14,
-    "companyName": "Beard King",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/beard-king/",
-    "sourceSearchHint": "Beard King Shark Tank Season 7 Episode 14 deal revenue investors"
-  },
-  {
-    "id": "s7e18-sworkit",
-    "priority": 2,
-    "season": 7,
-    "episode": 18,
-    "companyName": "Sworkit",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/sworkit/",
-    "sourceSearchHint": "Sworkit Shark Tank Season 7 Episode 18 deal revenue investors"
-  },
-  {
-    "id": "s7e19-rags-to-raches",
-    "priority": 2,
-    "season": 7,
-    "episode": 19,
-    "companyName": "Rags to Raches",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/rags-to-raches/",
-    "sourceSearchHint": "Rags to Raches Shark Tank Season 7 Episode 19 deal revenue investors"
-  },
-  {
-    "id": "s7e20-betterback",
-    "priority": 2,
-    "season": 7,
-    "episode": 20,
-    "companyName": "BetterBack",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/betterback/",
-    "sourceSearchHint": "BetterBack Shark Tank Season 7 Episode 20 deal revenue investors"
-  },
-  {
-    "id": "s7e20-glac-cryotherapy",
-    "priority": 2,
-    "season": 7,
-    "episode": 20,
-    "companyName": "Glacé Cryotherapy",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/glace-cryotherapy/",
-    "sourceSearchHint": "Glacé Cryotherapy Shark Tank Season 7 Episode 20 deal revenue investors"
-  },
-  {
-    "id": "s7e22-vengo",
-    "priority": 2,
-    "season": 7,
-    "episode": 22,
-    "companyName": "Vengo",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/vengo/",
-    "sourceSearchHint": "Vengo Shark Tank Season 7 Episode 22 deal revenue investors"
-  },
-  {
-    "id": "s7e22-wondercide",
-    "priority": 2,
-    "season": 7,
-    "episode": 22,
-    "companyName": "Wondercide",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/wondercide/",
-    "sourceSearchHint": "Wondercide Shark Tank Season 7 Episode 22 deal revenue investors"
-  },
-  {
-    "id": "s7e23-pridebites-pet-products",
-    "priority": 2,
-    "season": 7,
-    "episode": 23,
-    "companyName": "PrideBites Pet Products",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/pridebites/",
-    "sourceSearchHint": "PrideBites Pet Products Shark Tank Season 7 Episode 23 deal revenue investors"
-  },
-  {
-    "id": "s7e23-trobo",
-    "priority": 2,
-    "season": 7,
-    "episode": 23,
-    "companyName": "TROBO",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/trobo/",
-    "sourceSearchHint": "TROBO Shark Tank Season 7 Episode 23 deal revenue investors"
-  },
-  {
-    "id": "s7e23-coolbox",
-    "priority": 2,
-    "season": 7,
-    "episode": 23,
-    "companyName": "Coolbox",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/coolbox/",
-    "sourceSearchHint": "Coolbox Shark Tank Season 7 Episode 23 deal revenue investors"
-  },
-  {
-    "id": "s7e24-petnostics",
-    "priority": 2,
-    "season": 7,
-    "episode": 24,
-    "companyName": "Petnostics",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/petnostics/",
-    "sourceSearchHint": "Petnostics Shark Tank Season 7 Episode 24 deal revenue investors"
-  },
-  {
-    "id": "s7e25-the-drip-drop",
-    "priority": 2,
-    "season": 7,
-    "episode": 25,
-    "companyName": "The Drip Drop",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/drip-drop/",
-    "sourceSearchHint": "The Drip Drop Shark Tank Season 7 Episode 25 deal revenue investors"
-  },
-  {
-    "id": "s7e27-dollop-gourmet",
-    "priority": 2,
-    "season": 7,
-    "episode": 27,
-    "companyName": "Dollop Gourmet",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/dollop-gourmet/",
-    "sourceSearchHint": "Dollop Gourmet Shark Tank Season 7 Episode 27 deal revenue investors"
-  },
-  {
-    "id": "s7e27-creaproducts",
-    "priority": 2,
-    "season": 7,
-    "episode": 27,
-    "companyName": "CreaProducts",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/creaproducts/",
-    "sourceSearchHint": "CreaProducts Shark Tank Season 7 Episode 27 deal revenue investors"
-  },
-  {
-    "id": "s7e27-the-spooner",
-    "priority": 2,
-    "season": 7,
-    "episode": 27,
-    "companyName": "The Spooner",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/spooner-boards/",
-    "sourceSearchHint": "The Spooner Shark Tank Season 7 Episode 27 deal revenue investors"
-  },
-  {
-    "id": "s7e29-pete-and-pedro",
-    "priority": 2,
-    "season": 7,
-    "episode": 29,
-    "companyName": "Pete and Pedro",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/pete-and-pedro-bueno-hair/",
-    "sourceSearchHint": "Pete and Pedro Shark Tank Season 7 Episode 29 deal revenue investors"
-  },
-  {
-    "id": "s7e29-felt",
-    "priority": 2,
-    "season": 7,
-    "episode": 29,
-    "companyName": "Felt",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/felt/",
-    "sourceSearchHint": "Felt Shark Tank Season 7 Episode 29 deal revenue investors"
-  },
-  {
-    "id": "s6e14-evrewares",
-    "priority": 2,
-    "season": 6,
-    "episode": 14,
-    "companyName": "Evrewares",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/evrewares/",
-    "sourceSearchHint": "Evrewares Shark Tank Season 6 Episode 14 deal revenue investors"
-  },
-  {
-    "id": "s6e15-lumio",
-    "priority": 2,
-    "season": 6,
-    "episode": 15,
-    "companyName": "Lumio",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/lumio/",
-    "sourceSearchHint": "Lumio Shark Tank Season 6 Episode 15 deal revenue investors"
-  },
-  {
-    "id": "s6e16-greenbox",
-    "priority": 2,
-    "season": 6,
-    "episode": 16,
-    "companyName": "GreenBox",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/greenbox/",
-    "sourceSearchHint": "GreenBox Shark Tank Season 6 Episode 16 deal revenue investors"
-  },
-  {
-    "id": "s6e17-fresh-patch",
-    "priority": 2,
-    "season": 6,
-    "episode": 17,
-    "companyName": "Fresh Patch",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/fresh-patch/",
-    "sourceSearchHint": "Fresh Patch Shark Tank Season 6 Episode 17 deal revenue investors"
-  },
-  {
-    "id": "s6e18-beverageboy",
-    "priority": 2,
-    "season": 6,
-    "episode": 18,
-    "companyName": "BeverageBoy",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/beverageboy/",
-    "sourceSearchHint": "BeverageBoy Shark Tank Season 6 Episode 18 deal revenue investors"
-  },
-  {
-    "id": "s6e21-the-twin-z-pillow",
-    "priority": 2,
-    "season": 6,
-    "episode": 21,
-    "companyName": "The Twin Z Pillow",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/twin-z-pillow/",
-    "sourceSearchHint": "The Twin Z Pillow Shark Tank Season 6 Episode 21 deal revenue investors"
-  },
-  {
-    "id": "s5e3-the-freeloader",
-    "priority": 2,
-    "season": 5,
-    "episode": 3,
-    "companyName": "The Freeloader",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/freeloader/",
-    "sourceSearchHint": "The Freeloader Shark Tank Season 5 Episode 3 deal revenue investors"
-  },
-  {
-    "id": "s5e5-rufflebutts-and-ruggedbutts",
-    "priority": 2,
-    "season": 5,
-    "episode": 5,
-    "companyName": "RuffleButts and RuggedButts",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/rufflebutts-and-ruggedbutts/",
-    "sourceSearchHint": "RuffleButts and RuggedButts Shark Tank Season 5 Episode 5 deal revenue investors"
-  },
-  {
-    "id": "s5e8-paparazzi-proposals",
-    "priority": 2,
-    "season": 5,
-    "episode": 8,
-    "companyName": "Paparazzi Proposals",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/paparazzi-proposals/",
-    "sourceSearchHint": "Paparazzi Proposals Shark Tank Season 5 Episode 8 deal revenue investors"
-  },
-  {
     "id": "s5e11-virtuix-omni",
     "priority": 2,
     "season": 5,
@@ -2389,104 +170,6 @@
     ],
     "currentSource": "https://www.sharktankblog.com/business/virtuix-omni/",
     "sourceSearchHint": "Virtuix Omni Shark Tank Season 5 Episode 11 deal revenue investors"
-  },
-  {
-    "id": "s5e14-lockerbones",
-    "priority": 2,
-    "season": 5,
-    "episode": 14,
-    "companyName": "LockerBones",
-    "missingFields": [
-      "investors",
-      "businessStatus",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/shark-tank-season-5-products/",
-    "sourceSearchHint": "LockerBones Shark Tank Season 5 Episode 14 deal revenue investors"
-  },
-  {
-    "id": "s5e17-southern-culture-artisan-foods",
-    "priority": 2,
-    "season": 5,
-    "episode": 17,
-    "companyName": "Southern Culture Artisan Foods",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/southern-culture-foods/",
-    "sourceSearchHint": "Southern Culture Artisan Foods Shark Tank Season 5 Episode 17 deal revenue investors"
-  },
-  {
-    "id": "s5e20-iretron",
-    "priority": 2,
-    "season": 5,
-    "episode": 20,
-    "companyName": "iReTron",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/iretron/",
-    "sourceSearchHint": "iReTron Shark Tank Season 5 Episode 20 deal revenue investors"
-  },
-  {
-    "id": "s5e20-henry-s-humdingers",
-    "priority": 2,
-    "season": 5,
-    "episode": 20,
-    "companyName": "Henry's Humdingers",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/henrys-humdingers/",
-    "sourceSearchHint": "Henry's Humdingers Shark Tank Season 5 Episode 20 deal revenue investors"
-  },
-  {
-    "id": "s5e27-angellift",
-    "priority": 2,
-    "season": 5,
-    "episode": 27,
-    "companyName": "Angellift",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/angellift/",
-    "sourceSearchHint": "Angellift Shark Tank Season 5 Episode 27 deal revenue investors"
-  },
-  {
-    "id": "s5e27-hangease",
-    "priority": 2,
-    "season": 5,
-    "episode": 27,
-    "companyName": "HangEase",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/hangease/",
-    "sourceSearchHint": "HangEase Shark Tank Season 5 Episode 27 deal revenue investors"
-  },
-  {
-    "id": "s5e28-oru-kayak",
-    "priority": 2,
-    "season": 5,
-    "episode": 28,
-    "companyName": "Oru Kayak",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/oru-kayak/",
-    "sourceSearchHint": "Oru Kayak Shark Tank Season 5 Episode 28 deal revenue investors"
-  },
-  {
-    "id": "s4e3-rock-bands",
-    "priority": 2,
-    "season": 4,
-    "episode": 3,
-    "companyName": "Rock Bands",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/rock-bands/",
-    "sourceSearchHint": "Rock Bands Shark Tank Season 4 Episode 3 deal revenue investors"
   },
   {
     "id": "s4e5-marz-sprays",
@@ -2501,277 +184,6 @@
     "sourceSearchHint": "Marz Sprays Shark Tank Season 4 Episode 5 deal revenue investors"
   },
   {
-    "id": "s4e6-pro-nrg",
-    "priority": 2,
-    "season": 4,
-    "episode": 6,
-    "companyName": "PRO-NRG",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/pro-nrg/",
-    "sourceSearchHint": "PRO-NRG Shark Tank Season 4 Episode 6 deal revenue investors"
-  },
-  {
-    "id": "s4e8-platetopper",
-    "priority": 2,
-    "season": 4,
-    "episode": 8,
-    "companyName": "PlateTopper",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/platetopper/",
-    "sourceSearchHint": "PlateTopper Shark Tank Season 4 Episode 8 deal revenue investors"
-  },
-  {
-    "id": "s4e9-drive-suits",
-    "priority": 2,
-    "season": 4,
-    "episode": 9,
-    "companyName": "Drive Suits",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/transformer-costumes/",
-    "sourceSearchHint": "Drive Suits Shark Tank Season 4 Episode 9 deal revenue investors"
-  },
-  {
-    "id": "s4e15-hoodie-pillow",
-    "priority": 2,
-    "season": 4,
-    "episode": 15,
-    "companyName": "Hoodie Pillow",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/hoodie-pillow/",
-    "sourceSearchHint": "Hoodie Pillow Shark Tank Season 4 Episode 15 deal revenue investors"
-  },
-  {
-    "id": "s4e16-how-do-you-roll",
-    "priority": 2,
-    "season": 4,
-    "episode": 16,
-    "companyName": "How Do You Roll?",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/how-do-you-roll/",
-    "sourceSearchHint": "How Do You Roll? Shark Tank Season 4 Episode 16 deal revenue investors"
-  },
-  {
-    "id": "s4e16-smartwheel",
-    "priority": 2,
-    "season": 4,
-    "episode": 16,
-    "companyName": "SmartWheel",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/the-smart-wheel/",
-    "sourceSearchHint": "SmartWheel Shark Tank Season 4 Episode 16 deal revenue investors"
-  },
-  {
-    "id": "s4e20-coolwraps",
-    "priority": 2,
-    "season": 4,
-    "episode": 20,
-    "companyName": "CoolWraps",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/cool-wraps/",
-    "sourceSearchHint": "CoolWraps Shark Tank Season 4 Episode 20 deal revenue investors"
-  },
-  {
-    "id": "s4e25-geek-chic",
-    "priority": 2,
-    "season": 4,
-    "episode": 25,
-    "companyName": "Geek Chic",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/geek-chic/",
-    "sourceSearchHint": "Geek Chic Shark Tank Season 4 Episode 25 deal revenue investors"
-  },
-  {
-    "id": "s4e26-verbalizeit",
-    "priority": 2,
-    "season": 4,
-    "episode": 26,
-    "companyName": "VerbalizeIt",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://sharktankblog.com/business/verbalizeit/",
-    "sourceSearchHint": "VerbalizeIt Shark Tank Season 4 Episode 26 deal revenue investors"
-  },
-  {
-    "id": "s3e3-you-smell-soap",
-    "priority": 2,
-    "season": 3,
-    "episode": 3,
-    "companyName": "You Smell Soap",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/shark-tank-deal-fell-apart/",
-    "sourceSearchHint": "You Smell Soap Shark Tank Season 3 Episode 3 deal revenue investors"
-  },
-  {
-    "id": "s3e4-wine-balloon",
-    "priority": 2,
-    "season": 3,
-    "episode": 4,
-    "companyName": "Wine Balloon",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/the-wine-balloon/",
-    "sourceSearchHint": "Wine Balloon Shark Tank Season 3 Episode 4 deal revenue investors"
-  },
-  {
-    "id": "s3e13-boot-illusions",
-    "priority": 2,
-    "season": 3,
-    "episode": 13,
-    "companyName": "Boot Illusions",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/boot-illusion/",
-    "sourceSearchHint": "Boot Illusions Shark Tank Season 3 Episode 13 deal revenue investors"
-  },
-  {
-    "id": "s3e14-wild-squirrel-nut-butter",
-    "priority": 2,
-    "season": 3,
-    "episode": 14,
-    "companyName": "Wild Squirrel Nut Butter",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/wild-squirrel-nut-butter/",
-    "sourceSearchHint": "Wild Squirrel Nut Butter Shark Tank Season 3 Episode 14 deal revenue investors"
-  },
-  {
-    "id": "s2e1-tippi-toes",
-    "priority": 2,
-    "season": 2,
-    "episode": 1,
-    "companyName": "Tippi Toes",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/tippi-toes/",
-    "sourceSearchHint": "Tippi Toes Shark Tank Season 2 Episode 1 deal revenue investors"
-  },
-  {
-    "id": "s2e3-mod-mom-furniture",
-    "priority": 2,
-    "season": 2,
-    "episode": 3,
-    "companyName": "Mod Mom Furniture",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.modmomfurniture.com/",
-    "sourceSearchHint": "Mod Mom Furniture Shark Tank Season 2 Episode 3 deal revenue investors"
-  },
-  {
-    "id": "s2e4-hillbilly-brand",
-    "priority": 2,
-    "season": 2,
-    "episode": 4,
-    "companyName": "Hillbilly Brand",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/hill-billy-brand/",
-    "sourceSearchHint": "Hillbilly Brand Shark Tank Season 2 Episode 4 deal revenue investors"
-  },
-  {
-    "id": "s2e4-broccoli-wad",
-    "priority": 2,
-    "season": 2,
-    "episode": 4,
-    "companyName": "Broccoli Wad",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/broccoli-wad/",
-    "sourceSearchHint": "Broccoli Wad Shark Tank Season 2 Episode 4 deal revenue investors"
-  },
-  {
-    "id": "s2e6-sweep-easy",
-    "priority": 2,
-    "season": 2,
-    "episode": 6,
-    "companyName": "Sweep Easy",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/sweep-easy/",
-    "sourceSearchHint": "Sweep Easy Shark Tank Season 2 Episode 6 deal revenue investors"
-  },
-  {
-    "id": "s2e7-hydromax",
-    "priority": 2,
-    "season": 2,
-    "episode": 7,
-    "companyName": "Hydromax",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/hydromax/",
-    "sourceSearchHint": "Hydromax Shark Tank Season 2 Episode 7 deal revenue investors"
-  },
-  {
-    "id": "s2e8-origaudio",
-    "priority": 2,
-    "season": 2,
-    "episode": 8,
-    "companyName": "Origaudio",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/origaudio/",
-    "sourceSearchHint": "Origaudio Shark Tank Season 2 Episode 8 deal revenue investors"
-  },
-  {
-    "id": "s2e8-hyconn",
-    "priority": 2,
-    "season": 2,
-    "episode": 8,
-    "companyName": "HyConn",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/hyconn-llc/",
-    "sourceSearchHint": "HyConn Shark Tank Season 2 Episode 8 deal revenue investors"
-  },
-  {
-    "id": "s2e9-aldo-orta-jewelry",
-    "priority": 2,
-    "season": 2,
-    "episode": 9,
-    "companyName": "Aldo Orta Jewelry",
-    "missingFields": [
-      "investors",
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/aldo-orta-jewelry/",
-    "sourceSearchHint": "Aldo Orta Jewelry Shark Tank Season 2 Episode 9 deal revenue investors"
-  },
-  {
     "id": "s15e4-monosuit",
     "priority": 3,
     "season": 15,
@@ -2782,6 +194,138 @@
     ],
     "currentSource": "https://www.sharktankblog.com/business/monosuit/",
     "sourceSearchHint": "Monosuit Shark Tank Season 15 Episode 4 deal revenue investors"
+  },
+  {
+    "id": "s15e8-black-paper-party",
+    "priority": 3,
+    "season": 15,
+    "episode": 8,
+    "companyName": "Black Paper Party",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankrecap.com/black-paper-party-update-shark-tank-season-15/",
+    "sourceSearchHint": "Black Paper Party Shark Tank Season 15 Episode 8 deal revenue investors"
+  },
+  {
+    "id": "s15e8-pick-up-bricks",
+    "priority": 3,
+    "season": 15,
+    "episode": 8,
+    "companyName": "Pick-Up Bricks",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/pick-up-bricks/",
+    "sourceSearchHint": "Pick-Up Bricks Shark Tank Season 15 Episode 8 deal revenue investors"
+  },
+  {
+    "id": "s15e9-flywithwine",
+    "priority": 3,
+    "season": 15,
+    "episode": 9,
+    "companyName": "FlyWithWine",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/shark-tank/shark-tank-episodes/season-15-shark-tank-episodes/episode-1509/",
+    "sourceSearchHint": "FlyWithWine Shark Tank Season 15 Episode 9 deal revenue investors"
+  },
+  {
+    "id": "s15e11-the-duo",
+    "priority": 3,
+    "season": 15,
+    "episode": 11,
+    "companyName": "The Duo",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankrecap.com/the-duo-shareable-umbrella-update-shark-tank-season-15/",
+    "sourceSearchHint": "The Duo Shark Tank Season 15 Episode 11 deal revenue investors"
+  },
+  {
+    "id": "s15e13-au-baby",
+    "priority": 3,
+    "season": 15,
+    "episode": 13,
+    "companyName": "AU Baby",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankinsights.com/au-baby-shark-tank-update/",
+    "sourceSearchHint": "AU Baby Shark Tank Season 15 Episode 13 deal revenue investors"
+  },
+  {
+    "id": "s15e15-dogue",
+    "priority": 3,
+    "season": 15,
+    "episode": 15,
+    "companyName": "Dogue",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankrecap.com/dogue-artisan-dog-food-update-shark-tank-season-15/",
+    "sourceSearchHint": "Dogue Shark Tank Season 15 Episode 15 deal revenue investors"
+  },
+  {
+    "id": "s15e17-chefee",
+    "priority": 3,
+    "season": 15,
+    "episode": 17,
+    "companyName": "Chefee",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/chefee/",
+    "sourceSearchHint": "Chefee Shark Tank Season 15 Episode 17 deal revenue investors"
+  },
+  {
+    "id": "s15e18-overplay",
+    "priority": 3,
+    "season": 15,
+    "episode": 18,
+    "companyName": "Overplay",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/overplay/",
+    "sourceSearchHint": "Overplay Shark Tank Season 15 Episode 18 deal revenue investors"
+  },
+  {
+    "id": "s15e19-richualist",
+    "priority": 3,
+    "season": 15,
+    "episode": 19,
+    "companyName": "Richualist",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/richualist/",
+    "sourceSearchHint": "Richualist Shark Tank Season 15 Episode 19 deal revenue investors"
+  },
+  {
+    "id": "s15e21-hood",
+    "priority": 3,
+    "season": 15,
+    "episode": 21,
+    "companyName": "Hood",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/hood/",
+    "sourceSearchHint": "Hood Shark Tank Season 15 Episode 21 deal revenue investors"
+  },
+  {
+    "id": "s14e4-woosh",
+    "priority": 3,
+    "season": 14,
+    "episode": 4,
+    "companyName": "Woosh",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankblog.com/business/woosh/",
+    "sourceSearchHint": "Woosh Shark Tank Season 14 Episode 4 deal revenue investors"
   },
   {
     "id": "s14e7-action-glow",
@@ -3036,6 +580,18 @@
     "sourceSearchHint": "Umaro Shark Tank Season 13 Episode 18 deal revenue investors"
   },
   {
+    "id": "s12e6-k9-mask",
+    "priority": 3,
+    "season": 12,
+    "episode": 6,
+    "companyName": "K9 Mask",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/k9-mask/",
+    "sourceSearchHint": "K9 Mask Shark Tank Season 12 Episode 6 deal revenue investors"
+  },
+  {
     "id": "s12e9-sharks-mark-barbara-kevin-lori-daymond-electra",
     "priority": 3,
     "season": 12,
@@ -3096,6 +652,18 @@
     "sourceSearchHint": "Yono Clip Shark Tank Season 12 Episode 12 deal revenue investors"
   },
   {
+    "id": "s12e14-byoot-company",
+    "priority": 3,
+    "season": 12,
+    "episode": 14,
+    "companyName": "Byoot Company",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankblog.com/business/byoot-company/",
+    "sourceSearchHint": "Byoot Company Shark Tank Season 12 Episode 14 deal revenue investors"
+  },
+  {
     "id": "s12e17-chill-systems",
     "priority": 3,
     "season": 12,
@@ -3130,6 +698,18 @@
     ],
     "currentSource": "https://sharktankblog.com/business/the-cheese-chopper/",
     "sourceSearchHint": "The Cheese Chopper Shark Tank Season 12 Episode 20 deal revenue investors"
+  },
+  {
+    "id": "s12e25-super-potty-trainer",
+    "priority": 3,
+    "season": 12,
+    "episode": 25,
+    "companyName": "Super Potty Trainer",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/super-potty-trainer/",
+    "sourceSearchHint": "Super Potty Trainer Shark Tank Season 12 Episode 25 deal revenue investors"
   },
   {
     "id": "s11e1-minuscal",
@@ -3169,6 +749,18 @@
     "sourceSearchHint": "The Measuring Shovel Shark Tank Season 11 Episode 6 deal revenue investors"
   },
   {
+    "id": "s11e7-dog-threads",
+    "priority": 3,
+    "season": 11,
+    "episode": 7,
+    "companyName": "Dog Threads",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankblog.com/business/dog-threads/",
+    "sourceSearchHint": "Dog Threads Shark Tank Season 11 Episode 7 deal revenue investors"
+  },
+  {
     "id": "s11e7-peanut-butter-pump",
     "priority": 3,
     "season": 11,
@@ -3179,6 +771,18 @@
     ],
     "currentSource": "https://sharktankblog.com/business/peanut-butter-pump/",
     "sourceSearchHint": "Peanut Butter Pump Shark Tank Season 11 Episode 7 deal revenue investors"
+  },
+  {
+    "id": "s11e7-the-yard",
+    "priority": 3,
+    "season": 11,
+    "episode": 7,
+    "companyName": "The Yard",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankblog.com/business/the-yard/",
+    "sourceSearchHint": "The Yard Shark Tank Season 11 Episode 7 deal revenue investors"
   },
   {
     "id": "s11e10-zuum",
@@ -3240,6 +844,18 @@
     ],
     "currentSource": "https://www.sharktankblog.com/business/space-traveler/",
     "sourceSearchHint": "Space Traveler Shark Tank Season 11 Episode 15 deal revenue investors"
+  },
+  {
+    "id": "s11e18-robert-muvez",
+    "priority": 3,
+    "season": 11,
+    "episode": 18,
+    "companyName": "Muvez",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankblog.com/business/muvez/",
+    "sourceSearchHint": "Muvez Shark Tank Season 11 Episode 18 deal revenue investors"
   },
   {
     "id": "s11e18-prepwell-academy",
@@ -3506,6 +1122,18 @@
     "sourceSearchHint": "WaiveCar Shark Tank Season 9 Episode 7 deal revenue investors"
   },
   {
+    "id": "s9e10-dna-simple",
+    "priority": 3,
+    "season": 9,
+    "episode": 10,
+    "companyName": "DNA Simple",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankblog.com/business/dna-simple/",
+    "sourceSearchHint": "DNA Simple Shark Tank Season 9 Episode 10 deal revenue investors"
+  },
+  {
     "id": "s9e11-reely-hooked-fish-co",
     "priority": 3,
     "season": 9,
@@ -3516,6 +1144,18 @@
     ],
     "currentSource": "https://sharktankblog.com/business/reely-hooked-fish-co/",
     "sourceSearchHint": "Reely Hooked Fish Co. Shark Tank Season 9 Episode 11 deal revenue investors"
+  },
+  {
+    "id": "s9e11-prontobev",
+    "priority": 3,
+    "season": 9,
+    "episode": 11,
+    "companyName": "ProntoBev",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankblog.com/business/prontobev/",
+    "sourceSearchHint": "ProntoBev Shark Tank Season 9 Episode 11 deal revenue investors"
   },
   {
     "id": "s9e12-hater",
@@ -3530,6 +1170,18 @@
     "sourceSearchHint": "hater Shark Tank Season 9 Episode 12 deal revenue investors"
   },
   {
+    "id": "s9e13-rokblok-by-pink-donut",
+    "priority": 3,
+    "season": 9,
+    "episode": 13,
+    "companyName": "RokBlok by Pink Donut",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankblog.com/business/rokblok/",
+    "sourceSearchHint": "RokBlok by Pink Donut Shark Tank Season 9 Episode 13 deal revenue investors"
+  },
+  {
     "id": "s9e14-elliptical-stroller",
     "priority": 3,
     "season": 9,
@@ -3540,6 +1192,18 @@
     ],
     "currentSource": "https://sharktankblog.com/business/elliptical-stroller/",
     "sourceSearchHint": "Elliptical Stroller Shark Tank Season 9 Episode 14 deal revenue investors"
+  },
+  {
+    "id": "s9e16-g-o-a-t-pet-products",
+    "priority": 3,
+    "season": 9,
+    "episode": 16,
+    "companyName": "G.O.A.T. pet products",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/goat-pet-speaker/",
+    "sourceSearchHint": "G.O.A.T. pet products Shark Tank Season 9 Episode 16 deal revenue investors"
   },
   {
     "id": "s9e18-savy",
@@ -3614,6 +1278,18 @@
     "sourceSearchHint": "unPack Shark Tank Season 8 Episode 6 deal revenue investors"
   },
   {
+    "id": "s8e6-sunscreenr",
+    "priority": 3,
+    "season": 8,
+    "episode": 6,
+    "companyName": "Sunscreenr",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankblog.com/business/sunscreenr/",
+    "sourceSearchHint": "Sunscreenr Shark Tank Season 8 Episode 6 deal revenue investors"
+  },
+  {
     "id": "s8e12-pdx-pet-design",
     "priority": 3,
     "season": 8,
@@ -3624,6 +1300,30 @@
     ],
     "currentSource": "https://sharktankblog.com/business/pdx-pet-design/",
     "sourceSearchHint": "PDX Pet Design Shark Tank Season 8 Episode 12 deal revenue investors"
+  },
+  {
+    "id": "s8e12-naturally-perfect-dolls",
+    "priority": 3,
+    "season": 8,
+    "episode": 12,
+    "companyName": "Naturally Perfect Dolls",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/naturally-perfect/",
+    "sourceSearchHint": "Naturally Perfect Dolls Shark Tank Season 8 Episode 12 deal revenue investors"
+  },
+  {
+    "id": "s8e13-grease-bags",
+    "priority": 3,
+    "season": 8,
+    "episode": 13,
+    "companyName": "Grease Bags",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankblog.com/business/grease-bags/",
+    "sourceSearchHint": "Grease Bags Shark Tank Season 8 Episode 13 deal revenue investors"
   },
   {
     "id": "s8e13-mama-s-milk-box",
@@ -3638,6 +1338,18 @@
     "sourceSearchHint": "Mama's Milk Box Shark Tank Season 8 Episode 13 deal revenue investors"
   },
   {
+    "id": "s8e17-toymail",
+    "priority": 3,
+    "season": 8,
+    "episode": 17,
+    "companyName": "Toymail",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankblog.com/business/toymail/",
+    "sourceSearchHint": "Toymail Shark Tank Season 8 Episode 17 deal revenue investors"
+  },
+  {
     "id": "s8e17-edn-wallgarden",
     "priority": 3,
     "season": 8,
@@ -3648,6 +1360,18 @@
     ],
     "currentSource": "https://www.sharktankblog.com/business/edn-wallgarden/",
     "sourceSearchHint": "Edn Wallgarden Shark Tank Season 8 Episode 17 deal revenue investors"
+  },
+  {
+    "id": "s8e21-guard-llama",
+    "priority": 3,
+    "season": 8,
+    "episode": 21,
+    "companyName": "Guard Llama",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://sharktankblog.com/business/guard-llama/",
+    "sourceSearchHint": "Guard Llama Shark Tank Season 8 Episode 21 deal revenue investors"
   },
   {
     "id": "s8e21-flag",
@@ -3758,6 +1482,30 @@
     "sourceSearchHint": "Innovation Pet Shark Tank Season 7 Episode 21 deal revenue investors"
   },
   {
+    "id": "s7e23-trobo",
+    "priority": 3,
+    "season": 7,
+    "episode": 23,
+    "companyName": "TROBO",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/trobo/",
+    "sourceSearchHint": "TROBO Shark Tank Season 7 Episode 23 deal revenue investors"
+  },
+  {
+    "id": "s7e25-the-drip-drop",
+    "priority": 3,
+    "season": 7,
+    "episode": 25,
+    "companyName": "The Drip Drop",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/drip-drop/",
+    "sourceSearchHint": "The Drip Drop Shark Tank Season 7 Episode 25 deal revenue investors"
+  },
+  {
     "id": "s7e25-jarrett-raja-productions",
     "priority": 3,
     "season": 7,
@@ -3793,6 +1541,18 @@
     ],
     "currentSource": "https://www.sharktankblog.com/business/extreme-vehicle-protection/",
     "sourceSearchHint": "Extreme Vehicle Protection Shark Tank Season 7 Episode 28 deal revenue investors"
+  },
+  {
+    "id": "s7e29-pete-and-pedro",
+    "priority": 3,
+    "season": 7,
+    "episode": 29,
+    "companyName": "Pete and Pedro",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/pete-and-pedro-bueno-hair/",
+    "sourceSearchHint": "Pete and Pedro Shark Tank Season 7 Episode 29 deal revenue investors"
   },
   {
     "id": "s6e1-amber",
@@ -3902,6 +1662,18 @@
     ],
     "currentSource": "https://sharktankblog.com/business/napwell/",
     "sourceSearchHint": "Napwell Shark Tank Season 6 Episode 15 deal revenue investors"
+  },
+  {
+    "id": "s6e16-greenbox",
+    "priority": 3,
+    "season": 6,
+    "episode": 16,
+    "companyName": "GreenBox",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/greenbox/",
+    "sourceSearchHint": "GreenBox Shark Tank Season 6 Episode 16 deal revenue investors"
   },
   {
     "id": "s6e16-tycoon-real-estate",
@@ -4169,6 +1941,19 @@
     "sourceSearchHint": "InvisiPlug Shark Tank Season 5 Episode 14 deal revenue investors"
   },
   {
+    "id": "s5e14-lockerbones",
+    "priority": 3,
+    "season": 5,
+    "episode": 14,
+    "companyName": "LockerBones",
+    "missingFields": [
+      "businessStatus",
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/lockerbones/",
+    "sourceSearchHint": "LockerBones Shark Tank Season 5 Episode 14 deal revenue investors"
+  },
+  {
     "id": "s5e14-balloon-distractions",
     "priority": 3,
     "season": 5,
@@ -4311,7 +2096,7 @@
       "revenue",
       "industry"
     ],
-    "currentSource": "https://en.wikipedia.org/wiki/Shark_Tank_season_5",
+    "currentSource": "https://www.looper.com/1259348/whatever-happened-hold-your-haunches-after-shark-tank/",
     "sourceSearchHint": "Hold Your Haunches Shark Tank Season 5 Episode 23 deal revenue investors"
   },
   {
@@ -4742,6 +2527,18 @@
     "sourceSearchHint": "No Fly Cone Shark Tank Season 4 Episode 8 deal revenue investors"
   },
   {
+    "id": "s4e9-drive-suits",
+    "priority": 3,
+    "season": 4,
+    "episode": 9,
+    "companyName": "Drive Suits",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/transformer-costumes/",
+    "sourceSearchHint": "Drive Suits Shark Tank Season 4 Episode 9 deal revenue investors"
+  },
+  {
     "id": "s4e9-pc-classes-online",
     "priority": 3,
     "season": 4,
@@ -4966,6 +2763,18 @@
     ],
     "currentSource": "https://en.wikipedia.org/wiki/Shark_Tank_season_4",
     "sourceSearchHint": "Pretty Padded Room Shark Tank Season 4 Episode 16 deal revenue investors"
+  },
+  {
+    "id": "s4e16-smartwheel",
+    "priority": 3,
+    "season": 4,
+    "episode": 16,
+    "companyName": "SmartWheel",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/the-smart-wheel/",
+    "sourceSearchHint": "SmartWheel Shark Tank Season 4 Episode 16 deal revenue investors"
   },
   {
     "id": "s4e17-addison-s-wonderland",
@@ -5353,6 +3162,18 @@
     "sourceSearchHint": "Tail Lightz Shark Tank Season 3 Episode 3 deal revenue investors"
   },
   {
+    "id": "s3e3-you-smell-soap",
+    "priority": 3,
+    "season": 3,
+    "episode": 3,
+    "companyName": "You Smell Soap",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/shark-tank-deal-fell-apart/",
+    "sourceSearchHint": "You Smell Soap Shark Tank Season 3 Episode 3 deal revenue investors"
+  },
+  {
     "id": "s3e4-the-swilt",
     "priority": 3,
     "season": 3,
@@ -5669,6 +3490,18 @@
     "sourceSearchHint": "Skyride Shark Tank Season 3 Episode 13 deal revenue investors"
   },
   {
+    "id": "s3e13-boot-illusions",
+    "priority": 3,
+    "season": 3,
+    "episode": 13,
+    "companyName": "Boot Illusions",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/boot-illusion/",
+    "sourceSearchHint": "Boot Illusions Shark Tank Season 3 Episode 13 deal revenue investors"
+  },
+  {
     "id": "s3e14-cab20",
     "priority": 3,
     "season": 3,
@@ -5781,6 +3614,18 @@
     "sourceSearchHint": "First Defense Nasal Screen Shark Tank Season 2 Episode 2 deal revenue investors"
   },
   {
+    "id": "s2e4-broccoli-wad",
+    "priority": 3,
+    "season": 2,
+    "episode": 4,
+    "companyName": "Broccoli Wad",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/broccoli-wad/",
+    "sourceSearchHint": "Broccoli Wad Shark Tank Season 2 Episode 4 deal revenue investors"
+  },
+  {
     "id": "s2e5-thin-gloss",
     "priority": 3,
     "season": 2,
@@ -5887,6 +3732,18 @@
     "sourceSearchHint": "Original Runner Company Shark Tank Season 2 Episode 8 deal revenue investors"
   },
   {
+    "id": "s2e8-hyconn",
+    "priority": 3,
+    "season": 2,
+    "episode": 8,
+    "companyName": "HyConn",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/hyconn-llc/",
+    "sourceSearchHint": "HyConn Shark Tank Season 2 Episode 8 deal revenue investors"
+  },
+  {
     "id": "s2e9-samson-martin",
     "priority": 3,
     "season": 2,
@@ -5899,6 +3756,18 @@
     ],
     "currentSource": "https://en.wikipedia.org/wiki/Shark_Tank_season_2",
     "sourceSearchHint": "Samson Martin Shark Tank Season 2 Episode 9 deal revenue investors"
+  },
+  {
+    "id": "s2e9-aldo-orta-jewelry",
+    "priority": 3,
+    "season": 2,
+    "episode": 9,
+    "companyName": "Aldo Orta Jewelry",
+    "missingFields": [
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/aldo-orta-jewelry/",
+    "sourceSearchHint": "Aldo Orta Jewelry Shark Tank Season 2 Episode 9 deal revenue investors"
   },
   {
     "id": "s1e1-ionic-ear",
