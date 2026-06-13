@@ -13,9 +13,9 @@ const records = getAnalysisRecords(curatedRecords);
 
 test("calculates global KPIs from records", () => {
   const metrics = getGlobalMetrics(records);
-  assert.equal(records.length, 1436);
+  assert.equal(records.length, 1504); // +68 Season 15 records added (eps 5-21 backfill)
   assert.equal(metrics.totalPitches, records.length);
-  assert.equal(metrics.totalDeals, 881); // 834 + 47 deals resolved by the sourced backfill overlay
+  assert.equal(metrics.totalDeals, 929); // grew with the S15 deal records
   assert.ok(metrics.dealRate > 0);
   assert.ok(metrics.totalRevenue > 0);
 });
@@ -63,11 +63,11 @@ test("measures episode coverage against aired-episode counts", () => {
   assert.equal(cov.overall.expected, 377); // S1-17 per Wikipedia
   assert.equal(cov.bySeason.length, 17);
   assert.ok(cov.overall.present <= cov.overall.expected);
-  assert.ok(cov.overall.pct > 0.9 && cov.overall.pct <= 1);
+  assert.ok(cov.overall.pct > 0.99 && cov.overall.pct <= 1); // ~99.7% after the S15 backfill
   assert.equal(cov.overall.present + cov.overall.missing, cov.overall.expected);
-  // Season 15 is the known gap (only a few of its episodes are in the data).
+  // Season 15 was the gap; the eps 5-21 backfill completed it.
   const s15 = cov.bySeason.find((s) => s.season === 15);
-  assert.ok(s15.missing > 10);
+  assert.equal(s15.missing, 0);
   // No season can report more present than aired.
   assert.ok(cov.bySeason.every((s) => s.present <= s.expected));
 });
@@ -120,8 +120,8 @@ test("excludes not-closed post-show deals from shark portfolio scoring", () => {
 });
 
 test("curates known import artifacts without deleting source rows", () => {
-  assert.equal(supplementalRecords.length, 72);
-  assert.equal(curatedRecords.length, 1480);
+  assert.equal(supplementalRecords.length, 140); // 72 + 68 Season 15 backfill records
+  assert.equal(curatedRecords.length, 1548);
   assert.equal(curatedRecords.filter((record) => record.isArtifact).length, 44);
   assert.equal(records.some((record) => record.companyName === "COMPANY"), false);
   assert.ok(records.some((record) => record.companyName === "Touch Up Cup"));
