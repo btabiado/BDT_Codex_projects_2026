@@ -40,6 +40,14 @@ test("attributes revenue using deal equity when available", () => {
   assert.equal(getInvestorRevenueAttribution(bombas), 350_000_000);
 });
 
+test("excludes Bombas from Daymond shark scoring while keeping the company record", () => {
+  const bombas = records.find((record) => record.companyName === "Bombas");
+  const daymond = getSharkMetrics(records).find((metric) => metric.sharkName === "Daymond John");
+  assert.equal(bombas.excludeFromSharkScoring, true);
+  assert.equal(daymond.largestWinner === "Bombas", false);
+  assert.equal(daymond.totalRevenue < bombas.revenueAmount, true);
+});
+
 test("applies Season 16 finale enrichment overrides", () => {
   const deviledEgg = records.find((record) => record.id === "s16e20-deviled-egg-co");
   const tickMitt = records.find((record) => record.id === "s16e20-tick-mitt");

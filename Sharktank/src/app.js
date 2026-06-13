@@ -116,9 +116,9 @@ function sharkCards(rows) {
           <dl>
             <div><dt>Deals</dt><dd>${metric.totalDeals}</dd></div>
             <div><dt>Survival</dt><dd>${formatPercent(metric.survivalRate)}</dd></div>
-            <div><dt>Portfolio Revenue</dt><dd>${formatCurrency(metric.totalRevenue)}</dd></div>
-            <div><dt>Attributed Revenue</dt><dd>${formatCurrency(metric.attributedRevenue)}</dd></div>
-            <div><dt>Largest Winner</dt><dd>${html(metric.largestWinner ?? "N/A")}</dd></div>
+            <div><dt>Scored Revenue</dt><dd>${formatCurrency(metric.totalRevenue)}</dd></div>
+            <div><dt>Attributed Scored Revenue</dt><dd>${formatCurrency(metric.attributedRevenue)}</dd></div>
+            <div><dt>Largest Scored Company</dt><dd>${html(metric.largestWinner ?? "N/A")}</dd></div>
             <div><dt>Favorite Industry</dt><dd>${html(metric.favoriteIndustry ?? "N/A")}</dd></div>
           </dl>
           <span class="badge ${metric.dataConfidence}">${metric.dataConfidence} confidence</span>
@@ -128,7 +128,7 @@ function sharkCards(rows) {
 
 function leaderboard(rows) {
   const metrics = getSharkMetrics(rows);
-  return `<section class="panel"><h2>Shark Alpha Leaderboard</h2><p class="muted">Alpha Score uses attributed revenue when deal equity is parseable, reducing full-company revenue overcounting.</p><table><thead><tr><th>Rank</th><th>Shark</th><th>Alpha</th><th>Attributed Revenue</th><th>Portfolio Revenue</th><th>Survival</th><th>Movement</th></tr></thead><tbody>${metrics.map((metric, index) => `<tr><td>${index + 1}</td><td>${html(metric.sharkName)}</td><td>${metric.alphaScore}</td><td>${formatCurrency(metric.attributedRevenue)}</td><td>${formatCurrency(metric.totalRevenue)}</td><td>${formatPercent(metric.survivalRate)}</td><td><span class="muted">New</span></td></tr>`).join("")}</tbody></table></section>`;
+  return `<section class="panel"><h2>Shark Alpha Leaderboard</h2><p class="muted">Alpha Score uses scored Shark investments only. Bombas remains in the company database, but is excluded from Daymond scoring so company-level sales are not treated as Daymond-owned revenue.</p><table><thead><tr><th>Rank</th><th>Shark</th><th>Alpha</th><th>Attributed Scored Revenue</th><th>Scored Revenue</th><th>Survival</th><th>Movement</th></tr></thead><tbody>${metrics.map((metric, index) => `<tr><td>${index + 1}</td><td>${html(metric.sharkName)}</td><td>${metric.alphaScore}</td><td>${formatCurrency(metric.attributedRevenue)}</td><td>${formatCurrency(metric.totalRevenue)}</td><td>${formatPercent(metric.survivalRate)}</td><td><span class="muted">New</span></td></tr>`).join("")}</tbody></table></section>`;
 }
 
 function commandPage(rows) {
@@ -227,7 +227,8 @@ document.addEventListener("click", (event) => {
   if (companyId) {
     const record = records.find((item) => item.id === companyId);
     const postShowStatus = record.postShowDealStatus ? `<div><dt>Post-show Deal</dt><dd>${html(record.postShowDealStatus.replace("_", " "))}</dd></div>` : "";
-    document.querySelector("#drawer").innerHTML = `<aside class="drawer"><button class="close" data-close>Close</button><h2>${html(record.companyName)}</h2><p>${html(record.description ?? "")}</p><dl><div><dt>Season</dt><dd>${record.season ?? "N/A"} / Episode ${record.episode ?? "N/A"}</dd></div><div><dt>Deal Terms</dt><dd>${html(record.dealTermsRaw ?? "N/A")}</dd></div>${postShowStatus}<div><dt>Investors</dt><dd>${html(record.investors.join(", ") || "N/A")}</dd></div><div><dt>Revenue</dt><dd>${html(record.revenueRaw ?? "N/A")}</dd></div><div><dt>Status</dt><dd>${html(record.businessStatus)}</dd></div></dl></aside>`;
+    const scoringNote = record.portfolioScoringNote ? `<div><dt>Scoring Note</dt><dd>${html(record.portfolioScoringNote)}</dd></div>` : "";
+    document.querySelector("#drawer").innerHTML = `<aside class="drawer"><button class="close" data-close>Close</button><h2>${html(record.companyName)}</h2><p>${html(record.description ?? "")}</p><dl><div><dt>Season</dt><dd>${record.season ?? "N/A"} / Episode ${record.episode ?? "N/A"}</dd></div><div><dt>Deal Terms</dt><dd>${html(record.dealTermsRaw ?? "N/A")}</dd></div>${postShowStatus}<div><dt>Investors</dt><dd>${html(record.investors.join(", ") || "N/A")}</dd></div><div><dt>Revenue</dt><dd>${html(record.revenueRaw ?? "N/A")}</dd></div><div><dt>Status</dt><dd>${html(record.businessStatus)}</dd></div>${scoringNote}</dl></aside>`;
   }
   if (event.target.matches("[data-close]")) document.querySelector("#drawer").innerHTML = "";
 });

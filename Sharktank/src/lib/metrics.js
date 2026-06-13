@@ -44,7 +44,7 @@ export function getInvestorRevenueAttribution(record) {
 }
 
 function isPortfolioInvestment(record) {
-  return record.postShowDealStatus !== "not_closed";
+  return record.postShowDealStatus !== "not_closed" && record.excludeFromSharkScoring !== true;
 }
 
 export function getSharkMetrics(records, sharks = MAJOR_SHARKS) {

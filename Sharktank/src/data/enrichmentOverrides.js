@@ -1,4 +1,8 @@
 export const enrichmentOverrides = {
+  "s6e1-bombas": {
+    excludeFromSharkScoring: true,
+    portfolioScoringNote: "Excluded from Shark scoring to avoid treating Bombas' company-level revenue as Daymond John's owned-company performance. Bombas remains in the company database as a Shark Tank deal record."
+  },
   "s16e17-go-nutz": {
     description: "Personal grooming razor designed for safer full-body shaving.",
     industry: "Beauty",
