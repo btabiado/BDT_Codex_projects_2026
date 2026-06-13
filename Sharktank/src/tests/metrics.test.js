@@ -6,7 +6,7 @@ import { supplementalRecords } from "../data/supplementalRecords.js";
 import { applyEnrichmentOverrides } from "../lib/enrichment.js";
 import { applyDataCurations, getAnalysisRecords } from "../lib/curateData.js";
 import { normalizeRows } from "../lib/normalizeData.js";
-import { getGlobalMetrics, getSharkMetrics, getTopCompanies, getIndustryMetrics, getSeasonMetrics, getEpisodeCoverage, parseEquityPercent, getInvestorRevenueAttribution } from "../lib/metrics.js";
+import { getGlobalMetrics, getSharkMetrics, getTopCompanies, getIndustryMetrics, getSeasonMetrics, getEpisodeCoverage, getWebsiteHealth, parseEquityPercent, getInvestorRevenueAttribution } from "../lib/metrics.js";
 
 const curatedRecords = applyEnrichmentOverrides(applyDataCurations([...normalizeRows(rawMasterRows), ...supplementalRecords]), enrichmentOverrides);
 const records = getAnalysisRecords(curatedRecords);
@@ -47,6 +47,15 @@ test("returns top companies and industry metrics", () => {
   assert.equal(getTopCompanies(records, { limit: 3 }).length, 3);
   assert.equal(getTopCompanies(records, { limit: 1 })[0].companyName, "Bombas");
   assert.ok(getIndustryMetrics(records).some((metric) => metric.industry === "Food"));
+});
+
+test("summarizes company website health", () => {
+  const web = getWebsiteHealth(records);
+  assert.equal(web.total, records.length);
+  assert.ok(web.withSite > 800); // ~1080 collected
+  assert.equal(web.live, web.up + web.blocked);
+  assert.ok(web.live + web.down <= web.withSite);
+  assert.ok(web.livePctOfTracked > 0 && web.livePctOfTracked <= 1);
 });
 
 test("measures episode coverage against aired-episode counts", () => {

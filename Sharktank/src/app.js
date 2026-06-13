@@ -4,7 +4,7 @@ import { supplementalRecords } from "./data/supplementalRecords.js";
 import { applyEnrichmentOverrides } from "./lib/enrichment.js";
 import { applyDataCurations, getAnalysisRecords } from "./lib/curateData.js";
 import { normalizeRows, MAJOR_SHARKS } from "./lib/normalizeData.js";
-import { getGlobalMetrics, getSharkMetrics, getTopCompanies, getIndustryMetrics, getSeasonMetrics, getEpisodeCoverage } from "./lib/metrics.js";
+import { getGlobalMetrics, getSharkMetrics, getTopCompanies, getIndustryMetrics, getSeasonMetrics, getEpisodeCoverage, getWebsiteHealth } from "./lib/metrics.js";
 import { getQualityReport } from "./lib/qualityChecks.js";
 import { formatCurrency, formatNumber, formatPercent } from "./lib/formatters.js";
 
@@ -172,6 +172,23 @@ function copyLink() {
   return `<button class="copylink" type="button" data-copylink title="Copy a shareable link to this exact view">Copy link</button>`;
 }
 
+// Website liveness, collected locally (curl the company homepage). "blocked" = the
+// site responds but refuses bots (403/429) — i.e. it is up. up/blocked render green/
+// amber (live), down/unreachable red.
+const SITE_LABEL = { up: "Live", blocked: "Live*", down: "Down", unreachable: "Offline" };
+
+function siteBadge(status) {
+  if (!status) return "";
+  const tip = status === "blocked" ? "Reachable but blocks automated checks — treated as live" : `Homepage ${status}`;
+  return `<span class="site-badge site-${html(status)}" title="${tip}">${SITE_LABEL[status] ?? status}</span>`;
+}
+
+function siteCell(record) {
+  if (!record.website) return `<span class="muted">—</span>`;
+  const host = record.website.replace(/^https?:\/\//, "").replace(/\/$/, "");
+  return `<a href="${html(record.website)}" target="_blank" rel="noreferrer" class="site-link site-${html(record.websiteStatus || "unknown")}" title="${html(host)} — ${html(record.websiteStatus || "unknown")}" aria-label="Open ${html(host)} (${html(record.websiteStatus || "unknown")})">↗</a>`;
+}
+
 const FILTER_LABELS = { search: "Search", season: "Season", shark: "Shark", dealStatus: "Deal", businessStatus: "Status", industry: "Industry" };
 
 function activeChips() {
@@ -272,18 +289,19 @@ function companiesPage(rows) {
   const start = (page - 1) * state.pageSize;
   const visibleRows = sorted.slice(start, start + state.pageSize);
   const maxRev = Math.max(1, ...rows.map((record) => record.revenueAmount || 0));
-  return `<section class="panel"><div class="table-head"><div><h1>Company Explorer</h1><p class="muted">${rows.length} companies match the current filters. Showing ${visibleRows.length ? start + 1 : 0}-${Math.min(start + visibleRows.length, sorted.length)}.</p></div><div class="pager">${copyLink()}<button data-page="${page - 1}" ${page <= 1 ? "disabled" : ""}>Previous</button><span>Page ${page} of ${totalPages}</span><button data-page="${page + 1}" ${page >= totalPages ? "disabled" : ""}>Next</button></div></div><table><caption class="sr-only">Companies matching the current filters, sortable by column.</caption><thead><tr>${sortableTh("Company", "companyName")}${sortableTh("Season", "season")}${sortableTh("Deal", "dealStatus")}<th scope="col">Investors</th>${sortableTh("Status", "businessStatus")}${sortableTh("Revenue", "revenueAmount", { num: true })}<th scope="col">Source</th></tr></thead><tbody>${visibleRows.map((record) => {
+  return `<section class="panel"><div class="table-head"><div><h1>Company Explorer</h1><p class="muted">${rows.length} companies match the current filters. Showing ${visibleRows.length ? start + 1 : 0}-${Math.min(start + visibleRows.length, sorted.length)}.</p></div><div class="pager">${copyLink()}<button data-page="${page - 1}" ${page <= 1 ? "disabled" : ""}>Previous</button><span>Page ${page} of ${totalPages}</span><button data-page="${page + 1}" ${page >= totalPages ? "disabled" : ""}>Next</button></div></div><table><caption class="sr-only">Companies matching the current filters, sortable by column.</caption><thead><tr>${sortableTh("Company", "companyName")}${sortableTh("Season", "season")}${sortableTh("Deal", "dealStatus")}<th scope="col">Investors</th>${sortableTh("Status", "businessStatus")}${sortableTh("Revenue", "revenueAmount", { num: true })}<th scope="col">Site</th><th scope="col">Source</th></tr></thead><tbody>${visibleRows.map((record) => {
     const revPct = record.revenueAmount ? Math.round((record.revenueAmount / maxRev) * 100) : 0;
     const revCell = record.revenueAmount
       ? `<td class="num cellbar"><span class="cellbar-fill" style="--w:${revPct}%"></span><b>${formatCurrency(record.revenueAmount)}</b></td>`
       : `<td class="num">${formatCurrency(record.revenueAmount)}</td>`;
-    return `<tr class="company-row" data-company="${html(record.id)}"><td><button class="linklike" data-company="${html(record.id)}">${html(record.companyName)}</button><small>${html(record.description ?? "")}</small></td><td>S${record.season ?? "?"} E${record.episode ?? "?"}</td><td>${html(record.dealStatus.replace("_", " "))}</td><td>${html(record.investors.join(", ") || "N/A")}</td><td>${html(record.businessStatus)}</td>${revCell}<td>${record.sourceUrl ? `<a href="${html(record.sourceUrl)}" target="_blank" rel="noreferrer">Open</a>` : "N/A"}</td></tr>`;
+    return `<tr class="company-row" data-company="${html(record.id)}"><td><button class="linklike" data-company="${html(record.id)}">${html(record.companyName)}</button><small>${html(record.description ?? "")}</small></td><td>S${record.season ?? "?"} E${record.episode ?? "?"}</td><td>${html(record.dealStatus.replace("_", " "))}</td><td>${html(record.investors.join(", ") || "N/A")}</td><td>${html(record.businessStatus)}</td>${revCell}<td>${siteCell(record)}</td><td>${record.sourceUrl ? `<a href="${html(record.sourceUrl)}" target="_blank" rel="noreferrer">Open</a>` : "N/A"}</td></tr>`;
   }).join("")}</tbody></table></section><div id="drawer"></div>`;
 }
 
 function qualityPage(rows) {
   const report = getQualityReport(rows);
-  return `<section class="panel quality-hero"><h1>Data Quality Center</h1><strong>${report.overallScore}/100</strong><p>Weighted completeness, consistency, source coverage, and revenue coverage.</p></section><section class="split"><div class="panel"><h2>Field Completeness</h2><table><caption class="sr-only">Field completeness across all records.</caption><thead><tr><th scope="col">Field</th><th scope="col" class="num">Complete</th><th scope="col" class="num">Missing</th><th scope="col" class="num">Coverage</th></tr></thead><tbody>${report.completeness.map((field) => `<tr><th scope="row"><span class="dot ${field.severity}"></span>${field.field}</th><td class="num">${field.complete}</td><td class="num">${field.missing}</td><td class="num">${formatPercent(field.percent)}</td></tr>`).join("")}</tbody></table></div><div class="panel"><h2>Coverage and Exceptions</h2><div class="bars">${report.seasonCoverage.map((item) => `<label>S${item.season}<span data-w="${Math.max(6, item.count * 8)}%" style="--w:0"></span><b>${item.count}</b></label>`).join("")}</div><p>Quarantined import artifacts: ${excludedArtifacts}</p><p>Duplicate groups: ${report.duplicates.length}</p><p>Missing deal investors: ${report.investorQuality.missingDealInvestors}</p><p>Missing revenue: ${report.revenueQuality.missing}</p><p>Missing source URLs: ${report.sourceQuality.missing}</p></div></section>`;
+  const web = getWebsiteHealth(rows);
+  return `<section class="panel quality-hero"><h1>Data Quality Center</h1><strong>${report.overallScore}/100</strong><p>Weighted completeness, consistency, source coverage, and revenue coverage.</p></section><section class="split"><div class="panel"><h2>Field Completeness</h2><table><caption class="sr-only">Field completeness across all records.</caption><thead><tr><th scope="col">Field</th><th scope="col" class="num">Complete</th><th scope="col" class="num">Missing</th><th scope="col" class="num">Coverage</th></tr></thead><tbody>${report.completeness.map((field) => `<tr><th scope="row"><span class="dot ${field.severity}"></span>${field.field}</th><td class="num">${field.complete}</td><td class="num">${field.missing}</td><td class="num">${formatPercent(field.percent)}</td></tr>`).join("")}</tbody></table></div><div class="panel"><h2>Coverage and Exceptions</h2><div class="bars">${report.seasonCoverage.map((item) => `<label>S${item.season}<span data-w="${Math.max(6, item.count * 8)}%" style="--w:0"></span><b>${item.count}</b></label>`).join("")}</div><p>Quarantined import artifacts: ${excludedArtifacts}</p><p>Duplicate groups: ${report.duplicates.length}</p><p>Missing deal investors: ${report.investorQuality.missingDealInvestors}</p><p>Missing revenue: ${report.revenueQuality.missing}</p><p>Missing source URLs: ${report.sourceQuality.missing}</p><p>Company websites tracked: ${web.withSite} (${web.live} live — ${web.up} up, ${web.blocked} bot-blocked; ${web.down} down/offline)</p></div></section>`;
 }
 
 function sharksPage(rows) {
@@ -430,7 +448,8 @@ document.addEventListener("click", (event) => {
     lastDrawerTrigger = companyTrigger;
     const postShowStatus = record.postShowDealStatus ? `<div><dt>Post-show Deal</dt><dd>${html(record.postShowDealStatus.replace("_", " "))}</dd></div>` : "";
     const scoringNote = record.portfolioScoringNote ? `<div><dt>Scoring Note</dt><dd>${html(record.portfolioScoringNote)}</dd></div>` : "";
-    document.querySelector("#drawer").innerHTML = `<div class="drawer-backdrop" data-close></div><aside class="drawer" role="dialog" aria-modal="true" aria-label="${html(record.companyName)} details"><button class="close" data-close aria-label="Close details">Close</button><h2>${html(record.companyName)}</h2><p>${html(record.description ?? "")}</p><dl><div><dt>Season</dt><dd>${record.season ?? "N/A"} / Episode ${record.episode ?? "N/A"}</dd></div><div><dt>Deal Terms</dt><dd>${html(record.dealTermsRaw ?? "N/A")}</dd></div>${postShowStatus}<div><dt>Investors</dt><dd>${html(record.investors.join(", ") || "N/A")}</dd></div><div><dt>Revenue</dt><dd>${html(record.revenueRaw ?? "N/A")}</dd></div><div><dt>Status</dt><dd>${html(record.businessStatus)}</dd></div>${scoringNote}</dl></aside>`;
+    const websiteRow = record.website ? `<div><dt>Website</dt><dd><a href="${html(record.website)}" target="_blank" rel="noreferrer">${html(record.website.replace(/^https?:\/\//, "").replace(/\/$/, ""))}</a> ${siteBadge(record.websiteStatus)}</dd></div>` : "";
+    document.querySelector("#drawer").innerHTML = `<div class="drawer-backdrop" data-close></div><aside class="drawer" role="dialog" aria-modal="true" aria-label="${html(record.companyName)} details"><button class="close" data-close aria-label="Close details">Close</button><h2>${html(record.companyName)}</h2><p>${html(record.description ?? "")}</p><dl><div><dt>Season</dt><dd>${record.season ?? "N/A"} / Episode ${record.episode ?? "N/A"}</dd></div><div><dt>Deal Terms</dt><dd>${html(record.dealTermsRaw ?? "N/A")}</dd></div>${postShowStatus}<div><dt>Investors</dt><dd>${html(record.investors.join(", ") || "N/A")}</dd></div><div><dt>Revenue</dt><dd>${html(record.revenueRaw ?? "N/A")}</dd></div><div><dt>Status</dt><dd>${html(record.businessStatus)}</dd></div>${websiteRow}${scoringNote}</dl></aside>`;
     document.querySelector("#drawer .close")?.focus();
   }
   if (event.target.closest("[data-close]")) closeDrawer();

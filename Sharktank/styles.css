@@ -460,6 +460,36 @@ th[scope="row"] {
   font-weight: 600;
 }
 
+.site-link {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.site-badge {
+  font-family: var(--mono);
+  font-size: 11px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+}
+
+.site-up {
+  color: var(--good);
+}
+
+.site-blocked {
+  color: var(--warn);
+}
+
+.site-down,
+.site-unreachable {
+  color: var(--risk);
+}
+
+.site-link.site-unknown {
+  color: var(--muted);
+}
+
 th.sortable {
   padding: 0;
   white-space: nowrap;

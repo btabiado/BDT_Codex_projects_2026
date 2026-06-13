@@ -1,7 +1,9 @@
 export const enrichmentOverrides = {
   "s6e1-bombas": {
     "excludeFromSharkScoring": true,
-    "portfolioScoringNote": "Excluded from Shark scoring to avoid treating Bombas' company-level revenue as Daymond John's owned-company performance. Bombas remains in the company database as a Shark Tank deal record."
+    "portfolioScoringNote": "Excluded from Shark scoring to avoid treating Bombas' company-level revenue as Daymond John's owned-company performance. Bombas remains in the company database as a Shark Tank deal record.",
+    "website": "https://bombas.com",
+    "websiteStatus": "up"
   },
   "s16e17-go-nutz": {
     "description": "Personal grooming razor designed for safer full-body shaving.",
@@ -19,7 +21,9 @@ export const enrichmentOverrides = {
     "revenueDate": "2025-04-18 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/go-nutz/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/go-nutz/ | https://abc.com/news/4dfd1f4a-a319-4f6c-9203-45a3bcdaf4d8/category/2887649 | https://www.tmj4.com/news/kenosha-county/from-kenosha-to-shark-tank-local-entrepreneur-lands-life-changing-deal",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://thegonutz.com",
+    "websiteStatus": "up"
   },
   "s16e17-frame-your-feline": {
     "description": "A cat shelf system designed to display and exercise indoor cats.",
@@ -33,7 +37,9 @@ export const enrichmentOverrides = {
     "revenueDate": "2025-04-18 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/frame-your-feline/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/frame-your-feline/ | https://abc.com/news/4dfd1f4a-a319-4f6c-9203-45a3bcdaf4d8/category/2887649",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://frameyourfeline.com",
+    "websiteStatus": "up"
   },
   "s16e17-essence": {
     "description": "False eyelash brand focused on reusable magnetic lashes.",
@@ -50,7 +56,9 @@ export const enrichmentOverrides = {
     "revenueDate": "2025-04-18 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/essence/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/essence/ | https://abc.com/news/4dfd1f4a-a319-4f6c-9203-45a3bcdaf4d8/category/2887649",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://essencering.com",
+    "websiteStatus": "up"
   },
   "s16e17-mad-mutz": {
     "description": "Dog hats and accessories designed for pet comfort and style.",
@@ -67,7 +75,9 @@ export const enrichmentOverrides = {
     "revenueDate": "2025-04-18 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/mad-mutz/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/mad-mutz/ | https://abc.com/news/4dfd1f4a-a319-4f6c-9203-45a3bcdaf4d8/category/2887649",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://madmutz.com",
+    "websiteStatus": "up"
   },
   "s16e18-jaju-pierogi": {
     "description": "Family-made Eastern European pierogi sold through grocery channels.",
@@ -81,7 +91,9 @@ export const enrichmentOverrides = {
     "revenueDate": "2025-05-02 pitch-year projection",
     "sourceUrl": "https://www.sharktankblog.com/business/jaju-pierogi/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/jaju-pierogi/ | https://abc.com/news/3a8bcc1a-accc-4774-9828-3efbf77ffd9c/category/2887649",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://jajupierogi.com",
+    "websiteStatus": "up"
   },
   "s16e18-permaplug-charger-lock": {
     "description": "Charger-locking product designed to prevent lost phone chargers.",
@@ -98,7 +110,9 @@ export const enrichmentOverrides = {
     "revenueDate": "2025-05-02 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/permaplug-charger-lock/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/permaplug-charger-lock/ | https://abc.com/news/3a8bcc1a-accc-4774-9828-3efbf77ffd9c/category/2887649",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://permaplug.com",
+    "websiteStatus": "up"
   },
   "s16e18-fanion": {
     "description": "Kitchen fan built to reduce onion fumes while chopping.",
@@ -112,7 +126,9 @@ export const enrichmentOverrides = {
     "revenueDate": "2025-05-02 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/fanion/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/fanion/ | https://abc.com/news/3a8bcc1a-accc-4774-9828-3efbf77ffd9c/category/2887649",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://myfanion.com",
+    "websiteStatus": "up"
   },
   "s16e18-rocco": {
     "description": "Smart mini fridge designed for canned and bottled drinks.",
@@ -129,7 +145,9 @@ export const enrichmentOverrides = {
     "revenueDate": "2025-05-02 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/rocco/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/rocco/ | https://abc.com/news/3a8bcc1a-accc-4774-9828-3efbf77ffd9c/category/2887649",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://roccofridge.com",
+    "websiteStatus": "up"
   },
   "s16e19-esai": {
     "description": "Ethical AI tool for college applications, essays, and student profiles.",
@@ -147,7 +165,9 @@ export const enrichmentOverrides = {
     "revenueDate": "2025-05-09 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/esai/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/esai/ | https://abc.com/news/6b601d8b-3b22-481b-a0cc-14079b5204d5/category/2887649",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://esai.ai",
+    "websiteStatus": "up"
   },
   "s16e19-mirai-clinical": {
     "description": "Personal-care brand using Japanese persimmon for deodorizing products.",
@@ -161,7 +181,9 @@ export const enrichmentOverrides = {
     "revenueDate": "2025-05-09 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/mirai-clinical/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/mirai-clinical/ | https://abc.com/news/6b601d8b-3b22-481b-a0cc-14079b5204d5/category/2887649",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://miraiclinical.com",
+    "websiteStatus": "up"
   },
   "s16e19-cricket-s-candy-creations": {
     "description": "Candy crafting kits and experiential candy activities for kids.",
@@ -175,7 +197,9 @@ export const enrichmentOverrides = {
     "revenueDate": "2025-05-09 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/crickets-candy-creations/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/crickets-candy-creations/ | https://abc.com/news/6b601d8b-3b22-481b-a0cc-14079b5204d5/category/2887649",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://cricketscandy.com",
+    "websiteStatus": "up"
   },
   "s16e19-morrison-outdoors": {
     "description": "Camping sleeping bags for babies, kids, and parents.",
@@ -193,7 +217,9 @@ export const enrichmentOverrides = {
     "revenueDate": "2025-05-09 pitch / post-air report",
     "sourceUrl": "https://www.sharktankblog.com/business/morrison-outdoors/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/morrison-outdoors/ | https://abc.com/news/6b601d8b-3b22-481b-a0cc-14079b5204d5/category/2887649 | https://www.koat.com/article/shark-tank-albuquerque-entrepreneur-strikes-deal-falls-through-post-filming/64731969 | https://morrisonoutdoors.com/blogs/blog/morrison-outdoors-on-shark-tank-reflections-from-the-show",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://morrisonoutdoors.com",
+    "websiteStatus": "up"
   },
   "s16e20-tick-mitt": {
     "description": "Mitten-style tick-removal tool for people and pets.",
@@ -207,7 +233,9 @@ export const enrichmentOverrides = {
     "revenueDate": "2025-05-16 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/tick-mitt/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/tick-mitt/ | https://abc.com/news/c0e5b439-24ab-426b-886a-4a32db38d4d9/category/2887649",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://tickmitt.com",
+    "websiteStatus": "up"
   },
   "s16e20-stringys": {
     "description": "Seamless invisible underwear brand.",
@@ -224,7 +252,9 @@ export const enrichmentOverrides = {
     "revenueDate": "2025-05-16 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/stringys/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/stringys/ | https://abc.com/news/c0e5b439-24ab-426b-886a-4a32db38d4d9/category/2887649 | https://www.linkedin.com/posts/barbaracorcoran_welcome-to-the-family-stringys-activity-7330230753185730561-GU2I",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://stringys.com",
+    "websiteStatus": "up"
   },
   "s16e20-deviled-egg-co": {
     "description": "Gourmet deviled eggs with flavored yolks and toppings.",
@@ -242,7 +272,9 @@ export const enrichmentOverrides = {
     "revenueDate": "2024 forecast / 2025-05-16 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/deviled-egg-co/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/deviled-egg-co/ | https://www.thewrap.com/shark-tank-mark-cuban-final-episode-season-16/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://deviledeggco.com",
+    "websiteStatus": "up"
   },
   "s16e20-big-ass-luxuries": {
     "description": "Oversized luxury candles and related home-fragrance products.",
@@ -259,26 +291,34 @@ export const enrichmentOverrides = {
     "revenueDate": "2025 pitch-year expectation",
     "sourceUrl": "https://www.sharktankblog.com/business/big-ass-luxuries/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/big-ass-luxuries/ | https://abc.com/news/c0e5b439-24ab-426b-886a-4a32db38d4d9/category/2887649",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://bigassluxuries.com",
+    "websiteStatus": "up"
   },
   "s17e1-doublesoul": {
     "businessStatus": "active",
     "sourceUrl": "https://www.sharktankblog.com/business/doublesoul/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/doublesoul/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://doublesoul.co",
+    "websiteStatus": "blocked"
   },
   "s17e1-z-coil": {
     "revenueAmount": 1600000,
     "revenueRaw": "$1.6 million in 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/z-coil/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/z-coil/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://zcoil.com",
+    "websiteStatus": "up"
   },
   "s17e4-retrievair": {
     "businessStatus": "active",
     "sourceUrl": "https://www.sharktankblog.com/business/retrievair/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/retrievair/ | https://www.primetimer.com/features/shark-tank-update-what-happened-to-retrieveair-after-appearing-on-the-show",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://retrievair.com",
+    "websiteStatus": "blocked"
   },
   "s17e6-shalom-japan": {
     "businessStatus": "active",
@@ -286,26 +326,34 @@ export const enrichmentOverrides = {
     "revenueRaw": "their earnings stood at $17,000 (at time of Shark Tank appearance)",
     "sourceUrl": "https://www.sharktankblog.com/business/shalom-japan/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/shalom-japan/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://shalomjapannyc.com",
+    "websiteStatus": "up"
   },
   "s17e9-cabana-boys": {
     "businessStatus": "active",
     "sourceUrl": "https://www.sharktankblog.com/business/cabana-boys-events/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/cabana-boys-events/ | https://sharktankrecap.com/cabana-boys-events-update/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://partyhostboys.com",
+    "websiteStatus": "up"
   },
   "s17e10-left-field": {
     "businessStatus": "active",
     "sourceUrl": "https://www.sharktankblog.com/business/left-field/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/left-field/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://left-field.co",
+    "websiteStatus": "down"
   },
   "s17e11-somnia": {
     "revenueAmount": 188000,
     "revenueRaw": "After launching in 2024, the brand earned $188,000 and was projected to reach $450,000 by the end of 2025",
     "sourceUrl": "https://www.sharktankblog.com/business/somnia/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/somnia/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://somniaplus.co",
+    "websiteStatus": "up"
   },
   "s16e1-little-saints": {
     "dealStatus": "no_deal",
@@ -490,7 +538,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$740,000 in sales that year (at the time of the pitch, Season 16)",
     "sourceUrl": "https://www.sharktankblog.com/business/chalkless/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/chalkless/ | https://sharktankseason.com/shark-tank-usa-season/season-16/chalkless",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://chalkless.com",
+    "websiteStatus": "up"
   },
   "s16e5-chompshop": {
     "dealStatus": "deal",
@@ -708,7 +758,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.1 million in revenue and $650K in profit last year (at time of pitch, 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/nameberry/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/nameberry/ | https://sharktankrecap.com/nameberry-update-shark-tank-season-16/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://nameberry.com",
+    "websiteStatus": "up"
   },
   "s16e10-rinseroo": {
     "dealStatus": "deal",
@@ -719,7 +771,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "First-year sales of $1 million; total sales crossed $5 million as of 2024 (projected $5M at pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/rinseroo/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/rinseroo/ | https://sharktankrecap.com/rinseroo-update-shark-tank-season-16/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://rinseroo.com",
+    "websiteStatus": "up"
   },
   "s16e10-tabeeze": {
     "dealStatus": "deal",
@@ -728,7 +782,9 @@ export const enrichmentOverrides = {
     "industry": "Baby & Kids",
     "sourceUrl": "https://www.sharktankblog.com/business/tabeeze/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/tabeeze/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://tabeeze.com",
+    "websiteStatus": "up"
   },
   "s16e11-flamingo": {
     "dealStatus": "deal",
@@ -739,7 +795,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$318,000 in revenue in the past year (at time of pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/flamingo/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/flamingo/ | https://www.ppai.org/media-hub/flamingo-pre-charged-phone-chargers-lands-shark-tank-deal/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://flamingocharger.com",
+    "websiteStatus": "up"
   },
   "s16e11-lectec": {
     "dealStatus": "deal",
@@ -750,7 +808,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Made $146,000 in sales before appearing on Shark Tank",
     "sourceUrl": "https://www.sharktankblog.com/business/lectec/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/lectec/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://lectec.com",
+    "websiteStatus": "up"
   },
   "s16e11-joyebell": {
     "dealStatus": "no_deal",
@@ -761,7 +821,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "2023 annual sales of $7.7 million; $16.1 million cumulative since 2019 launch",
     "sourceUrl": "https://www.sharktankblog.com/business/joyebells/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/joyebells/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://joyebells.com",
+    "websiteStatus": "down"
   },
   "s16e11-bumpeez": {
     "dealStatus": "deal",
@@ -782,7 +844,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Made $75K worth of sales since starting in April 2024 (at pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/kiid-coffee/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/kiid-coffee/ | https://www.cnbc.com/2025/03/12/kiid-coffee-8-year-old-pitched-business-and-got-deal-on-shark-tank.html",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kiidcoffee.com",
+    "websiteStatus": "up"
   },
   "s16e12-goodlove-foods": {
     "dealStatus": "deal",
@@ -793,7 +857,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$360,000 in revenue in the 12 months before the episode was filmed",
     "sourceUrl": "https://www.sharktankblog.com/business/goodlove-foods/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/goodlove-foods/ | https://businessden.com/2025/03/11/goodlove-lori-greiner-deal-episode/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://goodlovefoods.com",
+    "websiteStatus": "up"
   },
   "s16e12-happy-birdwatcher-co": {
     "dealStatus": "no_deal",
@@ -815,7 +881,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "generated $620K in sales over the ~10 months on market, as of Season 16 pitch (aired 2025)",
     "sourceUrl": "https://www.sharktankblog.com/business/remento/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/remento/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://remento.co",
+    "websiteStatus": "up"
   },
   "s16e13-hella-awkward": {
     "dealStatus": "deal",
@@ -826,7 +894,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$600,000 in lifetime sales, as of Season 16 Episode 13 pitch (aired 2025)",
     "sourceUrl": "https://www.sharktankblog.com/business/hella-awkward/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/hella-awkward/ | https://sharktankrecap.com/hella-awkward-update-shark-tank-season-16/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://awkwardgames.com",
+    "websiteStatus": "up"
   },
   "s16e13-dig-world": {
     "dealStatus": "deal",
@@ -837,7 +907,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Last year they did $1.2 million, and this year on track to do a bit over $1.5 million (as of Season 16 pitch, aired 2025)",
     "sourceUrl": "https://www.sharktankblog.com/business/dig-world/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/dig-world/ | https://abc13.com/post/katys-construction-theme-park-dig-world-receives-200k-deal-abcs-shark-tank/16044832/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://digworldnation.com",
+    "websiteStatus": "up"
   },
   "s16e13-dome-deck": {
     "dealStatus": "deal",
@@ -848,7 +920,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Cumulative sales since 2019 launch of $7.5 million, as of Season 16 Episode 13 pitch (aired 2025)",
     "sourceUrl": "https://www.sharktankblog.com/business/dome-dock/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/dome-dock/ | https://sharktankrecap.com/domedock-update-shark-tank-season-16/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://domedock.com",
+    "websiteStatus": "up"
   },
   "s16e13-riverbend-resources": {
     "dealStatus": "deal",
@@ -859,7 +933,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $3 million in lifetime sales, as of Season 16 Episode 13 pitch (aired 2025)",
     "sourceUrl": "https://www.sharktankblog.com/business/riverbend/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/riverbend/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://riverbendresources.com",
+    "websiteStatus": "up"
   },
   "s16e14-firefly-recovery": {
     "dealStatus": "deal",
@@ -869,7 +945,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales are $7.5 million; last 12 months sales were $4 million (as of Season 16 pitch, aired 2025)",
     "sourceUrl": "https://www.sharktankblog.com/business/firefly-recovery/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/firefly-recovery/ | https://sharktankrecap.com/firefly-recovery-update-shark-tank-season-16/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://recoveryfirefly.com",
+    "websiteStatus": "up"
   },
   "s16e14-bam": {
     "dealStatus": "no_deal",
@@ -889,7 +967,9 @@ export const enrichmentOverrides = {
     "industry": "Technology",
     "sourceUrl": "https://www.sharktankblog.com/business/blackdot/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/blackdot/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://blackdot.tattoo",
+    "websiteStatus": "up"
   },
   "s16e14-duzter": {
     "dealStatus": "deal",
@@ -900,7 +980,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$326,000 in lifetime sales over two years (as of pitch, Season 16)",
     "sourceUrl": "https://www.sharktankblog.com/business/duzter/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/duzter/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://duzter.com",
+    "websiteStatus": "up"
   },
   "s16e15-history-by-mail": {
     "dealStatus": "deal",
@@ -911,7 +993,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.075 million in the last 12 months (~$3M cumulative over 5 years) at time of pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/history-by-mail/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/history-by-mail/ | https://www.primetimer.com/features/what-happened-to-history-by-mail-after-appearing-on-shark-tank-details-explored",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://historybymail.com",
+    "websiteStatus": "up"
   },
   "s16e15-dream-park": {
     "dealStatus": "no_deal",
@@ -931,7 +1015,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3.5 million in lifetime sales (as of pitch, Season 16); ~$300K-$400K annual",
     "sourceUrl": "https://www.sharktankblog.com/business/cowpots/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/cowpots/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wp.me",
+    "websiteStatus": "up"
   },
   "s16e15-paper-tacos": {
     "dealStatus": "deal",
@@ -942,7 +1028,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$152,000 in sales with $60,000 profit (at time of episode filming)",
     "sourceUrl": "https://www.sharktankblog.com/business/paper-tacos/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/paper-tacos/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://papertacos.com",
+    "websiteStatus": "up"
   },
   "s16e16-jane-foodie": {
     "dealStatus": "deal",
@@ -953,7 +1041,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $1.1 million in lifetime sales (as of pitch, Season 16)",
     "sourceUrl": "https://www.sharktankblog.com/business/jane-foodie/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/jane-foodie/ | https://www.sharktankblog.com/how-jane-foodie-turned-a-lori-greiner-shark-tank-deal-into-1-2-million-in-sales/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://janefoodie.com",
+    "websiteStatus": "up"
   },
   "s16e16-airtulip": {
     "dealStatus": "no_deal",
@@ -962,7 +1052,9 @@ export const enrichmentOverrides = {
     "industry": "Health",
     "sourceUrl": "https://www.sharktankblog.com/business/airtulip/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/airtulip/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://airtulip.co",
+    "websiteStatus": "up"
   },
   "s16e16-sock-candy": {
     "dealStatus": "deal",
@@ -972,7 +1064,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$826,000 in year-to-date sales (at pitch, S16E16); projecting $1.4 million for the year",
     "sourceUrl": "https://www.sharktankblog.com/business/sock-candy/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/sock-candy/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sockcandy.com",
+    "websiteStatus": "up"
   },
   "s16e16-ruff-liners": {
     "dealStatus": "deal",
@@ -983,7 +1077,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3.1 million in sales this year (at pitch, S16E16); 2023 sales $1.25 million",
     "sourceUrl": "https://www.sharktankblog.com/business/ruff-liners/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/ruff-liners/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://ruffliners.com",
+    "websiteStatus": "up"
   },
   "s15e2-toast-it": {
     "businessStatus": "active",
@@ -995,7 +1091,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Sales for 2022 were $200,000; $190,000 five months into 2023 (at pitch, S15E2)",
     "sourceUrl": "https://www.sharktankblog.com/business/toast-it/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/toast-it/ | https://sharktankrecap.com/toast-it-arepas-shark-tank-season-15/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://toastitfoods.com",
+    "websiteStatus": "up"
   },
   "s15e3-bot-it": {
     "businessStatus": "active",
@@ -1007,7 +1105,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "just over $30,000 in sales with over 350 subscribers (at taping, S15E3)",
     "sourceUrl": "https://www.sharktankblog.com/business/bot-it/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bot-it/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://botit.com",
+    "websiteStatus": "up"
   },
   "s15e3-glove-wrap": {
     "businessStatus": "active",
@@ -1019,7 +1119,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over 1,000 glove wraps sold and over $19,000 in sales (at pitch, S15E3)",
     "sourceUrl": "https://www.sharktankblog.com/business/glove-wrap/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/glove-wrap/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://glovewrap.com",
+    "websiteStatus": "up"
   },
   "s15e3-dating-by-blaine": {
     "businessStatus": "active",
@@ -1031,7 +1133,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2.2 million in cumulative sales since 2020; projecting $1.5 million for 2023 (at pitch, S15E3)",
     "sourceUrl": "https://www.sharktankblog.com/business/dating-by-blaine/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/dating-by-blaine/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://datingbyblaine.com",
+    "websiteStatus": "up"
   },
   "s15e4-paddlesmash": {
     "businessStatus": "active",
@@ -1043,7 +1147,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$700,000 in sales at time of pitch (launched ~9 months before filming, at break-even)",
     "sourceUrl": "https://www.sharktankblog.com/business/paddlesmash/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/paddlesmash/ | https://meaww.com/shark-tank-season-15-why-did-paddle-smash-reject-kevin-o-learys-offer-firm-joins-hands-with-dallas-pickleball-club-owners",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://paddlesmash.com",
+    "websiteStatus": "up"
   },
   "s15e4-buena-papa": {
     "businessStatus": "active",
@@ -1078,7 +1184,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "about $900,000 in sales in the 12 months prior to filming",
     "sourceUrl": "https://www.sharktankblog.com/business/flaus/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/flaus/ | https://www.cnbc.com/2024/05/07/shark-tank-how-electric-flosser-startup-flaus-got-six-figure-offer.html",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://goflaus.com",
+    "websiteStatus": "up"
   },
   "s14e1-kent": {
     "businessStatus": "active",
@@ -1091,7 +1199,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "more than $500,000 in sales for 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/kent/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/kent/ | https://sharktankrecap.com/kent-update-shark-tank-season-14/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wearkent.com",
+    "websiteStatus": "up"
   },
   "s14e1-oogiebear": {
     "businessStatus": "active",
@@ -1105,7 +1215,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "between $5-$6 million in sales as of April 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/oogiebear/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/oogiebear/ | https://www.sportskeeda.com/pop-culture/oogiebear-update-what-happened-barbara-corcoran-robert-herjavec-invested-business-after-shark-tank",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://oogiebear.com",
+    "websiteStatus": "up"
   },
   "s14e1-pizzapack": {
     "businessStatus": "active",
@@ -1156,7 +1268,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$110,000 year-to-date sales at pitch in 2022 (up from $147,000 in 2021)",
     "sourceUrl": "https://www.sharktankblog.com/business/stealth-bros-and-company/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/stealth-bros-and-company/ | https://sharktankrecap.com/stealth-bros-and-co-update-shark-tank-season-14/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://stealthbrosco.com",
+    "websiteStatus": "up"
   },
   "s14e3-stakt": {
     "businessStatus": "active",
@@ -1167,7 +1281,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $110,000 in sales in first 6.5 months at time of pitch",
     "sourceUrl": "https://sharktankblog.com/business/stakt/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/stakt/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://shopstakt.com",
+    "websiteStatus": "up"
   },
   "s14e3-create-a-castle": {
     "businessStatus": "active",
@@ -1180,7 +1296,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Projected revenue exceeded $4 million as of 2024",
     "sourceUrl": "https://sharktankblog.com/business/create-a-castle/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/create-a-castle/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://createacastle.com",
+    "websiteStatus": "up"
   },
   "s14e4-storage-scholars": {
     "businessStatus": "active",
@@ -1192,7 +1310,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$7 million in revenue as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/storage-scholars/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/storage-scholars/ | https://www.cnbc.com/2022/10/17/shark-tank-mark-cuban-invests-in-dorm-room-startup-storage-scholars.html",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://storagescholars.com",
+    "websiteStatus": "up"
   },
   "s14e4-woosh": {
     "businessStatus": "inactive",
@@ -1201,7 +1321,9 @@ export const enrichmentOverrides = {
     "industry": "Consumer Goods",
     "sourceUrl": "https://sharktankblog.com/business/woosh/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/woosh/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wooshair.com",
+    "websiteStatus": "up"
   },
   "s14e5-plufl": {
     "businessStatus": "active",
@@ -1215,7 +1337,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $4 million in lifetime sales (over 12,000 units) as of August 2024",
     "sourceUrl": "https://sharktankblog.com/business/plufl/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/plufl/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://weareplufl.com",
+    "websiteStatus": "up"
   },
   "s14e5-bidal-babes": {
     "businessStatus": "active",
@@ -1228,7 +1352,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Surpassed $4 million in lifetime sales as of August 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/bridal-babes/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bridal-babes/ | https://sharktankrecap.com/bridal-babes-update-shark-tank-season-14/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bridalbabes.co",
+    "websiteStatus": "up"
   },
   "s14e5-pretty-rugged": {
     "businessStatus": "active",
@@ -1242,7 +1368,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $3 million in annual revenue as of June 2024 (lifetime sales ~$3M)",
     "sourceUrl": "https://sharktankblog.com/business/pretty-rugged/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pretty-rugged/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://prettyruggedshop.com",
+    "websiteStatus": "up"
   },
   "s14e6-collars-co": {
     "businessStatus": "active",
@@ -1256,7 +1384,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime revenue surpassed $20 million by the update segment",
     "sourceUrl": "https://sharktankblog.com/business/collars-and-co/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/collars-and-co/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://collarsandco.com",
+    "websiteStatus": "up"
   },
   "s14e6-squareone-mini-keg": {
     "businessStatus": "active",
@@ -1283,7 +1413,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$750,000 in sales by end of 2022",
     "sourceUrl": "https://sharktankblog.com/business/nana-hats/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/nana-hats/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://nanahats.com",
+    "websiteStatus": "up"
   },
   "s14e6-wondry": {
     "businessStatus": "active",
@@ -1296,7 +1428,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.1 million in total sales; surpassed $1 million by January 2022",
     "sourceUrl": "https://sharktankblog.com/business/wondry/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/wondry/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wondrywine.com",
+    "websiteStatus": "up"
   },
   "s14e7-boarderie": {
     "businessStatus": "active",
@@ -1309,7 +1443,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$15 million in annual revenue (November 2023); ~$61M projected for year-end 2024",
     "sourceUrl": "https://sharktankblog.com/business/boarderie/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/boarderie/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://boarderie.com",
+    "websiteStatus": "up"
   },
   "s14e7-ride-frsh": {
     "businessStatus": "active",
@@ -1322,7 +1458,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2.2 million in combined subscription and retail annual revenue by end of 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/frsh/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/frsh/ | https://seriosity.com/ride-frsh-shark-tank-update/ | https://www.cnbc.com/2022/11/21/shark-tank-mark-cuban-rejected-ride-frsh-for-dumbest-marketing-move.html",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://ridefrsh.com",
+    "websiteStatus": "up"
   },
   "s14e7-action-glow": {
     "businessStatus": "active",
@@ -1345,7 +1483,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approx. $1.9 million annual revenue (estimated net worth ~$6 million), as of 2025",
     "sourceUrl": "https://www.sharktankblog.com/business/legacy-shave/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/legacy-shave/ | https://screenrant.com/legacy-shave-shark-tank-product-explained-where-now/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://legacyshave.com",
+    "websiteStatus": "up"
   },
   "s14e8-hummviewer": {
     "businessStatus": "active",
@@ -1358,7 +1498,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "on track to do over $500,000 in sales for the year, as of July 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/hummviewer/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/hummviewer/ | https://seriosity.com/hummviewer-shark-tank-update/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hummviewer.com",
+    "websiteStatus": "up"
   },
   "s14e8-slimeyhoney": {
     "businessStatus": "active",
@@ -1371,7 +1513,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "estimated $5 million annually, as of July 2024 (lifetime sales ~$3.5 million as of Sept 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/sliimey-honey/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/sliimey-honey/ | https://www.cnbc.com/2022/12/05/shark-tank-slime-teen-mark-lins-sliimeyhoney-lands-daymond-john-deal.html",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sliimeyhoney.com",
+    "websiteStatus": "up"
   },
   "s14e8-firefighter1": {
     "businessStatus": "active",
@@ -1398,7 +1542,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue of $500,000, as of July 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/shredskinz/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/shredskinz/ | https://www.looper.com/1492316/whatever-happened-shredskinz-sauna-suit-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://shredskinz.shop",
+    "websiteStatus": "unreachable"
   },
   "s14e9-ready-festive": {
     "businessStatus": "active",
@@ -1425,7 +1571,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "grown to around $650,000 in annual revenue post-show (total sales ~$277,000 as of original air date)",
     "sourceUrl": "https://www.sharktankblog.com/business/zipstring/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/zipstring/ | https://thecinemaholic.com/zipstring-shark-tank-update-where-are-they-now/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://zipstring.com",
+    "websiteStatus": "up"
   },
   "s14e9-chessup": {
     "businessStatus": "active",
@@ -1438,7 +1586,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual sales projected at $1.4 million (YTD sales $400,000 summer 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/chessup/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/chessup/ | https://www.slashgear.com/1668240/what-happened-chessup-smart-chessboard-lessons-shark-tank-season-14/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://u.openx.net",
+    "websiteStatus": "down"
   },
   "s14e9-garage-celebrations": {
     "businessStatus": "active",
@@ -1465,7 +1615,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "estimated $6-7 million in sales in 2023 (20 million diapers sold)",
     "sourceUrl": "https://www.sharktankblog.com/business/kudos/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/kudos/ | https://sharktanksuccess.com/kudos/ | https://meaww.com/shark-tank-kudos-bags-250-k-joint-deal-from-mark-cuban-and-gwyneth-paltrow",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://mykudos.com",
+    "websiteStatus": "up"
   },
   "s14e10-jicafoods": {
     "businessStatus": "inactive",
@@ -1478,7 +1630,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in 2021 sales (per pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/jica-foods/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/jica-foods/ | https://www.foodrepublic.com/2019653/jicafoods-shark-tank-now/ | https://www.thetakeout.com/2067783/what-happened-shark-tank-jicafoods/ | https://techiegamers.com/jicafoods-shark-tank/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://jicafoods.com",
+    "websiteStatus": "down"
   },
   "s14e11-cabinet-health": {
     "businessStatus": "active",
@@ -1491,7 +1645,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$25 million in annual revenue (mid-2023); $14 million in 2022 at pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/cabinet-health/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/cabinet-health/ | https://sharktankrecap.com/cabinet-health-update-shark-tank-season-14/ | https://sharktanksuccess.com/cabinet-health-update-after-shark-tank/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://cabinethealth.com",
+    "websiteStatus": "up"
   },
   "s14e11-wildwonder": {
     "businessStatus": "active",
@@ -1504,7 +1660,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.1 million in revenue at time of pitch (2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/wildwonder/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/wildwonder/ | https://www.foodrepublic.com/1767508/wildwonder-shark-tank-now/ | https://sharktankrecap.com/wild-wonder-update-shark-tank-season-14/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://drinkwildwonder.com",
+    "websiteStatus": "up"
   },
   "s14e11-kinfield": {
     "businessStatus": "active",
@@ -1518,7 +1676,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4 million in annual revenue (as of June 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/kinfield/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/kinfield/ | https://meaww.com/shark-tank-season-14-lori-greiner-retracts-offer-tony-xu-barbara-corcoran-jointly-invest-kinfield | https://sharktankseason.com/shark-tank-usa-season/season-14/kinfield",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://kinfield.com",
+    "websiteStatus": "up"
   },
   "s14e12-frescos-naturales": {
     "businessStatus": "active",
@@ -1532,7 +1692,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "grown to ~$850,000 in annual revenue (projected 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/frescos-naturales/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/frescos-naturales/ | https://sharktanksuccess.com/frescos-naturales/ | https://sharktankseason.com/shark-tank-usa-season/season-14/frescos-naturales",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://drinkfrescos.com",
+    "websiteStatus": "up"
   },
   "s14e13-slick-barrier": {
     "businessStatus": "active",
@@ -1558,7 +1720,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1 million in lifetime sales as of April 2024",
     "sourceUrl": "https://sharktankblog.com/business/anytongs/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/anytongs/ | https://www.looper.com/1408521/whatever-happened-anytongs-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://anytongs.com",
+    "websiteStatus": "up"
   },
   "s14e13-fryaway": {
     "businessStatus": "active",
@@ -1570,7 +1734,9 @@ export const enrichmentOverrides = {
     "industry": "Consumer Goods",
     "sourceUrl": "https://sharktankblog.com/business/fryaway/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/fryaway/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://fryaway.co",
+    "websiteStatus": "up"
   },
   "s14e14-funkkoff": {
     "businessStatus": "active",
@@ -1583,7 +1749,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$80,000 in lifetime sales at time of pitch (started July 2021); ~$3,000-$4,000/month by July 2024",
     "sourceUrl": "https://sharktankblog.com/business/funkkoff/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/funkkoff/ | https://sharktanksuccess.com/funkkoff-update-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://funkkoff.com",
+    "websiteStatus": "up"
   },
   "s14e14-retold-recycling": {
     "businessStatus": "active",
@@ -1596,7 +1764,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$175,000 in sales in 2021 (pitch figures; $12K 2020, projected $500K 2022)",
     "sourceUrl": "https://sharktankblog.com/business/retold-recycling/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/retold-recycling/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://retoldrecycling.com",
+    "websiteStatus": "up"
   },
   "s14e14-kahawa-1893": {
     "businessStatus": "active",
@@ -1610,7 +1780,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "exceeding $7 million in lifetime sales (~$4.2 million in the year after the deal)",
     "sourceUrl": "https://sharktankblog.com/business/kahawa-1893/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/kahawa-1893/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kahawa1893.com",
+    "websiteStatus": "up"
   },
   "s14e15-eat-your-flowers": {
     "businessStatus": "active",
@@ -1623,7 +1795,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $3.5 million in lifetime sales as of August 2024",
     "sourceUrl": "https://sharktankblog.com/business/eat-your-flowers/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/eat-your-flowers/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://eatyourflowers.com",
+    "websiteStatus": "up"
   },
   "s14e15-youthforia": {
     "businessStatus": "inactive",
@@ -1636,7 +1810,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "lifetime sales exceeded $9 million as of November 2023",
     "sourceUrl": "https://sharktankblog.com/business/youthforia/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/youthforia/ | https://www.businessoffashion.com/news/beauty/youthforia-closing-down-sale-controversy-tiktok-foundation/ | https://www.cosmeticsdesign.com/Article/2025/08/07/youthforia-to-shut-down-following-foundation-controversy-and-backlash/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://youthforia.co",
+    "websiteStatus": "up"
   },
   "s14e15-big-mouth-toothbrush": {
     "businessStatus": "active",
@@ -1649,7 +1825,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$60,000 in revenue over six months (Jan-July 2022) at time of pitch",
     "sourceUrl": "https://sharktankblog.com/business/big-mouth-toothbrush/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/big-mouth-toothbrush/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bigmouthtoothbrush.com",
+    "websiteStatus": "up"
   },
   "s14e16-flated": {
     "businessStatus": "active",
@@ -1662,7 +1840,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Monthly revenue over $750,000 — about $9 million a year (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/flated/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/flated/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://getflated.com",
+    "websiteStatus": "up"
   },
   "s14e16-sweetkiwi": {
     "businessStatus": "active",
@@ -1673,7 +1853,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue over $2 million (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/sweetkiwi/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/sweetkiwi/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sweetkiwi.com",
+    "websiteStatus": "up"
   },
   "s14e17-crispy-cones": {
     "businessStatus": "active",
@@ -1686,7 +1868,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $1 million in annual revenue (post-show update)",
     "sourceUrl": "https://sharktankblog.com/business/crispy-cones/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/crispy-cones/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thecrispycones.com",
+    "websiteStatus": "up"
   },
   "s14e17-tngnt-ski-bikes": {
     "businessStatus": "active",
@@ -1696,7 +1880,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime revenue just over $2 million (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/tngnt-ski-bikes/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/tngnt-ski-bikes/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://tngntskibikes.com",
+    "websiteStatus": "up"
   },
   "s14e18-lavabox": {
     "businessStatus": "active",
@@ -1707,7 +1893,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "2023 revenue of $2 million, with 2024 projected to match",
     "sourceUrl": "https://sharktankblog.com/business/lavabox/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/lavabox/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://fireanytime.com",
+    "websiteStatus": "up"
   },
   "s14e18-bleni-blends": {
     "businessStatus": "active",
@@ -1734,7 +1922,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.8 million in annual revenue (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/the-ice-cream-canteen/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-ice-cream-canteen/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://theicecreamcanteen.com",
+    "websiteStatus": "up"
   },
   "s14e19-parting-stone": {
     "businessStatus": "active",
@@ -1748,7 +1938,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "On track to do $1.2 million in 2022 (at time of pitch)",
     "sourceUrl": "https://sharktankblog.com/business/parting-stone/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/parting-stone/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://partingstone.com",
+    "websiteStatus": "up"
   },
   "s14e19-cincha-travel": {
     "businessStatus": "active",
@@ -1760,7 +1952,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$830,000 in 2022 (year-to-date at time of pitch); prior years $5,000 (2019), $32,000 (2020), $250,000 (2021)",
     "sourceUrl": "https://www.sharktankblog.com/business/cincha/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/cincha/ | https://www.sharktankblog.com/business/cincha-travel/ | https://sharktankrecap.com/cincha-update-shark-tank-season-14/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://cinchatravel.com",
+    "websiteStatus": "up"
   },
   "s14e19-milkify": {
     "businessStatus": "active",
@@ -1774,7 +1968,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$525,000 lifetime sales at pitch (Summer 2022); 2021 sales $181,000, 2022 sales $344,000 as of taping",
     "sourceUrl": "https://sharktankblog.com/business/milkify/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/milkify/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://milkify.me",
+    "websiteStatus": "up"
   },
   "s14e20-play-maysie": {
     "businessStatus": "active",
@@ -1787,7 +1983,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$175,000 in 2021 sales at pitch; projecting $400,000 by end of 2022",
     "sourceUrl": "https://sharktankblog.com/business/play-maysie/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/play-maysie/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://playmaysie.com",
+    "websiteStatus": "up"
   },
   "s14e20-tia-lupita-foods": {
     "businessStatus": "active",
@@ -1800,7 +1998,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.5 million in 2021 sales at pitch; projecting $4 million by end of 2022",
     "sourceUrl": "https://sharktankblog.com/business/tia-lupita-foods/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/tia-lupita-foods/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://tialupitafoods.com",
+    "websiteStatus": "up"
   },
   "s14e21-nature-s-wild-berry": {
     "businessStatus": "active",
@@ -1814,7 +2014,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1 million in lifetime sales as of May 2024; $250,000-$500,000 annual revenue as of April 2024",
     "sourceUrl": "https://sharktankblog.com/business/natures-wild-berry/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/natures-wild-berry/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://natureswildberry.com",
+    "websiteStatus": "up"
   },
   "s14e21-noshi": {
     "businessStatus": "active",
@@ -1827,7 +2029,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$117,000 in 2021 sales at pitch; $80,000 sold mid-2022 with $200,000 projected",
     "sourceUrl": "https://sharktankblog.com/business/noshi/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/noshi/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://noshiforkids.com",
+    "websiteStatus": "up"
   },
   "s14e21-you-go-natural": {
     "businessStatus": "active",
@@ -1840,7 +2044,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $15 million in lifetime sales at pitch; 2020 $2M, 2021 $7.5M, 2022 on track for $10M",
     "sourceUrl": "https://sharktankblog.com/business/you-go-natural/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/you-go-natural/ | https://sharktankinsights.com/you-go-natural-shark-tank-update/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://yougonatural.com",
+    "websiteStatus": "unreachable"
   },
   "s14e22-tones-of-melanin": {
     "businessStatus": "active",
@@ -1853,7 +2059,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3.3 million lifetime sales at pitch; $1.4 million trailing-12-month sales, $1.1 million YTD 2022",
     "sourceUrl": "https://sharktankblog.com/business/tones-of-melanin/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/tones-of-melanin/ | https://sharktanksuccess.com/tones-of-melanin-update-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://tonesofmelanin.com",
+    "websiteStatus": "blocked"
   },
   "s14e22-tucky": {
     "businessStatus": "active",
@@ -1866,7 +2074,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$60,000 in sales at the time of the pitch (Season 14, aired 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/tucky/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/tucky/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://shoptucky.com",
+    "websiteStatus": "up"
   },
   "s14e22-eyewris": {
     "businessStatus": "active",
@@ -1883,7 +2093,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "more than $850,000 annually (~$77,000/month) post-Shark Tank",
     "sourceUrl": "https://www.sharktankblog.com/business/eyewris/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/eyewris/ | https://sharktankrecap.com/eyewris-update-shark-tank-season-14/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://eyewris.com",
+    "websiteStatus": "up"
   },
   "s13e1-kin": {
     "businessStatus": "active",
@@ -1897,7 +2109,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $8 million in lifetime sales as of July 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/kin/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/kin/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kinapparel.org",
+    "websiteStatus": "up"
   },
   "s13e2-songlorious": {
     "businessStatus": "active",
@@ -1913,7 +2127,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $2.9 million in cumulative sales as of October 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/songlorious/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/songlorious/ | https://sharktankrecap.com/shark-tank-songlorious-update-season-13/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://songlorious.com",
+    "websiteStatus": "up"
   },
   "s13e2-proper-good": {
     "businessStatus": "active",
@@ -1940,7 +2156,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $2 million in annual revenue as of April 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/sparketh/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/sparketh/ | https://www.slashgear.com/1815198/what-happened-sparketh-online-art-course-shark-tank-season-13/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sparketh.com",
+    "websiteStatus": "up"
   },
   "s13e3-flasky-flowers": {
     "businessStatus": "inactive",
@@ -1953,7 +2171,9 @@ export const enrichmentOverrides = {
     "industry": "Consumer Goods",
     "sourceUrl": "https://www.sharktankblog.com/business/flasky-flowers/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/flasky-flowers/ | https://www.looper.com/1027049/whatever-happened-to-flasky-flowers-after-shark-tank/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://flaskyflowers.com",
+    "websiteStatus": "up"
   },
   "s13e3-incredible-eats": {
     "businessStatus": "active",
@@ -1966,7 +2186,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $500,000 in revenue in 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/incredible-eats/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/incredible-eats/ | https://www.tastingtable.com/1832478/what-happened-incredible-eats-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://incrediblespoon.com",
+    "websiteStatus": "up"
   },
   "s13e4-magic-5": {
     "businessStatus": "active",
@@ -1980,7 +2202,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Surpassed $5 million in annual sales (2023 figure), per Aug 2024 update; $3 million total sales since 2018 at time of pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/the-magic-5/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/the-magic-5/ | https://www.sportskeeda.com/pop-culture/themagic5-update-what-happened-mark-cuban-robert-herjavec-invested-business-shark-tank",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://themagic5.com",
+    "websiteStatus": "up"
   },
   "s13e4-tabby": {
     "businessStatus": "inactive",
@@ -2006,7 +2230,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$85,000 in lifetime sales at time of pitch; under $1 million annual revenue as of July 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/soapen/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/soapen/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://soapen.com",
+    "websiteStatus": "up"
   },
   "s13e4-54-thrones": {
     "businessStatus": "active",
@@ -2020,7 +2246,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.3 million annual revenue as of August 2023; 2020 sales were $500,000",
     "sourceUrl": "https://www.sharktankblog.com/business/54-thrones/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/54-thrones/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://54thrones.com",
+    "websiteStatus": "up"
   },
   "s13e5-wedfuly": {
     "businessStatus": "active",
@@ -2030,7 +2258,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1 million in sales with $300,000 profit for 2021 to date of pitch; 2020 sales $700,000",
     "sourceUrl": "https://www.sharktankblog.com/business/wedfuly/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/wedfuly/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wedfuly.com",
+    "websiteStatus": "up"
   },
   "s13e5-wad": {
     "businessStatus": "active",
@@ -2043,7 +2273,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$513,000 in total revenue since June 2020 at time of pitch; lifetime revenue approaching $2 million by August 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/wad/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/wad/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wadfree.com",
+    "websiteStatus": "up"
   },
   "s13e5-spergo": {
     "businessStatus": "active",
@@ -2056,7 +2288,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2.9 million annual revenue as of August 2024; projected $2.2 million for 2021 at time of pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/spergo/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/spergo/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://spergo.com",
+    "websiteStatus": "down"
   },
   "s13e6-fish-fixe": {
     "businessStatus": "active",
@@ -2069,7 +2303,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$821,000 in prior-year sales at time of pitch; projected $4 million by July 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/fish-fixe/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/fish-fixe/ | https://marketrealist.com/lori-grenier-swoops-in-to-steal-kevin-o-leary-deal-fish-fixe-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://fishfixe.com",
+    "websiteStatus": "up"
   },
   "s13e6-hello-prenup": {
     "businessStatus": "active",
@@ -2097,7 +2333,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$6 million in annual revenue (as of April 2024); $850K lifetime / $325K YTD-2021 at pitch",
     "sourceUrl": "https://sharktankblog.com/business/hidrent/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/hidrent/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://hidrent.com",
+    "websiteStatus": "up"
   },
   "s13e7-sheets-laundry-club": {
     "businessStatus": "active",
@@ -2109,7 +2347,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2.04 million in revenue in 2020 (at pitch); ~$2.5-3M annual as of Aug 2024",
     "sourceUrl": "https://sharktankblog.com/business/sheets-laundry-club/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/sheets-laundry-club/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sheetslaundryclub.com",
+    "websiteStatus": "up"
   },
   "s13e7-pink-picasso": {
     "businessStatus": "active",
@@ -2123,7 +2363,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3.5 million in 2020 revenue at pitch; ~$5 million annual as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/pink-picasso/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pink-picasso/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pinkpicassokits.com",
+    "websiteStatus": "up"
   },
   "s13e7-zach-zoe-sweet-bee-farm": {
     "businessStatus": "active",
@@ -2136,7 +2378,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$880,000 in revenue by mid-2021 at pitch (up from $401K in 2020); ~$1M annual as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/zach-and-zoe-sweet-bee-farm/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/zach-and-zoe-sweet-bee-farm/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://zachandzoe.co",
+    "websiteStatus": "up"
   },
   "s13e8-wendy-s-gnome-shop": {
     "businessStatus": "active",
@@ -2149,7 +2393,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$668,000 in sales within first 18 months at pitch ($138K net profit prior year)",
     "sourceUrl": "https://sharktankblog.com/business/wendys-gnome-shop/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/wendys-gnome-shop/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wendysgnomeshop.com",
+    "websiteStatus": "up"
   },
   "s13e8-the-real-elf": {
     "businessStatus": "active",
@@ -2160,7 +2406,9 @@ export const enrichmentOverrides = {
     "industry": "Entertainment",
     "sourceUrl": "https://sharktankblog.com/business/the-real-elf/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-real-elf/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://therealelf.com",
+    "websiteStatus": "up"
   },
   "s13e9-maxpro-fitness": {
     "businessStatus": "active",
@@ -2172,7 +2420,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$8 million in sales by summer 2021 at pitch (projected >$12M for 2021); ~$10M annual / $30M+ lifetime by 2024-25",
     "sourceUrl": "https://www.sharktankblog.com/business/max-pro/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/max-pro/ | https://sharktankrecap.com/max-pro-fitness-update-shark-tank-season-13/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://maxprofitness.com",
+    "websiteStatus": "up"
   },
   "s13e9-banana-loca": {
     "businessStatus": "active",
@@ -2186,7 +2436,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales approaching $10 million as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/banana-loca/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/banana-loca/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bananaloca.com",
+    "websiteStatus": "up"
   },
   "s13e9-tenikle": {
     "businessStatus": "active",
@@ -2199,7 +2451,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $5 million in lifetime sales as of 2024",
     "sourceUrl": "https://sharktankblog.com/business/tenikle/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/tenikle/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://tenikle.com",
+    "websiteStatus": "up"
   },
   "s13e10-snactiv": {
     "businessStatus": "active",
@@ -2213,7 +2467,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Less than $1 million in annual revenue as of October 2022",
     "sourceUrl": "https://sharktankblog.com/business/snactiv/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/snactiv/ | https://www.looper.com/1383200/whatever-happened-snactiv-shark-tank/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://snactiv.com",
+    "websiteStatus": "up"
   },
   "s13e10-black-sands-entertainment": {
     "businessStatus": "active",
@@ -2226,7 +2482,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million in lifetime sales as of June 2023",
     "sourceUrl": "https://sharktankblog.com/business/black-sands-entertainment/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/black-sands-entertainment/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://blacksandsentertainment.com",
+    "websiteStatus": "up"
   },
   "s13e11-roq-innovation": {
     "businessStatus": "active",
@@ -2240,7 +2498,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2.4 million in lifetime sales at time of pitch; hit $1.7 million 2021 sales goal",
     "sourceUrl": "https://sharktankblog.com/business/roq-innovation/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/roq-innovation/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://roq-innovation.com",
+    "websiteStatus": "up"
   },
   "s13e11-vabroom": {
     "businessStatus": "active",
@@ -2253,7 +2513,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$10 million in lifetime sales, under $5 million annual revenue as of October 2023",
     "sourceUrl": "https://sharktankblog.com/business/vabroom/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/vabroom/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://vabroom.com",
+    "websiteStatus": "up"
   },
   "s13e12-tania-speaks": {
     "businessStatus": "active",
@@ -2266,7 +2528,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $5 million in lifetime sales as of August 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/tania-speaks-organic-skincare/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/tania-speaks-organic-skincare/ | https://www.thelist.com/1370355/what-happened-tania-speaks-organic-skincare-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://taniaspeaks.com",
+    "websiteStatus": "up"
   },
   "s13e12-hiccaway": {
     "businessStatus": "active",
@@ -2279,7 +2543,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$11 million in lifetime sales as of August 2024",
     "sourceUrl": "https://sharktankblog.com/business/hiccaway/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/hiccaway/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hiccaway.com",
+    "websiteStatus": "up"
   },
   "s13e12-tristen-ikaika": {
     "businessStatus": "active",
@@ -2290,7 +2556,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$2.3 million lifetime sales as of pitch (July 2021); ~$575K year-to-date at pitch",
     "sourceUrl": "https://sharktankblog.com/business/tristen-ikaika/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/tristen-ikaika/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://tristenikaika.com",
+    "websiteStatus": "up"
   },
   "s13e13-kettle-gryp": {
     "businessStatus": "active",
@@ -2303,7 +2571,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales exceeded $3.6 million (as of update); ~$1.4M sales by end of 2021",
     "sourceUrl": "https://sharktankblog.com/business/kettle-gryp/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/kettle-gryp/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kettlegryp.shop",
+    "websiteStatus": "up"
   },
   "s13e13-calm-strips": {
     "businessStatus": "active",
@@ -2314,7 +2584,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $5 million in lifetime revenue (per update); ~$2.5M in sales at pitch",
     "sourceUrl": "https://sharktankblog.com/business/calm-strips/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/calm-strips/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://calmstrips.com",
+    "websiteStatus": "up"
   },
   "s13e14-diaper-dust": {
     "businessStatus": "active",
@@ -2326,7 +2598,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales surpassed $1 million as of November 2023; ~$3,000 at pitch",
     "sourceUrl": "https://sharktankblog.com/business/diaper-dust/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/diaper-dust/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thediaperdust.com",
+    "websiteStatus": "up"
   },
   "s13e14-range-beauty": {
     "businessStatus": "active",
@@ -2339,7 +2613,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue around $3 million as of November 2023; ~$330K in 2020 at pitch",
     "sourceUrl": "https://sharktankblog.com/business/range-beauty/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/range-beauty/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://rangebeauty.com",
+    "websiteStatus": "down"
   },
   "s13e14-junobie": {
     "businessStatus": "active",
@@ -2352,7 +2628,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue reached $1 million by June 2022; ~$86K YTD at pitch (July 2021)",
     "sourceUrl": "https://sharktankblog.com/business/junobie/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/junobie/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://junobie.com",
+    "websiteStatus": "up"
   },
   "s13e15-ade-and-ayo": {
     "businessStatus": "active",
@@ -2362,7 +2640,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$160,000 in sales after 11 months in business (at pitch); no updated revenue disclosed",
     "sourceUrl": "https://www.sharktankblog.com/business/ade-ayo/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/ade-ayo/ | https://www.sharktankblog.com/business/ade-and-ayo/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://adeandayo.com",
+    "websiteStatus": "up"
   },
   "s13e15-curie": {
     "businessStatus": "active",
@@ -2389,7 +2669,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue as of July 2024 is over $5 million (lifetime revenue $5.6 million by October 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/noggin-boss/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/noggin-boss/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://nogginboss.com",
+    "websiteStatus": "up"
   },
   "s13e15-behave": {
     "businessStatus": "active",
@@ -2402,7 +2684,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue as of August 2023 is $1 million",
     "sourceUrl": "https://www.sharktankblog.com/business/behave/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/behave/ | https://www.pogdesign.co.uk/cat/Shark-Tank/Season-13/Episode-15",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://behavebras.com",
+    "websiteStatus": "up"
   },
   "s13e16-sunflow": {
     "businessStatus": "active",
@@ -2415,7 +2699,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "By May 2024, annual sales reached $14 million",
     "sourceUrl": "https://www.sharktankblog.com/business/sunflow/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/sunflow/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://getsunflow.com",
+    "websiteStatus": "up"
   },
   "s13e16-ootbox": {
     "businessStatus": "active",
@@ -2441,7 +2727,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime revenue over $30 million as of July 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/do-amore/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/do-amore/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://doamore.com",
+    "websiteStatus": "blocked"
   },
   "s13e17-magic-dates": {
     "businessStatus": "active",
@@ -2454,7 +2742,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "2021 sales projected through September at $175,000 (annual figures undisclosed since)",
     "sourceUrl": "https://www.sharktankblog.com/business/magic-dates/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/magic-dates/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://magicdatesbites.com",
+    "websiteStatus": "up"
   },
   "s13e17-round21": {
     "businessStatus": "active",
@@ -2464,7 +2754,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales of $354,000 in physical goods (plus $20,000 NFTs) as of pitch; reliable revenue figures unavailable as of November 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/round-21/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/round-21/ | https://www.sportskeeda.com/pop-culture/round21-shark-tank-meet-founder-professional-basketball-player",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://round21.com",
+    "websiteStatus": "up"
   },
   "s13e18-umaro": {
     "businessStatus": "active",
@@ -2475,7 +2767,9 @@ export const enrichmentOverrides = {
     "industry": "Food",
     "sourceUrl": "https://www.sharktankblog.com/business/umaro/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/umaro/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://umarofoods.com",
+    "websiteStatus": "up"
   },
   "s13e18-no-limbits": {
     "businessStatus": "active",
@@ -2489,7 +2783,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "By 2023, No Limbits achieved $1 million in annual sales",
     "sourceUrl": "https://sharktankblog.com/business/no-limbits/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/no-limbits/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://no-limbits.com",
+    "websiteStatus": "up"
   },
   "s13e18-apolla": {
     "businessStatus": "active",
@@ -2502,7 +2798,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4.1 million in revenue since launching in 2016 (as of S13 pitch); ~$4 million annual revenue as of 2025",
     "sourceUrl": "https://sharktankblog.com/business/apolla/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/apolla/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://apollaperformance.com",
+    "websiteStatus": "up"
   },
   "s13e19-lucy": {
     "businessStatus": "active",
@@ -2515,7 +2813,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $12 million in lifetime revenue and annual revenue of $1-$2 million (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/lucy-drawing-tool/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/lucy-drawing-tool/ | https://sharktankseason.com/shark-tank-usa-season/season-13/lucy",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://drawlucy.com",
+    "websiteStatus": "up"
   },
   "s13e19-swift-paws": {
     "businessStatus": "active",
@@ -2528,7 +2828,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "a little over $1 million in annual revenue (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/swiftpaws/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/swiftpaws/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://swiftpaws.com",
+    "websiteStatus": "up"
   },
   "s13e19-the-dirty-cookie": {
     "businessStatus": "active",
@@ -2540,7 +2842,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2.5 million in annual revenue (as of July 2024); $2.6 million in revenue at pitch (2021)",
     "sourceUrl": "https://www.sharktankblog.com/business/the-dirty-cookie/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/the-dirty-cookie/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thedirtycookieoc.com",
+    "websiteStatus": "up"
   },
   "s13e20-cat-amazing": {
     "businessStatus": "active",
@@ -2552,7 +2856,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$6 million in revenue in 2022 (Shark Tank effect); ~$1 million annual revenue more recently",
     "sourceUrl": "https://www.sharktankblog.com/business/cat-amazing/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/cat-amazing/ | https://humblerise.com/cat-amazing-shark-tank-update/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://catamazing.com",
+    "websiteStatus": "up"
   },
   "s13e20-hairfin": {
     "businessStatus": "active",
@@ -2565,7 +2871,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $1 million in lifetime sales (as of July 2024); $42,000 in sales at pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/hairfin/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/hairfin/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hairfin.com",
+    "websiteStatus": "up"
   },
   "s13e20-browndages": {
     "businessStatus": "active",
@@ -2575,7 +2883,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "surpassed $1 million in lifetime sales by March 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/browndages/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/browndages/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://b.delivery.consentmanager.net",
+    "websiteStatus": "up"
   },
   "s13e21-cupbop": {
     "businessStatus": "active",
@@ -2588,7 +2898,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$34 million in annual revenue (July 2024 update); $18.7 million trailing-12-month at pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/cupbop/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/cupbop/ | https://www.foodrepublic.com/1366548/cupbop-shark-tank-now/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://cupbop.com",
+    "websiteStatus": "up"
   },
   "s13e21-plunge": {
     "businessStatus": "active",
@@ -2614,7 +2926,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "A little over $7,900 in sales over three years at time of pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/handy-pan/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/handy-pan/ | https://www.foodrepublic.com/1367300/handy-pan-shark-tank-now/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://buyhandypan.com",
+    "websiteStatus": "up"
   },
   "s13e22-kawaii-lighting": {
     "businessStatus": "active",
@@ -2626,7 +2940,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$261,000 in sales in first year at pitch; ~$1 million estimated annual revenue post-show",
     "sourceUrl": "https://www.sharktankblog.com/business/kawaii-lighting/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/kawaii-lighting/ | https://www.slashgear.com/1361076/what-happened-kawaii-lighting-shark-tank-season-13/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kawaiilighting.com",
+    "websiteStatus": "blocked"
   },
   "s13e22-ooakshell-headbands": {
     "businessStatus": "active",
@@ -2639,7 +2955,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$396,000 year-to-date sales at pitch (2021); $245,000 in 2020",
     "sourceUrl": "https://www.sharktankblog.com/business/ooakshell/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/ooakshell/ | https://www.looper.com/1345005/whatever-happened-ooakshell-headbands-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://ooakshell.com",
+    "websiteStatus": "up"
   },
   "s13e22-pulp-pantry": {
     "businessStatus": "active",
@@ -2652,7 +2970,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$250,000 in 2021 sales at pitch; $500,000 projected for 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/pulp-pantry/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/pulp-pantry/ | https://sharktankrecap.com/pulp-pantry-update-shark-tank-season-13/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pulppantry.com",
+    "websiteStatus": "up"
   },
   "s13e22-pricklee": {
     "businessStatus": "active",
@@ -2665,7 +2985,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$1.5 million expected for 2023; $55,000 last month at pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/pricklee/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/pricklee/ | https://www.foodrepublic.com/1872294/pricklee-shark-tank-now/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pricklee.com",
+    "websiteStatus": "blocked"
   },
   "s13e23-stryx-cosmetics": {
     "businessStatus": "active",
@@ -2690,7 +3012,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Estimated annual revenue ~$2 million as of April 2024 (2020 revenue was $1.7 million at pitch)",
     "sourceUrl": "https://sharktankblog.com/business/springer/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/springer/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://springerpets.com",
+    "websiteStatus": "up"
   },
   "s13e24-the-transformation-factory": {
     "businessStatus": "active",
@@ -2704,7 +3028,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime revenue $45 million by May 2024 ($3.5 million in sales at pitch)",
     "sourceUrl": "https://sharktankblog.com/business/the-transformation-factory/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-transformation-factory/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://seamosstransformation.com",
+    "websiteStatus": "up"
   },
   "s12e1-sharks-mark-blake-mycoskie-kevin-lori-daymond-touch-up-cup": {
     "businessStatus": "active",
@@ -2715,7 +3041,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in annual revenue and close to $10 million in lifetime sales as of August 2024",
     "sourceUrl": "https://sharktankblog.com/business/touch-up-cup/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/touch-up-cup/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://touchupcup.com",
+    "websiteStatus": "up"
   },
   "s12e1-sparkcharge": {
     "businessStatus": "active",
@@ -2727,7 +3055,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Projected 2024 revenue over $27 million; raised $78.2 million total funding (as of August 2024)",
     "sourceUrl": "https://sharktankblog.com/business/sparkcharge/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/sparkcharge/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sparkcharge.io",
+    "websiteStatus": "up"
   },
   "s12e2-sharks-mark-kendra-scott-kevin-lori-barbara-bootaybag": {
     "businessStatus": "active",
@@ -2738,7 +3068,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime revenue of over $12 million as of October 2023",
     "sourceUrl": "https://sharktankblog.com/business/bootaybag/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bootaybag/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bootaybag.com",
+    "websiteStatus": "up"
   },
   "s12e2-gooats": {
     "businessStatus": "active",
@@ -2749,7 +3081,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue $4 million (most recent update; 2019 sales were $54-$57,000 at pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/go-oats/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/go-oats/ | https://www.thedailymeal.com/1162967/where-is-go-oats-from-shark-tank-today/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://gooats.life",
+    "websiteStatus": "up"
   },
   "s12e2-pooch-paper": {
     "businessStatus": "active",
@@ -2760,7 +3094,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime revenue recently surpassed $1 million (as of October 2023); $50,000 in sales year-to-date at pitch",
     "sourceUrl": "https://sharktankblog.com/business/pooch-paper/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pooch-paper/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://poochpaper.com",
+    "websiteStatus": "up"
   },
   "s12e2-pnuff-crunch": {
     "businessStatus": "active",
@@ -2771,7 +3107,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue $1.5 million and growing as of May 2024 ($104,000 last year at pitch)",
     "sourceUrl": "https://sharktankblog.com/business/pnuff-crunch/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pnuff-crunch/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pnuff.com",
+    "websiteStatus": "up"
   },
   "s12e3-sharks-mark-daymond-kevin-lori-robert-hug-sleep": {
     "businessStatus": "active",
@@ -2783,7 +3121,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime revenue exceeded $25 million as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/hug-sleep/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/hug-sleep/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hugsleep.com",
+    "websiteStatus": "up"
   },
   "s12e3-animated-lure": {
     "businessStatus": "inactive",
@@ -2792,7 +3132,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$247,000 in sales to date (at 2020 pitch); no recent figure disclosed",
     "sourceUrl": "https://sharktankblog.com/business/animated-lure/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/animated-lure/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://animatedlure.com",
+    "websiteStatus": "up"
   },
   "s12e3-chirp": {
     "businessStatus": "active",
@@ -2801,7 +3143,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales over $85 million ($6.9M annual revenue) as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/chirp/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/chirp/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://gochirp.com",
+    "websiteStatus": "up"
   },
   "s12e4-sharks-mark-barbara-kevin-lori-daymond-jada-spices": {
     "businessStatus": "active",
@@ -2809,7 +3153,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $4 million in annual revenue by 2024",
     "sourceUrl": "https://sharktankblog.com/business/chicken-salt/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/chicken-salt/ | https://geeksaroundglobe.com/jada-spices-net-worth-update-before-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://jadabrands.com",
+    "websiteStatus": "up"
   },
   "s12e4-the-mighty-carver": {
     "businessStatus": "active",
@@ -2821,7 +3167,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Sold over $9 million worth of product (cumulative) as of July 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/mighty-carver/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/mighty-carver/ | https://www.prnewswire.com/news-releases/mighty-carver-appears-on-shark-tank-lands-100-000-deal-with-daymond-john-301168709.html",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mightycarver.com",
+    "websiteStatus": "up"
   },
   "s12e4-flipstik": {
     "businessStatus": "active",
@@ -2829,7 +3177,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue reached $5 million as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/flipstik/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/flipstik/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://getflipstik.com",
+    "websiteStatus": "up"
   },
   "s12e5-sharks-mark-daniel-lubetzky-kevin-lori-robert-fitfighter": {
     "businessStatus": "active",
@@ -2841,7 +3191,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Revenue slightly exceeding $1 million annually (2022 onward)",
     "sourceUrl": "https://sharktankblog.com/business/fitfighter/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/fitfighter/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://fitfighter.com",
+    "websiteStatus": "up"
   },
   "s12e5-foam-party-hats": {
     "businessStatus": "active",
@@ -2854,7 +3206,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales exceeded $3 million as of 2024 (over $1M annual revenue in 2023)",
     "sourceUrl": "https://sharktankblog.com/business/foam-party-hats/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/foam-party-hats/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://foampartyhats.com",
+    "websiteStatus": "up"
   },
   "s12e5-bee-d-vine": {
     "businessStatus": "active",
@@ -2862,7 +3216,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Estimated annual revenue of $1-1.5 million as of July 2024 (pitch sales were $115,000/year; $400,000 over six years)",
     "sourceUrl": "https://sharktankblog.com/business/bee-dvine/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bee-dvine/ | https://www.tastingtable.com/2101019/what-happened-to-bee-d-vine-after-shark-tank/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://beedvine.com",
+    "websiteStatus": "up"
   },
   "s12e6-sharks-mark-blake-mycoskie-kevin-lori-daymond-pan-s-mushroom-jerky": {
     "businessStatus": "active",
@@ -2873,13 +3229,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $5 million annual revenue as of January 2023 (pitch: $755,000 in 2019 sales)",
     "sourceUrl": "https://sharktankblog.com/business/pans-mushroom-jerky/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pans-mushroom-jerky/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mushroomjerky.com",
+    "websiteStatus": "up"
   },
   "s12e6-k9-mask": {
     "businessStatus": "active",
     "sourceUrl": "https://www.sharktankblog.com/business/k9-mask/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/k9-mask/ | https://gazettereview.com/k9-mask-after-shark-tank-update/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://k9mask.com",
+    "websiteStatus": "up"
   },
   "s12e6-prime6": {
     "businessStatus": "active",
@@ -2904,7 +3264,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$14 million in lifetime sales (Season 15 update, ~2023); pitch sales $171,000 (2020)",
     "sourceUrl": "https://www.sharktankblog.com/business/holiball/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/holiball/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://theholiball.com",
+    "websiteStatus": "up"
   },
   "s12e7-toilet-timer": {
     "businessStatus": "active",
@@ -2913,7 +3275,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$250,000-$500,000 in revenue per year as of April 2024 (pitch: $250,000 in 2019 holiday season sales)",
     "sourceUrl": "https://sharktankblog.com/business/toilet-timer/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/toilet-timer/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://katamco.com",
+    "websiteStatus": "up"
   },
   "s12e7-buckle-me-baby-coats": {
     "businessStatus": "active",
@@ -2924,7 +3288,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue of $6 million as of May 2022 (pre-show sales were $500,000)",
     "sourceUrl": "https://www.sharktankblog.com/business/buckle-me-baby/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/buckle-me-baby/ | https://2paragraphs.com/2021/02/buckle-me-baby-coats-what-happened-after-daymond-john-shark-tank-deal/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bucklemecoats.com",
+    "websiteStatus": "up"
   },
   "s12e8-brake-free": {
     "businessStatus": "active",
@@ -2933,7 +3299,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Sales exceeded $3.9 million as of January 2023 (~$4 million as of October 2023); IndieGoGo pre-orders ~$240,000 at pitch",
     "sourceUrl": "https://sharktankblog.com/business/brake-free/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/brake-free/ | https://www.slashgear.com/1344137/what-happened-brake-free-shark-tank-season-12/ | https://sharktankseason.com/shark-tank-usa-season/season-12/brake-free",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://brakefreetech.com",
+    "websiteStatus": "up"
   },
   "s12e8-click-carry": {
     "businessStatus": "active",
@@ -2946,7 +3314,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$8 million in lifetime sales, ~$1 million estimated annual revenue (as of 2025)",
     "sourceUrl": "https://sharktankblog.com/business/click-and-carry/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/click-and-carry/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://clickandcarry.com",
+    "websiteStatus": "up"
   },
   "s12e8-codi-by-pillar-learning": {
     "businessStatus": "active",
@@ -2957,7 +3327,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.2 million in annual revenue (as of October 2023)",
     "sourceUrl": "https://sharktankblog.com/business/codi/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/codi/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pillarlearning.com",
+    "websiteStatus": "up"
   },
   "s12e9-sharks-mark-barbara-kevin-lori-daymond-electra": {
     "businessStatus": "active",
@@ -2966,7 +3338,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://sharktankblog.com/business/electra/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/electra/ | https://www.foodrepublic.com/1586194/electra-beverages-shark-tank-now/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://idrinkelectra.com",
+    "websiteStatus": "up"
   },
   "s12e9-trophy-smack": {
     "businessStatus": "active",
@@ -2978,7 +3352,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$10 million in lifetime sales, $3.5 million net worth (as of October 2023)",
     "sourceUrl": "https://sharktankblog.com/business/trophy-smack/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/trophy-smack/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://trophysmack.com",
+    "websiteStatus": "up"
   },
   "s12e10-sharks-mark-kevin-lori-barbara-alex-rodriguez-slice-of-sauce": {
     "businessStatus": "inactive",
@@ -2987,7 +3363,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://sharktankblog.com/business/slice-of-sauce/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/slice-of-sauce/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sliceofsauce.com",
+    "websiteStatus": "up"
   },
   "s12e10-luna-magic": {
     "businessStatus": "active",
@@ -2998,7 +3376,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$1.7 million estimated annual revenue (as of October 2023)",
     "sourceUrl": "https://sharktankblog.com/business/luna-magic/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/luna-magic/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://lunamagic.com",
+    "websiteStatus": "up"
   },
   "s12e10-bubbly-blaster": {
     "businessStatus": "active",
@@ -3010,7 +3390,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$900,000 – $1 million annual revenue (as of January 2023)",
     "sourceUrl": "https://sharktankblog.com/business/bubbly-blaster/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bubbly-blaster/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bubblyblaster.com",
+    "websiteStatus": "up"
   },
   "s12e11-sharks-mark-daniel-kevin-lori-robert-quevos": {
     "businessStatus": "inactive",
@@ -3022,7 +3404,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3.2 million lifetime sales (per Season 13 update segment)",
     "sourceUrl": "https://sharktankblog.com/business/quevos/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/quevos/ | https://www.foodrepublic.com/1762817/quevos-shark-tank-now/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://quevos.com",
+    "websiteStatus": "up"
   },
   "s12e11-aura-bora": {
     "businessStatus": "active",
@@ -3034,7 +3418,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "On track for $3.5 million in sales at time of pitch; by June 2024 raised $10M total funding at a $30M valuation, 2,500+ retail locations",
     "sourceUrl": "https://sharktankblog.com/business/aura-bora/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/aura-bora/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://aurabora.com",
+    "websiteStatus": "up"
   },
   "s12e11-swipensnap": {
     "businessStatus": "active",
@@ -3047,7 +3433,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "By July 2024, lifetime revenue exceeded $1 million (had ~$50K in sales at pitch over two years)",
     "sourceUrl": "https://sharktankblog.com/business/swipensnap/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/swipensnap/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://swipensnap.com",
+    "websiteStatus": "up"
   },
   "s12e12-sharks-mark-barbara-kevin-lori-daymond-yono-clip": {
     "businessStatus": "inactive",
@@ -3056,7 +3444,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://www.sharktankblog.com/business/yono-clip/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/yono-clip/ | https://sharktankrecap.com/yono-clip-update-shark-tank-season-12/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://yonoclip.com",
+    "websiteStatus": "unreachable"
   },
   "s12e12-nightcap": {
     "businessStatus": "active",
@@ -3067,7 +3457,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$4 million in lifetime revenue as of August 2024 ($2.1M in the year after the show)",
     "sourceUrl": "https://www.sharktankblog.com/business/night-cap/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/night-cap/ | https://sharktankrecap.com/nightcap-drink-cover-update-shark-tank-season-12/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://nightcapit.com",
+    "websiteStatus": "up"
   },
   "s12e12-mountainflow-eco-wax": {
     "businessStatus": "active",
@@ -3079,7 +3471,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue ~$3 million as of August 2024 (2019 revenue $150K; 2020 projected $750K)",
     "sourceUrl": "https://sharktankblog.com/business/mountainflow-eco-wax/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/mountainflow-eco-wax/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mountainflow.com",
+    "websiteStatus": "up"
   },
   "s12e13-the-pizza-cupcake": {
     "businessStatus": "active",
@@ -3090,7 +3484,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$5 million in annual revenue as of July 2024 ($300K in sales before the show)",
     "sourceUrl": "https://sharktankblog.com/business/the-pizza-cupcake/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-pizza-cupcake/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thepizzacupcake.com",
+    "websiteStatus": "up"
   },
   "s12e13-icebeanie": {
     "businessStatus": "active",
@@ -3101,7 +3497,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $8 million in revenue / 200,000+ units sold by July 2024 ($100K initial sales at pitch)",
     "sourceUrl": "https://sharktankblog.com/business/icebeanie/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/icebeanie/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://icebeanie.com",
+    "websiteStatus": "up"
   },
   "s12e13-draft-top": {
     "businessStatus": "active",
@@ -3112,7 +3510,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$3 million annual revenue / $10 million lifetime sales by July 2024 (~$1.6M in 8 months at pitch)",
     "sourceUrl": "https://sharktankblog.com/business/draft-top/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/draft-top/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://drafttop.com",
+    "websiteStatus": "up"
   },
   "s12e14-souper-cubes": {
     "businessStatus": "active",
@@ -3123,14 +3523,18 @@ export const enrichmentOverrides = {
     "revenueRaw": "$14 million in lifetime sales (by the Shark Tank update segment); as of July 2024 annual revenue $3-$4 million",
     "sourceUrl": "https://sharktankblog.com/business/souper-cubes/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/souper-cubes/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://soupercubes.com",
+    "websiteStatus": "up"
   },
   "s12e14-byoot-company": {
     "businessStatus": "active",
     "industry": "Apparel",
     "sourceUrl": "https://sharktankblog.com/business/byoot-company/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/byoot-company/ | https://2paragraphs.com/2021/05/byoot-what-happened-to-easy-access-swimsuits-after-50000-shark-tank-deal/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://byootcompany.com",
+    "websiteStatus": "up"
   },
   "s12e14-sienna-sauce": {
     "businessStatus": "active",
@@ -3138,7 +3542,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Surpassed $1 million in lifetime sales (as of Aug 2022 / Feb 2023)",
     "sourceUrl": "https://sharktankblog.com/business/sienna-sauce/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/sienna-sauce/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://siennasauce.com",
+    "websiteStatus": "up"
   },
   "s12e15-sharks-mark-barbara-kevin-lori-daymond-better-bedder": {
     "businessStatus": "active",
@@ -3150,7 +3556,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime revenues approached $10 million as of August 2023",
     "sourceUrl": "https://sharktankblog.com/business/better-bedder/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/better-bedder/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thebetterbedder.com",
+    "websiteStatus": "up"
   },
   "s12e15-everything-legendary": {
     "businessStatus": "active",
@@ -3161,7 +3569,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$10 million in sales per year as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/everything-legendary/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/everything-legendary/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://eatlegendaryvegan.com",
+    "websiteStatus": "unreachable"
   },
   "s12e15-hopscotch": {
     "businessStatus": "active",
@@ -3169,7 +3579,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue grew to $5 million by October 2023",
     "sourceUrl": "https://sharktankblog.com/business/hopscotch/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/hopscotch/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://gethopscotch.com",
+    "websiteStatus": "up"
   },
   "s12e16-sharks-mark-daymond-kevin-lori-robert-simply-good-jars": {
     "businessStatus": "active",
@@ -3178,7 +3590,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue reached $4.5 million as of August 2022",
     "sourceUrl": "https://sharktankblog.com/business/simply-good-jars/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/simply-good-jars/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://simplygoodjars.com",
+    "websiteStatus": "unreachable"
   },
   "s12e16-pinch-me-therapy-dough": {
     "businessStatus": "active",
@@ -3186,7 +3600,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue ~$1 million as of July 2021 (down from $1.9M in 2019)",
     "sourceUrl": "https://www.sharktankblog.com/business/pinch-me/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/pinch-me/ | https://2paragraphs.com/2021/07/pinch-me-therapy-dough-what-happened-after-300000-shark-tank-deal/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://pinchmedough.com",
+    "websiteStatus": "up"
   },
   "s12e17-sharks-mark-daniel-kevin-lori-robert-misfit-foods": {
     "businessStatus": "active",
@@ -3199,7 +3615,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue of $1.5 million (as of February 2023, operating as rebranded 'Phil's Finest')",
     "sourceUrl": "https://sharktankblog.com/business/misfit-foods/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/misfit-foods/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://philsfinest.com",
+    "websiteStatus": "up"
   },
   "s12e17-tandem-boogie": {
     "businessStatus": "active",
@@ -3212,7 +3630,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime revenue over $1 million (as of October 2023)",
     "sourceUrl": "https://sharktankblog.com/business/tandem-boogie/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/tandem-boogie/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://tandemboogie.com",
+    "websiteStatus": "up"
   },
   "s12e17-totes-babies": {
     "businessStatus": "active",
@@ -3221,7 +3641,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://sharktankblog.com/business/totes-babies/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/totes-babies/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://totesbabies.com",
+    "websiteStatus": "up"
   },
   "s12e18-sharks-mark-barbara-kevin-lori-daymond-numilk": {
     "businessStatus": "active",
@@ -3232,7 +3654,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual sales revenue approaching $13 million; lifetime sales over $55 million (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/numilk/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/numilk/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://numilk.com",
+    "websiteStatus": "up"
   },
   "s12e18-mad-rabbit": {
     "businessStatus": "active",
@@ -3244,7 +3668,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Sales revenue for 2024 expected to top $25 million (as of early 2025)",
     "sourceUrl": "https://www.sharktankblog.com/business/mad-rabbit/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/mad-rabbit/ | https://www.cnbc.com/2021/03/29/shark-tank-mad-rabbit-started-as-side-hustle-landed-mark-cuban-deal.html",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://madrabbittattoo.com",
+    "websiteStatus": "up"
   },
   "s12e18-bunch-bikes": {
     "businessStatus": "active",
@@ -3257,7 +3683,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue $2.7 million (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/bunch/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bunch/ | https://www.slashgear.com/1367454/what-happened-bunch-bikes-shark-tank-season-12/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bunchbike.com",
+    "websiteStatus": "up"
   },
   "s12e19-sharks-mark-daymond-kevin-lori-robert-stepnpull": {
     "businessStatus": "active",
@@ -3267,7 +3695,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue $1.7 million (as of November 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/stepnpull/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/stepnpull/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://stepnpull.com",
+    "websiteStatus": "up"
   },
   "s12e19-dynosafe": {
     "businessStatus": "inactive",
@@ -3277,7 +3707,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Pre-revenue at pitch and remained pre-revenue; product offered on pre-order basis only (as of March 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/dynosafe/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/dynosafe/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://dynosafe.com",
+    "websiteStatus": "up"
   },
   "s12e20-sharks-mark-kendra-scott-kevin-lori-barbara-opulencemd-beauty": {
     "businessStatus": "active",
@@ -3299,7 +3731,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$20,000 in sales in the month prior to pitch (2020)",
     "sourceUrl": "https://sharktankblog.com/business/the-matte/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-matte/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://thematte.com",
+    "websiteStatus": "up"
   },
   "s12e20-furzapper": {
     "businessStatus": "active",
@@ -3307,7 +3741,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in sales before appearing on Shark Tank; ~$5 million annual revenue as of 2023",
     "sourceUrl": "https://sharktankblog.com/business/furzapper/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/furzapper/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://furzapper.com",
+    "websiteStatus": "up"
   },
   "s12e21-sharks-mark-daymond-kevin-lori-robert-truffle-shuffle": {
     "businessStatus": "active",
@@ -3318,7 +3754,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenues 'in the neighborhood of $6 million' as of August 2023",
     "sourceUrl": "https://sharktankblog.com/business/truffle-shuffle/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/truffle-shuffle/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://truffleshufflesf.com",
+    "websiteStatus": "unreachable"
   },
   "s12e21-suds2go": {
     "businessStatus": "active",
@@ -3329,7 +3767,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$392,000 in sales so far in 2020 at time of pitch",
     "sourceUrl": "https://sharktankblog.com/business/suds2go/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/suds2go/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://mysuds2go.com",
+    "websiteStatus": "up"
   },
   "s12e21-larq": {
     "businessStatus": "active",
@@ -3341,7 +3781,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$20 million in sales by end of 2021",
     "sourceUrl": "https://sharktankblog.com/business/larq/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/larq/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://livelarq.com",
+    "websiteStatus": "up"
   },
   "s12e22-sharks-mark-daniel-kevin-lori-robert-jiggy-puzzles": {
     "businessStatus": "active",
@@ -3353,7 +3795,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$4 million in estimated annual sales (post-show); $2.25M in cumulative sales since 2019 at time of pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/jiggy/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/jiggy/ | https://www.business2community.com/entertainment/shark-tank-jiggy-puzzles-accepts-500000-from-mark-cuban-02404905 | https://sharktankrecap.com/jiggy-puzzles-update-shark-tank-season-12/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://jiggypuzzles.com",
+    "websiteStatus": "up"
   },
   "s12e23-sharks-mark-barbara-kevin-lori-alex-grind": {
     "businessStatus": "active",
@@ -3365,7 +3809,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$215,000 in pre-order sales over 5 months at pitch; over $1 million in revenue for 2021",
     "sourceUrl": "https://www.sharktankblog.com/business/grind/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/grind/ | https://sharktankseason.com/shark-tank-usa-season/season-12/grind",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://grindbasketball.com",
+    "websiteStatus": "up"
   },
   "s12e23-sneakerasers": {
     "businessStatus": "active",
@@ -3381,7 +3827,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $6 million in lifetime revenue (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/flinggolf/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/flinggolf/ | https://sharktankseason.com/shark-tank-usa-season/season-12/flinggolf",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://flinggolf.com",
+    "websiteStatus": "up"
   },
   "s12e24-floatngrill": {
     "businessStatus": "inactive",
@@ -3393,7 +3841,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "lifetime sales reached approximately $1.2 million; website down and social media dark as of June 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/float-n-grill/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/float-n-grill/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://floatngrill.com",
+    "websiteStatus": "up"
   },
   "s12e24-the-original-stretchlace": {
     "businessStatus": "active",
@@ -3401,7 +3851,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1 million a year in revenue (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/stretchlace/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/stretchlace/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://theoriginalstretchlace.com",
+    "websiteStatus": "up"
   },
   "s12e25-sharks-mark-daymond-kevin-lori-robert-dinodon": {
     "businessStatus": "active",
@@ -3413,7 +3865,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue reached $4.2 million (as of 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/dino-don/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/dino-don/ | https://sharktankseason.com/shark-tank-usa-season/season-12/dinodon",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://dinodoninc.com",
+    "websiteStatus": "up"
   },
   "s12e25-copper-cow-coffee": {
     "businessStatus": "active",
@@ -3421,7 +3875,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue is $3 million (as of June 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/copper-cow-coffee/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/copper-cow-coffee/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://coppercowcoffee.com",
+    "websiteStatus": "up"
   },
   "s12e25-lit-handlers": {
     "businessStatus": "active",
@@ -3432,13 +3888,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue is right around $1.2 million (as of February 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/lit-handlers/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/lit-handlers/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://lithandlers.com",
+    "websiteStatus": "up"
   },
   "s12e25-super-potty-trainer": {
     "businessStatus": "active",
     "sourceUrl": "https://www.sharktankblog.com/business/super-potty-trainer/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/super-potty-trainer/ | https://sharktanktales.com/business/super-potty-trainer/update/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://superpottytrainer.com",
+    "websiteStatus": "down"
   },
   "s11e1-robert-blueland": {
     "businessStatus": "active",
@@ -3451,7 +3911,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$170 million in lifetime sales (Season 15 update, July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/blueland/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/blueland/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://blueland.com",
+    "websiteStatus": "up"
   },
   "s11e1-the-babytoon": {
     "businessStatus": "active",
@@ -3477,7 +3939,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4 million annually as of February 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/tadah/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/tadah/ | https://sharktanksuccess.com/tadah-foods-update-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://tadahfoods.com",
+    "websiteStatus": "down"
   },
   "s11e2-rohan-oza-circadian-optics": {
     "businessStatus": "active",
@@ -3487,7 +3951,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4 million annually (as of April 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/circadian-optics/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/circadian-optics/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://circadianoptics.com",
+    "websiteStatus": "up"
   },
   "s11e2-boost-oxygen": {
     "businessStatus": "active",
@@ -3500,7 +3966,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $50 million annually as of August 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/boost-oxygen/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/boost-oxygen/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://boostoxygen.com",
+    "websiteStatus": "up"
   },
   "s11e3-robert-eterneva": {
     "businessStatus": "active",
@@ -3513,7 +3981,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$7 million annually as of April 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/eterneva/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/eterneva/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://eterneva.com",
+    "websiteStatus": "up"
   },
   "s11e3-aira": {
     "businessStatus": "active",
@@ -3528,7 +3998,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4 million in annual revenue as of November 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/aira/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/aira/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://airapower.com",
+    "websiteStatus": "up"
   },
   "s11e3-squid-socks": {
     "businessStatus": "active",
@@ -3540,7 +4012,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million annually as of November 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/squid-socks/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/squid-socks/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://squidsocks.ink",
+    "websiteStatus": "up"
   },
   "s11e4-rohan-oza-knife-aid": {
     "businessStatus": "active",
@@ -3554,7 +4028,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $2 million in annual revenue (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/knife-aid/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/knife-aid/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://knifeaid.com",
+    "websiteStatus": "up"
   },
   "s11e4-bug-bite-thing": {
     "businessStatus": "active",
@@ -3567,7 +4043,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $32 million in lifetime sales (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/bug-bite-thing/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bug-bite-thing/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bugbitething.com",
+    "websiteStatus": "up"
   },
   "s11e4-snacklins": {
     "businessStatus": "active",
@@ -3580,7 +4058,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $4 million in annual revenue (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/snacklins/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/snacklins/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://snacklins.com",
+    "websiteStatus": "up"
   },
   "s11e5-matt-higgins-tailgate-n-go": {
     "businessStatus": "active",
@@ -3592,7 +4072,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $1.4 million in annual revenue (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/tng-tailgate-n-go/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/tng-tailgate-n-go/ | https://www.statsforsharks.com/entry/Tailgate_N_Go | https://tailgatengo.com/blogs/press/tailgate-n-go-family-business-lands-deal-with-abc-shark-tank-recurring-shark-matt-higgins",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://tailgatengo.com",
+    "websiteStatus": "up"
   },
   "s11e5-golfkicks": {
     "businessStatus": "active",
@@ -3605,7 +4087,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4 million in annual revenue (as of June 2022)",
     "sourceUrl": "https://sharktankblog.com/business/golfkicks/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/golfkicks/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://golfkicks.com",
+    "websiteStatus": "up"
   },
   "s11e5-myo-storm": {
     "businessStatus": "active",
@@ -3618,7 +4102,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.8 million in annual revenue (as of August 2022)",
     "sourceUrl": "https://sharktankblog.com/business/myo-storm/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/myo-storm/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://myostorm.com",
+    "websiteStatus": "up"
   },
   "s11e6-robert-the-measuring-shovel": {
     "investors": [
@@ -3629,7 +4115,9 @@ export const enrichmentOverrides = {
     "industry": "Consumer Goods",
     "sourceUrl": "https://sharktankblog.com/business/the-measuring-shovel/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-measuring-shovel/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://themeasuringshovel.com",
+    "websiteStatus": "up"
   },
   "s11e6-supply": {
     "businessStatus": "active",
@@ -3642,7 +4130,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$12 million in annual sales (as of July 2021)",
     "sourceUrl": "https://sharktankblog.com/business/supply/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/supply/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://supply.co",
+    "websiteStatus": "up"
   },
   "s11e6-ezc-pak": {
     "businessStatus": "active",
@@ -3653,7 +4143,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$4 million annual revenue as of February 2023",
     "sourceUrl": "https://sharktankblog.com/business/ezc-pak/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/ezc-pak/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://lddy.no",
+    "websiteStatus": "up"
   },
   "s11e7-robert-baubles-soles": {
     "businessStatus": "active",
@@ -3666,7 +4158,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$300,000-$500,000 annual revenue as of November 2022",
     "sourceUrl": "https://sharktankblog.com/business/baubles-and-soles/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/baubles-and-soles/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://baublesandsoles.com",
+    "websiteStatus": "down"
   },
   "s11e7-dog-threads": {
     "businessStatus": "active",
@@ -3674,7 +4168,9 @@ export const enrichmentOverrides = {
     "description": "A pet-fashion company selling matching outfits (Hawaiian shirts, sweaters, tees) for dogs and their owners.",
     "sourceUrl": "https://sharktankblog.com/business/dog-threads/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/dog-threads/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://shopdogthreads.com",
+    "websiteStatus": "up"
   },
   "s11e7-the-yard": {
     "businessStatus": "active",
@@ -3683,7 +4179,9 @@ export const enrichmentOverrides = {
     "industry": "Food",
     "sourceUrl": "https://sharktankblog.com/business/the-yard/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-yard/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://theyardmilkshakebar.com",
+    "websiteStatus": "up"
   },
   "s11e8-daymond-gallant": {
     "businessStatus": "active",
@@ -3694,7 +4192,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$5 million annual revenue as of April 2023",
     "sourceUrl": "https://sharktankblog.com/business/gallant/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/gallant/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://gallant.com",
+    "websiteStatus": "up"
   },
   "s11e8-mrs-goldfarb-s-unreal-deli": {
     "businessStatus": "active",
@@ -3707,7 +4207,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue exceeding $10 million as of October 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/mrs-goldfarbs-unreal-deli/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/mrs-goldfarbs-unreal-deli/ | https://vegnews.com/shark-tank-s-mark-cuban-thinks-vegan-corned-beef-brand-is-worth-50-million",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://u.openx.net",
+    "websiteStatus": "down"
   },
   "s11e8-terra-core": {
     "businessStatus": "active",
@@ -3718,7 +4220,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$1.4 million annual revenue as of July 2022",
     "sourceUrl": "https://sharktankblog.com/business/terra-core/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/terra-core/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://terracorefitness.com",
+    "websiteStatus": "down"
   },
   "s11e8-outer": {
     "businessStatus": "active",
@@ -3729,7 +4233,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$26 million annual revenue as of April 2024",
     "sourceUrl": "https://sharktankblog.com/business/outer/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/outer/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://liveouter.com",
+    "websiteStatus": "up"
   },
   "s11e9-beardaments": {
     "businessStatus": "active",
@@ -3739,7 +4245,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue reached approximately $1 million (post-Shark Tank)",
     "sourceUrl": "https://sharktankblog.com/business/beardaments/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/beardaments/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://beardaments.com",
+    "websiteStatus": "up"
   },
   "s11e9-little-elf": {
     "businessStatus": "active",
@@ -3762,7 +4270,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$9 million annually (as of May 2023)",
     "sourceUrl": "https://sharktankblog.com/business/slumberpod/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/slumberpod/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://slumberpod.com",
+    "websiteStatus": "up"
   },
   "s11e10-flexscreen": {
     "businessStatus": "active",
@@ -3775,7 +4285,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $30 million in sales (2022)",
     "sourceUrl": "https://sharktankblog.com/business/flexscreen/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/flexscreen/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://flexscreen.com",
+    "websiteStatus": "up"
   },
   "s11e11-daymond-wise-pocket-products": {
     "businessStatus": "inactive",
@@ -3802,7 +4314,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4 million annually (2021)",
     "sourceUrl": "https://sharktankblog.com/business/kreyol-essence/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/kreyol-essence/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kreyolessence.com",
+    "websiteStatus": "up"
   },
   "s11e11-wanna-date": {
     "businessStatus": "active",
@@ -3815,7 +4329,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales remain less than $5 million (as of Oct 2023)",
     "sourceUrl": "https://sharktankblog.com/business/wanna-date/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/wanna-date/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://eatwannadate.com",
+    "websiteStatus": "down"
   },
   "s11e12-rohan-oza-genius-juice": {
     "businessStatus": "inactive",
@@ -3837,7 +4353,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of August 2024, the company is still in business and has between $900,000 and $1 million in annual revenue",
     "sourceUrl": "https://sharktankblog.com/business/rapid-rope/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/rapid-rope/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://rapidrope.com",
+    "websiteStatus": "up"
   },
   "s11e12-food": {
     "businessStatus": "active",
@@ -3865,7 +4383,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "By 2024, Bala achieved over $64 million in lifetime sales",
     "sourceUrl": "https://www.sharktankblog.com/business/bala/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bala/ | https://www.statsforsharks.com/entry/Bala_Bangles",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://shopbala.com",
+    "websiteStatus": "up"
   },
   "s11e13-shake-it-pup": {
     "businessStatus": "inactive",
@@ -3891,7 +4411,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "By April 2023, they were doing $5 million in annual revenue",
     "sourceUrl": "https://sharktankblog.com/business/fur/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/fur/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://furyou.com",
+    "websiteStatus": "up"
   },
   "s11e14-coconut-girl": {
     "businessStatus": "active",
@@ -3904,7 +4426,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "By April 2023, the company is doing around $2.5 million in annual revenue",
     "sourceUrl": "https://sharktankblog.com/business/coconut-girl/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/coconut-girl/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://coconutgirlbrands.com",
+    "websiteStatus": "unreachable"
   },
   "s11e14-pair-eyewear": {
     "businessStatus": "active",
@@ -3917,7 +4441,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "End of 2024: Annual revenue at this time is $22 million and they're predicting to double that in 2025",
     "sourceUrl": "https://sharktankblog.com/business/pair-eyewear/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pair-eyewear/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://paireyewear.com",
+    "websiteStatus": "up"
   },
   "s11e15-space-traveler": {
     "investors": [
@@ -3927,7 +4453,9 @@ export const enrichmentOverrides = {
     "industry": "Baby & Kids",
     "sourceUrl": "https://www.sharktankblog.com/business/space-traveler/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/space-traveler/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://spacetravelerkids.com",
+    "websiteStatus": "down"
   },
   "s11e15-bertello": {
     "businessStatus": "active",
@@ -3940,7 +4468,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"over $10 million in sales\" (as of April 2024)",
     "sourceUrl": "https://sharktankblog.com/business/bertello/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bertello/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bertello.com",
+    "websiteStatus": "up"
   },
   "s11e16-rohan-oza-boho": {
     "businessStatus": "active",
@@ -3953,7 +4483,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"over $10 million in lifetime revenue\" (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/boho/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/boho/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://boho.life",
+    "websiteStatus": "up"
   },
   "s11e16-bohana": {
     "businessStatus": "active",
@@ -3966,7 +4498,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"annual revenue of $4 million\" (by August 2022)",
     "sourceUrl": "https://sharktankblog.com/business/bohana/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bohana/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bohanalife.com",
+    "websiteStatus": "down"
   },
   "s11e16-grouphug": {
     "businessStatus": "active",
@@ -3979,7 +4513,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"sales of $900,000-$1 million annually\" (as of July 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/grouphug/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/grouphug/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://grouphugtech.com",
+    "websiteStatus": "up"
   },
   "s11e16-safety-nailer": {
     "businessStatus": "active",
@@ -3994,7 +4530,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"revenue of around $2 million annually\" (as of August 2023)",
     "sourceUrl": "https://sharktankblog.com/business/safety-nailer/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/safety-nailer/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://safetynailer.com",
+    "websiteStatus": "up"
   },
   "s11e17-daymond-pasta-by-hudson": {
     "businessStatus": "active",
@@ -4007,7 +4545,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"annual revenue at this time is between $3 and $4 million\" (as of August 2023)",
     "sourceUrl": "https://sharktankblog.com/business/pasta-by-hudson/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pasta-by-hudson/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pastabyhudson.com",
+    "websiteStatus": "unreachable"
   },
   "s11e17-goumi": {
     "businessStatus": "active",
@@ -4020,7 +4560,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"$1.9 million in annual revenue\" (as of March 2023)",
     "sourceUrl": "https://sharktankblog.com/business/goumi/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/goumi/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://goumikids.com",
+    "websiteStatus": "up"
   },
   "s11e17-critter-pricker": {
     "businessStatus": "active",
@@ -4033,7 +4575,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"sales of less than $1 million per year\" (as of March 2023)",
     "sourceUrl": "https://sharktankblog.com/business/critter-pricker/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/critter-pricker/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://critterpricker.com",
+    "websiteStatus": "down"
   },
   "s11e17-the-frozen-farmers": {
     "businessStatus": "active",
@@ -4046,7 +4590,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $20 million in sales (2022); ~$310,000 in sales at the time of taping in September 2019",
     "sourceUrl": "https://www.sharktankblog.com/business/frozen-farmer/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/frozen-farmer/ | https://www.foodrepublic.com/1352963/frozen-farmer-shark-tank-now/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thefrozenfarmer.com",
+    "websiteStatus": "up"
   },
   "s11e18-robert-muvez": {
     "businessStatus": "active",
@@ -4055,7 +4601,9 @@ export const enrichmentOverrides = {
     "industry": "Apparel",
     "sourceUrl": "https://sharktankblog.com/business/muvez/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/muvez/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://muvez.co",
+    "websiteStatus": "up"
   },
   "s11e18-bad-birdie": {
     "businessStatus": "active",
@@ -4068,7 +4616,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue between $6-$7 million (as of November 2023); over $1 million in sales in 2019 at pitch",
     "sourceUrl": "https://sharktankblog.com/business/bad-birdie/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bad-birdie/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://badbirdiegolf.com",
+    "websiteStatus": "up"
   },
   "s11e19-first-saturday-lime": {
     "businessStatus": "active",
@@ -4081,7 +4631,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue around $1.5 million (July 2024); $150,000 sales in 2019 at pitch",
     "sourceUrl": "https://sharktankblog.com/business/first-saturday-lime/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/first-saturday-lime/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://firstsaturdaylime.com",
+    "websiteStatus": "up"
   },
   "s11e20-daymond-fried-green-tomatoes": {
     "businessStatus": "active",
@@ -4094,7 +4646,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue is less than $1 million (as of July 2024); $268,000 in product sales in 2018 at pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/fried-green-tomatoes/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/fried-green-tomatoes/ | https://www.foodrepublic.com/1352676/fried-green-tomatoes-shark-tank-now/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://friedgreentomatoes.co",
+    "websiteStatus": "up"
   },
   "s11e20-mural-painter": {
     "businessStatus": "active",
@@ -4105,7 +4659,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue of $1 million (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/mural-painter/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/mural-painter/ | https://allsharktankproducts.com/service/mural-painter-inc/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://muralpainterinc.com",
+    "websiteStatus": "up"
   },
   "s11e21-daymond-unbuckle-me": {
     "businessStatus": "active",
@@ -4116,7 +4672,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in lifetime sales revenue (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/unbuckleme/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/unbuckleme/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://unbuckleme.com",
+    "websiteStatus": "up"
   },
   "s11e21-tanoshi": {
     "businessStatus": "inactive",
@@ -4129,7 +4687,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue reached $4 million (by July 2022); $720,000 in sales at pitch",
     "sourceUrl": "https://sharktankblog.com/business/tanoshi/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/tanoshi/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://tanoshikidscomputers.com",
+    "websiteStatus": "up"
   },
   "s11e22-robert-tough-tie": {
     "businessStatus": "active",
@@ -4139,7 +4699,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue $4 million (as of June 2022, per Shark Tank Blog)",
     "sourceUrl": "https://sharktankblog.com/business/tough-tie/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/tough-tie/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://toughapparel.com",
+    "websiteStatus": "up"
   },
   "s11e22-potty-safe": {
     "businessStatus": "active",
@@ -4149,7 +4711,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $5 million in lifetime sales (as of August 2023, per Shark Tank Blog)",
     "sourceUrl": "https://sharktankblog.com/business/potty-safe/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/potty-safe/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pottysafe.com",
+    "websiteStatus": "unreachable"
   },
   "s11e23-rohan-oza-mc-squares": {
     "businessStatus": "active",
@@ -4162,7 +4726,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4 million in annual revenue (as of June 2021, per Shark Tank Blog)",
     "sourceUrl": "https://www.sharktankblog.com/business/mcsquares/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/mcsquares/ | https://sharktankrecap.com/mcsquares-update-shark-tank-season-11/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mcsquares.com",
+    "websiteStatus": "unreachable"
   },
   "s11e24-robert-dreamland-baby": {
     "businessStatus": "active",
@@ -4181,7 +4747,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $1 million in annual revenue (as of July 2024, per Shark Tank Blog)",
     "sourceUrl": "https://sharktankblog.com/business/the-mad-optimist/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-mad-optimist/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://themadoptimist.com",
+    "websiteStatus": "up"
   },
   "s11e24-rollin-greens": {
     "businessStatus": "active",
@@ -4191,7 +4759,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4-5 million per year (as of July 2024, per Shark Tank Blog)",
     "sourceUrl": "https://sharktankblog.com/business/rollin-greens/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/rollin-greens/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://rollingreens.com",
+    "websiteStatus": "up"
   },
   "s11e24-yellow-leaf-hammocks": {
     "businessStatus": "active",
@@ -4204,7 +4774,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4.5 million in annual revenue (as of July 2024, per Shark Tank Blog)",
     "sourceUrl": "https://sharktankblog.com/business/yellow-leaf-hammocks/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/yellow-leaf-hammocks/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://yellowleafhammocks.com",
+    "websiteStatus": "up"
   },
   "s10e1-le-glue": {
     "businessStatus": "active",
@@ -4217,7 +4789,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "On track to top $2 million in sales (as of July 2024, per Shark Tank Blog)",
     "sourceUrl": "https://sharktankblog.com/business/le-glue/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/le-glue/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://le-glue.com",
+    "websiteStatus": "up"
   },
   "s10e1-bear-minimum": {
     "businessStatus": "active",
@@ -4230,7 +4804,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Estimated annual revenue ~$80,000 as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/bear-minimum/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bear-minimum/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bearminimum.org",
+    "websiteStatus": "up"
   },
   "s10e2-shed-defender": {
     "businessStatus": "active",
@@ -4243,7 +4819,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$1 million annual revenue as of April 2024",
     "sourceUrl": "https://sharktankblog.com/business/shed-defender/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/shed-defender/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sheddefender.com",
+    "websiteStatus": "up"
   },
   "s10e2-ta-ta-towel": {
     "businessStatus": "active",
@@ -4267,7 +4845,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$40,000 in revenue during a six-month proof-of-concept test before the show",
     "sourceUrl": "https://www.sharktankblog.com/business/sanaia/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/sanaia/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sanaiaapplesauce.com",
+    "websiteStatus": "unreachable"
   },
   "s10e3-bundil": {
     "businessStatus": "inactive",
@@ -4278,7 +4858,9 @@ export const enrichmentOverrides = {
     "industry": "Technology",
     "sourceUrl": "https://www.sharktankblog.com/business/bundil/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bundil/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://enjoybundil.com",
+    "websiteStatus": "unreachable"
   },
   "s10e3-beyond-sushi": {
     "businessStatus": "active",
@@ -4292,7 +4874,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$6 million annual revenue across all properties as of 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/beyond-sushi/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/beyond-sushi/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://beyondsushi.com",
+    "websiteStatus": "up"
   },
   "s10e3-cup-board-pro": {
     "businessStatus": "active",
@@ -4308,7 +4892,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $7 million in total sales as of 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/cup-board-pro/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/cup-board-pro/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://b.delivery.consentmanager.net",
+    "websiteStatus": "up"
   },
   "s10e4-manscaped": {
     "businessStatus": "active",
@@ -4319,7 +4905,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$126 million in revenue for 2022 (disclosed August 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/manscaped/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/manscaped/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://manscaped.com",
+    "websiteStatus": "blocked"
   },
   "s10e4-cave-shake": {
     "investors": [
@@ -4331,7 +4919,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million in annual revenue (as of August 2022)",
     "sourceUrl": "https://sharktankblog.com/business/cave-shake/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/cave-shake/ | https://www.pinoymoneytalk.com/cave-shake-shark-tank-update/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://eatspaceshake.com",
+    "websiteStatus": "up"
   },
   "s10e4-butter-cloth": {
     "businessStatus": "active",
@@ -4344,7 +4934,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $6 million in annual revenue (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/butter-cloth/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/butter-cloth/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://buttercloth.com",
+    "websiteStatus": "up"
   },
   "s10e5-rewardstock": {
     "businessStatus": "inactive",
@@ -4364,7 +4956,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million annually (as of 2025)",
     "sourceUrl": "https://sharktankblog.com/business/kombucha-shop/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/kombucha-shop/ | https://sharktankrecap.com/the-kombucha-shop-update-shark-tank-season-10/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thekombuchashop.com",
+    "websiteStatus": "up"
   },
   "s10e6-vade-nutrition": {
     "businessStatus": "active",
@@ -4373,7 +4967,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$6 million in annual revenue (as of August 2023)",
     "sourceUrl": "https://sharktankblog.com/business/vade-nutrition/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/vade-nutrition/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://vade-nutrition.com",
+    "websiteStatus": "up"
   },
   "s10e6-bottlekeeper": {
     "businessStatus": "active",
@@ -4383,7 +4979,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$13 million in annual revenue (as of May 2022)",
     "sourceUrl": "https://sharktankblog.com/business/bottlekeeper/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bottlekeeper/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bottlekeeper.com",
+    "websiteStatus": "up"
   },
   "s10e6-nui": {
     "businessStatus": "inactive",
@@ -4396,7 +4994,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.7 million in revenue in 2018 (year after airing)",
     "sourceUrl": "https://sharktankblog.com/business/nui/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/nui/ | https://www.cnbc.com/2018/11/28/shark-tank-keto-cookie-company-nui-got-300k-investment-from-a-rod.html",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://victormacias.com",
+    "websiteStatus": "unreachable"
   },
   "s10e7-hire-santa": {
     "businessStatus": "active",
@@ -4409,7 +5009,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $7 million in sales within 5 years of the deal (Season 15 update, as of June 2024)",
     "sourceUrl": "https://sharktankblog.com/business/hire-santa/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/hire-santa/ | https://www.statsforsharks.com/entry/Hire_Santa",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hiresanta.com",
+    "websiteStatus": "up"
   },
   "s10e7-ski-z": {
     "businessStatus": "active",
@@ -4421,7 +5023,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$230,000 in sales at the time of the 2018 pitch; still in business earning ~$200,000 annually as of August 2023",
     "sourceUrl": "https://sharktankblog.com/business/ski-z/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/ski-z/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://skigearco.com",
+    "websiteStatus": "unreachable"
   },
   "s10e7-prank-o": {
     "businessStatus": "active",
@@ -4431,7 +5035,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2.8 million projected for 2018 at pitch; grown to ~$6 million annual revenue as of August 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/prank-o-rynarik/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/prank-o-rynarik/ | https://www.foodrepublic.com/ (search corroboration)",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pranko.com",
+    "websiteStatus": "up"
   },
   "s10e7-oatmeals": {
     "businessStatus": "inactive",
@@ -4441,7 +5047,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2.5 million cumulative sales over six years at the time of pitch; closed its doors January 24, 2021",
     "sourceUrl": "https://sharktankblog.com/business/oatmeals/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/oatmeals/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://oatmealsny.com",
+    "websiteStatus": "up"
   },
   "s10e8-oza-pop-it-pal": {
     "businessStatus": "active",
@@ -4454,7 +5062,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$315,000 in the prior 4 months at pitch (projected $940,000 for 2018); ~$500,000 annual revenue as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/pop-it-pal/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pop-it-pal/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://popitpal.com",
+    "websiteStatus": "up"
   },
   "s10e8-yumble": {
     "businessStatus": "inactive",
@@ -4464,7 +5074,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.3 million in 2018 sales at pitch; reached ~$8 million annual revenue by August 2022 before shutting down in December 2022",
     "sourceUrl": "https://sharktankblog.com/business/yumble/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/yumble/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://yumblekids.com",
+    "websiteStatus": "down"
   },
   "s10e8-mother-beverage": {
     "businessStatus": "active",
@@ -4476,7 +5088,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$500,000 over the prior 18 months at pitch; rebranded Poppi reached $50 million annual revenue as of April 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/mother/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/mother/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://drinkpoppi.com",
+    "websiteStatus": "up"
   },
   "s10e9-moki-doorstep": {
     "businessStatus": "active",
@@ -4489,7 +5103,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Founders valued the business at $3 million; Daymond John bought the entire company for $3 million; product still sold via Rightline Gear, estimated $500K-$1M annual sales as of 2024",
     "sourceUrl": "https://sharktankblog.com/business/moki-doorstep/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/moki-doorstep/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mokidoorstep.com",
+    "websiteStatus": "unreachable"
   },
   "s10e9-bruw": {
     "businessStatus": "inactive",
@@ -4502,7 +5118,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Valued at $200,000 at pitch; acquired by Snarky Tea in April 2020",
     "sourceUrl": "https://sharktankblog.com/business/bruw/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bruw/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bruw.net",
+    "websiteStatus": "unreachable"
   },
   "s10e9-tushbaby": {
     "businessStatus": "active",
@@ -4515,7 +5133,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $11 million in lifetime sales (as of April 2024)",
     "sourceUrl": "https://sharktankblog.com/business/tushbaby/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/tushbaby/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://tushbaby.com",
+    "websiteStatus": "up"
   },
   "s10e10-adventure-hunt": {
     "businessStatus": "active",
@@ -4528,7 +5148,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$769,000 in sales after 18 months (at pitch)",
     "sourceUrl": "https://sharktankblog.com/business/adventure-hunt/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/adventure-hunt/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://u.openx.net",
+    "websiteStatus": "down"
   },
   "s10e10-pristine": {
     "businessStatus": "active",
@@ -4564,7 +5186,9 @@ export const enrichmentOverrides = {
     "industry": "Pet",
     "sourceUrl": "https://sharktankblog.com/business/kitty-kasas/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/kitty-kasas/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kittykasas.com",
+    "websiteStatus": "up"
   },
   "s10e11-sonnet-james": {
     "businessStatus": "active",
@@ -4577,7 +5201,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$6 million in annual revenue (as of November 2023)",
     "sourceUrl": "https://sharktankblog.com/business/sonnet-james/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/sonnet-james/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sonnetjames.com",
+    "websiteStatus": "up"
   },
   "s10e12-obvious-wines": {
     "businessStatus": "active",
@@ -4590,7 +5216,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $4 million in annual revenue (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/obvious-wines/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/obvious-wines/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://obviouswines.com",
+    "websiteStatus": "up"
   },
   "s10e12-twist-it-up-comb": {
     "businessStatus": "active",
@@ -4616,7 +5244,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$7 million in annual revenue as of June 2023; stopped selling Montessori toys on August 1, 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/montikids/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/montikids/ | https://sharktankrecap.com/monti-kids-update-shark-tank-season-10/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://montikids.com",
+    "websiteStatus": "down"
   },
   "s10e13-life-lift-systems": {
     "businessStatus": "inactive",
@@ -4629,7 +5259,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "reached $4 million in annual revenue as of April 2023 before shutting down (rebranded to Vortex Vaults, went out of business)",
     "sourceUrl": "https://sharktankblog.com/business/life-lift-systems/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/life-lift-systems/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://lifeliftsystems.com",
+    "websiteStatus": "down"
   },
   "s10e13-subsafe": {
     "businessStatus": "active",
@@ -4643,7 +5275,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "around $1 million annual revenue as of May 2024",
     "sourceUrl": "https://sharktankblog.com/business/subsafe/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/subsafe/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thesubsafe.com",
+    "websiteStatus": "up"
   },
   "s10e13-zorpads": {
     "businessStatus": "active",
@@ -4657,7 +5291,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "lifetime revenues at $4 million as of October 2023",
     "sourceUrl": "https://sharktankblog.com/business/zorpads/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/zorpads/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://zorpads.com",
+    "websiteStatus": "up"
   },
   "s10e14-zookies-cookies": {
     "businessStatus": "inactive",
@@ -4683,7 +5319,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue $250,000-$500,000 per year as of April 2024 (amount = stated lower bound)",
     "sourceUrl": "https://sharktankblog.com/business/shower-toga/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/shower-toga/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://showertoga.com",
+    "websiteStatus": "up"
   },
   "s10e15-toybox-labs": {
     "businessStatus": "active",
@@ -4694,7 +5332,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$10.4 million in annual revenue as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/toybox/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/toybox/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://make.toys",
+    "websiteStatus": "up"
   },
   "s10e15-moink": {
     "businessStatus": "active",
@@ -4719,7 +5359,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "4 locations with annual revenue of $2 million (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/urbanfloat/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/urbanfloat/ | https://sharktankseason.com/shark-tank-usa-season/season-10/urban-float",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://urbanfloat.com",
+    "websiteStatus": "up"
   },
   "s10e16-wild-earth": {
     "businessStatus": "active",
@@ -4732,7 +5374,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenues reached $21 million as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/wild-earth/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/wild-earth/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wildearth.com",
+    "websiteStatus": "up"
   },
   "s10e16-pooch-selfie": {
     "businessStatus": "inactive",
@@ -4745,7 +5389,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$380,000 in total revenue at time of pitch",
     "sourceUrl": "https://sharktankblog.com/business/pooch-selfie/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pooch-selfie/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://poochselfie.com",
+    "websiteStatus": "up"
   },
   "s10e17-press-waffle-co": {
     "businessStatus": "active",
@@ -4757,7 +5403,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$8.5 million in annual revenue (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/press-waffle/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/press-waffle/ | https://www.statsforsharks.com/entry/Press_Waffle_Co.",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://presswaffleco.com",
+    "websiteStatus": "up"
   },
   "s10e17-pick-up-pools": {
     "businessStatus": "inactive",
@@ -4770,7 +5418,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $12,000 in lifetime sales at time of pitch",
     "sourceUrl": "https://sharktankblog.com/business/pick-up-pools/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pick-up-pools/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://pickuppools.com",
+    "websiteStatus": "up"
   },
   "s10e17-dare-u-go": {
     "businessStatus": "active",
@@ -4781,7 +5431,9 @@ export const enrichmentOverrides = {
     "industry": "Baby & Kids",
     "sourceUrl": "https://sharktankblog.com/business/dare-u-go/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/dare-u-go/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://dareugo.com",
+    "websiteStatus": "up"
   },
   "s10e18-kanga": {
     "businessStatus": "active",
@@ -4794,7 +5446,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3.5 million a year in revenue; sold over 400,000 coolers",
     "sourceUrl": "https://www.sharktankblog.com/business/kanga/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/kanga/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://buykanga.com",
+    "websiteStatus": "up"
   },
   "s10e18-certifikid": {
     "businessStatus": "active",
@@ -4807,7 +5461,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue is $5 million (as of April 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/certifikid/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/certifikid/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://certifikid.com",
+    "websiteStatus": "up"
   },
   "s10e19-oza-pricetitution": {
     "businessStatus": "active",
@@ -4819,7 +5475,9 @@ export const enrichmentOverrides = {
     "industry": "Toys & Games",
     "sourceUrl": "https://sharktankblog.com/business/pricetitution/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pricetitution/ | https://sharktankseason.com/shark-tank-usa-season/season-10/pricetitution | https://www.statsforsharks.com/entry/Pricetitution",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pricetitution.com",
+    "websiteStatus": "up"
   },
   "s10e19-hydroviv": {
     "businessStatus": "active",
@@ -4830,7 +5488,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million in annual revenue as of August 2022",
     "sourceUrl": "https://sharktankblog.com/business/hydroviv/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/hydroviv/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hydroviv.com",
+    "websiteStatus": "up"
   },
   "s10e20-mavens-creamery": {
     "businessStatus": "active",
@@ -4840,7 +5500,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenues are $3 million as of September 2022",
     "sourceUrl": "https://sharktankblog.com/business/mavens-creamery/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/mavens-creamery/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mavenscreamery.com",
+    "websiteStatus": "up"
   },
   "s10e20-spare": {
     "businessStatus": "active",
@@ -4850,7 +5512,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4 million in annual revenue as of June 2023",
     "sourceUrl": "https://sharktankblog.com/business/spare/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/spare/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://gotspare.com",
+    "websiteStatus": "up"
   },
   "s10e20-somnifix": {
     "businessStatus": "active",
@@ -4885,7 +5549,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million in annual revenue as of November 2022",
     "sourceUrl": "https://sharktankblog.com/business/best-wardrobe-solutions/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/best-wardrobe-solutions/ | https://sharktankrecap.com/best-pocket-square-holder-update-shark-tank-season-10/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bestpocketsquareholder.com",
+    "websiteStatus": "up"
   },
   "s10e21-kymera-body-boards": {
     "businessStatus": "active",
@@ -4895,7 +5561,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$6 million lifetime revenues as of April 2024",
     "sourceUrl": "https://sharktankblog.com/business/kymera-body-board/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/kymera-body-board/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kymera.com",
+    "websiteStatus": "up"
   },
   "s10e22-cubicall": {
     "businessStatus": "active",
@@ -4908,7 +5576,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$5 million in annual revenue as of August 2022",
     "sourceUrl": "https://sharktankblog.com/business/cubicall/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/cubicall/ | https://www.statsforsharks.com/entry/Cubicall",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://cubicallbooth.com",
+    "websiteStatus": "blocked"
   },
   "s10e22-saucemoto": {
     "businessStatus": "active",
@@ -4921,7 +5591,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$250,000-$500,000 in revenue as of December 2022",
     "sourceUrl": "https://sharktankblog.com/business/saucemoto/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/saucemoto/ | https://www.inc.com/emily-canal/saucemoto-shark-tank-season-10-episode-22.html",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://saucemoto.com",
+    "websiteStatus": "up"
   },
   "s10e22-deskview": {
     "businessStatus": "active",
@@ -4934,7 +5606,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million in annual revenue as of June 2022",
     "sourceUrl": "https://sharktankblog.com/business/deskview/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/deskview/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://deskview.co",
+    "websiteStatus": "unreachable"
   },
   "s10e23-quikflip": {
     "businessStatus": "active",
@@ -4947,7 +5621,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4 million in annual revenue as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/quikflip/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/quikflip/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://quikflipapparel.com",
+    "websiteStatus": "up"
   },
   "s10e23-batbnb": {
     "businessStatus": "active",
@@ -4960,7 +5636,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$135,000 in revenue at time of pitch (2018), under $1M annual as of 2024",
     "sourceUrl": "https://sharktankblog.com/business/batbnb/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/batbnb/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://batbnb.com",
+    "websiteStatus": "up"
   },
   "s10e23-fat-shack": {
     "businessStatus": "active",
@@ -4973,7 +5651,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$22 million in lifetime sales at time of pitch",
     "sourceUrl": "https://sharktankblog.com/business/fat-shack/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/fat-shack/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://fatshack.com",
+    "websiteStatus": "up"
   },
   "s9e1-locker-board": {
     "investors": [
@@ -4981,7 +5661,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://sharktankblog.com/business/locker-board/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/locker-board/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://lockerboard.net",
+    "websiteStatus": "down"
   },
   "s9e1-sierra-madre-research": {
     "investors": [
@@ -4990,7 +5672,9 @@ export const enrichmentOverrides = {
     "industry": "Sports",
     "sourceUrl": "https://sharktankblog.com/business/sierra-madre-research/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/sierra-madre-research/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sierramadreresearch.com",
+    "websiteStatus": "up"
   },
   "s9e2-the-seventy2": {
     "investors": [
@@ -4998,7 +5682,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://sharktankblog.com/business/the-seventy2/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-seventy2/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://unchartedsupplyco.com",
+    "websiteStatus": "up"
   },
   "s9e2-jackson-s-honest": {
     "investors": [
@@ -5006,7 +5692,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://sharktankblog.com/business/jacksons-honest/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/jacksons-honest/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://jacksonschips.com",
+    "websiteStatus": "up"
   },
   "s9e2-qball": {
     "investors": [
@@ -5017,7 +5705,9 @@ export const enrichmentOverrides = {
     "industry": "Technology",
     "sourceUrl": "https://sharktankblog.com/business/qball/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/qball/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://peeq.us",
+    "websiteStatus": "up"
   },
   "s9e3-fidgetland": {
     "investors": [
@@ -5026,13 +5716,17 @@ export const enrichmentOverrides = {
     "industry": "Toys & Games",
     "sourceUrl": "https://sharktankblog.com/business/fidgetland/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/fidgetland/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://fidgetland.com",
+    "websiteStatus": "up"
   },
   "s9e3-enso": {
     "industry": "Jewelry & Accessories",
     "sourceUrl": "https://sharktankblog.com/business/enso-rings/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/enso-rings/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://ensorings.com",
+    "websiteStatus": "up"
   },
   "s9e3-tangle-pets": {
     "investors": [
@@ -5040,7 +5734,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://www.sharktankblog.com/business/tanglepets/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/tanglepets/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://tanglepets.com",
+    "websiteStatus": "up"
   },
   "s9e4-ice-shaker": {
     "businessStatus": "active",
@@ -5063,7 +5759,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue is $5 million (as of 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/benjilock/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/benjilock/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://benjilock.com",
+    "websiteStatus": "up"
   },
   "s9e5-ash-and-anvil": {
     "businessStatus": "active",
@@ -5072,7 +5770,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "revenue for 2022 was $2 million (as of Feb 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/ash-and-anvil/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/ash-and-anvil/ | https://sharktankrecap.com/ash-and-anvil-clothing-update-shark-tank-season-9/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://ashanderie.com",
+    "websiteStatus": "up"
   },
   "s9e5-mirmir": {
     "businessStatus": "active",
@@ -5084,7 +5784,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of February 2023, annual revenues are $24 million",
     "sourceUrl": "https://www.sharktankblog.com/business/mirmir/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/mirmir/ | https://www.slashgear.com/1736607/what-happened-mirmir-photo-booth-shark-tank-season-9/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mirmir.com",
+    "websiteStatus": "up"
   },
   "s9e5-human-bobber": {
     "businessStatus": "active",
@@ -5107,7 +5809,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of April 2023, annual revenue of $4 million",
     "sourceUrl": "https://www.sharktankblog.com/novel-effect-2/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/novel-effect-2/ | https://www.slashgear.com/1830821/what-happened-novel-effect-app-shark-tank-season-9/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://noveleffect.com",
+    "websiteStatus": "up"
   },
   "s9e6-drainwig": {
     "businessStatus": "active",
@@ -5132,7 +5836,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of April 2023, the business has $6 million in annual revenue",
     "sourceUrl": "https://www.sharktankblog.com/business/brazyn-life/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/brazyn-life/ | https://sharktanksuccess.com/brazyn-life-update-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://b.delivery.consentmanager.net",
+    "websiteStatus": "up"
   },
   "s9e7-waivecar": {
     "businessStatus": "inactive",
@@ -5141,7 +5847,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://sharktankblog.com/business/waivecar/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/waivecar/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://waivecar.com",
+    "websiteStatus": "unreachable"
   },
   "s9e7-pearachute": {
     "businessStatus": "inactive",
@@ -5149,7 +5857,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$50,000 in sales after ~4 months in operation (at time of pitch)",
     "sourceUrl": "https://sharktankblog.com/business/pearachute/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pearachute/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://pearachutekids.com",
+    "websiteStatus": "up"
   },
   "s9e8-no-mo-stache": {
     "businessStatus": "active",
@@ -5162,7 +5872,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $4 million in annual revenue (as of November 2022)",
     "sourceUrl": "https://sharktankblog.com/business/no-mo-stache/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/no-mo-stache/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://nomostache.com",
+    "websiteStatus": "up"
   },
   "s9e8-snoofybee": {
     "businessStatus": "active",
@@ -5170,7 +5882,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $1 million in annual revenue (as of 2022)",
     "sourceUrl": "https://sharktankblog.com/business/snoofybee/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/snoofybee/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://snoofybee.com",
+    "websiteStatus": "up"
   },
   "s9e8-snarky-tea": {
     "businessStatus": "active",
@@ -5182,7 +5896,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual sales of $6 million (as of August 2023)",
     "sourceUrl": "https://sharktankblog.com/business/snarky-tea/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/snarky-tea/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://snarkytea.com",
+    "websiteStatus": "up"
   },
   "s9e9-brilliant-pad": {
     "businessStatus": "active",
@@ -5190,7 +5906,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $1 million in annual revenues (as of August 2023)",
     "sourceUrl": "https://sharktankblog.com/business/brilliant-pad/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/brilliant-pad/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://brilliantpad.com",
+    "websiteStatus": "up"
   },
   "s9e9-bravo": {
     "businessStatus": "active",
@@ -5198,7 +5916,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $2 million in annual revenue (2021)",
     "sourceUrl": "https://www.sharktankblog.com/business/bravo/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bravo/ | https://sharktankseason.com/shark-tank-usa-season/season-9/bravo",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://famigo.com",
+    "websiteStatus": "up"
   },
   "s9e9-glovestix": {
     "businessStatus": "active",
@@ -5219,13 +5939,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $2 million in annual revenue as of August 2023",
     "sourceUrl": "https://sharktankblog.com/business/grypmat/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/grypmat/ | https://geeksaroundglobe.com/grypmat-net-worth-update-before-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://grypmat.com",
+    "websiteStatus": "up"
   },
   "s9e10-dna-simple": {
     "businessStatus": "active",
     "sourceUrl": "https://sharktankblog.com/business/dna-simple/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/dna-simple/ | https://www.legit.ng/entertainment/tv-shows/1673389-is-dna-simple-business-business-updates-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://dnasimple.org",
+    "websiteStatus": "up"
   },
   "s9e10-smartgurlz": {
     "businessStatus": "inactive",
@@ -5234,7 +5958,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.2 million in 2018 revenue",
     "sourceUrl": "https://sharktankblog.com/business/smartgurlz/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/smartgurlz/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://smartgurlz.com",
+    "websiteStatus": "down"
   },
   "s9e11-reely-hooked-fish-co": {
     "businessStatus": "inactive",
@@ -5244,7 +5970,9 @@ export const enrichmentOverrides = {
     "industry": "Food",
     "sourceUrl": "https://sharktankblog.com/business/reely-hooked-fish-co/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/reely-hooked-fish-co/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://reelyhooked.com",
+    "websiteStatus": "unreachable"
   },
   "s9e11-cut-buddy": {
     "businessStatus": "active",
@@ -5255,13 +5983,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue approaching $5 million by July 2024",
     "sourceUrl": "https://sharktankblog.com/business/the-cut-buddy/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-cut-buddy/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thecutbuddy.com",
+    "websiteStatus": "up"
   },
   "s9e11-prontobev": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/prontobev/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/prontobev/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://prontoconcepts.com",
+    "websiteStatus": "up"
   },
   "s9e12-hater": {
     "businessStatus": "inactive",
@@ -5270,7 +6002,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://sharktankblog.com/business/hater/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/hater/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://haterdater.com",
+    "websiteStatus": "up"
   },
   "s9e12-everlywell": {
     "businessStatus": "active",
@@ -5282,7 +6016,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.1 billion in lifetime sales as of October 2023",
     "sourceUrl": "https://sharktankblog.com/business/everlywell/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/everlywell/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://everlywell.com",
+    "websiteStatus": "up"
   },
   "s9e12-mush": {
     "businessStatus": "active",
@@ -5293,7 +6029,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $5 million in annual revenue as of September 2022 (3,800+ retail locations)",
     "sourceUrl": "https://sharktankblog.com/business/mush/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/mush/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://eatmush.com",
+    "websiteStatus": "up"
   },
   "s9e13-the-original-comfy": {
     "businessStatus": "active",
@@ -5305,14 +6043,18 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$15 million annual revenue; ~$550 million in lifetime sales as of July 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/the-original-comfy/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/the-original-comfy/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thecomfy.com",
+    "websiteStatus": "up"
   },
   "s9e13-rokblok-by-pink-donut": {
     "businessStatus": "active",
     "investors": [],
     "sourceUrl": "https://sharktankblog.com/business/rokblok/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/rokblok/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pinkdonut.io",
+    "websiteStatus": "up"
   },
   "s9e13-modern-christmas-trees": {
     "businessStatus": "active",
@@ -5324,7 +6066,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $1 million in annual revenue as of February 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/modern-christmas-tree/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/modern-christmas-tree/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://modernchristmastrees.com",
+    "websiteStatus": "up"
   },
   "s9e14-frywall": {
     "businessStatus": "active",
@@ -5336,7 +6080,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$9.5 million in lifetime revenue by August 2024 (~$1.5 million annually)",
     "sourceUrl": "https://sharktankblog.com/business/frywall/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/frywall/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://frywall.com",
+    "websiteStatus": "up"
   },
   "s9e16-fish-fry": {
     "businessStatus": "active",
@@ -5362,7 +6108,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $3 million in lifetime sales as of August 2024 (~$500K-$600K annually)",
     "sourceUrl": "https://www.sharktankblog.com/business/the-longhairs/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/the-longhairs/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thelonghairs.us",
+    "websiteStatus": "up"
   },
   "s9e17-alice-s-table": {
     "businessStatus": "active",
@@ -5375,7 +6123,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$6 million in annual revenue as of December 2022",
     "sourceUrl": "https://sharktankblog.com/business/alices-table/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/alices-table/ | https://www.statsforsharks.com/entry/Alice's_Table | https://www.ajc.com/blog/talk-town/spanx-founder-sara-blakely-invests-flower-arranging-event-startup/MaXYmZoSGfk5GIZAoZ3vwI/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://alicestable.com",
+    "websiteStatus": "up"
   },
   "s9e17-boobie-bar": {
     "businessStatus": "active",
@@ -5386,7 +6136,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million in annual revenue as of August 2022",
     "sourceUrl": "https://sharktankblog.com/business/boobie-bar/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/boobie-bar/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://getboobiebars.com",
+    "websiteStatus": "up"
   },
   "s9e17-pandaloon": {
     "businessStatus": "active",
@@ -5397,7 +6149,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million in annual revenue as of January 2023",
     "sourceUrl": "https://sharktankblog.com/business/pandaloon/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pandaloon/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pandaloon.com",
+    "websiteStatus": "up"
   },
   "s9e18-rounderbum": {
     "businessStatus": "active",
@@ -5409,7 +6163,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million in annual revenue as of May 2022",
     "sourceUrl": "https://sharktankblog.com/business/rounderbum/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/rounderbum/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://rounderbum.com",
+    "websiteStatus": "up"
   },
   "s9e18-guzzle-buddy": {
     "businessStatus": "active",
@@ -5428,7 +6184,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $100,000 in revenue during first four months of operation (at pitch); company went out of business December 2019",
     "sourceUrl": "https://sharktankblog.com/business/bouquet-bar/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bouquet-bar/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://partners.bouquetbar.com",
+    "websiteStatus": "unreachable"
   },
   "s9e19-the-pop": {
     "businessStatus": "active",
@@ -5439,7 +6197,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million in annual revenue as of July 2024 (rebranded Doodle & Co.)",
     "sourceUrl": "https://sharktankblog.com/business/the-pop/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-pop/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://doddleandco.com",
+    "websiteStatus": "up"
   },
   "s9e20-the-dough-bar": {
     "businessStatus": "inactive",
@@ -5450,7 +6210,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.2 million total sales June 2015-January 2018 (at pitch); filed Chapter 11 in Oct 2019 and closed doors May 2022",
     "sourceUrl": "https://sharktankblog.com/business/the-dough-bar/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-dough-bar/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://doughbardoughnuts.com",
+    "websiteStatus": "up"
   },
   "s9e20-changed": {
     "investors": [
@@ -5460,7 +6222,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenues as of April 2023 are $6 million, managing more than $2 billion in student loans",
     "sourceUrl": "https://sharktankblog.com/business/changed/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/changed/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://gochanged.com",
+    "websiteStatus": "up"
   },
   "s9e20-snapclips": {
     "businessStatus": "active",
@@ -5474,7 +6238,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $6 million in lifetime sales as of April 2024",
     "sourceUrl": "https://sharktankblog.com/business/snapclips/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/snapclips/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://snapclips.com",
+    "websiteStatus": "up"
   },
   "s9e21-radiate": {
     "businessStatus": "active",
@@ -5486,7 +6252,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue of $2 million as of August 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/radiate/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/radiate/ | https://sharktankseason.com/shark-tank-usa-season/season-9/radiate",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://radiateportablecampfire.com",
+    "websiteStatus": "up"
   },
   "s9e21-everytable": {
     "businessStatus": "active",
@@ -5494,7 +6262,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "2023 revenue $11.8 million; lifetime revenue over $61 million",
     "sourceUrl": "https://sharktankblog.com/business/everytable/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/everytable/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://everytable.com",
+    "websiteStatus": "up"
   },
   "s9e22-gunnar-optiks": {
     "businessStatus": "active",
@@ -5502,7 +6272,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "revenues $6.5-$8 million at pitch; ~$8 million annual revenue by 2026",
     "sourceUrl": "https://www.sharktankblog.com/business/gunnar/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/gunnar/ | https://www.slashgear.com/1483932/what-happened-gunnar-glasses-shark-tank-season-9/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://gunnar.com",
+    "websiteStatus": "up"
   },
   "s9e22-avocaderia": {
     "businessStatus": "active",
@@ -5510,7 +6282,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million total annual revenue by February 2022; ~$1 million annual revenue per store as of April 2024",
     "sourceUrl": "https://sharktankblog.com/business/avocaderia/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/avocaderia/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://avocaderia.com",
+    "websiteStatus": "up"
   },
   "s9e22-solsource": {
     "businessStatus": "inactive",
@@ -5518,7 +6292,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.3 million in total sales at time of pitch (2017)",
     "sourceUrl": "https://www.sharktankblog.com/business/one-earth-designs/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/one-earth-designs/ | https://en.wikipedia.org/wiki/SolSource",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://u.openx.net",
+    "websiteStatus": "down"
   },
   "s9e23-eggmazing": {
     "businessStatus": "active",
@@ -5530,7 +6306,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "in excess of $5 million in yearly revenue as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/eggmazing-egg-decorator/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/eggmazing-egg-decorator/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://eggmazing.com",
+    "websiteStatus": "up"
   },
   "s9e23-hugo-s-amazing-tape": {
     "businessStatus": "active",
@@ -5543,7 +6321,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $3 million in annual revenue as of July 2024 (Shark Tank Blog)",
     "sourceUrl": "https://sharktankblog.com/business/hugos-amazing-tape/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/hugos-amazing-tape/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://amazingtape.com",
+    "websiteStatus": "up"
   },
   "s9e23-coinout": {
     "businessStatus": "inactive",
@@ -5551,7 +6331,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$12 million in annual revenue as of June 2021 (Shark Tank Blog)",
     "sourceUrl": "https://sharktankblog.com/business/coinout/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/coinout/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://coinout.com",
+    "websiteStatus": "up"
   },
   "s9e24-dermovia-lace-your-face": {
     "businessStatus": "active",
@@ -5562,7 +6344,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4 million in annual revenue as of July 2024 (Shark Tank Blog)",
     "sourceUrl": "https://www.sharktankblog.com/business/lace-your-face/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/lace-your-face/ | https://sharktankrecap.com/dermovia-lace-your-face-update-shark-tank-season-9/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://dermovia.com",
+    "websiteStatus": "up"
   },
   "s9e24-palmini": {
     "businessStatus": "active",
@@ -5585,7 +6369,9 @@ export const enrichmentOverrides = {
     "industry": "Beauty",
     "sourceUrl": "https://www.sharktankblog.com/business/angels-and-tomboys/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/angels-and-tomboys/ | https://sharktankrecap.com/angels-and-tomboys-update-shark-tank-season-8/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://angelsandtomboys.com",
+    "websiteStatus": "up"
   },
   "s8e5-safegrabs": {
     "businessStatus": "active",
@@ -5604,13 +6390,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "About $900,000 in annual revenue as of May 2021 (Shark Tank Blog)",
     "sourceUrl": "https://sharktankblog.com/business/silidog/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/silidog/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://silidog.com",
+    "websiteStatus": "up"
   },
   "s8e6-sunscreenr": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/sunscreenr/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/sunscreenr/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sunscreenr.com",
+    "websiteStatus": "down"
   },
   "s8e6-potato-parcel": {
     "businessStatus": "active",
@@ -5621,7 +6411,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Sold over 70,000 parcels and earned over $7 million in sales by early 2020; ~$600,000-$700,000 per year as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/potato-parcel/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/potato-parcel/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pntra.com",
+    "websiteStatus": "up"
   },
   "s8e7-eco-flower": {
     "businessStatus": "inactive",
@@ -5630,7 +6422,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2.8 million in sales in a year and a half (at time of pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/ecoflower/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/ecoflower/ | https://marketrealist.com/what-happened-to-eco-flowers-on-and-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://solawoodflowers.com",
+    "websiteStatus": "up"
   },
   "s8e7-the-style-club": {
     "businessStatus": "inactive",
@@ -5641,7 +6435,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Total sales are $400,000 over just 3-4 months (at time of pitch)",
     "sourceUrl": "https://sharktankblog.com/business/the-style-club/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-style-club/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thestyleclub.com",
+    "websiteStatus": "up"
   },
   "s8e8-milk-snob": {
     "businessStatus": "active",
@@ -5652,7 +6448,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $6 million in annual revenue as of August 2024",
     "sourceUrl": "https://sharktankblog.com/business/milk-snob/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/milk-snob/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://milksnob.com",
+    "websiteStatus": "up"
   },
   "s8e8-jack-s-stands-marketplaces": {
     "businessStatus": "active",
@@ -5674,7 +6472,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Revenues are $14-$17 million annually across 13 locations as of August 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/chi-lantro/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/chi-lantro/ | https://sharktankrecap.com/shark-tank-chilantro-korean-bbq-update-season-8/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://chilantrobbq.com",
+    "websiteStatus": "up"
   },
   "s8e8-toor": {
     "businessStatus": "inactive",
@@ -5708,7 +6508,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $1-2 million annually as of April 2024",
     "sourceUrl": "https://sharktankblog.com/business/line-cutterz/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/line-cutterz/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://linecutterz.com",
+    "websiteStatus": "up"
   },
   "s8e10-inboard-technology": {
     "businessStatus": "inactive",
@@ -5716,7 +6518,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5.6 million in global pre-orders (at time of Season 8 pitch)",
     "sourceUrl": "https://sharktankblog.com/business/inboard-technology/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/inboard-technology/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://inboardtechnology.com",
+    "websiteStatus": "up"
   },
   "s8e10-nomiku": {
     "businessStatus": "inactive",
@@ -5724,7 +6528,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "lifetime sales $8 million (company shut down December 2019)",
     "sourceUrl": "https://sharktankblog.com/business/nomiku/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/nomiku/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://nomiku.com",
+    "websiteStatus": "down"
   },
   "s8e11-sealed-by-santa": {
     "businessStatus": "active",
@@ -5732,7 +6538,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "most recent year sales $355,000 (at time of pitch)",
     "sourceUrl": "https://sharktankblog.com/business/sealed-by-santa/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/sealed-by-santa/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sealedbysanta.com",
+    "websiteStatus": "up"
   },
   "s8e11-digiwrap": {
     "businessStatus": "active",
@@ -5741,7 +6549,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "estimated $3 million in annual revenue as of February 2024",
     "sourceUrl": "https://sharktankblog.com/business/digiwrap/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/digiwrap/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://digiwrapit.com",
+    "websiteStatus": "up"
   },
   "s8e11-hand-out-gloves": {
     "businessStatus": "active",
@@ -5750,20 +6560,26 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1 million in sales revenue annually (by 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/handout-gloves/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/handout-gloves/ | https://sharktankrecap.com/hand-out-gloves-update-shark-tank-season-8/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://handoutgloves.com",
+    "websiteStatus": "up"
   },
   "s8e12-naturally-perfect-dolls": {
     "businessStatus": "inactive",
     "industry": "Toys & Games",
     "sourceUrl": "https://www.sharktankblog.com/business/naturally-perfect/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/naturally-perfect/ | https://sharktankrecap.com/naturally-perfect-dolls-update-shark-tank-season-8/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://naturally-perfect-dolls.myshopify.com",
+    "websiteStatus": "down"
   },
   "s8e13-grease-bags": {
     "businessStatus": "active",
     "sourceUrl": "https://sharktankblog.com/business/grease-bags/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/grease-bags/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://greasebags.com",
+    "websiteStatus": "up"
   },
   "s8e13-pinblock": {
     "businessStatus": "inactive",
@@ -5774,7 +6590,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$160,000 in revenue at time of pitch (Season 8, aired 2016); company shuttered January 2021",
     "sourceUrl": "https://sharktankblog.com/business/pinblock/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pinblock/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pinblock.com",
+    "websiteStatus": "up"
   },
   "s8e14-chirps": {
     "businessStatus": "active",
@@ -5785,7 +6603,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$200,000 in annual sales at pitch; est. $1M-$2M annual revenue as of Nov 2022",
     "sourceUrl": "https://sharktankblog.com/business/chirps/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/chirps/ | https://www.sharktanksuccess.com/chirps-chips-review/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://eatchirps.com",
+    "websiteStatus": "up"
   },
   "s8e14-popup-play": {
     "businessStatus": "inactive",
@@ -5796,7 +6616,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$330,000 in sales over 11 months at pitch ($300K from one custom deal); company closed in 2019",
     "sourceUrl": "https://sharktankblog.com/business/popup-play/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/popup-play/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://popuptech.io",
+    "websiteStatus": "unreachable"
   },
   "s8e15-the-kooler": {
     "businessStatus": "inactive",
@@ -5808,7 +6630,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$120,000 in revenue over 16 months at pitch; out of business as of June 2021",
     "sourceUrl": "https://sharktankblog.com/business/the-kooler/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-kooler/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thekooler.com",
+    "websiteStatus": "up"
   },
   "s8e15-rinsekit": {
     "businessStatus": "active",
@@ -5820,7 +6644,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$800,000 in prior sales at pitch; $1.8M yearly revenue as of June 2022",
     "sourceUrl": "https://sharktankblog.com/business/rinsekit/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/rinsekit/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://rinsekit.com",
+    "websiteStatus": "up"
   },
   "s8e15-dbest-products": {
     "businessStatus": "active",
@@ -5833,7 +6659,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in sales the pitch year; est. $8M-$10M annual revenue as of July 2022",
     "sourceUrl": "https://sharktankblog.com/business/dbest-products/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/dbest-products/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://dbest-products.com",
+    "websiteStatus": "up"
   },
   "s8e16-tranquilo": {
     "businessStatus": "active",
@@ -5844,7 +6672,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$65,000 in sales in under a year at pitch; acquired by Baby Boom Consumer Products Nov 2018, brand still sold",
     "sourceUrl": "https://sharktankblog.com/business/tranquilo/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/tranquilo/ | https://www.sharktanksuccess.com/is-tranquilo-mat-still-in-business/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://tranquilomat.com",
+    "websiteStatus": "up"
   },
   "s8e16-doc-spartan": {
     "businessStatus": "active",
@@ -5855,7 +6685,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$56,000 in sales over 11 months at pitch; $4 million annual revenue as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/doc-spartan/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/doc-spartan/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://docspartan.com",
+    "websiteStatus": "up"
   },
   "s8e16-fire-fighter-turn-out-bags": {
     "businessStatus": "inactive",
@@ -5867,14 +6699,18 @@ export const enrichmentOverrides = {
     "revenueRaw": "$194,000 in revenue with ~$70,000 profit (at time of pitch, 2016)",
     "sourceUrl": "https://www.sharktankblog.com/business/firefighter-turnout-bags/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/firefighter-turnout-bags/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://firefighterturnoutbag.com",
+    "websiteStatus": "unreachable"
   },
   "s8e17-toymail": {
     "businessStatus": "inactive",
     "investors": [],
     "sourceUrl": "https://sharktankblog.com/business/toymail/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/toymail/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://toymail.co",
+    "websiteStatus": "unreachable"
   },
   "s8e18-sand-cloud": {
     "businessStatus": "active",
@@ -5885,7 +6721,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$7 million annual revenue (as of August 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/sandcloud/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/sandcloud/ | https://sharktankrecap.com/sand-cloud-update-shark-tank-season-8/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sandcloudtowels.com",
+    "websiteStatus": "up"
   },
   "s8e18-dartdrones": {
     "businessStatus": "active",
@@ -5896,7 +6734,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$5 million annual revenue (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/dartdrones/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/dartdrones/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://dartdrones.com",
+    "websiteStatus": "up"
   },
   "s8e18-the-elephant-pants": {
     "businessStatus": "inactive",
@@ -5918,7 +6758,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "lifetime sales exceeded $165 million (as of May 2024)",
     "sourceUrl": "https://sharktankblog.com/business/the-sleep-styler/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-sleep-styler/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thesleepstyler.com",
+    "websiteStatus": "unreachable"
   },
   "s8e19-blendtique-wine-company": {
     "businessStatus": "active",
@@ -5927,7 +6769,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$4 million estimated annual revenue (as of October 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/blendtique-wine-company/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/blendtique-wine-company/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://blendtique.com",
+    "websiteStatus": "up"
   },
   "s8e19-rareform": {
     "businessStatus": "active",
@@ -5939,7 +6783,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million annual revenue (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/rareform/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/rareform/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://rareform.com",
+    "websiteStatus": "up"
   },
   "s8e20-apollo-peak": {
     "businessStatus": "active",
@@ -5947,7 +6793,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "estimated earnings of $500,000-$1 million per year (as of October 2023)",
     "sourceUrl": "https://sharktankblog.com/business/apollo-peak/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/apollo-peak/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://apollopeak.com",
+    "websiteStatus": "up"
   },
   "s8e20-seedsheet": {
     "businessStatus": "active",
@@ -5958,7 +6806,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in annual revenue (as of August 2023)",
     "sourceUrl": "https://sharktankblog.com/business/seedsheet/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/seedsheet/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://seedsheets.com",
+    "websiteStatus": "up"
   },
   "s8e20-under-the-weather": {
     "businessStatus": "active",
@@ -5967,13 +6817,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million annual revenue (as of November 2023)",
     "sourceUrl": "https://sharktankblog.com/business/under-the-weather/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/under-the-weather/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://undertheweatherpods.com",
+    "websiteStatus": "up"
   },
   "s8e21-guard-llama": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/guard-llama/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/guard-llama/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://guardllama.com",
+    "websiteStatus": "down"
   },
   "s8e21-guardian-bikes": {
     "businessStatus": "active",
@@ -5984,7 +6838,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue is around $25 million (as of April 2024); $33.5 million in lifetime sales",
     "sourceUrl": "https://sharktankblog.com/business/guardian-bikes/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/guardian-bikes/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://guardianbikes.com",
+    "websiteStatus": "up"
   },
   "s8e22-goverre": {
     "businessStatus": "active",
@@ -5997,7 +6853,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenues of $1.5 million (as of July 2022)",
     "sourceUrl": "https://sharktankblog.com/business/goverre/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/goverre/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://goverre.com",
+    "websiteStatus": "down"
   },
   "s8e22-bootyqueen-apparel": {
     "businessStatus": "inactive",
@@ -6008,7 +6866,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "estimated annual revenues of $3 million (July 2021); business shut down April 2021",
     "sourceUrl": "https://sharktankblog.com/business/bootyqueen-apparel/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bootyqueen-apparel/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bootyqueenapparel.com",
+    "websiteStatus": "up"
   },
   "s8e22-loctote-industrial-bag-co": {
     "businessStatus": "active",
@@ -6017,7 +6877,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue of around $1 million (as of November 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/loctote/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/loctote/ | https://sharktankrecap.com/shark-tank-loctote-update-season-8/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://loctote.com",
+    "websiteStatus": "down"
   },
   "s8e23-thompson-tee": {
     "businessStatus": "active",
@@ -6028,7 +6890,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$10 million per year (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/thompson-tee/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/thompson-tee/ | https://sharktanksuccess.com/thompson-tee-update-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thompsontee.com",
+    "websiteStatus": "up"
   },
   "s8e23-rumi-spice": {
     "businessStatus": "active",
@@ -6039,7 +6903,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$5 million annual revenue (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/rumi-spice/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/rumi-spice/ | https://www.cnbc.com/2017/05/06/why-billionaire-mark-cuban-invested-in-an-afghan-saffron-start-up-run-by-veterans-on-shark-tank.html",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://rumispice.com",
+    "websiteStatus": "up"
   },
   "s8e23-peoples-design": {
     "businessStatus": "inactive",
@@ -6051,7 +6917,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$500,000 in sales within two years post-air (rebranded The Squeebie Bowl)",
     "sourceUrl": "https://www.sharktankblog.com/business/peoples-designs-the-scooping-bowl/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/peoples-designs-the-scooping-bowl/ | https://www.mashed.com/1301113/what-happened-peoples-design-scooping-bowl-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://scoopingbowl.com",
+    "websiteStatus": "up"
   },
   "s8e24-wine-design": {
     "businessStatus": "active",
@@ -6062,7 +6930,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $12 million in sales revenue in 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/wine-and-design/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/wine-and-design/ | https://sharktanksuccess.com/wine-and-design-update-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wineanddesign.com",
+    "websiteStatus": "up"
   },
   "s8e24-bridal-buddy": {
     "businessStatus": "active",
@@ -6075,7 +6945,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $3 million lifetime revenue (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/bridal-buddy/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bridal-buddy/ | https://www.looper.com/930063/whatever-happened-to-bridal-buddy-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bridalbuddy.net",
+    "websiteStatus": "up"
   },
   "s7e6-rent-like-a-champion": {
     "businessStatus": "active",
@@ -6087,7 +6959,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$12.6 million annual revenue (as of August 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/rent-like-a-champion/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/rent-like-a-champion/ | https://sharktankseason.com/shark-tank-usa-season/season-7/rent-like-a-champion",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://rentlikeachampion.com",
+    "websiteStatus": "blocked"
   },
   "s7e6-windcatcher-technology": {
     "businessStatus": "inactive",
@@ -6109,7 +6983,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million annual revenue (as of January 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/stem-center/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/stem-center/ | https://sharktankseason.com/shark-tank-usa-season/season-7/s.t.e.m.-center-usa",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://stemcenterusa.com",
+    "websiteStatus": "up"
   },
   "s7e7-saavy-naturals": {
     "businessStatus": "active",
@@ -6117,7 +6993,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$750K in online sales by 2014 (pre-pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/saavy-naturals/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/saavy-naturals/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://saavynaturals.com",
+    "websiteStatus": "up"
   },
   "s7e7-simply-fit-board": {
     "businessStatus": "active",
@@ -6138,7 +7016,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million annual revenue as of July 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/unshrinkit/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/unshrinkit/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://unshrinkit.com",
+    "websiteStatus": "up"
   },
   "s7e8-grip-clean": {
     "businessStatus": "active",
@@ -6146,7 +7026,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million annual revenue as of April 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/gripclean/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/gripclean/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://gripclean.com",
+    "websiteStatus": "up"
   },
   "s7e8-polarpro": {
     "businessStatus": "active",
@@ -6154,7 +7036,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million annual revenue as of December 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/polar-pro/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/polar-pro/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://polarprofilters.com",
+    "websiteStatus": "up"
   },
   "s7e9-brazi-bites": {
     "businessStatus": "active",
@@ -6162,7 +7046,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $200 million lifetime revenue as of July 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/brazi-bites/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/brazi-bites/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://brazibites.com",
+    "websiteStatus": "up"
   },
   "s7e9-umano": {
     "businessStatus": "inactive",
@@ -6174,7 +7060,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$105,000 in sales (2014, at pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/umano/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/umano/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://umano.com",
+    "websiteStatus": "up"
   },
   "s7e9-socktabs": {
     "businessStatus": "active",
@@ -6185,7 +7073,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "nearly $4 million lifetime revenue as of July 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/socktabs/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/socktabs/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://socktabs.com",
+    "websiteStatus": "up"
   },
   "s7e10-glow-recipe": {
     "businessStatus": "active",
@@ -6194,7 +7084,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$100 million in annual revenue (as of August 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/glow-recipe/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/glow-recipe/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://glowrecipe.com",
+    "websiteStatus": "up"
   },
   "s7e10-sarah-oliver-handbags": {
     "businessStatus": "inactive",
@@ -6208,7 +7100,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$300K in sales the prior year (at 2015 pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/sarah-oliver-handbags/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/sarah-oliver-handbags/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://saraholiverhandbags.com",
+    "websiteStatus": "up"
   },
   "s7e10-trunkster": {
     "businessStatus": "inactive",
@@ -6216,7 +7110,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Pre-sold ~$2 million in product at pitch (raised ~$2.7M in Kickstarter/Indiegogo crowdfunding)",
     "sourceUrl": "https://www.sharktankblog.com/business/trunkster/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/trunkster/ | https://www.bgr.com/2098082/what-happened-trunkster-from-shark-tank-season-7/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://trunkster.com",
+    "websiteStatus": "unreachable"
   },
   "s7e11-geekmytree": {
     "businessStatus": "inactive",
@@ -6225,7 +7121,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://www.sharktankblog.com/business/geekmytree/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/geekmytree/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://geekmytree.com",
+    "websiteStatus": "up"
   },
   "s7e11-lovepop": {
     "businessStatus": "active",
@@ -6237,7 +7135,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $150 million annual revenue (as of September 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/lovepop/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/lovepop/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://lovepopcards.com",
+    "websiteStatus": "up"
   },
   "s7e11-piperwai": {
     "businessStatus": "active",
@@ -6245,7 +7145,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1-2 million annual revenue (as of April 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/piperwai/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/piperwai/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://piperwai.com",
+    "websiteStatus": "up"
   },
   "s7e12-abs-protein-pancakes": {
     "businessStatus": "active",
@@ -6253,7 +7155,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.6 million annual revenue (as of August 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/abs-protein-pancakes/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/abs-protein-pancakes/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://abspancakes.com",
+    "websiteStatus": "down"
   },
   "s7e12-extreme-sandbox": {
     "businessStatus": "active",
@@ -6273,7 +7177,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$4 million annual revenue as of October 2023",
     "sourceUrl": "https://www.sharktankblog.com/fireavert/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/fireavert/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://fireavert.com",
+    "websiteStatus": "up"
   },
   "s7e13-hungry-harvest": {
     "businessStatus": "active",
@@ -6284,7 +7190,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4 million annual revenue as of April 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/hungry-harvest/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/hungry-harvest/ | https://www.sharktankblog.com/fireavert/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pjatr.com",
+    "websiteStatus": "up"
   },
   "s7e13-controlled-chaos": {
     "businessStatus": "active",
@@ -6292,7 +7200,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3.5 million annual revenue by April 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/controlled-chaos/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/controlled-chaos/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://controlledchaoshair.com",
+    "websiteStatus": "unreachable"
   },
   "s7e14-fixed": {
     "businessStatus": "inactive",
@@ -6300,7 +7210,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$80,000 in net revenue at time of pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/fixed/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/fixed/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://fixed.com",
+    "websiteStatus": "up"
   },
   "s7e14-hatch-baby": {
     "businessStatus": "active",
@@ -6311,7 +7223,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$6.9 million annual revenue, $140 million lifetime sales as of July 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/hatch-baby/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/hatch-baby/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hatchbaby.com",
+    "websiteStatus": "up"
   },
   "s7e14-beard-king": {
     "businessStatus": "active",
@@ -6319,7 +7233,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1 million annual revenue by August 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/beard-king/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/beard-king/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://thebeardking.com",
+    "websiteStatus": "down"
   },
   "s7e15-shefit": {
     "businessStatus": "active",
@@ -6330,7 +7246,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$7 million annual revenue as of April 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/shefit/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/shefit/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pntrs.com",
+    "websiteStatus": "up"
   },
   "s7e15-2400-expert": {
     "businessStatus": "active",
@@ -6341,7 +7259,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million annual revenue as of April 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/2400-expert/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/2400-expert/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://prepexpert.com",
+    "websiteStatus": "up"
   },
   "s7e16-r-riveter": {
     "businessStatus": "active",
@@ -6353,7 +7273,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million in annual revenue (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/r-riveter/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/r-riveter/ | https://www.americanmanufacturing.org/blog/years-after-entering-the-shark-tank-r-riveter-is-still-expanding-its-reach/ | https://markcubancompanies.com/companies/r-riveter/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://rriveter.com",
+    "websiteStatus": "up"
   },
   "s7e16-combat-flip-flops": {
     "businessStatus": "active",
@@ -6366,7 +7288,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4.6 million annual revenue (as of June 2022)",
     "sourceUrl": "https://www.sharktankblog.com/combat-flip-flops/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/combat-flip-flops/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://combatflipflops.com",
+    "websiteStatus": "up"
   },
   "s7e17-bee-free-honee": {
     "businessStatus": "inactive",
@@ -6379,7 +7303,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$104,000 in sales to date at time of pitch (Season 7, 2016); company shut down in 2019",
     "sourceUrl": "https://www.sharktankblog.com/bee-free-honee/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/bee-free-honee/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://beefreehonee.com",
+    "websiteStatus": "unreachable"
   },
   "s7e18-sworkit": {
     "businessStatus": "active",
@@ -6387,7 +7313,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "around $60 million in annual sales (as of December 2021)",
     "sourceUrl": "https://www.sharktankblog.com/sworkit/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/sworkit/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sworkit.com",
+    "websiteStatus": "up"
   },
   "s7e18-nohbo": {
     "businessStatus": "active",
@@ -6399,7 +7327,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$8 million annual revenue (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/nohbo/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/nohbo/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://nohbo.com",
+    "websiteStatus": "up"
   },
   "s7e19-insta-fire": {
     "businessStatus": "active",
@@ -6412,7 +7342,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4 million in annual revenue (as of August 2021)",
     "sourceUrl": "https://www.sharktankblog.com/insta-fire/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/insta-fire/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://instafire.com",
+    "websiteStatus": "up"
   },
   "s7e19-prx-performance": {
     "businessStatus": "active",
@@ -6423,7 +7355,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$9 million annual revenue (as of June 2022); $200 million in lifetime sales (as of October 2023)",
     "sourceUrl": "https://www.sharktankblog.com/prx-performance/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/prx-performance/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://prxperformance.com",
+    "websiteStatus": "up"
   },
   "s7e19-rags-to-raches": {
     "businessStatus": "active",
@@ -6431,7 +7365,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $4 million annually (as of May 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/rags-to-raches/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/rags-to-raches/ | https://www.business2community.com/fashion-beauty/shark-tank-update-rags-raches-01634626",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://ragstoraches.com",
+    "websiteStatus": "up"
   },
   "s7e20-betterback": {
     "businessStatus": "active",
@@ -6439,7 +7375,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million annual revenue (as of April 2024)",
     "sourceUrl": "https://www.sharktankblog.com/betterback/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/betterback/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://getbetterback.com",
+    "websiteStatus": "up"
   },
   "s7e20-glac-cryotherapy": {
     "businessStatus": "inactive",
@@ -6447,7 +7385,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$140,000 in sales at time of pitch (2015-16); no later figure disclosed",
     "sourceUrl": "https://www.sharktankblog.com/glace-cryotherapy/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/glace-cryotherapy/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://glacecryotherapy.com",
+    "websiteStatus": "unreachable"
   },
   "s7e21-illumibowl": {
     "businessStatus": "active",
@@ -6459,7 +7399,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1-2 million in annual revenue (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/illumibowl/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/illumibowl/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://illumibowl.com",
+    "websiteStatus": "up"
   },
   "s7e21-innovation-pet": {
     "businessStatus": "inactive",
@@ -6468,7 +7410,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://www.sharktankblog.com/business/innovation-pet-inc/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/innovation-pet-inc/ | https://sharktankseason.com/shark-tank-usa-season/season-7/innovation-pet",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://innovationpet.com",
+    "websiteStatus": "down"
   },
   "s7e22-beer-blizzard": {
     "businessStatus": "inactive",
@@ -6479,7 +7423,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$156,000 gross sales in first year at time of pitch; no later figure disclosed",
     "sourceUrl": "https://www.sharktankblog.com/beer-blizzard/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/beer-blizzard/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://beerblizzard.com",
+    "websiteStatus": "up"
   },
   "s7e22-vengo": {
     "businessStatus": "active",
@@ -6487,7 +7433,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$15 million in annual revenue (as of April 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/vengo/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/vengo/ | https://sharktankseason.com/shark-tank-usa-season/season-7/vengo",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://vengolabs.com",
+    "websiteStatus": "up"
   },
   "s7e22-wondercide": {
     "businessStatus": "active",
@@ -6496,7 +7444,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$6.5 million annually (as of April 2024)",
     "sourceUrl": "https://www.sharktankblog.com/wondercide/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/wondercide/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wondercide.com",
+    "websiteStatus": "up"
   },
   "s7e23-pridebites-pet-products": {
     "businessStatus": "active",
@@ -6504,13 +7454,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$4 million annual revenue (as of August 2024)",
     "sourceUrl": "https://www.sharktankblog.com/pridebites/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/pridebites/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pridebites.com",
+    "websiteStatus": "up"
   },
   "s7e23-trobo": {
     "businessStatus": "inactive",
     "sourceUrl": "https://www.sharktankblog.com/business/trobo/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/trobo/ | https://2paragraphs.com/2018/01/trobo-storytelling-robots-shark-tank-deal-fell-through-sold-out/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mytrobo.com",
+    "websiteStatus": "up"
   },
   "s7e23-coolbox": {
     "businessStatus": "inactive",
@@ -6518,7 +7472,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$390,000 in pre-sales at time of pitch (2016)",
     "sourceUrl": "https://www.sharktankblog.com/business/coolbox/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/coolbox/ | https://www.business2community.com/social-buzz/shark-tank-coolbox-struggles-initially-accepts-deal-lori-greiner-500000-01507409",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://coolbox.io",
+    "websiteStatus": "up"
   },
   "s7e24-petnostics": {
     "businessStatus": "inactive",
@@ -6526,7 +7482,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$250,000 in annual revenue as of January 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/petnostics/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/petnostics/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://petnostics.com",
+    "websiteStatus": "unreachable"
   },
   "s7e24-slyde-handboards": {
     "businessStatus": "active",
@@ -6539,7 +7497,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$2.5 million annual revenue as of 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/slyde-handboards/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/slyde-handboards/ | https://geeksaroundglobe.com/slyde-handboard-net-worth-update-before-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://slydehandboards.com",
+    "websiteStatus": "unreachable"
   },
   "s7e25-the-drip-drop": {
     "businessStatus": "inactive",
@@ -6557,7 +7517,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$75 million in annual revenue as of July 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/brightwheel/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/brightwheel/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mybrightwheel.com",
+    "websiteStatus": "up"
   },
   "s7e27-dollop-gourmet": {
     "businessStatus": "active",
@@ -6565,7 +7527,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$170,000 in sales the year the show was taped",
     "sourceUrl": "https://www.sharktankblog.com/business/dollop-gourmet/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/dollop-gourmet/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://dollopgourmet.com",
+    "websiteStatus": "up"
   },
   "s7e27-creaproducts": {
     "businessStatus": "active",
@@ -6573,7 +7537,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million in annual revenue as of 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/creaproducts/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/creaproducts/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://creaproducts.com",
+    "websiteStatus": "up"
   },
   "s7e27-the-spooner": {
     "businessStatus": "active",
@@ -6581,7 +7547,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $2 million in annual revenue as of April 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/spooner-boards/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/spooner-boards/ | https://sharktanksuccess.com/the-spooner-update-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://spoonerboards.com",
+    "websiteStatus": "up"
   },
   "s7e28-extreme-vehicle-protection": {
     "investors": [
@@ -6589,7 +7557,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://www.sharktankblog.com/business/extreme-vehicle-protection/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/extreme-vehicle-protection/ | https://sharktankrecap.com/extreme-vehicle-protection-car-cover-update-shark-tank-season-7/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://extremevehicleprotection.com",
+    "websiteStatus": "unreachable"
   },
   "s7e28-vpcabs": {
     "businessStatus": "active",
@@ -6600,14 +7570,18 @@ export const enrichmentOverrides = {
     "revenueRaw": "estimated $3-$5 million per year in sales as of February 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/vpcabs/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/vpcabs/ | https://sharktankrecap.com/vpcabs-virtual-pinball-update-shark-tank-season-7/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://virtualpinball.com",
+    "websiteStatus": "up"
   },
   "s7e29-pete-and-pedro": {
     "businessStatus": "active",
     "industry": "Beauty",
     "sourceUrl": "https://www.sharktankblog.com/business/pete-and-pedro-bueno-hair/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/pete-and-pedro-bueno-hair/ | https://sharktanksuccess.com/pete-and-pedro-update-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://peteandpedro.com",
+    "websiteStatus": "up"
   },
   "s7e29-felt": {
     "businessStatus": "active",
@@ -6615,7 +7589,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.5-$2 million in annual revenue as of June 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/felt/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/felt/ | https://sharktankrecap.com/felt-greeting-card-app-update-shark-tank-season-7/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://feltapp.com",
+    "websiteStatus": "up"
   },
   "s6e6-beatbox-beverages": {
     "businessStatus": "active",
@@ -6626,7 +7602,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $100 million in sales as of 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/beatbox-beverages/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/beatbox-beverages/ | https://sharktankrecap.com/beatbox-beverages-update-shark-tank-season-6/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://beatboxbeverages.com",
+    "websiteStatus": "up"
   },
   "s6e7-titin": {
     "businessStatus": "inactive",
@@ -6646,7 +7624,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1 million in annual revenue as of November 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/myself-belts/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/myself-belts/ | https://sharktankrecap.com/myself-belts-update-shark-tank-season-6/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://myselfbelts.com",
+    "websiteStatus": "up"
   },
   "s6e8-the-natural-grip": {
     "businessStatus": "inactive",
@@ -6657,7 +7637,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$178K in sales in the past year (at time of pitch, 2014); company closed in December 2018",
     "sourceUrl": "https://www.sharktankblog.com/business/the-natural-grip/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/the-natural-grip/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thenaturalgrip.com",
+    "websiteStatus": "up"
   },
   "s6e8-bottle-breacher": {
     "businessStatus": "active",
@@ -6669,7 +7651,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4 million in annual revenue with over $20 million in lifetime sales (as of September 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/bottle-breacher/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bottle-breacher/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bottlebreacher.com",
+    "websiteStatus": "unreachable"
   },
   "s6e9-pipsnacks": {
     "businessStatus": "active",
@@ -6680,7 +7664,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$12 million annual revenue (as of August 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/pipsnacks/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/pipsnacks/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pipsnacks.com",
+    "websiteStatus": "up"
   },
   "s6e9-squatty-potty": {
     "businessStatus": "active",
@@ -6692,7 +7678,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $260 million in lifetime sales (as of October 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/squatty-potty/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/squatty-potty/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://squattypotty.com",
+    "websiteStatus": "up"
   },
   "s6e9-heidi-ho": {
     "businessStatus": "inactive",
@@ -6703,7 +7691,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$8 million in lifetime revenue (by the time it closed in December 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/heidi-ho/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/heidi-ho/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://heidihoveganics.com",
+    "websiteStatus": "unreachable"
   },
   "s6e10-kitchen-safe": {
     "businessStatus": "active",
@@ -6715,7 +7705,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million annual revenue (as of March 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/the-kitchen-safe/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/the-kitchen-safe/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thekitchensafe.com",
+    "websiteStatus": "up"
   },
   "s6e10-magiccook": {
     "investors": [
@@ -6723,7 +7715,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://www.sharktankblog.com/business/magic-cook/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/magic-cook/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://magiccook.net",
+    "websiteStatus": "up"
   },
   "s6e10-earth-log": {
     "businessStatus": "inactive",
@@ -6735,7 +7729,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$200,000 in sales over 4 years ($50,000 the previous year) at time of pitch; no post-show figure disclosed before the company closed in 2018",
     "sourceUrl": "https://www.sharktankblog.com/business/earthlog/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/earthlog/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://earthlog.com",
+    "websiteStatus": "unreachable"
   },
   "s6e11-biaggi": {
     "businessStatus": "active",
@@ -6746,7 +7742,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in annual revenue (as of May 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/biaggi/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/biaggi/ ; corroborated by https://tvovermind.com/heres-what-happened-to-biaggi-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://biaggi.com",
+    "websiteStatus": "up"
   },
   "s6e11-gameday-couture": {
     "businessStatus": "active",
@@ -6768,7 +7766,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$130,000 in licensing fees at time of pitch ($8.5 million raised from outside investors)",
     "sourceUrl": "https://www.sharktankblog.com/business/zipz/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/zipz/ ; corroborated by https://www.looper.com/1400057/whatever-happened-zipz-wine-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://zipzwine.com",
+    "websiteStatus": "unreachable"
   },
   "s6e12-the-mensch-on-a-bench": {
     "businessStatus": "active",
@@ -6791,7 +7791,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3.5 million in annual revenue (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/q-flex/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/q-flex/ ; corroborated by https://heavy.com/news/2015/09/q-flex-shark-tank-accupressure-products-episodes-deals-barbara-mark-reruns/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://qflex.webs.com",
+    "websiteStatus": "unreachable"
   },
   "s6e12-hoppy-paws": {
     "businessStatus": "inactive",
@@ -6810,7 +7812,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://www.sharktankblog.com/business/doorman/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/doorman/ ; corroborated by https://buildd.co/startup/failure-stories/what-happened-to-doorman-after-shark-tank",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://doorman.it",
+    "websiteStatus": "unreachable"
   },
   "s6e13-bantam-bagels": {
     "businessStatus": "inactive",
@@ -6821,7 +7825,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$20 million in annual sales at time of acquisition by T. Marzetti Co. (Lancaster Colony) for $34 million",
     "sourceUrl": "https://www.sharktankblog.com/business/bantam-bagels/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bantam-bagels/ ; corroborated by https://sharktanksuccess.com/bantam-bagels-update-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bantambagels.com",
+    "websiteStatus": "down"
   },
   "s6e14-scratch-grain-baking-co": {
     "businessStatus": "inactive",
@@ -6832,7 +7838,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$52,000 in sales over the prior 14 months (at time of Season 6 pitch)",
     "sourceUrl": "https://www.sharktankblog.com/scratch-and-grain-baking-co/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/scratch-and-grain-baking-co/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://scratchandgrain.com",
+    "websiteStatus": "down"
   },
   "s6e14-bottle-bright": {
     "businessStatus": "active",
@@ -6843,7 +7851,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$110,000 in sales in 2013 and $85,000 in 2014 so far (at time of pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/bottle-bright/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bottle-bright/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bottlebright.com",
+    "websiteStatus": "up"
   },
   "s6e14-evrewares": {
     "businessStatus": "inactive",
@@ -6851,7 +7861,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "about $600,000 in sales since 2011 (stated at time of pitch)",
     "sourceUrl": "https://www.sharktankblog.com/evrewares/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/evrewares/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://evrewares.com",
+    "websiteStatus": "up"
   },
   "s6e15-lumio": {
     "businessStatus": "active",
@@ -6859,7 +7871,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1 million in sales including Kickstarter (at time of pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/lumio/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/lumio/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hellolumio.com",
+    "websiteStatus": "up"
   },
   "s6e15-turbopup": {
     "businessStatus": "inactive",
@@ -6870,13 +7884,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "$7,000 in annual revenue (at time of Season 6 pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/turbopup/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/turbopup/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://turbopup.com",
+    "websiteStatus": "down"
   },
   "s6e16-greenbox": {
     "businessStatus": "active",
     "sourceUrl": "https://www.sharktankblog.com/business/greenbox/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/greenbox/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://greenboxny.com",
+    "websiteStatus": "unreachable"
   },
   "s6e16-phonesoap": {
     "businessStatus": "active",
@@ -6887,7 +7905,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$13.5 million in annual revenue (as of December 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/phonesoap/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/phonesoap/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://phonesoap.com",
+    "websiteStatus": "up"
   },
   "s6e17-fresh-patch": {
     "businessStatus": "active",
@@ -6895,7 +7915,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $10 million in annual revenue (reported by founder Andrew Feld, October 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/fresh-patch/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/fresh-patch/, https://www.sharktankblog.com/fresh-patch-on-shark-tank-how-grass-became-a-big-business/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://freshpatch.com",
+    "websiteStatus": "up"
   },
   "s6e17-drain-strain": {
     "businessStatus": "active",
@@ -6907,7 +7929,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "around $5 million in lifetime sales by October 2023 (rebranded to Drain Buddy)",
     "sourceUrl": "https://sharktankblog.com/business/drain-strain/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/drain-strain/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://drainstrain.com",
+    "websiteStatus": "up"
   },
   "s6e18-beverageboy": {
     "businessStatus": "inactive",
@@ -6915,7 +7939,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "sold 2500 units for about $10,600 in sales (since July 2013, as of pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/beverageboy/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/beverageboy/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://beverageboy.com",
+    "websiteStatus": "unreachable"
   },
   "s6e18-funbites": {
     "businessStatus": "active",
@@ -6926,7 +7952,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million in annual revenue (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/funbites/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/funbites/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://funbites.com",
+    "websiteStatus": "up"
   },
   "s6e19-gold-rush-nugget-bucket": {
     "businessStatus": "active",
@@ -6938,7 +7966,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "still in business with $1.2 million in annual revenue (as of September 2022)",
     "sourceUrl": "https://sharktankblog.com/business/gold-rush-nugget-bucket/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/gold-rush-nugget-bucket/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://goldrushnuggetbucket.com",
+    "websiteStatus": "up"
   },
   "s6e19-boobypack": {
     "businessStatus": "inactive",
@@ -6949,7 +7979,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $160,000 in sales at the time of her appearance",
     "sourceUrl": "https://www.sharktankblog.com/business/the-boobypack/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/the-boobypack/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://boobypack.com",
+    "websiteStatus": "up"
   },
   "s6e20-luminaid": {
     "businessStatus": "active",
@@ -6960,7 +7992,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "just over $1 million in sales (year two, at time of pitch)",
     "sourceUrl": "https://sharktankblog.com/business/luminaid/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/luminaid/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://luminaid.com",
+    "websiteStatus": "up"
   },
   "s6e20-keen-home": {
     "businessStatus": "active",
@@ -6969,7 +8003,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://sharktankblog.com/business/keen-home/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/keen-home/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://keenhome.io",
+    "websiteStatus": "up"
   },
   "s6e20-scholly": {
     "businessStatus": "active",
@@ -6981,7 +8017,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$90,000 in total revenue when he first came to Shark Tank",
     "sourceUrl": "https://sharktankblog.com/business/scholly/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/scholly/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://myscholly.com",
+    "websiteStatus": "up"
   },
   "s6e21-coco-jack": {
     "businessStatus": "inactive",
@@ -6992,7 +8030,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales reached $5 million (as of August 2021); $325,000 in sales in the 9 months before the pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/coco-jack/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/coco-jack/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://coco-jack.com",
+    "websiteStatus": "up"
   },
   "s6e21-frill-clothing": {
     "businessStatus": "inactive",
@@ -7004,7 +8044,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $400K in sales in three years (as of Season 6 pitch); founders sold the business in 2016",
     "sourceUrl": "https://www.sharktankblog.com/business/frill-clothing/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/frill-clothing/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://frillclothing.com",
+    "websiteStatus": "up"
   },
   "s6e21-the-twin-z-pillow": {
     "businessStatus": "active",
@@ -7012,7 +8054,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue is $1 million (as of August 2022); $510,000 in sales at the time of the pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/twin-z-pillow/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/twin-z-pillow/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://twinznursingpillow.com",
+    "websiteStatus": "up"
   },
   "s6e22-echo-valley-meats": {
     "businessStatus": "active",
@@ -7024,7 +8068,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in annual revenue (as of November 2022); $1.4 million mail-order sales with $260,000 profit at pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/echo-valley-meats/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/echo-valley-meats/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://echovalleymeats.com",
+    "websiteStatus": "up"
   },
   "s6e22-emazinglights": {
     "businessStatus": "inactive",
@@ -7037,7 +8083,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$15-$20 million in sales heading into 2020; projected $5.5 million in sales at the time of the 2015 pitch; company closed January 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/emazing-lights/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/emazing-lights/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://emazinglights.com",
+    "websiteStatus": "up"
   },
   "s6e22-aqua-vault": {
     "businessStatus": "active",
@@ -7048,7 +8096,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "lifetime sales are $26.5 million (as of May 2022); ~$87,000 in revenue in first six months at pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/aqua-vault/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/aqua-vault/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://theaquavault.com",
+    "websiteStatus": "up"
   },
   "s6e23-beesweet-lemonade": {
     "businessStatus": "active",
@@ -7059,7 +8109,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in annual revenue (as of October 2022); $10.2 million lifetime revenue by Season 14; just over $25,000 in sales the year before the pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/bee-sweet-lemonade/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bee-sweet-lemonade/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://beesweetlemonade.com",
+    "websiteStatus": "up"
   },
   "s6e24-pullypalz": {
     "businessStatus": "inactive",
@@ -7071,7 +8123,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "a little over $90K in sales in the 12 months before the pitch; no post-show revenue disclosed; company shut down in 2016",
     "sourceUrl": "https://www.sharktankblog.com/business/pullypalz/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/pullypalz/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pullypalz.com",
+    "websiteStatus": "up"
   },
   "s6e25-neatcheeks": {
     "businessStatus": "active",
@@ -7082,7 +8136,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1 million in annual revenue (as of October 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/neatcheeks/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/neatcheeks/ | https://www.looper.com/1068717/whatever-happened-to-neatcheeks-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://neatcheeks.com",
+    "websiteStatus": "unreachable"
   },
   "s6e25-melni-connectors": {
     "businessStatus": "active",
@@ -7094,7 +8150,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million annual revenue (as of October 2022)",
     "sourceUrl": "https://sharktankblog.com/business/melni-connectors/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/melni-connectors/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://melniconnectors.com",
+    "websiteStatus": "unreachable"
   },
   "s6e25-pittmoss": {
     "businessStatus": "active",
@@ -7108,7 +8166,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million annual revenue (as of October 2022)",
     "sourceUrl": "https://sharktankblog.com/business/pittmoss/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pittmoss/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pittmoss.com",
+    "websiteStatus": "unreachable"
   },
   "s6e26-zinepak": {
     "businessStatus": "active",
@@ -7120,7 +8180,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million annual revenue (as of January 2023)",
     "sourceUrl": "https://sharktankblog.com/business/zinepak/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/zinepak/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://brightideasonly.com",
+    "websiteStatus": "unreachable"
   },
   "s6e26-noene-usa": {
     "businessStatus": "inactive",
@@ -7130,7 +8192,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://sharktankblog.com/business/noene-usa/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/noene-usa/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://noeneusa.com",
+    "websiteStatus": "up"
   },
   "s6e27-zero-pollution-motors": {
     "businessStatus": "inactive",
@@ -7139,7 +8203,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://sharktankblog.com/business/zero-pollution-motors/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/zero-pollution-motors/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://zeropollutionmotors.us",
+    "websiteStatus": "up"
   },
   "s6e27-world-record-striper-company": {
     "businessStatus": "inactive",
@@ -7149,7 +8215,9 @@ export const enrichmentOverrides = {
     "industry": "Sports",
     "sourceUrl": "https://sharktankblog.com/business/world-record-striper-company/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/world-record-striper-company/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://worldrecordstripercompany.com",
+    "websiteStatus": "up"
   },
   "s6e28-zoom-interiors": {
     "businessStatus": "inactive",
@@ -7160,7 +8228,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$186,000 in year-1 sales (with $3,000 net profit)",
     "sourceUrl": "https://sharktankblog.com/business/zoom-interiors/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/zoom-interiors/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://zoominteriors.com",
+    "websiteStatus": "up"
   },
   "s6e28-syndaver-labs": {
     "businessStatus": "active",
@@ -7169,7 +8239,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://www.sharktankblog.com/business/syndaver-labs/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/syndaver-labs/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://syndaver.com",
+    "websiteStatus": "up"
   },
   "s6e28-you-kick-ass": {
     "businessStatus": "inactive",
@@ -7179,7 +8251,9 @@ export const enrichmentOverrides = {
     "industry": "Toys & Games",
     "sourceUrl": "https://www.sharktankblog.com/business/you-kick-ass/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/you-kick-ass/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://youkickass.com",
+    "websiteStatus": "up"
   },
   "s6e29-shark-wheel": {
     "businessStatus": "active",
@@ -7191,7 +8265,9 @@ export const enrichmentOverrides = {
     "industry": "Sports",
     "sourceUrl": "https://www.sharktankblog.com/business/shark-wheel/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/shark-wheel/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sharkwheel.com",
+    "websiteStatus": "up"
   },
   "s6e29-sway-motorsports": {
     "businessStatus": "inactive",
@@ -7200,7 +8276,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://www.sharktankblog.com/business/sway-motorsports/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/sway-motorsports/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://swaymotorsports.com",
+    "websiteStatus": "unreachable"
   },
   "s6e29-spikeball": {
     "businessStatus": "active",
@@ -7210,7 +8288,9 @@ export const enrichmentOverrides = {
     "industry": "Sports",
     "sourceUrl": "https://www.sharktankblog.com/business/spikeball/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/spikeball/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://usaspikeball.com",
+    "websiteStatus": "up"
   },
   "s5e1-postcard-on-the-run": {
     "investors": [
@@ -7221,7 +8301,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/postcard-on-the-run/",
-    "closureConfidence": "medium"
+    "closureConfidence": "medium",
+    "website": "https://postcardontherun.com",
+    "websiteStatus": "up"
   },
   "s5e1-sweet-ballz": {
     "investors": [
@@ -7234,7 +8316,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/sweet-ballz/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Deal soured within a week amid partner lawsuit; Mark Cuban and Barbara Corcoran did not proceed; deal never closed."
+    "portfolioScoringNote": "On-air deal did not close: Deal soured within a week amid partner lawsuit; Mark Cuban and Barbara Corcoran did not proceed; deal never closed.",
+    "website": "https://sweetballz.com",
+    "websiteStatus": "up"
   },
   "s5e2-kane-couture": {
     "investors": [
@@ -7247,7 +8331,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/kane-and-couture/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Sharktankblog: 'The deal with Lori and Daymond never closed'; contingency-laden offer never finalized."
+    "portfolioScoringNote": "On-air deal did not close: Sharktankblog: 'The deal with Lori and Daymond never closed'; contingency-laden offer never finalized.",
+    "website": "https://kaneandcouture.com",
+    "websiteStatus": "unreachable"
   },
   "s5e3-rapid-ramen-cooker": {
     "investors": [
@@ -7259,7 +8345,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/rapid-ramen-cooker/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Sharktankblog: 'Chris never finalized the deal with Mark Cuban,' though company still got into retail."
+    "portfolioScoringNote": "On-air deal did not close: Sharktankblog: 'Chris never finalized the deal with Mark Cuban,' though company still got into retail.",
+    "website": "https://rapidbrandsinc.com",
+    "websiteStatus": "down"
   },
   "s5e4-hamboards": {
     "investors": [
@@ -7271,7 +8359,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/hamboards/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://hamboards.com",
+    "websiteStatus": "up"
   },
   "s5e5-veggie-mama-garden-pops": {
     "investors": [
@@ -7285,7 +8375,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/veggiemama/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://veggiemama.com",
+    "websiteStatus": "unreachable"
   },
   "s5e6-fiberfix": {
     "businessStatus": "active",
@@ -7358,7 +8450,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/tree-t-pee/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://treetpee.com",
+    "websiteStatus": "up"
   },
   "s5e8-paparazzi-proposals": {
     "businessStatus": "active",
@@ -7366,7 +8460,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$13 million in annual revenue as of August 2021",
     "sourceUrl": "https://www.sharktankblog.com/business/paparazzi-proposals/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/paparazzi-proposals/ ; https://sharktanktales.com/business/paparazzi-proposals/update/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://paparazzi-proposals.com",
+    "websiteStatus": "up"
   },
   "s5e10-yubo": {
     "businessStatus": "inactive",
@@ -7381,7 +8477,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/yubo/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://getyubo.com",
+    "websiteStatus": "up"
   },
   "s5e10-pursecase": {
     "businessStatus": "inactive",
@@ -7395,7 +8493,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/pursecase/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://pursecase.com",
+    "websiteStatus": "unreachable"
   },
   "s5e11-virtuix-omni": {
     "businessStatus": "active",
@@ -7417,7 +8517,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/bubba-q-boneless-baby-back-ribs/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://bubbasbonelessribs.com",
+    "websiteStatus": "blocked"
   },
   "s5e12-one-life-products": {
     "businessStatus": "active",
@@ -7447,7 +8549,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "medium",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/wall-rx/",
-    "closureConfidence": "medium"
+    "closureConfidence": "medium",
+    "website": "https://walldoctor.com",
+    "websiteStatus": "unreachable"
   },
   "s5e14-invisiplug": {
     "businessStatus": "inactive",
@@ -7460,7 +8564,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/invisiplug/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://invisiplug.com",
+    "websiteStatus": "up"
   },
   "s5e15-swimzip": {
     "businessStatus": "active",
@@ -7475,7 +8581,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/swimzip/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Sharktankblog states explicitly 'the deal never closed'; SwimZip continued independently to $5M revenue"
+    "portfolioScoringNote": "On-air deal did not close: Sharktankblog states explicitly 'the deal never closed'; SwimZip continued independently to $5M revenue",
+    "website": "https://swimzip.com",
+    "websiteStatus": "up"
   },
   "s5e15-freshly-picked": {
     "businessStatus": "active",
@@ -7490,7 +8598,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/freshly-picked/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Sharktankblog states Susan's deal with Daymond John 'fell through after her appearance'; company grew independently"
+    "portfolioScoringNote": "On-air deal did not close: Sharktankblog states Susan's deal with Daymond John 'fell through after her appearance'; company grew independently",
+    "website": "https://freshly-picked.com",
+    "websiteStatus": "up"
   },
   "s5e16-the-cookie-dough-cafe": {
     "businessStatus": "active",
@@ -7506,7 +8616,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.thelist.com/1342052/what-happened-cookie-dough-cafe-after-shark-tank/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Lori Greiner/Steve Tisch deal fell through; sharks never actually invested per The List and sharktankblog update"
+    "portfolioScoringNote": "On-air deal did not close: Lori Greiner/Steve Tisch deal fell through; sharks never actually invested per The List and sharktankblog update",
+    "website": "https://thecookiedoughcafe.com",
+    "websiteStatus": "unreachable"
   },
   "s5e16-cycloramic": {
     "businessStatus": "inactive",
@@ -7521,7 +8633,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/cycloramic/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://cycloramic.com",
+    "websiteStatus": "unreachable"
   },
   "s5e17-spy-escape-and-evasion": {
     "businessStatus": "inactive",
@@ -7532,7 +8646,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million in annual revenue (by August 2021)",
     "sourceUrl": "https://www.sharktankblog.com/business/concealed-carry-academy/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/concealed-carry-academy/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://concealedcarryacademy.com",
+    "websiteStatus": "up"
   },
   "s5e17-southern-culture-artisan-foods": {
     "businessStatus": "inactive",
@@ -7540,7 +8656,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $500,000 in sales during the year of the Shark Tank appearance (Season 5, 2014)",
     "sourceUrl": "https://www.sharktankblog.com/business/southern-culture-foods/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/southern-culture-foods/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://southernculturefoods.com",
+    "websiteStatus": "up"
   },
   "s5e18-bambooee": {
     "businessStatus": "active",
@@ -7552,7 +8670,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million annual revenue (as of July 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/bambooee/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bambooee/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bambooee.com",
+    "websiteStatus": "up"
   },
   "s5e19-revolights": {
     "businessStatus": "inactive",
@@ -7563,7 +8683,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$600,000 in annual revenue (at time of pitch, nearly all online)",
     "sourceUrl": "https://www.sharktankblog.com/revolights/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/revolights/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://revolights.com",
+    "websiteStatus": "up"
   },
   "s5e19-u-lace": {
     "businessStatus": "active",
@@ -7575,7 +8697,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million in annual revenue (as of August 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/u-lace/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/u-lace/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://u-lace.com",
+    "websiteStatus": "up"
   },
   "s5e20-iretron": {
     "businessStatus": "inactive",
@@ -7584,7 +8708,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $40,000 in first-year revenue at time of pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/iretron/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/iretron/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://iretron.com",
+    "websiteStatus": "unreachable"
   },
   "s5e20-boo-boo-goo": {
     "businessStatus": "inactive",
@@ -7594,7 +8720,9 @@ export const enrichmentOverrides = {
     "industry": "Health",
     "sourceUrl": "https://www.sharktankblog.com/business/booboo-goo/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/booboo-goo/, https://www.sportskeeda.com/us/reality-tv/shark-tank-update-what-happened-booboo-goo-show",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://ecobandage.com",
+    "websiteStatus": "up"
   },
   "s5e20-henry-s-humdingers": {
     "businessStatus": "inactive",
@@ -7604,7 +8732,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$50,000 in sales in the past 12 months at time of pitch ($67,000 total over 3 years)",
     "sourceUrl": "https://www.sharktankblog.com/business/henrys-humdingers/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/henrys-humdingers/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://henryshumdingers.com",
+    "websiteStatus": "up"
   },
   "s5e21-chapul": {
     "businessStatus": "active",
@@ -7616,7 +8746,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$50K in sales the year before the pitch, with 30% month-over-month revenue growth",
     "sourceUrl": "https://www.sharktankblog.com/business/chapul/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/chapul/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://chapul.com",
+    "websiteStatus": "up"
   },
   "s5e21-garage-door-lock": {
     "businessStatus": "active",
@@ -7628,7 +8760,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue of $3 million (as of October 2023, per Shark Tank Blog)",
     "sourceUrl": "https://sharktankblog.com/business/garage-door-lock/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/garage-door-lock/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://elocksysgaragelock.com",
+    "websiteStatus": "up"
   },
   "s5e21-packback-books": {
     "businessStatus": "active",
@@ -7639,7 +8773,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4.2 million annual revenue (November 2022); the Packback Books rental service closed Aug 7, 2018, and the company pivoted to Packback Questions, per Shark Tank Blog",
     "sourceUrl": "https://sharktankblog.com/business/packback/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/packback/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://packback.co",
+    "websiteStatus": "up"
   },
   "s5e22-monkey-mat": {
     "businessStatus": "inactive",
@@ -7651,7 +8787,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$700,000 annual revenue (2021); website down and social media inactive since 2019, per Shark Tank Blog (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/monkey-mat/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/monkey-mat/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://monkeymat.com",
+    "websiteStatus": "down"
   },
   "s5e22-plated": {
     "businessStatus": "inactive",
@@ -7660,7 +8798,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://sharktankblog.com/business/plated/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/plated/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://plated.com",
+    "websiteStatus": "up"
   },
   "s5e22-the-paint-brush-cover": {
     "businessStatus": "active",
@@ -7671,7 +8811,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5-$7 million in annual revenue in 25,000 stores (as of July 2024, per Shark Tank Blog)",
     "sourceUrl": "https://www.sharktankblog.com/business/the-paint-brush-cover/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/the-paint-brush-cover/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://u.openx.net",
+    "websiteStatus": "down"
   },
   "s5e23-velocity-signs": {
     "businessStatus": "inactive",
@@ -7684,7 +8826,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$257,000 in sales (125 units) after one year; company went out of business in January 2019, per Shark Tank Blog",
     "sourceUrl": "https://sharktankblog.com/business/velocity-signs/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/velocity-signs/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://velocitysign.com",
+    "websiteStatus": "up"
   },
   "s5e23-happy-feet": {
     "businessStatus": "active",
@@ -7696,7 +8840,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Earns $5 million in annual revenue (as of April 2024, per Shark Tank Blog); $2.6M in the year before the pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/happy-feet/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/happy-feet/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://buyhappyfeet.com",
+    "websiteStatus": "up"
   },
   "s5e24-powerpot": {
     "businessStatus": "inactive",
@@ -7708,7 +8854,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Parent company Power Practical annual revenue around $1.5 million (2022); the Power Pot product is no longer made (since Nov 2021), and Power Practical was acquired by Thrasio in March 2020, per Shark Tank Blog",
     "sourceUrl": "https://www.sharktankblog.com/business/power-pot/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/power-pot/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thepowerpot.com",
+    "websiteStatus": "up"
   },
   "s5e24-fun-time-express": {
     "businessStatus": "inactive",
@@ -7721,7 +8869,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Projected $900,000 in annual sales with 5 trains in operation (at time of pitch, 2014)",
     "sourceUrl": "https://sharktankblog.com/business/fun-time-express/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/fun-time-express/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://funtimeexpress.com",
+    "websiteStatus": "up"
   },
   "s5e25-ilumi": {
     "businessStatus": "active",
@@ -7732,7 +8882,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in annual revenue (as of November 2023)",
     "sourceUrl": "https://sharktankblog.com/business/ilumi/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/ilumi/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://ilumi.co",
+    "websiteStatus": "down"
   },
   "s5e25-zoobean": {
     "businessStatus": "active",
@@ -7743,7 +8895,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in annual revenue (most recent disclosed figure)",
     "sourceUrl": "https://sharktankblog.com/business/zoobean/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/zoobean/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://zoobean.com",
+    "websiteStatus": "up"
   },
   "s5e26-rugged-maniac": {
     "businessStatus": "active",
@@ -7755,7 +8909,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Sales grew to $10.5 million post-Shark Tank (Season 7 update, 2016)",
     "sourceUrl": "https://sharktankblog.com/business/rugged-maniac/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/rugged-maniac/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://ruggedmaniac.com",
+    "websiteStatus": "up"
   },
   "s5e26-cerebral-success": {
     "businessStatus": "inactive",
@@ -7766,7 +8922,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "900 bottles sold at $70 each (~$63,000) at time of pitch (2014)",
     "sourceUrl": "https://sharktankblog.com/business/cerebral-success/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/cerebral-success/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://successers.com",
+    "websiteStatus": "unreachable"
   },
   "s5e27-angellift": {
     "businessStatus": "active",
@@ -7775,7 +8933,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in annual revenue (as of August 2023)",
     "sourceUrl": "https://sharktankblog.com/business/angellift/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/angellift/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://angellift.com",
+    "websiteStatus": "up"
   },
   "s5e27-hangease": {
     "businessStatus": "inactive",
@@ -7783,7 +8943,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~400,000 units sold through Walmart generating ~$200,000 in sales and ~$70,000 profit (at time of pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/hangease/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/hangease/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hangease.com",
+    "websiteStatus": "unreachable"
   },
   "s5e28-oru-kayak": {
     "businessStatus": "active",
@@ -7791,7 +8953,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$8 million in annual revenue (as of August 2021)",
     "sourceUrl": "https://sharktankblog.com/business/oru-kayak/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/oru-kayak/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://orukayak.com",
+    "websiteStatus": "up"
   },
   "s5e28-bon-affair": {
     "businessStatus": "inactive",
@@ -7800,7 +8964,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://sharktankblog.com/business/bon-affair/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bon-affair/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bonaffair.com",
+    "websiteStatus": "up"
   },
   "s5e28-cinnaholic": {
     "businessStatus": "active",
@@ -7812,7 +8978,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of April 2024, annual revenue is estimated at $87 million (over 100 franchises)",
     "sourceUrl": "https://sharktankblog.com/business/cinnaholic/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/cinnaholic/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://cinnaholic.com",
+    "websiteStatus": "up"
   },
   "s5e29-foot-fairy": {
     "businessStatus": "inactive",
@@ -7821,7 +8989,9 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://sharktankblog.com/business/foot-fairy/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/foot-fairy/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://footfairy.com",
+    "websiteStatus": "unreachable"
   },
   "s5e29-bzbox": {
     "businessStatus": "inactive",
@@ -7845,7 +9015,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/bevbuckle/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Blog: 'Jay and Barbara did not consummate their deal'; he sold $40K without needing the investment."
+    "portfolioScoringNote": "On-air deal did not close: Blog: 'Jay and Barbara did not consummate their deal'; he sold $40K without needing the investment.",
+    "website": "https://bevbuckle.com",
+    "websiteStatus": "up"
   },
   "s4e1-buggy-beds": {
     "businessStatus": "active",
@@ -7864,7 +9036,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/buggybeds/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://buggybeds.com",
+    "websiteStatus": "up"
   },
   "s4e2-surfset-fitness": {
     "businessStatus": "active",
@@ -7878,7 +9052,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/surfset-fitness/",
-    "closureConfidence": "medium"
+    "closureConfidence": "medium",
+    "website": "https://surfsetnyc.com",
+    "websiteStatus": "up"
   },
   "s4e2-cateapp": {
     "businessStatus": "inactive",
@@ -7892,7 +9068,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/cate-app/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Blog explicitly: 'The deal with the Sharks never closed'; O'Leary/John agreement never funded."
+    "portfolioScoringNote": "On-air deal did not close: Blog explicitly: 'The deal with the Sharks never closed'; O'Leary/John agreement never funded.",
+    "website": "https://cateapp.com",
+    "websiteStatus": "unreachable"
   },
   "s4e3-rock-bands": {
     "businessStatus": "inactive",
@@ -7901,7 +9079,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $300,000 in sales over the previous five years (at time of pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/rock-bands/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/rock-bands/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://leatherrockbands.com",
+    "websiteStatus": "down"
   },
   "s4e3-posture-now": {
     "businessStatus": "active",
@@ -7915,7 +9095,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/posture-now/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://posturenow.com",
+    "websiteStatus": "up"
   },
   "s4e4-back-9-dips": {
     "businessStatus": "inactive",
@@ -7931,7 +9113,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://sharktankrecap.com/back-9-dips-update-season-4/",
-    "closureConfidence": "medium"
+    "closureConfidence": "medium",
+    "website": "https://back9dips.com",
+    "websiteStatus": "up"
   },
   "s4e4-bag-bowl": {
     "businessStatus": "inactive",
@@ -7944,7 +9128,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://marketrealist.com/net-worth/bagbowl-shark-tank-net-worth/",
-    "closureConfidence": "medium"
+    "closureConfidence": "medium",
+    "website": "https://buybagbowl.com",
+    "websiteStatus": "up"
   },
   "s4e5-cozy-bug": {
     "businessStatus": "inactive",
@@ -7959,7 +9145,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/cozy-bug/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://cozybugusa.com",
+    "websiteStatus": "up"
   },
   "s4e5-marz-sprays": {
     "businessStatus": "inactive",
@@ -7981,7 +9169,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/cousins-maine-lobster/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://cousinsmainelobster.com",
+    "websiteStatus": "up"
   },
   "s4e6-pro-nrg": {
     "businessStatus": "inactive",
@@ -7990,7 +9180,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$126,000 in sales in three months (at time of pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/pro-nrg/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/pro-nrg/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pronrgusa.com",
+    "websiteStatus": "down"
   },
   "s4e7-scrub-daddy": {
     "businessStatus": "active",
@@ -8004,7 +9196,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://sharktankblog.com/business/scrub-daddy/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://scrubdaddy.com",
+    "websiteStatus": "blocked"
   },
   "s4e7-sbu": {
     "businessStatus": "inactive",
@@ -8032,7 +9226,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://sharktankblog.com/business/cool-wazoo/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Explicit: 'The deal with Lori never closed' - founder continued selling on her own website after the show."
+    "portfolioScoringNote": "On-air deal did not close: Explicit: 'The deal with Lori never closed' - founder continued selling on her own website after the show.",
+    "website": "https://thecoolwazoo.com",
+    "websiteStatus": "up"
   },
   "s4e8-platetopper": {
     "businessStatus": "active",
@@ -8042,7 +9238,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Parent company Prestagon annual revenues of $2 million as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/platetopper/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/platetopper/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://platetopper.com",
+    "websiteStatus": "up"
   },
   "s4e9-drive-suits": {
     "businessStatus": "inactive",
@@ -8079,7 +9277,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/ruck-pack-energy-drink/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://ruckpack.com",
+    "websiteStatus": "down"
   },
   "s4e11-the-coop": {
     "businessStatus": "active",
@@ -8093,7 +9293,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://sharktankblog.com/business/the-coop/",
-    "closureConfidence": "medium"
+    "closureConfidence": "medium",
+    "website": "https://thecoop-la.com",
+    "websiteStatus": "up"
   },
   "s4e11-the-living-christmas-company": {
     "businessStatus": "inactive",
@@ -8107,7 +9309,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://sharktankblog.com/business/living-christmas-company/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://livingchristmas.com",
+    "websiteStatus": "up"
   },
   "s4e12-the-gameface-company": {
     "businessStatus": "active",
@@ -8123,7 +9327,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/the-gameface-company/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://thegamefacecompany.com",
+    "websiteStatus": "up"
   },
   "s4e12-hot-tot": {
     "businessStatus": "active",
@@ -8155,7 +9361,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/coffee-joulies/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Blog: 'the deal they made with the Sharks never closed' despite accepting the four-Shark offer on air."
+    "portfolioScoringNote": "On-air deal did not close: Blog: 'the deal they made with the Sharks never closed' despite accepting the four-Shark offer on air.",
+    "website": "https://u.openx.net",
+    "websiteStatus": "down"
   },
   "s4e13-teddy-needs-a-bath": {
     "businessStatus": "active",
@@ -8170,7 +9378,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/teddy-needs-a-bath/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Blog: 'The deal made between Nicole and Mark Cuban on air did not go through'; Cuban became a financier/lender, not an equity investor."
+    "portfolioScoringNote": "On-air deal did not close: Blog: 'The deal made between Nicole and Mark Cuban on air did not go through'; Cuban became a financier/lender, not an equity investor.",
+    "website": "https://teddyneedsabath.com",
+    "websiteStatus": "down"
   },
   "s4e13-urbio": {
     "businessStatus": "active",
@@ -8185,7 +9395,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/urbio/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://myurbio.com",
+    "websiteStatus": "up"
   },
   "s4e14-soundbender": {
     "businessStatus": "active",
@@ -8199,7 +9411,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/soundbender/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://thesoundbender.com",
+    "websiteStatus": "up"
   },
   "s4e15-grinds": {
     "businessStatus": "active",
@@ -8215,7 +9429,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/grinds-coffee-pouches/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Blog states explicitly: 'The Shark deal did not go through' though Grinds continued independently."
+    "portfolioScoringNote": "On-air deal did not close: Blog states explicitly: 'The Shark deal did not go through' though Grinds continued independently.",
+    "website": "https://getgrinds.com",
+    "websiteStatus": "up"
   },
   "s4e15-hoodie-pillow": {
     "businessStatus": "active",
@@ -8224,7 +9440,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of July 2022, the company is still in business and earns $5 million in annual revenue",
     "sourceUrl": "https://sharktankblog.com/business/hoodie-pillow/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/hoodie-pillow/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hoodiepillow.com",
+    "websiteStatus": "up"
   },
   "s4e16-how-do-you-roll": {
     "businessStatus": "inactive",
@@ -8233,7 +9451,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "making an average of $1 million in sales a year (corporate store), plus $250,000 a year in royalties from franchises, at time of pitch",
     "sourceUrl": "https://sharktankblog.com/business/how-do-you-roll/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/how-do-you-roll/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://howdoyouroll.com",
+    "websiteStatus": "unreachable"
   },
   "s4e16-smartwheel": {
     "businessStatus": "inactive",
@@ -8241,7 +9461,9 @@ export const enrichmentOverrides = {
     "industry": "Automotive",
     "sourceUrl": "https://www.sharktankblog.com/business/the-smart-wheel/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/the-smart-wheel/ ; https://www.slashgear.com/1527892/what-happened-smartwheel-steering-wheel-cover-shark-tank-season-4/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://smartwheelusa.com",
+    "websiteStatus": "down"
   },
   "s4e18-nuts-n-more": {
     "businessStatus": "active",
@@ -8257,7 +9479,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://sharktankblog.com/business/nuts-n-more/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://nuts-n-more.com",
+    "websiteStatus": "up"
   },
   "s4e18-jeska-shoe-company": {
     "businessStatus": "inactive",
@@ -8280,7 +9504,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "medium",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/lose-12-inches/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://barre6.com",
+    "websiteStatus": "up"
   },
   "s4e19-cordaroy-s": {
     "businessStatus": "active",
@@ -8295,7 +9521,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://sharktankblog.com/business/cordaroys/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://cordaroys.com",
+    "websiteStatus": "up"
   },
   "s4e20-drop-stop": {
     "businessStatus": "active",
@@ -8309,7 +9537,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://sharktankblog.com/business/drop-stop/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://buydropstop.com",
+    "websiteStatus": "up"
   },
   "s4e20-simple-sugars": {
     "businessStatus": "active",
@@ -8324,7 +9554,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://sharktankblog.com/business/simple-sugars/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://simplesugarsskincare.com",
+    "websiteStatus": "up"
   },
   "s4e20-coolwraps": {
     "businessStatus": "inactive",
@@ -8386,7 +9618,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://sharktankblog.com/business/wicked-good-cupcakes/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://wickedgoodcupcakes.com",
+    "websiteStatus": "up"
   },
   "s4e22-the-mission-belt": {
     "businessStatus": "active",
@@ -8400,7 +9634,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://sharktankblog.com/business/mission-belt/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://missionbelt.com",
+    "websiteStatus": "up"
   },
   "s4e23-mistobox": {
     "businessStatus": "active",
@@ -8432,7 +9668,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://sharktankblog.com/business/mee-mas-louisiana-gumbo-brick/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Blog states explicitly 'The deal, however, never closed' for O'Leary/Greiner offer"
+    "portfolioScoringNote": "On-air deal did not close: Blog states explicitly 'The deal, however, never closed' for O'Leary/Greiner offer",
+    "website": "https://gumbobrick.com",
+    "websiteStatus": "up"
   },
   "s4e24-kazam": {
     "businessStatus": "active",
@@ -8447,7 +9685,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://sharktankblog.com/business/kazam-bike/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://kazambikes.com",
+    "websiteStatus": "up"
   },
   "s4e24-pink-shutter-photobooths": {
     "businessStatus": "inactive",
@@ -8462,7 +9702,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://sharktankblog.com/business/pink-shutter-photobooths/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://i.pinimg.com",
+    "websiteStatus": "blocked"
   },
   "s4e25-geek-chic": {
     "businessStatus": "inactive",
@@ -8485,7 +9727,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/stella-valle/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://stellavalle.com",
+    "websiteStatus": "up"
   },
   "s4e26-ryan-s-barkery": {
     "businessStatus": "inactive",
@@ -8499,7 +9743,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://sharktankblog.com/business/ryans-barkery/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://ryansbarkery.com",
+    "websiteStatus": "unreachable"
   },
   "s4e26-tom-chee": {
     "businessStatus": "active",
@@ -8514,7 +9760,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://sharktankblog.com/business/tom-and-chee/",
-    "closureConfidence": "medium"
+    "closureConfidence": "medium",
+    "website": "https://tomandchee.com",
+    "websiteStatus": "up"
   },
   "s4e26-verbalizeit": {
     "businessStatus": "inactive",
@@ -8522,7 +9770,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$10,000 in sales in two weeks at time of pitch (Season 4, 2013)",
     "sourceUrl": "https://sharktankblog.com/business/verbalizeit/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/verbalizeit/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://verbalizeit.com",
+    "websiteStatus": "up"
   },
   "s3e1-the-clean-bottle": {
     "investors": [
@@ -8533,7 +9783,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://sharktankrecap.com/clean-bottle-shark-tank-season-3/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://store.cleanbottle.com",
+    "websiteStatus": "up"
   },
   "s3e1-ez-vip": {
     "investors": [
@@ -8547,7 +9799,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/ez-vip/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://ezvip.com",
+    "websiteStatus": "up"
   },
   "s3e2-i-want-to-draw-a-cat-for-you": {
     "investors": [
@@ -8560,7 +9814,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/i-want-to-draw-a-cat-for-you/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://iwanttodrawacatforyou.com",
+    "websiteStatus": "up"
   },
   "s3e3-chord-buddy": {
     "investors": [
@@ -8571,7 +9827,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/chord-buddy-shark-tank-robert-herjavec-deal/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://chordbuddy.com",
+    "websiteStatus": "up"
   },
   "s3e3-you-smell-soap": {
     "industry": "Beauty",
@@ -8637,7 +9895,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/the-painted-pretzel/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://thepaintedpretzel.com",
+    "websiteStatus": "up"
   },
   "s3e6-readerest-specsecure": {
     "investors": [
@@ -8648,7 +9908,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/readerest/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://readerest.com",
+    "websiteStatus": "up"
   },
   "s3e7-kisstixx": {
     "investors": [
@@ -8672,7 +9934,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/the-smart-baker/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Sharktankblog states the deal with Barbara never came through; after meeting her people they could not agree on terms and parted ways."
+    "portfolioScoringNote": "On-air deal did not close: Sharktankblog states the deal with Barbara never came through; after meeting her people they could not agree on terms and parted ways.",
+    "website": "https://thesmartbaker.com",
+    "websiteStatus": "up"
   },
   "s3e8-nardo-s-natural": {
     "investors": [
@@ -8683,7 +9947,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/nardos-natural/",
-    "closureConfidence": "medium"
+    "closureConfidence": "medium",
+    "website": "https://nardosnaturalprivatelabel.com",
+    "websiteStatus": "up"
   },
   "s3e8-litter": {
     "investors": [
@@ -8708,7 +9974,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/tower-paddle-boards/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://towerpaddleboards.com",
+    "websiteStatus": "up"
   },
   "s3e9-misomedia": {
     "investors": [
@@ -8733,7 +10001,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://sharktanksuccess.com/gogo-gear-update-after-shark-tank/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Deal did not go through after the show; Daymond John never wrote a check, only acted as an advisor."
+    "portfolioScoringNote": "On-air deal did not close: Deal did not go through after the show; Daymond John never wrote a check, only acted as an advisor.",
+    "website": "https://gogogearla.com",
+    "websiteStatus": "up"
   },
   "s3e12-nail-pak": {
     "investors": [
@@ -8756,7 +10026,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/lollacup/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://lollaland.com",
+    "websiteStatus": "up"
   },
   "s3e13-villy-customs": {
     "investors": [
@@ -8769,7 +10041,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/villy-custom/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://villycustoms.com",
+    "websiteStatus": "up"
   },
   "s3e14-wild-squirrel-nut-butter": {
     "industry": "Food",
@@ -8799,7 +10073,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/dance-with-me/",
-    "closureConfidence": "medium"
+    "closureConfidence": "medium",
+    "website": "https://danceitout.com",
+    "websiteStatus": "up"
   },
   "s3e15-remyxx-rekixx-sneakers": {
     "investors": [
@@ -8826,7 +10102,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/unikey/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Blog: 'Although the Shark deal went through on television, subsequently, the deal fell through'; took alternative outside investor."
+    "portfolioScoringNote": "On-air deal did not close: Blog: 'Although the Shark deal went through on television, subsequently, the deal fell through'; took alternative outside investor.",
+    "website": "https://unikey.com",
+    "websiteStatus": "up"
   },
   "s2e1-wurkin-stiffs": {
     "investors": [
@@ -8840,7 +10118,9 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://sharktankrecap.com/wurkin-stiffs-collar-stay-update-shark-tank-season-2/",
     "closureConfidence": "medium",
-    "portfolioScoringNote": "On-air deal did not close: Update states 'the deal did not go through as stated on Shark Tank'; founder kept an informal relationship with Daymond John but the formal investment never finalized."
+    "portfolioScoringNote": "On-air deal did not close: Update states 'the deal did not go through as stated on Shark Tank'; founder kept an informal relationship with Daymond John but the formal investment never finalized.",
+    "website": "https://wurkinstiffs.com",
+    "websiteStatus": "up"
   },
   "s2e2-toygaroo": {
     "investors": [
@@ -8880,7 +10160,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/flipoutz/",
-    "closureConfidence": "medium"
+    "closureConfidence": "medium",
+    "website": "https://flipoutz.com",
+    "websiteStatus": "unreachable"
   },
   "s2e4-ride-on-carry-on": {
     "investors": [
@@ -8891,7 +10173,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/ride-on-carry-on/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://think-king.com",
+    "websiteStatus": "up"
   },
   "s2e4-broccoli-wad": {
     "industry": "Consumer Goods",
@@ -8920,7 +10204,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/light-film-2/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://lightfilm",
+    "websiteStatus": "unreachable"
   },
   "s2e6-daisy-cakes": {
     "investors": [
@@ -8932,27 +10218,35 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/daisy-cakes/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://ilovedaisycakes.com",
+    "websiteStatus": "up"
   },
   "s2e7-hydromax": {
     "revenueAmount": 2000000,
     "revenueRaw": "Lifetime revenues estimated at approximately $2 million (per Shark Tank Blog); company went out of business in 2011",
     "sourceUrl": "https://www.sharktankblog.com/business/hydromax/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/hydromax/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hydromaxsystem.com",
+    "websiteStatus": "up"
   },
   "s2e8-origaudio": {
     "revenueAmount": 4000000,
     "revenueRaw": "Over $4 million in sales (Season 3 update, Episode 310, per Shark Tank Blog); $750K at time of pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/origaudio/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/origaudio/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://origaudio.com",
+    "websiteStatus": "up"
   },
   "s2e8-hyconn": {
     "industry": "Consumer Goods",
     "sourceUrl": "https://www.sharktankblog.com/business/hyconn-llc/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/hyconn-llc/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hy-conn.com",
+    "websiteStatus": "up"
   },
   "s2e9-citikitty": {
     "investors": [
@@ -8963,7 +10257,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/citikitty/",
-    "closureConfidence": "medium"
+    "closureConfidence": "medium",
+    "website": "https://citikitty.com",
+    "websiteStatus": "up"
   },
   "s2e9-one-sole": {
     "investors": [
@@ -8974,7 +10270,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/one-sole-shoes/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://onesoleshoe.com",
+    "websiteStatus": "up"
   },
   "s1e2-classroom-jams": {
     "investors": [
@@ -8994,7 +10292,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Sales last year (2022) were $2.5 million",
     "sourceUrl": "https://www.sharktankblog.com/business/gatsby-chocolate/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/gatsby-chocolate/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://gatsbychocolate.com",
+    "websiteStatus": "down"
   },
   "s15e2-stormbag": {
     "businessStatus": "active",
@@ -9002,7 +10302,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$90,000 in revenue in the fiscal year prior to the show (no marketing)",
     "sourceUrl": "https://www.sharktankblog.com/business/storm-bag/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/storm-bag/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://stormbag.co",
+    "websiteStatus": "up"
   },
   "s15e2-matador-meggings": {
     "businessStatus": "active",
@@ -9011,7 +10313,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$200,000 in sales as of July 2023 (projected $1 million for full year 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/matador-meggings/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/matador-meggings/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://matadormeggings.com",
+    "websiteStatus": "up"
   },
   "s15e3-wellingtons": {
     "businessStatus": "active",
@@ -9020,7 +10324,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue of $600K in 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/wellingtons/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/wellingtons/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wellingtons.la",
+    "websiteStatus": "up"
   },
   "s15e4-fairytale-pet-care": {
     "businessStatus": "active",
@@ -9028,14 +10334,18 @@ export const enrichmentOverrides = {
     "revenueRaw": "In 2022, Ilana and Kelly did $123,000 in sales for their area",
     "sourceUrl": "https://www.sharktankblog.com/business/fairytale-pet-care/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/fairytale-pet-care/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://fairytailpetcare.com",
+    "websiteStatus": "up"
   },
   "s15e4-monosuit": {
     "revenueAmount": 245000,
     "revenueRaw": "$245,000 in sales for the past year (2022, no paid advertising)",
     "sourceUrl": "https://www.sharktankblog.com/business/monosuit/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/monosuit/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://monosuit.com",
+    "websiteStatus": "up"
   },
   "s15e22-sip-herbals-herbal-teas": {
     "businessStatus": "active",
@@ -9045,7 +10355,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Sales on track to do $250,000 (as of 2023; ~$250,000 annual revenue as of 2025)",
     "sourceUrl": "https://www.sharktankblog.com/business/sip-herbals/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/sip-herbals/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sipherbals.com",
+    "websiteStatus": "up"
   },
   "s15e22-arber-organic-plant-care": {
     "businessStatus": "active",
@@ -9055,7 +10367,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4.5 million annual revenue as of January 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/arber/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/arber/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://growarber.com",
+    "websiteStatus": "up"
   },
   "s14e2-banana-phone": {
     "businessStatus": "active",
@@ -9065,7 +10379,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.6 million lifetime sales as of the pitch (2021 sales of $540,000 with $123,000 net income); reached ~$1 million annual revenue by end of 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/banana-phone/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/banana-phone/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bananaphone.io",
+    "websiteStatus": "up"
   },
   "s14e3-halloween-moments-pumpkin-glove-scraper": {
     "businessStatus": "active",
@@ -9074,7 +10390,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$58,000 in sales by end of December 2021 ($52,000 by July 2022 when taped) at pitch; sales spiked post-airing with Walmart placement for the 2023 Halloween season",
     "sourceUrl": "https://www.sharktankblog.com/business/halloween-moments/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/halloween-moments/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://halloweenmoments.com",
+    "websiteStatus": "up"
   },
   "s14e3-mama-o-s-premium-kimichi": {
     "businessStatus": "active",
@@ -9084,7 +10402,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$815,000 in 2021 sales (projected $1M for 2022) at pitch; annual sales revenue reached $1.6 million by July 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/mama-os-premium-kimchi/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/mama-os-premium-kimchi/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kimchirules.com",
+    "websiteStatus": "up"
   },
   "s14e4-ghia": {
     "businessStatus": "active",
@@ -9094,7 +10414,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2.5 million in 2021 revenue at pitch; revenue 'on track to top $7 million for the year' as of October 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/ghia/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/ghia/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://drinkghia.com",
+    "websiteStatus": "up"
   },
   "s14e4-expedition-subsahara": {
     "businessStatus": "active",
@@ -9104,7 +10426,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales of $3.6 million at pitch (2021 sales $1.6 million with $75,000 net profit; YTD 2022 $900,000); reported 'record amounts' in sales post-appearance",
     "sourceUrl": "https://www.sharktankblog.com/business/expedition-subsahara/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/expedition-subsahara/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://expeditionsubsahara.com",
+    "websiteStatus": "up"
   },
   "s14e5-big-big-little-bee": {
     "businessStatus": "active",
@@ -9114,7 +10438,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$230,000 in 2021 sales ($110,000 YTD July 2022) at pitch; ~$130,000 annual Amazon revenue (700+ units/month) as of August 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/big-bee-little-bee/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/big-bee-little-bee/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bigbeelittlebee.com",
+    "websiteStatus": "up"
   },
   "s14e10-vochill": {
     "businessStatus": "active",
@@ -9124,7 +10450,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$820,000 in 2021; $1.8 million year-to-date in 2022 at the time of pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/vochill/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/vochill/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://vochill.com",
+    "websiteStatus": "up"
   },
   "s14e10-long-table": {
     "businessStatus": "active",
@@ -9134,7 +10462,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$250,000 lifetime sales over 6 years at pitch; $1.25 million in sales within 8 months following the episode air date",
     "sourceUrl": "https://www.sharktankblog.com/business/long-table/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/long-table/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://longtablepancakes.com",
+    "websiteStatus": "down"
   },
   "s14e11-metric-mate": {
     "businessStatus": "active",
@@ -9142,7 +10472,9 @@ export const enrichmentOverrides = {
     "industry": "Health",
     "sourceUrl": "https://sharktankblog.com/business/metric-mate/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/metric-mate/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://themetricmate.com",
+    "websiteStatus": "up"
   },
   "s14e12-nopalera": {
     "businessStatus": "active",
@@ -9152,7 +10484,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Sales approached nearly $6 million by December 2023 (per Shark Tank Blog update); $607,000 in 2021 and $335,000 in 2022 at time of taping",
     "sourceUrl": "https://sharktankblog.com/business/nopalera/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/nopalera/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://nopalera.co",
+    "websiteStatus": "up"
   },
   "s14e12-brass-roots": {
     "businessStatus": "active",
@@ -9162,7 +10496,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$500,000 in 2021 sales; $35,000 in 2019; 2022 projection $1.5 million (figures at pitch). 2024 projected revenue $2.5-3 million per update.",
     "sourceUrl": "https://sharktankblog.com/business/brass-roots/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/brass-roots/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://brassrootsfood.com",
+    "websiteStatus": "up"
   },
   "s14e12-nutr": {
     "businessStatus": "active",
@@ -9172,7 +10508,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$25 million in annual revenue as of December 2023 (Shark Tank Blog update); $793,000 in 2021 and ~$2 million in 2022 at pitch",
     "sourceUrl": "https://sharktankblog.com/business/nutr/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/nutr/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thenutr.com",
+    "websiteStatus": "up"
   },
   "s14e13-copy-keyboard": {
     "businessStatus": "active",
@@ -9180,7 +10518,9 @@ export const enrichmentOverrides = {
     "industry": "Technology",
     "sourceUrl": "https://sharktankblog.com/business/copy-keyboard/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/copy-keyboard/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://copykeyboard.com",
+    "websiteStatus": "down"
   },
   "s14e14-the-chub-rub-patch": {
     "businessStatus": "active",
@@ -9190,14 +10530,18 @@ export const enrichmentOverrides = {
     "revenueRaw": "$105,000 in sales as of pitch (from July 2021 launch through Season 14 appearance) per Shark Tank Blog",
     "sourceUrl": "https://www.sharktankblog.com/business/chub-rub-patch/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/chub-rub-patch/ ; https://www.women.com/1525341/what-went-down-the-chub-rub-patch-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thechubrubpatch.shop",
+    "websiteStatus": "up"
   },
   "s14e15-surf-band-pro": {
     "businessStatus": "active",
     "description": "Surf Band Pro is a refillable, wristwatch-style wearable that stores and dispenses sunscreen, secured with a Velcro strap.",
     "sourceUrl": "https://sharktankblog.com/business/surf-band-pro/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/surf-band-pro/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://surfbandpro.com",
+    "websiteStatus": "up"
   },
   "s14e16-pluie": {
     "businessStatus": "active",
@@ -9205,7 +10549,9 @@ export const enrichmentOverrides = {
     "industry": "Baby & Kids",
     "sourceUrl": "https://sharktankblog.com/business/pluie/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pluie/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hellopluie.com",
+    "websiteStatus": "up"
   },
   "s14e16-woof": {
     "businessStatus": "active",
@@ -9213,7 +10559,9 @@ export const enrichmentOverrides = {
     "industry": "Pet",
     "sourceUrl": "https://sharktankblog.com/business/woof/",
     "sourceUrlsRaw": "Shark Tank Blog - Woof (https://sharktankblog.com/business/woof/)",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://woofhelp.com",
+    "websiteStatus": "up"
   },
   "s14e17-chubby-buttons": {
     "businessStatus": "active",
@@ -9223,7 +10571,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $1.6 million in sales (lifetime, at time of Shark Tank pitch, Season 14)",
     "sourceUrl": "https://sharktankblog.com/business/chubby-buttons/",
     "sourceUrlsRaw": "Shark Tank Blog - Chubby Buttons (https://sharktankblog.com/business/chubby-buttons/)",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://chubbybuttons.io",
+    "websiteStatus": "up"
   },
   "s14e17-autio": {
     "businessStatus": "active",
@@ -9233,7 +10583,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Revenue had climbed to $700K (2022, at time of pitch)",
     "sourceUrl": "https://sharktankblog.com/business/autio/",
     "sourceUrlsRaw": "Shark Tank Blog - Autio (https://sharktankblog.com/business/autio/)",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://autio.com",
+    "websiteStatus": "up"
   },
   "s14e18-happifloss": {
     "businessStatus": "inactive",
@@ -9241,7 +10593,9 @@ export const enrichmentOverrides = {
     "industry": "Health",
     "sourceUrl": "https://www.sharktankblog.com/business/happi/",
     "sourceUrlsRaw": "Shark Tank Blog - Happi Floss (https://www.sharktankblog.com/business/happi/)",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://happifloss.com",
+    "websiteStatus": "up"
   },
   "s14e19-burlap-and-barrel": {
     "businessStatus": "active",
@@ -9251,7 +10605,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales: $12 million (as of pitch, Season 14; 2022 projected sales $6-7 million)",
     "sourceUrl": "https://sharktankblog.com/business/burlap-and-barrel/",
     "sourceUrlsRaw": "Shark Tank Blog - Burlap and Barrel (https://sharktankblog.com/business/burlap-and-barrel/)",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://burlapandbarrel.com",
+    "websiteStatus": "up"
   },
   "s14e20-honey-bunchies": {
     "businessStatus": "active",
@@ -9260,7 +10616,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Year-to-date (mid-2022) sales were $300,000, with projections of $519,000 by year-end (at time of pitch)",
     "sourceUrl": "https://sharktankblog.com/business/honey-bunchies/",
     "sourceUrlsRaw": "Shark Tank Blog - Honey Bunchies (https://sharktankblog.com/business/honey-bunchies/)",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://honeybunchies.com",
+    "websiteStatus": "up"
   },
   "s14e20-dapper-boi": {
     "businessStatus": "active",
@@ -9270,7 +10628,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "2021 annual sales: $1.2 million (lifetime 7-year sales $3.5 million, as of pitch)",
     "sourceUrl": "https://sharktankblog.com/business/dapper-boi/",
     "sourceUrlsRaw": "Shark Tank Blog - Dapper Boi (https://sharktankblog.com/business/dapper-boi/)",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://dapperboi.com",
+    "websiteStatus": "up"
   },
   "s14e21-see-the-way-i-see": {
     "businessStatus": "active",
@@ -9287,7 +10647,9 @@ export const enrichmentOverrides = {
     "description": "A board game by George 'Tank' Resch in which players compete to gain social-media followers instead of money.",
     "sourceUrl": "https://www.sharktankblog.com/business/influencers-in-the-wild/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/influencers-in-the-wild/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://influencersinthewildgame.com",
+    "websiteStatus": "up"
   },
   "s13e1-uprising": {
     "businessStatus": "inactive",
@@ -9295,7 +10657,9 @@ export const enrichmentOverrides = {
     "industry": "Food",
     "sourceUrl": "https://www.sharktankblog.com/business/uprising/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/uprising/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://uprisingfood.com",
+    "websiteStatus": "unreachable"
   },
   "s13e1-lion-latch": {
     "businessStatus": "active",
@@ -9303,7 +10667,9 @@ export const enrichmentOverrides = {
     "industry": "Jewelry & Accessories",
     "sourceUrl": "https://www.sharktankblog.com/business/lion-latch/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/lion-latch/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://lionlatch.com",
+    "websiteStatus": "up"
   },
   "s13e1-paskho": {
     "businessStatus": "inactive",
@@ -9311,7 +10677,9 @@ export const enrichmentOverrides = {
     "industry": "Apparel",
     "sourceUrl": "https://www.sharktankblog.com/business/paskho/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/paskho/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://paskho.com",
+    "websiteStatus": "up"
   },
   "s13e2-muteme": {
     "businessStatus": "active",
@@ -9319,7 +10687,9 @@ export const enrichmentOverrides = {
     "industry": "Technology",
     "sourceUrl": "https://www.sharktankblog.com/business/muteme/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/muteme/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://muteme.com",
+    "websiteStatus": "up"
   },
   "s13e2-long-wharf": {
     "businessStatus": "active",
@@ -9327,7 +10697,9 @@ export const enrichmentOverrides = {
     "industry": "Apparel",
     "sourceUrl": "https://www.sharktankblog.com/business/long-wharf-supply-company/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/long-wharf-supply-company/, https://sharktanksuccess.com/long-wharf-supply-co-shark-tank-review/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://longwharfsupply.com",
+    "websiteStatus": "up"
   },
   "s13e3-oathaus": {
     "businessStatus": "active",
@@ -9335,7 +10707,9 @@ export const enrichmentOverrides = {
     "industry": "Food",
     "sourceUrl": "https://www.sharktankblog.com/business/oat-haus/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/oat-haus/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://oat.haus",
+    "websiteStatus": "up"
   },
   "s13e5-beulr": {
     "businessStatus": "inactive",
@@ -9343,7 +10717,9 @@ export const enrichmentOverrides = {
     "industry": "Technology",
     "sourceUrl": "https://www.sharktankblog.com/business/beulr/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/beulr/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://beulr.com",
+    "websiteStatus": "down"
   },
   "s13e6-deux": {
     "businessStatus": "active",
@@ -9363,7 +10739,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $10 million in annual revenue as of July 2024 (valued at ~$50 million)",
     "sourceUrl": "https://sharktankblog.com/business/love-and-pebble/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/love-and-pebble/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://loveandpebble.com",
+    "websiteStatus": "up"
   },
   "s13e8-ornament-anchor": {
     "businessStatus": "active",
@@ -9373,7 +10751,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue is more than $1 million (as of 2023); ~$500,000 lifetime at pitch (summer 2021)",
     "sourceUrl": "https://sharktankblog.com/business/ornament-anchor/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/ornament-anchor/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://ornamentanchor.com",
+    "websiteStatus": "up"
   },
   "s13e8-santa-s-enchanted-mailbox": {
     "description": "Santa's Enchanted Mailbox is a toy mailbox that plays music and makes a child's letter to Santa magically disappear when the flag is raised.",
@@ -9392,14 +10772,18 @@ export const enrichmentOverrides = {
     "revenueRaw": "$50,000 in lifetime revenue at pitch ($7,500 previous month); grew to a profitable six-figure business by July 2024",
     "sourceUrl": "https://sharktankblog.com/business/liberate/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/liberate/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://b.delivery.consentmanager.net",
+    "websiteStatus": "up"
   },
   "s13e10-smart-tire-company": {
     "businessStatus": "active",
     "description": "The Smart Tire Company develops flat-free airless tires made from nitinol (NASA-inspired shape-memory alloy), starting with its METL bicycle tire.",
     "sourceUrl": "https://sharktankblog.com/business/the-smart-tire-company/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-smart-tire-company/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://smarttirecompany.com",
+    "websiteStatus": "up"
   },
   "s13e10-candi": {
     "businessStatus": "active",
@@ -9409,7 +10793,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "made $100,000 since launching in April 2020 (revenue at time of pitch)",
     "sourceUrl": "https://sharktankblog.com/business/candi/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/candi/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://meetcandi.com",
+    "websiteStatus": "unreachable"
   },
   "s13e11-must-love": {
     "businessStatus": "active",
@@ -9419,7 +10805,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1 million in year-to-date sales at taping (mid-2021), with a $400,000 loss; projected $1.7 million for the full year",
     "sourceUrl": "https://sharktankblog.com/business/must-love/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/must-love/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://must.love",
+    "websiteStatus": "up"
   },
   "s13e11-romperjack": {
     "businessStatus": "active",
@@ -9429,7 +10817,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $2.5 million annually as of November 2023 (up from $1.1 million in the 12 months before the 2021 pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/romper-jack/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/romper-jack/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://romperjack.com",
+    "websiteStatus": "up"
   },
   "s13e12-ta3-swimwear": {
     "businessStatus": "active",
@@ -9438,7 +10828,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $20 million in lifetime sales as of August 2024 ($1.4 million over 13 months at the time of the pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/ta3/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/ta3/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://ta3swim.com",
+    "websiteStatus": "up"
   },
   "s13e13-blowzee": {
     "businessStatus": "inactive",
@@ -9458,7 +10850,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Between $16-20 million annually as of 2024 ($9 million year-to-date / $21 million lifetime at the time of the 2021 pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/overez-chicken-coop/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/overez-chicken-coop/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://overezchickencoop.com",
+    "websiteStatus": "up"
   },
   "s13e14-pinole-blue": {
     "businessStatus": "active",
@@ -9468,7 +10862,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $900,000 annually as of February 2023 ($720,000 lifetime sales at the time of the 2021 pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/pinole-blue/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/pinole-blue/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pinoleblue.com",
+    "websiteStatus": "up"
   },
   "s13e16-prepdeck": {
     "businessStatus": "active",
@@ -9478,7 +10874,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $18.5 million in lifetime sales (2020 sales were $6.2 million at the time of the pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/prepdeck/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/prepdeck/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://prepdeck.com",
+    "websiteStatus": "up"
   },
   "s13e17-young-kind-hair-care": {
     "businessStatus": "active",
@@ -9487,7 +10885,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.54 million year-to-date as of September 2021, projected $3 million for the full year",
     "sourceUrl": "https://www.sharktankblog.com/business/young-king-hair-care/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/young-king-hair-care/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://youngkinghaircare.com",
+    "websiteStatus": "up"
   },
   "s13e17-pawnix": {
     "businessStatus": "active",
@@ -9507,7 +10907,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4.5 million in total sales at the time of the pitch (2022), including a Kickstarter campaign that raised $3,107,079 in Feb 2021",
     "sourceUrl": "https://sharktankblog.com/business/fort/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/fort/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://getthefort.com",
+    "websiteStatus": "up"
   },
   "s13e19-busy-box": {
     "businessStatus": "active",
@@ -9517,7 +10919,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Sales for 2020 were $299,999, and $129,000 midway through 2021 (lifetime ~$429,000)",
     "sourceUrl": "https://www.sharktankblog.com/business/busy-box/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/busy-box/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://u.openx.net",
+    "websiteStatus": "down"
   },
   "s13e20-lil-advents": {
     "businessStatus": "active",
@@ -9527,7 +10931,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$205,000 in sales in 2020 and $320,000 year to date for 2021",
     "sourceUrl": "https://sharktankblog.com/business/lil-advents/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/lil-advents/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://liladvents.com",
+    "websiteStatus": "up"
   },
   "s13e21-hampton-adams": {
     "businessStatus": "active",
@@ -9537,7 +10943,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales have surpassed $16 million by July 2024 (was $12.2 million lifetime / $5 million YTD at pitch)",
     "sourceUrl": "https://sharktankblog.com/business/hampton-adams/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/hampton-adams/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hamptonadams.com",
+    "websiteStatus": "up"
   },
   "s13e23-chill-n-reel": {
     "businessStatus": "active",
@@ -9557,7 +10965,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Year-to-date 2021 sales of $125,000 ($100,000 in 2020), projected to finish 2021 at $200,000",
     "sourceUrl": "https://sharktankblog.com/business/driftline/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/driftline/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://driftline.co",
+    "websiteStatus": "up"
   },
   "s13e24-the-players-trunk": {
     "businessStatus": "active",
@@ -9567,7 +10977,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.3 million in sales (with $200,000 revenue) in just over one year at the time of the pitch",
     "sourceUrl": "https://sharktankblog.com/business/the-players-trunk/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-players-trunk/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://theplayerstrunkauction.com",
+    "websiteStatus": "up"
   },
   "s13e24-project-pollo": {
     "businessStatus": "inactive",
@@ -9586,7 +10998,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue around $500,000 as of 2024",
     "sourceUrl": "https://sharktankblog.com/business/aqua-boxing-glove/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/aqua-boxing-glove/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://blackstallionboxingplus.com",
+    "websiteStatus": "up"
   },
   "s12e1-garmaguard": {
     "businessStatus": "inactive",
@@ -9595,7 +11009,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$476,000 in sales (at pitch, ~18 months in business)",
     "sourceUrl": "https://sharktankblog.com/business/garmaguard/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/garmaguard/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://garmaguard.com",
+    "websiteStatus": "up"
   },
   "s12e1-rumpl": {
     "businessStatus": "active",
@@ -9604,7 +11020,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "projected annual revenue ~$12 million as of August 2024",
     "sourceUrl": "https://sharktankblog.com/business/rumpl/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/rumpl/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://rumpl.com",
+    "websiteStatus": "up"
   },
   "s12e3-the-cereal-killerz-kitchen": {
     "businessStatus": "active",
@@ -9612,7 +11030,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue of $4 million as of January 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/cereal-killerz/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/cereal-killerz/ ; https://gazettereview.com/the-cereal-killerz-kitchen-after-shark-tank-update/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thecerealkillerz.com",
+    "websiteStatus": "up"
   },
   "s12e4-surprise-cake": {
     "businessStatus": "active",
@@ -9620,7 +11040,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue $1-$2 million as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/surprise-cake/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/surprise-cake/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://surprisecake.com",
+    "websiteStatus": "up"
   },
   "s12e5-liftid-neurostimulation": {
     "businessStatus": "active",
@@ -9629,7 +11051,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$6 million in revenue as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/liftid/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/liftid/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://getliftid.com",
+    "websiteStatus": "up"
   },
   "s12e6-moment": {
     "businessStatus": "active",
@@ -9646,7 +11070,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2.5 million annual revenue as of July 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/sled-dogs/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/sled-dogs/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://usasleddogs.com",
+    "websiteStatus": "up"
   },
   "s12e8-sharks-mark-barbara-kevin-lori-robert-peekaboo": {
     "businessStatus": "inactive",
@@ -9654,7 +11080,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of July 2021, annual revenue is $3 million",
     "sourceUrl": "https://www.sharktankblog.com/business/peekaboo/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/peekaboo/ ; https://www.foodrepublic.com/1421424/peekaboo-organic-ice-cream-shark-tank-now/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://eatpeekaboo.com",
+    "websiteStatus": "down"
   },
   "s12e9-all33": {
     "businessStatus": "inactive",
@@ -9662,13 +11090,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of August, 2022, they have $4 million in annual revenue",
     "sourceUrl": "https://www.sharktankblog.com/business/all33-backstrong-chairs/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/all33-backstrong-chairs/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://all33.com",
+    "websiteStatus": "down"
   },
   "s12e9-his-and-her-bar": {
     "businessStatus": "inactive",
     "sourceUrl": "https://www.sharktankblog.com/business/his-and-her-bar/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/his-and-her-bar/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hisandherbar.com",
+    "websiteStatus": "unreachable"
   },
   "s12e10-love-is-project": {
     "businessStatus": "active",
@@ -9683,7 +11115,9 @@ export const enrichmentOverrides = {
     "businessStatus": "inactive",
     "sourceUrl": "https://www.sharktankblog.com/business/brumachen/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/brumachen/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://brumachen.com",
+    "websiteStatus": "up"
   },
   "s12e12-rule-breaker": {
     "businessStatus": "active",
@@ -9691,7 +11125,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue at this time is $3 million (as of August 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/rule-breaker-snacks/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/rule-breaker-snacks/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://rulebreakersnacks.com",
+    "websiteStatus": "up"
   },
   "s12e13-sharks-mark-daymond-kevin-lori-robert-jax-sheets": {
     "businessStatus": "inactive",
@@ -9699,7 +11135,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of July 2021, annual revenue was $900,000-$1 million",
     "sourceUrl": "https://www.sharktankblog.com/business/jax-sheets/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/jax-sheets/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://jaxformen.com",
+    "websiteStatus": "up"
   },
   "s12e14-sharks-mark-kendra-scott-kevin-lori-barbara-pashion-footwear": {
     "businessStatus": "active",
@@ -9707,7 +11145,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of July, 2023, the business has annual revenue of $3 million",
     "sourceUrl": "https://www.sharktankblog.com/business/pashion-footwear/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/pashion-footwear/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pashionfootwear.com",
+    "websiteStatus": "up"
   },
   "s12e15-walkee-paws": {
     "businessStatus": "active",
@@ -9715,7 +11155,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1 million in sales at pitch; projected revenue reached $2 million for 2021 following post-appearance demand (as of July 2021)",
     "sourceUrl": "https://sharktankblog.com/business/walkee-paws/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/walkee-paws/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://walkeepaws.com",
+    "websiteStatus": "up"
   },
   "s12e16-muff-waders": {
     "businessStatus": "active",
@@ -9723,7 +11165,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$54,000 in total sales at time of pitch; post-appearance sales exceeded a quarter of a million dollars",
     "sourceUrl": "https://sharktankblog.com/business/muff-waders/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/muff-waders/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://muffwaders.com",
+    "websiteStatus": "down"
   },
   "s12e16-busybaby-mat": {
     "businessStatus": "active",
@@ -9731,13 +11175,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "$343,000 in sales at pitch; reached $1 million in 2020 and grew to $4 million by 2021",
     "sourceUrl": "https://www.sharktankblog.com/business/busy-baby/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/busy-baby/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://busybabymat.com",
+    "websiteStatus": "up"
   },
   "s12e17-chill-systems": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/chill-systems/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/chill-systems/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://chillsystems.com",
+    "websiteStatus": "up"
   },
   "s12e18-hairy-grabster": {
     "businessStatus": "active",
@@ -9745,7 +11193,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "only $600 in sales before the show; sold over 2,000 units in the immediate aftermath of the appearance",
     "sourceUrl": "https://www.sharktankblog.com/business/hairygrabster/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/hairygrabster/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hairygrabster.com",
+    "websiteStatus": "up"
   },
   "s12e19-probiotic-maker": {
     "businessStatus": "active",
@@ -9753,13 +11203,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "sold 5,000 units within six weeks following the episode air date, representing nearly half a million dollars in sales (post-appearance)",
     "sourceUrl": "https://sharktankblog.com/business/probiotic-maker/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/probiotic-maker/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://probioticmaker.com",
+    "websiteStatus": "up"
   },
   "s12e20-the-cheese-chopper": {
     "businessStatus": "active",
     "sourceUrl": "https://sharktankblog.com/business/the-cheese-chopper/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-cheese-chopper/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://cheesechopper.com",
+    "websiteStatus": "up"
   },
   "s12e21-salad-sling": {
     "businessStatus": "active",
@@ -9767,7 +11221,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "generates annual revenue under $1 million (as of August 2023)",
     "sourceUrl": "https://sharktankblog.com/business/salad-sling/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/salad-sling/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://saladsling.com",
+    "websiteStatus": "up"
   },
   "s12e22-the-scrubbie": {
     "businessStatus": "active",
@@ -9775,7 +11231,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales of $13,000 at the time of the pitch (2021)",
     "sourceUrl": "https://www.sharktankblog.com/business/the-scrubbie/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/the-scrubbie/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thescrubbie.com",
+    "websiteStatus": "up"
   },
   "s12e22-the-bumbling-bee": {
     "businessStatus": "inactive",
@@ -9792,7 +11250,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Around $1.5 million annual revenue as of August 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/xtorch/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/xtorch/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://xtorch.org",
+    "websiteStatus": "unreachable"
   },
   "s12e23-creation-nation": {
     "businessStatus": "active",
@@ -9808,7 +11268,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million annually as of October 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/beermkr/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/beermkr/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://beermkr.com",
+    "websiteStatus": "up"
   },
   "s12e24-sharks-mark-daniel-kevin-lori-robert-pluto": {
     "businessStatus": "active",
@@ -9816,7 +11278,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million as of July 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/pluto/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/pluto/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://plutopillow.com",
+    "websiteStatus": "up"
   },
   "s11e1-minuscal": {
     "businessStatus": "inactive",
@@ -9824,14 +11288,18 @@ export const enrichmentOverrides = {
     "industry": "Health",
     "sourceUrl": "https://www.sharktankblog.com/business/minus-cal/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/minus-cal/; https://www.legit.ng/entertainment/tv-shows/1646536-minus-cal-post-shark-tank-update-fat-blocking-product-business/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://minuscal.com",
+    "websiteStatus": "up"
   },
   "s11e2-face-yoga-with-koko": {
     "businessStatus": "active",
     "description": "Koko Face Yoga offers a facial-exercise method—via private instruction, video classes, and an app—to maintain a youthful appearance and correct facial asymmetry.",
     "sourceUrl": "https://www.sharktankblog.com/business/face-yoga/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/face-yoga/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kokofaceyoga.com",
+    "websiteStatus": "up"
   },
   "s11e2-atlas-monroe": {
     "businessStatus": "active",
@@ -9841,7 +11309,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Estimated annual revenue of $5-$7 million as of October 2023",
     "sourceUrl": "https://sharktankblog.com/business/atlas-monroe/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/atlas-monroe/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://atlasmonroe.com",
+    "websiteStatus": "up"
   },
   "s11e3-baobab": {
     "businessStatus": "active",
@@ -9851,7 +11321,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Generating $900,000 to $1 million in annual revenue as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/baobab/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/baobab/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://baobabclothing.com",
+    "websiteStatus": "up"
   },
   "s11e4-plop-star": {
     "businessStatus": "active",
@@ -9861,7 +11333,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime revenue estimated at $1.4 million (as of July 2024 update)",
     "sourceUrl": "https://sharktankblog.com/business/plop-star/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/plop-star/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://plopstar.com",
+    "websiteStatus": "up"
   },
   "s11e5-nerdit-now": {
     "businessStatus": "active",
@@ -9871,7 +11345,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue of $4.6 million as of February 2023",
     "sourceUrl": "https://sharktankblog.com/business/nerdit-now/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/nerdit-now/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://nerditnow.com",
+    "websiteStatus": "up"
   },
   "s11e6-pili-hunters": {
     "businessStatus": "active",
@@ -9881,7 +11357,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4 million in annual revenue as of July 2021",
     "sourceUrl": "https://sharktankblog.com/business/pili-hunters/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pili-hunters/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://eatpilinuts.com",
+    "websiteStatus": "up"
   },
   "s11e7-peanut-butter-pump": {
     "businessStatus": "inactive",
@@ -9889,7 +11367,9 @@ export const enrichmentOverrides = {
     "industry": "Consumer Goods",
     "sourceUrl": "https://sharktankblog.com/business/peanut-butter-pump/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/peanut-butter-pump/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://thenuttyinventor.com",
+    "websiteStatus": "down"
   },
   "s11e9-robert-easy-treezy": {
     "businessStatus": "active",
@@ -9899,7 +11379,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue of $1 million as of June 2021",
     "sourceUrl": "https://sharktankblog.com/business/easy-treezy/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/easy-treezy/; https://sharktankrecap.com/easy-treezy-update-shark-tank-season-11/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://easytreezy.com",
+    "websiteStatus": "up"
   },
   "s11e9-kit-lender": {
     "businessStatus": "active",
@@ -9909,7 +11391,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue of $1 million as of July 2021",
     "sourceUrl": "https://sharktankblog.com/business/kit-lender/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/kit-lender/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kitlender.com",
+    "websiteStatus": "blocked"
   },
   "s11e10-fortress": {
     "businessStatus": "active",
@@ -9919,7 +11403,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenues exceeded $5 million as of June 2021",
     "sourceUrl": "https://www.sharktankblog.com/business/fortress/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/fortress/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://fortressclothing.com",
+    "websiteStatus": "up"
   },
   "s11e10-zuum": {
     "businessStatus": "active",
@@ -9927,7 +11413,9 @@ export const enrichmentOverrides = {
     "industry": "Consumer Goods",
     "sourceUrl": "https://sharktankblog.com/business/zuum/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/zuum/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://zuumtech.com",
+    "websiteStatus": "up"
   },
   "s11e11-lovesync": {
     "businessStatus": "active",
@@ -9937,7 +11425,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $1.2 million in lifetime revenue as of July 2023",
     "sourceUrl": "https://sharktankblog.com/business/lovesync/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/lovesync/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://lovesync.com",
+    "websiteStatus": "up"
   },
   "s11e12-ka-pop-ancient-grain-snack-co": {
     "businessStatus": "active",
@@ -9946,7 +11436,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million annually (as of May 2024)",
     "sourceUrl": "https://sharktankblog.com/business/ka-pop/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/ka-pop/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kapopsnacks.com",
+    "websiteStatus": "down"
   },
   "s11e13-pips-bounce": {
     "businessStatus": "inactive",
@@ -9964,7 +11456,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "About $8.8 million in annual revenue",
     "sourceUrl": "https://www.sharktankblog.com/business/bite/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bite/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bitetoothpastebits.com",
+    "websiteStatus": "up"
   },
   "s11e14-baby-quip": {
     "businessStatus": "active",
@@ -9973,7 +11467,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$23 million in annual revenue as of April 2022",
     "sourceUrl": "https://sharktankblog.com/business/babyquip/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/babyquip/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://babyquip.com",
+    "websiteStatus": "up"
   },
   "s11e15-robert-k-ds-luv": {
     "description": "KidsLuv makes sugar-free, eco-friendly, vitamin-enriched juice drinks for children, sweetened with stevia.",
@@ -9982,7 +11478,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue reached $5 million by January 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/kidsluv/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/kidsluv/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://kidsluv.com",
+    "websiteStatus": "down"
   },
   "s11e15-swimply": {
     "businessStatus": "active",
@@ -9990,7 +11488,9 @@ export const enrichmentOverrides = {
     "industry": "Travel",
     "sourceUrl": "https://sharktankblog.com/business/swimply/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/swimply/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://swimply.com",
+    "websiteStatus": "up"
   },
   "s11e18-prepwell-academy": {
     "businessStatus": "active",
@@ -9998,7 +11498,9 @@ export const enrichmentOverrides = {
     "industry": "Education",
     "sourceUrl": "https://www.sharktankblog.com/business/prepwell/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/prepwell/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://prepwellacademy.com",
+    "websiteStatus": "up"
   },
   "s11e18-beddley": {
     "businessStatus": "active",
@@ -10006,14 +11508,18 @@ export const enrichmentOverrides = {
     "industry": "Consumer Goods",
     "sourceUrl": "https://sharktankblog.com/business/beddley/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/beddley/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://beddley.com",
+    "websiteStatus": "up"
   },
   "s11e19-robert-just-the-cheese": {
     "businessStatus": "active",
     "description": "Just The Cheese makes crunchy 100% cheese snacks in bar and mini-crisp form across multiple flavors.",
     "sourceUrl": "https://sharktankblog.com/business/just-the-cheese/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/just-the-cheese/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://justthecheese.com",
+    "websiteStatus": "up"
   },
   "s11e19-neuro": {
     "businessStatus": "active",
@@ -10021,7 +11527,9 @@ export const enrichmentOverrides = {
     "industry": "Food",
     "sourceUrl": "https://www.sharktankblog.com/business/neuro/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/neuro/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://getneuro.com",
+    "websiteStatus": "up"
   },
   "s11e19-seriously-slime": {
     "businessStatus": "inactive",
@@ -10029,7 +11537,9 @@ export const enrichmentOverrides = {
     "industry": "Entertainment",
     "sourceUrl": "https://sharktankblog.com/business/seriously-slime/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/seriously-slime/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://seriouslyslime.com",
+    "websiteStatus": "unreachable"
   },
   "s11e20-little-burros": {
     "businessStatus": "active",
@@ -10037,7 +11547,9 @@ export const enrichmentOverrides = {
     "industry": "Consumer Goods",
     "sourceUrl": "https://sharktankblog.com/business/little-burros/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/little-burros/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://littleburros.com",
+    "websiteStatus": "up"
   },
   "s11e20-jiggaerobics": {
     "businessStatus": "active",
@@ -10045,7 +11557,9 @@ export const enrichmentOverrides = {
     "industry": "Sports",
     "sourceUrl": "https://sharktankblog.com/business/jiggaerobics/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/jiggaerobics/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://jiggaerobicsfitness.com",
+    "websiteStatus": "up"
   },
   "s11e21-proven": {
     "businessStatus": "active",
@@ -10055,7 +11569,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $30 million annual sales (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/proven/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/proven/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://provenskincare.com",
+    "websiteStatus": "up"
   },
   "s11e21-van-robotics": {
     "businessStatus": "active",
@@ -10065,7 +11581,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "lifetime revenue at this time is over $16 million (as of June 2024); earlier reported annual revenue of $4 million (June 2021)",
     "sourceUrl": "https://www.sharktankblog.com/business/abii-by-van-robotics/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/abii-by-van-robotics/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://abiis-world.com",
+    "websiteStatus": "up"
   },
   "s11e22-lord-von-schmitt": {
     "businessStatus": "active",
@@ -10073,7 +11591,9 @@ export const enrichmentOverrides = {
     "industry": "Apparel",
     "sourceUrl": "https://www.sharktankblog.com/business/lord-von-schmitt/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/lord-von-schmitt/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://lordvonschmitt.com",
+    "websiteStatus": "up"
   },
   "s11e22-dadware": {
     "businessStatus": "inactive",
@@ -10083,7 +11603,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $1.2 million in sales (as of July 2021, about 14 months post-appearance)",
     "sourceUrl": "https://www.sharktankblog.com/business/the-dadware-bondaroo/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/the-dadware-bondaroo/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mydadware.com",
+    "websiteStatus": "up"
   },
   "s11e23-rescue-ready": {
     "businessStatus": "active",
@@ -10091,7 +11613,9 @@ export const enrichmentOverrides = {
     "industry": "Consumer Goods",
     "sourceUrl": "https://www.sharktankblog.com/business/rescue-ready/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/rescue-ready/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://berescueready.com",
+    "websiteStatus": "up"
   },
   "s11e23-slate": {
     "businessStatus": "active",
@@ -10101,7 +11625,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over 15 million cans sold, conservatively putting lifetime revenue at over $40 million (as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/slate/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/slate/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://slatemilk.com",
+    "websiteStatus": "up"
   },
   "s11e23-salted": {
     "businessStatus": "active",
@@ -10109,7 +11635,9 @@ export const enrichmentOverrides = {
     "industry": "Food",
     "sourceUrl": "https://www.sharktankblog.com/business/salted/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/salted/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://hellosalted.com",
+    "websiteStatus": "up"
   },
   "s10e1-boxlock": {
     "businessStatus": "active",
@@ -10119,7 +11647,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of July, 2024, the company has annual revenue of $13 million",
     "sourceUrl": "https://www.sharktankblog.com/business/boxlock/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/boxlock/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://boxlock.io",
+    "websiteStatus": "up"
   },
   "s10e1-finalstraw": {
     "businessStatus": "active",
@@ -10129,7 +11659,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Earned $4.8 million in revenue by the end of 2018 (with a projection to reach $13 million the following year)",
     "sourceUrl": "https://www.sharktankblog.com/business/final-straw/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/final-straw/ ; https://www.foodrepublic.com/1591492/finalstraw-shark-tank-now/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://finalstraw.com",
+    "websiteStatus": "up"
   },
   "s10e2-lugbug": {
     "businessStatus": "inactive",
@@ -10139,7 +11671,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales of $238,000 with $198,000 of those coming in 2017 (at time of pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/lug-bug/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/lug-bug/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://lugbug.com",
+    "websiteStatus": "down"
   },
   "s10e3-higgins-soupergirl": {
     "businessStatus": "active",
@@ -10149,7 +11683,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of August 2024, the company's annual revenue is $9 million, and its valuation is $30 million",
     "sourceUrl": "https://www.sharktankblog.com/business/soupergirl/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/soupergirl/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thesoupergirl.com",
+    "websiteStatus": "up"
   },
   "s10e4-boomboom": {
     "businessStatus": "active",
@@ -10159,7 +11695,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of May 2025, the company is estimated to make $4-$5 million in annual revenue",
     "sourceUrl": "https://www.sharktankblog.com/business/boom-boom/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/boom-boom/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://boomboomenergy.com",
+    "websiteStatus": "up"
   },
   "s10e5-the-handbag-raincoat": {
     "businessStatus": "inactive",
@@ -10168,7 +11706,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales of $600,000 (with $125,000 year-to-date in 2018) at time of pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/the-handbag-raincoat/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/the-handbag-raincoat/ ; https://www.women.com/1533041/what-went-down-with-the-handbag-raincoat-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://b.delivery.consentmanager.net",
+    "websiteStatus": "up"
   },
   "s10e5-the-wisp": {
     "businessStatus": "active",
@@ -10178,7 +11718,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of July 2023, he had $7 million in annual revenue",
     "sourceUrl": "https://www.sharktankblog.com/business/wisp/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/wisp/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thewisp.com",
+    "websiteStatus": "up"
   },
   "s10e6-lockstraps": {
     "businessStatus": "active",
@@ -10188,7 +11730,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of August 2022, he's doing $4 million in annual sales",
     "sourceUrl": "https://www.sharktankblog.com/business/lockstraps/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/lockstraps/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://lockstraps.com",
+    "websiteStatus": "up"
   },
   "s10e8-bollyx": {
     "businessStatus": "active",
@@ -10207,14 +11751,18 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1 million in revenue over two years (at time of pitch); ~$12 million annual revenue as of April 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/sproing-fitness/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/sproing-fitness/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sproingfitness.com",
+    "websiteStatus": "up"
   },
   "s10e10-uniform": {
     "businessStatus": "active",
     "description": "Uniform is a subscription-based clothing service where each monthly purchase donates a school uniform to a child in Liberia, with garments made locally by Liberian women using fair-trade materials.",
     "sourceUrl": "https://www.sharktankblog.com/business/uniform/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/uniform/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://uniformplusone.com",
+    "websiteStatus": "unreachable"
   },
   "s10e10-aquapaw": {
     "businessStatus": "active",
@@ -10224,7 +11772,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$4 million in annual revenue as of May 2022 ($200,000 in sales over 9 months at time of pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/aquapaw/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/aquapaw/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://aquapaw.com",
+    "websiteStatus": "up"
   },
   "s10e11-angel-shave-club": {
     "businessStatus": "inactive",
@@ -10233,7 +11783,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$390,000 in sales over the year prior to the pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/angel-shave-club/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/angel-shave-club/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://angelshaveclub.com",
+    "websiteStatus": "up"
   },
   "s10e12-zugopet": {
     "businessStatus": "active",
@@ -10243,7 +11795,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million in lifetime revenue as of July 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/zugo-pet/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/zugo-pet/ ; https://sharktankinsights.com/zugopet-shark-tank-update/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://zugopet.com",
+    "websiteStatus": "up"
   },
   "s10e13-fresh-bellies": {
     "businessStatus": "active",
@@ -10253,7 +11807,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$6 million in annual revenue as of November 2022 (~$100,000 in sales after 6 months at time of pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/fresh-bellies/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/fresh-bellies/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://freshbellies.com",
+    "websiteStatus": "up"
   },
   "s10e14-curlmix": {
     "businessStatus": "active",
@@ -10272,7 +11828,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$250,000 in revenue at time of pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/goga/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/goga/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://2crazygoatladies.com",
+    "websiteStatus": "up"
   },
   "s10e15-jolly-roger-telephone-co": {
     "businessStatus": "active",
@@ -10282,7 +11840,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue is around $1 million (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/jolly-roger-telephone/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/jolly-roger-telephone/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://jollyrogertelephone.com",
+    "websiteStatus": "up"
   },
   "s10e15-goalsetter": {
     "businessStatus": "active",
@@ -10292,7 +11852,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of July, 2024, the company was earning $4 million in annual revenue",
     "sourceUrl": "https://sharktankblog.com/business/goalsetter/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/goalsetter/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://goalsetter.co",
+    "websiteStatus": "up"
   },
   "s10e16-kudo-banz": {
     "businessStatus": "inactive",
@@ -10302,7 +11864,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "KudoBanz revenue is $1 million annually (as of June 2021)",
     "sourceUrl": "https://www.sharktankblog.com/business/kudobanz/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/kudobanz/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kudobanz.com",
+    "websiteStatus": "unreachable"
   },
   "s10e17-silkroll": {
     "businessStatus": "active",
@@ -10312,7 +11876,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of July, 2024, the company is still in business and has lifetime sales of $20 million",
     "sourceUrl": "https://sharktankblog.com/business/silkroll/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/silkroll/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://silkroll.com",
+    "websiteStatus": "up"
   },
   "s10e18-nuchas": {
     "businessStatus": "active",
@@ -10322,7 +11888,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of November 2022, the business was doing $6 million a year and growing",
     "sourceUrl": "https://sharktankblog.com/business/nuchas/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/nuchas/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://nuchas.com",
+    "websiteStatus": "up"
   },
   "s10e18-havenlock": {
     "businessStatus": "active",
@@ -10332,7 +11900,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of June, 2021, the company is still in business with annual revenue of $4 million",
     "sourceUrl": "https://www.sharktankblog.com/business/haven/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/haven/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://havenlock.com",
+    "websiteStatus": "up"
   },
   "s10e19-flip-it-cap": {
     "businessStatus": "active",
@@ -10341,7 +11911,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of March 2023, the company is still in business and has $1 million in annual revenue",
     "sourceUrl": "https://sharktankblog.com/business/flip-it-cap/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/flip-it-cap/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://flipitcap.com",
+    "websiteStatus": "up"
   },
   "s10e19-luma-soda": {
     "businessStatus": "inactive",
@@ -10350,7 +11922,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "just $180,000 in sales (at time of pitch); In August 2020, Jim shuttered the company and went back to practicing law",
     "sourceUrl": "https://sharktankblog.com/business/luma-soda/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/luma-soda/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://lumasoda.com",
+    "websiteStatus": "unreachable"
   },
   "s10e20-swoveralls": {
     "businessStatus": "active",
@@ -10360,7 +11934,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $4 million in annual revenue as of November 2023",
     "sourceUrl": "https://sharktankblog.com/business/swoveralls/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/swoveralls/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://swoveralls.com",
+    "websiteStatus": "up"
   },
   "s10e21-the-bang-shack": {
     "businessStatus": "active",
@@ -10370,7 +11946,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $1 million in annual revenue as of January 2023",
     "sourceUrl": "https://sharktankblog.com/business/the-bang-shack/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-bang-shack/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thebangshack.com",
+    "websiteStatus": "unreachable"
   },
   "s10e22-doughp": {
     "businessStatus": "active",
@@ -10380,7 +11958,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$9.4 million in lifetime sales by 2024",
     "sourceUrl": "https://sharktankblog.com/business/doughp/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/doughp/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://doughp.com",
+    "websiteStatus": "up"
   },
   "s10e23-coyote-vest": {
     "businessStatus": "active",
@@ -10390,13 +11970,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million in lifetime revenue as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/coyote-vest/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/coyote-vest/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://coyotevest.com",
+    "websiteStatus": "up"
   },
   "s9e1-wyp-aviation": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/wyp-aviation/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/wyp-aviation/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wypaviation.com",
+    "websiteStatus": "down"
   },
   "s9e1-simple-habit": {
     "businessStatus": "active",
@@ -10404,7 +11988,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $2 million in annual revenue as of May 2024",
     "sourceUrl": "https://sharktankblog.com/business/simple-habit/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/simple-habit/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://simplehabit.com",
+    "websiteStatus": "up"
   },
   "s9e2-trippie": {
     "businessStatus": "active",
@@ -10421,7 +12007,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$25,000 in sales over the prior year (through 11 retail stores) reported at pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/solemender/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/solemender/; https://geeksaroundglobe.com/sole-mender-net-worth-update-before-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://solemender.com",
+    "websiteStatus": "up"
   },
   "s9e5-kwik-hang": {
     "businessStatus": "active",
@@ -10430,7 +12018,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Lifetime sales over $9 million and about $1 million a year in revenue (as of August 2023)",
     "sourceUrl": "https://sharktankblog.com/business/kwik-hang/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/kwik-hang/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kwikhang.com",
+    "websiteStatus": "up"
   },
   "s9e6-father-figure": {
     "businessStatus": "inactive",
@@ -10438,7 +12028,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$33,000 in revenue over 11 months at time of pitch (mostly from a Kickstarter campaign); company closed July 2019",
     "sourceUrl": "https://sharktankblog.com/business/father-figure/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/father-figure/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://fatherfigure.co",
+    "websiteStatus": "up"
   },
   "s9e7-geoorbital": {
     "businessStatus": "inactive",
@@ -10446,7 +12038,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$200,000 in wheel sales post-Kickstarter at time of pitch (October 2017); company defunct, website gone by July 2024",
     "sourceUrl": "https://sharktankblog.com/business/geoorbital/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/geoorbital/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://geoo.com",
+    "websiteStatus": "unreachable"
   },
   "s9e7-qeepsake": {
     "businessStatus": "active",
@@ -10462,7 +12056,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$600,000 in sales the prior calendar year at time of pitch; acquired by Unyte in 2019, estimated ~$6M annual revenue as of Nov 2023",
     "sourceUrl": "https://sharktankblog.com/business/dreampad/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/dreampad/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://dreampadsleep.com",
+    "websiteStatus": "up"
   },
   "s9e9-hoop-maps": {
     "businessStatus": "inactive",
@@ -10470,7 +12066,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "No revenue/premium subscribers at time of pitch (50,000 downloads); app defunct/non-functional as of June 2021",
     "sourceUrl": "https://sharktankblog.com/business/hoopmaps/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/hoopmaps/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hoopmaps.com",
+    "websiteStatus": "down"
   },
   "s9e10-robin": {
     "businessStatus": "active",
@@ -10478,7 +12076,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$7.3 million in annual revenue as of August 2023 (rebranded MowBot after 2019 Fahey Group acquisition)",
     "sourceUrl": "https://www.sharktankblog.com/business/robin/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/robin/; https://www.housedigest.com/1409878/whatever-happened-robin-autopilot-lawn-mowing-service-after-shark-tank-season-9/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mowbot.com",
+    "websiteStatus": "unreachable"
   },
   "s9e11-slumberkins": {
     "businessStatus": "active",
@@ -10487,7 +12087,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million in annual revenue as of July 2022",
     "sourceUrl": "https://sharktankblog.com/business/slumberkins/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/slumberkins/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://slumberkins.com",
+    "websiteStatus": "up"
   },
   "s9e12-coco-taps": {
     "businessStatus": "active",
@@ -10495,7 +12097,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Under $1 million annually as of June 2022",
     "sourceUrl": "https://sharktankblog.com/business/coco-taps/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/coco-taps/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://cocotaps.com",
+    "websiteStatus": "up"
   },
   "s9e13-the-christmas-tree-hugger": {
     "businessStatus": "active",
@@ -10503,13 +12107,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "$500,000 in annual revenue (as of August 2022)",
     "sourceUrl": "https://sharktankblog.com/business/the-christmas-tree-hugger/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-christmas-tree-hugger/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://christmastreesantas.org",
+    "websiteStatus": "up"
   },
   "s9e14-elliptical-stroller": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/elliptical-stroller/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/elliptical-stroller/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://ellipticalstroller.com",
+    "websiteStatus": "up"
   },
   "s9e14-inirv": {
     "businessStatus": "active",
@@ -10517,7 +12125,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Estimated lifetime revenue of $6.1 million (as of spring 2024)",
     "sourceUrl": "https://sharktankblog.com/business/inirv/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/inirv/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://omekitchen.com",
+    "websiteStatus": "up"
   },
   "s9e14-birddogs": {
     "businessStatus": "active",
@@ -10525,7 +12135,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$15 million annually (as of August 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/bird-dogs/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bird-dogs/; https://geeksaroundglobe.com/birddogs-net-worth-update-before-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://birddogs.com",
+    "websiteStatus": "up"
   },
   "s9e16-duderobe": {
     "businessStatus": "active",
@@ -10533,7 +12145,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million in annual revenue as of August 2024",
     "sourceUrl": "https://sharktankblog.com/business/dude-robe/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/dude-robe/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://duderobe.com",
+    "websiteStatus": "up"
   },
   "s9e17-zup": {
     "businessStatus": "active",
@@ -10541,7 +12155,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million annually as of October 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/zup/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/zup/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://zup.com",
+    "websiteStatus": "up"
   },
   "s9e18-brush-hero": {
     "businessStatus": "active",
@@ -10550,13 +12166,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "$6 million in annual sales as of January 2023",
     "sourceUrl": "https://sharktankblog.com/business/brush-hero/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/brush-hero/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://brushhero.com",
+    "websiteStatus": "up"
   },
   "s9e18-savy": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/savy/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/savy/ (Shark Tank Blog: Savy)",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://staysavy.com",
+    "websiteStatus": "unreachable"
   },
   "s9e19-the-wingman": {
     "businessStatus": "active",
@@ -10564,7 +12184,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $1 million in annual revenue as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/the-wingman/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-wingman/ (Shark Tank Blog: The Wingman)",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wingmanlifejacket.com",
+    "websiteStatus": "up"
   },
   "s9e19-zuvaa": {
     "businessStatus": "inactive",
@@ -10572,7 +12194,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million in sales in less than two years (~$50,000 monthly) at time of pitch",
     "sourceUrl": "https://sharktankblog.com/business/zuvaa/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/zuvaa/ (Shark Tank Blog: Zuvaa)",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://magazine.zuvaa.com",
+    "websiteStatus": "unreachable"
   },
   "s9e20-showerpill": {
     "businessStatus": "active",
@@ -10597,7 +12221,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$16,000 in revenue over 16 months prior to the Shark Tank appearance",
     "sourceUrl": "https://sharktankblog.com/business/petrol/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/petrol/ (Shark Tank Blog: PetRol)",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://petrolfordogs.com",
+    "websiteStatus": "unreachable"
   },
   "s9e22-sunniva-super-coffee": {
     "businessStatus": "active",
@@ -10605,7 +12231,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$124 million revenue in 2022 (as Kitu Life / Super Coffee)",
     "sourceUrl": "https://www.sharktankblog.com/business/super-coffee/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/super-coffee/ (Shark Tank Blog: Super Coffee / Kitu Life)",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sunniva.co",
+    "websiteStatus": "up"
   },
   "s9e23-coolpeds": {
     "businessStatus": "inactive",
@@ -10614,7 +12242,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$500,000 in scooter sales over 18 months at time of pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/coolpeds/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/coolpeds/ (Shark Tank Blog: CoolPeds); https://sharktanksuccess.com/coolpeds-update-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://coolpeds.us",
+    "websiteStatus": "up"
   },
   "s9e24-bermies": {
     "businessStatus": "active",
@@ -10622,7 +12252,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$4 million in annual revenue with lifetime sales exceeding $50 million (as of August 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/bermies/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bermies/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bermies.com",
+    "websiteStatus": "up"
   },
   "s9e24-thrive": {
     "businessStatus": "active",
@@ -10631,7 +12263,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$7 million in annual revenue (as of November 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/thrive/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/thrive/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://cheershealth.com",
+    "websiteStatus": "up"
   },
   "s8e1-spoonful-of-comfort": {
     "businessStatus": "active",
@@ -10639,7 +12273,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$68 million in total revenue as of August 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/spoonful-of-comfort/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/spoonful-of-comfort/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://spoonfulofcomfort.com",
+    "websiteStatus": "blocked"
   },
   "s8e1-islide": {
     "businessStatus": "active",
@@ -10648,7 +12284,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$10 million in annual revenue (as of January 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/islide/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/islide/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://islideusa.com",
+    "websiteStatus": "up"
   },
   "s8e2-ice-age-meals": {
     "businessStatus": "active",
@@ -10656,19 +12294,25 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $4 million annually (as of August 2025)",
     "sourceUrl": "https://www.sharktankblog.com/business/ice-age-meals/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/ice-age-meals/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://iceagemeals.net",
+    "websiteStatus": "up"
   },
   "s8e3-the-cookie-kahuna": {
     "businessStatus": "inactive",
     "sourceUrl": "https://www.sharktankblog.com/business/the-cookie-kahuna/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/the-cookie-kahuna/ ; https://www.mashed.com/967137/what-happened-to-cookie-kahuna-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://cookiekahuna.com",
+    "websiteStatus": "down"
   },
   "s8e3-tekdry": {
     "businessStatus": "inactive",
     "sourceUrl": "https://www.sharktankblog.com/business/tekdry/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/tekdry/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://tekdry.com",
+    "websiteStatus": "unreachable"
   },
   "s8e4-atlantic-candy-company": {
     "businessStatus": "active",
@@ -10676,7 +12320,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $4 million estimated annual revenue (as of June 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/atlantic-candy-company/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/atlantic-candy-company/ ; https://geeksaroundglobe.com/atlantic-candy-company-net-worth-update-before-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://atlanticcandy.com",
+    "websiteStatus": "up"
   },
   "s8e5-sandilake-clothing": {
     "businessStatus": "active",
@@ -10684,7 +12330,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"the company is still in business with annual revenue of $1 million\" (as of May 2021); $340,000 in sales over two years at the time of the pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/sandilake-clothing/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/sandilake-clothing/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sandilakeclothing.com",
+    "websiteStatus": "unreachable"
   },
   "s8e5-parker-s-maple": {
     "businessStatus": "active",
@@ -10692,7 +12340,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"done $360,000 in sales the past three years\" at pitch, expected \"$1.5 million in 2016\"; later acquired June 22, 2020 by The Forest Farmers (operates as New Leaf Tree Syrups)",
     "sourceUrl": "https://www.sharktankblog.com/business/parker-maple/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/parker-maple/ ; https://sharktankrecap.com/parkers-real-maple-syrup-update-shark-tank-season-8/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://parkersmaple.com",
+    "websiteStatus": "up"
   },
   "s8e6-joyce-s-lulu-bang": {
     "businessStatus": "active",
@@ -10701,13 +12351,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"By July, 2024, not much has changed for this business. They're still operating and have between $1-$2 million in annual revenue\"; did $60,000 in sales in the three days after airing",
     "sourceUrl": "https://www.sharktankblog.com/business/lulu-bang/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/lulu-bang/ ; https://www.foodrepublic.com/1338526/lulu-bang-shark-tank-now/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://joyceslulubang.com",
+    "websiteStatus": "up"
   },
   "s8e6-unpack": {
     "businessStatus": "inactive",
     "sourceUrl": "https://www.sharktankblog.com/business/unpack/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/unpack/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://theunpack.com",
+    "websiteStatus": "unreachable"
   },
   "s8e7-safe-catch": {
     "businessStatus": "active",
@@ -10716,7 +12370,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"over $5 million in annual revenue\" with products in over 12,000 stores (as of May 2023); first-year revenue of $1.2 million at the time of the pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/safecatch/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/safecatch/ ; https://www.looper.com/1503201/whatever-happened-safe-catch-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://safecatch.com",
+    "websiteStatus": "up"
   },
   "s8e7-besomebody": {
     "businessStatus": "active",
@@ -10732,7 +12388,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"$2 million in sales\" at the time of the pitch, expected to double the following year; estimated annual revenue around $5 million as of 2021",
     "sourceUrl": "https://www.sharktankblog.com/business/barbell-apparel/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/barbell-apparel/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://barbellapparel.com",
+    "websiteStatus": "up"
   },
   "s8e9-energybits": {
     "businessStatus": "active",
@@ -10741,7 +12399,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $4 million in annual sales as of 2025",
     "sourceUrl": "https://sharktankblog.com/business/energybits/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/energybits/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://energybits.com",
+    "websiteStatus": "up"
   },
   "s8e10-petplate": {
     "businessStatus": "active",
@@ -10765,13 +12425,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1 million annually as of February 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/polyglide/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/polyglide/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://polyglidesyntheticice.com",
+    "websiteStatus": "up"
   },
   "s8e12-pdx-pet-design": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/pdx-pet-design/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/pdx-pet-design/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pdxpetdesign.com",
+    "websiteStatus": "up"
   },
   "s8e12-basic-outfitters": {
     "businessStatus": "inactive",
@@ -10779,7 +12443,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "reached $5 million in sales post-show before the founders sold/exited the company in June 2019",
     "sourceUrl": "https://sharktankblog.com/business/basic-outfitters/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/basic-outfitters/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://basicoutfitters.com",
+    "websiteStatus": "up"
   },
   "s8e12-victory-coffees": {
     "businessStatus": "active",
@@ -10787,7 +12453,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "estimated annual revenue of $3 million as of March 2023",
     "sourceUrl": "https://sharktankblog.com/business/victory-coffees/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/victory-coffees/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://victorycoffees.com",
+    "websiteStatus": "unreachable"
   },
   "s8e13-mama-s-milk-box": {
     "businessStatus": "inactive",
@@ -10801,7 +12469,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "lifetime revenue of $4.2 million (as of August 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/nicepipes-apparel/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/nicepipes-apparel/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://nicepipesapparel.com",
+    "websiteStatus": "up"
   },
   "s8e14-vibes": {
     "businessStatus": "active",
@@ -10810,7 +12480,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$12 million lifetime revenue as of August 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/vibes/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/vibes/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://discovervibes.com",
+    "websiteStatus": "up"
   },
   "s8e14-getaway": {
     "businessStatus": "active",
@@ -10818,7 +12490,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$41 million annual revenue as of August 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/getaway/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/getaway/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://getaway.house",
+    "websiteStatus": "up"
   },
   "s8e15-little-nomad": {
     "businessStatus": "active",
@@ -10826,7 +12500,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in annual revenue as of January 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/little-nomad/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/little-nomad/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://little-nomad.com",
+    "websiteStatus": "up"
   },
   "s8e16-peaceful-fruits": {
     "businessStatus": "active",
@@ -10834,13 +12510,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "$12 million in annual revenue as of July 2024",
     "sourceUrl": "https://www.sharktankblog.com/business/peaceful-fruits/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/peaceful-fruits/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://peacefulfruits.com",
+    "websiteStatus": "down"
   },
   "s8e17-edn-wallgarden": {
     "businessStatus": "active",
     "sourceUrl": "https://www.sharktankblog.com/business/edn-wallgarden/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/edn-wallgarden/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://edntech.com",
+    "websiteStatus": "up"
   },
   "s8e17-hotels-by-day": {
     "businessStatus": "active",
@@ -10848,7 +12528,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $5 million annually as of August 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/hotels-by-day/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/hotels-by-day/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hotelsbyday.com",
+    "websiteStatus": "up"
   },
   "s8e17-bitsbox": {
     "businessStatus": "active",
@@ -10856,7 +12538,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$12.5 million in annual revenue as of August 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/bitsbox/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bitsbox/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sb.scorecardresearch.com",
+    "websiteStatus": "up"
   },
   "s8e18-ora-organic": {
     "businessStatus": "active",
@@ -10874,7 +12558,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in annual sales one year after the pitch (company ceased operations February 2023)",
     "sourceUrl": "https://sharktankblog.com/business/mealenders/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/mealenders/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mealenders.com",
+    "websiteStatus": "blocked"
   },
   "s8e20-cropsticks": {
     "businessStatus": "active",
@@ -10883,19 +12569,25 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $1.2 million annually (as of December 2022)",
     "sourceUrl": "https://sharktankblog.com/business/cropsticks/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/cropsticks/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://cropsticks.co",
+    "websiteStatus": "up"
   },
   "s8e21-flag": {
     "businessStatus": "inactive",
     "sourceUrl": "https://www.sharktankblog.com/business/flag/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/flag/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://fl.ag",
+    "websiteStatus": "up"
   },
   "s8e21-validated": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/validated/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/validated/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://validated.co",
+    "websiteStatus": "unreachable"
   },
   "s8e22-see-rescue-streamer": {
     "businessStatus": "active",
@@ -10903,7 +12595,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3.9 million annually (as of November 2021)",
     "sourceUrl": "https://sharktankblog.com/business/see-rescue-streamer/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/see-rescue-streamer/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://seerescuestreamer.com",
+    "websiteStatus": "unreachable"
   },
   "s8e23-wallet-buckle": {
     "businessStatus": "active",
@@ -10911,7 +12605,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Estimated $3 million in annual revenue (as of July 2024)",
     "sourceUrl": "https://sharktankblog.com/business/wallet-buckle/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/wallet-buckle/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://walletbuckle.com",
+    "websiteStatus": "up"
   },
   "s8e24-rocketbook": {
     "businessStatus": "active",
@@ -10919,7 +12615,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$32 million net sales in 2020, up 35% year-on-year (per BIC acquisition press release); acquired by BIC for $40 million in December 2020",
     "sourceUrl": "https://sharktankblog.com/business/rocketbook/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/rocketbook/ ; https://www.globenewswire.com/fr/news-release/2020/12/15/2145629/0/en/BIC-Closing-of-the-Rocketbook-acquisition.html",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://getrocketbook.com",
+    "websiteStatus": "up"
   },
   "s8e24-laid-brand": {
     "businessStatus": "inactive",
@@ -10928,14 +12626,18 @@ export const enrichmentOverrides = {
     "revenueRaw": "$27,000 in six months out of one salon during the pilot phase, with zero sales in the past three months at the time of the Season 8 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/laid-brand/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/laid-brand/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://laidbrand.com",
+    "websiteStatus": "down"
   },
   "s7e1-the-beebo": {
     "revenueAmount": 5000000,
     "revenueRaw": "revenue of $5 million across all its brands as of October 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/beebo/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/beebo/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thebeebo.com",
+    "websiteStatus": "up"
   },
   "s7e1-acton": {
     "businessStatus": "active",
@@ -10943,7 +12645,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million in sales by mid-2015 ($1 million in 2014) at the time of the Season 7 pitch; later ~$6 million annual revenue as Acton Global",
     "sourceUrl": "https://www.sharktankblog.com/business/acton-skates-and-scooters/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/acton-skates-and-scooters/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://actonglobal.com",
+    "websiteStatus": "up"
   },
   "s7e1-mcclary-bros-drinking-vinegars": {
     "businessStatus": "inactive",
@@ -10951,7 +12655,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$312K in cumulative sales since 2012 at the time of the Season 7 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/mcclary-brothers-drinking-vinegars/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/mcclary-brothers-drinking-vinegars/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mcclarybros.com",
+    "websiteStatus": "unreachable"
   },
   "s7e2-o-dang-hummus": {
     "revenueAmount": 70000,
@@ -10966,7 +12672,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$55,000 in sales within a month (from a licensing deal) at the time of the Season 7 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/splikity/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/splikity/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://splikity.com",
+    "websiteStatus": "unreachable"
   },
   "s7e2-mikki-bey-eyelash-extensions": {
     "businessStatus": "inactive",
@@ -10974,7 +12682,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$130K in 2014 (most recent year disclosed; $69K in 2012, $95K in 2013) at the time of the Season 7 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/mikki-bey-eyelash-extensions/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/mikki-bey-eyelash-extensions/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mblashes.com",
+    "websiteStatus": "unreachable"
   },
   "s7e3-valpark-mobile": {
     "businessStatus": "inactive",
@@ -10982,13 +12692,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "$270K in sales last year at the time of the Season 7 pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/valpark-mobile/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/valpark-mobile/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://valparkmobile.com",
+    "websiteStatus": "unreachable"
   },
   "s7e3-the-two-guys-bowtie-company": {
     "businessStatus": "active",
     "sourceUrl": "https://www.sharktankblog.com/business/two-guys-bow-tie-company/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/two-guys-bow-tie-company/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://u.openx.net",
+    "websiteStatus": "down"
   },
   "s7e3-nerdwax": {
     "businessStatus": "active",
@@ -11010,13 +12724,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $1 million in annual revenue (SharkTankBlog, as of July 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/milk-and-brookies/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/milk-and-brookies/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://milkandbrookies.com",
+    "websiteStatus": "up"
   },
   "s7e5-three-jerks-jerky": {
     "businessStatus": "active",
     "sourceUrl": "https://www.sharktankblog.com/business/three-jerks-beef-jerky/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/three-jerks-beef-jerky/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://threejerksjerky.com",
+    "websiteStatus": "up"
   },
   "s7e5-the-skinny-mirror": {
     "businessStatus": "inactive",
@@ -11040,7 +12758,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $2 million in annual revenue as of October 2022 (SharkTankBlog)",
     "sourceUrl": "https://www.sharktankblog.com/business/hotshot/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/hotshot/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://drinkhotshot.com",
+    "websiteStatus": "unreachable"
   },
   "s7e7-wink-frozen-desserts": {
     "businessStatus": "inactive",
@@ -11048,7 +12768,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$534,000 in revenue over three years; projected $650,000 for that year (as of pitch, 2015); company closed January 2020",
     "sourceUrl": "https://www.sharktankblog.com/business/wink-frozen-desserts/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/wink-frozen-desserts/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://winkfrozendesserts.com",
+    "websiteStatus": "up"
   },
   "s7e7-clean-cube": {
     "businessStatus": "inactive",
@@ -11056,7 +12778,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$130,000 in gross annual sales at pitch (2015, half in prior three months); company closed November 2015",
     "sourceUrl": "https://www.sharktankblog.com/business/the-clean-cube/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/the-clean-cube/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thecleancube.com",
+    "websiteStatus": "unreachable"
   },
   "s7e8-afresheet": {
     "businessStatus": "active",
@@ -11064,7 +12788,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "estimated annual revenue of $500,000-$1 million as of April 2023; rebranded to Peel Aways in 2017",
     "sourceUrl": "https://www.sharktankblog.com/business/afresheet/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/afresheet/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://peelaways.com",
+    "websiteStatus": "up"
   },
   "s7e9-advanced-sports-technology": {
     "businessStatus": "inactive",
@@ -11072,7 +12798,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$305,000 in revenue that year at pitch (2015), projecting $430,000; company shut down August 2016",
     "sourceUrl": "https://www.sharktankblog.com/business/national-association-of-bubble-soccer/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/national-association-of-bubble-soccer/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://nationalbubblesoccer.com",
+    "websiteStatus": "unreachable"
   },
   "s7e10-leaux-racing-trikes": {
     "businessStatus": "inactive",
@@ -11081,7 +12809,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "had sold 130 trikes via Kickstarter (raised over $46,000) at pitch (2015); cost $180/unit, retail $350; went out of business in 2016",
     "sourceUrl": "https://www.sharktankblog.com/business/leaux-racing-trikes/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/leaux-racing-trikes/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://leauxracingtrikes.com",
+    "websiteStatus": "up"
   },
   "s7e11-beard-head": {
     "businessStatus": "active",
@@ -11097,7 +12827,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $1 million in annual revenue as of May 2022; sold 200 units at Men's Wearhouse at pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/total-tie-keep/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/total-tie-keep/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://totaltiekeep.com",
+    "websiteStatus": "up"
   },
   "s7e13-spr-tz": {
     "businessStatus": "inactive",
@@ -11106,7 +12838,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "sold 1000 units at $3.95 for income of $3,500 in 60 days at pitch (2015); website expired by March 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/spretz/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/spretz/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://spretzme.com",
+    "websiteStatus": "unreachable"
   },
   "s7e13-ezpz": {
     "businessStatus": "active",
@@ -11115,19 +12849,25 @@ export const enrichmentOverrides = {
     "revenueRaw": "$8-$10 million in annual revenue as of April 2023",
     "sourceUrl": "https://sharktankblog.com/business/ezpz/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/ezpz/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://ezpzfun.com",
+    "websiteStatus": "up"
   },
   "s7e14-village-scholarships": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/village-scholarships/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/village-scholarships/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://villagescholarships.com",
+    "websiteStatus": "up"
   },
   "s7e15-co-alition": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/co-alition/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/co-alition/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://co-alition.com",
+    "websiteStatus": "unreachable"
   },
   "s7e15-icybreeze": {
     "businessStatus": "active",
@@ -11143,7 +12883,9 @@ export const enrichmentOverrides = {
     "industry": "Technology",
     "sourceUrl": "https://www.sharktankblog.com/business/beartek/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/beartek/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://beartekgloves.com",
+    "websiteStatus": "up"
   },
   "s7e16-major-mom": {
     "businessStatus": "active",
@@ -11151,7 +12893,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue is around $5 million as of June 2022",
     "sourceUrl": "https://sharktankblog.com/business/major-mom/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/major-mom/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://majororganizers.com",
+    "websiteStatus": "up"
   },
   "s7e17-smartplate": {
     "businessStatus": "inactive",
@@ -11159,7 +12903,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "around $1 million in annual revenue as of December 2022",
     "sourceUrl": "https://sharktankblog.com/business/smartplate/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/smartplate/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://getsmartplate.com",
+    "websiteStatus": "up"
   },
   "s7e17-float-baby": {
     "businessStatus": "inactive",
@@ -11167,7 +12913,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.8 million in annual revenue as of February 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/float-baby/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/float-baby/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://floatbaby.com",
+    "websiteStatus": "blocked"
   },
   "s7e17-mtailor": {
     "businessStatus": "active",
@@ -11175,7 +12923,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$13 million per year in sales (as of April 2024)",
     "sourceUrl": "https://sharktankblog.com/business/mtailor/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/mtailor/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mtailor.com",
+    "websiteStatus": "blocked"
   },
   "s7e18-clean-sleep": {
     "businessStatus": "active",
@@ -11183,7 +12933,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue of $2.7 million (as of April 2024)",
     "sourceUrl": "https://sharktankblog.com/business/clean-sleep/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/clean-sleep/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://cleansleep.com",
+    "websiteStatus": "up"
   },
   "s7e18-tutublue": {
     "businessStatus": "active",
@@ -11192,7 +12944,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$11 million annual revenue (as of June 2022)",
     "sourceUrl": "https://sharktankblog.com/business/tutublue/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/tutublue/; https://geeksaroundglobe.com/tutublue-net-worth-update-before-after-shark-tank/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://tutublue.com",
+    "websiteStatus": "up"
   },
   "s7e19-custard-stand-food-products": {
     "businessStatus": "active",
@@ -11200,7 +12954,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$15 million a year in revenue (as of May 2022)",
     "sourceUrl": "https://sharktankblog.com/business/custard-stand-food-products/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/custard-stand-food-products/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://custardstand.com",
+    "websiteStatus": "up"
   },
   "s7e20-linka": {
     "businessStatus": "active",
@@ -11208,7 +12964,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue of $4 million (as of November 2022)",
     "sourceUrl": "https://sharktankblog.com/business/linka/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/linka/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://linkalock.com",
+    "websiteStatus": "up"
   },
   "s7e20-teaspressa": {
     "businessStatus": "active",
@@ -11216,7 +12974,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1 million annual revenue (as of January 2023)",
     "sourceUrl": "https://sharktankblog.com/business/teaspressa/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/teaspressa/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://teaspressa.com",
+    "websiteStatus": "up"
   },
   "s7e21-mobcraft-beer": {
     "businessStatus": "active",
@@ -11224,7 +12984,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4.5 million annual revenue (as of December 2022)",
     "sourceUrl": "https://sharktankblog.com/business/mobcraft-beer/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/mobcraft-beer/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://mobcraftbeer.com",
+    "websiteStatus": "up"
   },
   "s7e21-beloved-shirts": {
     "businessStatus": "active",
@@ -11232,7 +12994,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue of $4 million (as of January 2023)",
     "sourceUrl": "https://sharktankblog.com/business/beloved-shirts/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/beloved-shirts/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://belovedshirts.com",
+    "websiteStatus": "down"
   },
   "s7e22-the-good-promise": {
     "businessStatus": "inactive",
@@ -11241,7 +13005,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Pasta sauces had generated about $260,000 in 18 months at the time of the pitch (Season 7)",
     "sourceUrl": "https://sharktankblog.com/business/the-good-promise/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-good-promise/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thegoodpromise.com",
+    "websiteStatus": "up"
   },
   "s7e23-nophone": {
     "businessStatus": "inactive",
@@ -11250,7 +13016,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately 3,100 units sold at $12 each (~$37,200) as of the pitch (Season 7)",
     "sourceUrl": "https://sharktankblog.com/business/nophone/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/nophone/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thenophone.com",
+    "websiteStatus": "up"
   },
   "s7e24-frends": {
     "businessStatus": "active",
@@ -11259,7 +13027,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $8 million in annual revenue as of April 2024 (sales were $2.9 million the year prior to the pitch)",
     "sourceUrl": "https://sharktankblog.com/business/frends/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/frends/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wearefrends.com",
+    "websiteStatus": "up"
   },
   "s7e24-popslate": {
     "businessStatus": "inactive",
@@ -11267,13 +13037,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "Raised approximately $1.09 million via an Indiegogo campaign in March 2016 at the time of the pitch",
     "sourceUrl": "https://sharktankblog.com/business/popslate/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/popslate/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://popslate.com",
+    "websiteStatus": "unreachable"
   },
   "s7e25-jarrett-raja-productions": {
     "businessStatus": "active",
     "sourceUrl": "https://www.sharktankblog.com/business/jarret-and-raja-productions/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/jarret-and-raja-productions/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://u.openx.net",
+    "websiteStatus": "down"
   },
   "s7e25-kidrunner": {
     "businessStatus": "active",
@@ -11281,7 +13055,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue estimated between $4 and $5 million as of November 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/kidrunner/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/kidrunner/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kidrunners.com",
+    "websiteStatus": "up"
   },
   "s7e25-inchbug": {
     "businessStatus": "active",
@@ -11289,7 +13065,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million in revenue in 2015 (Orbit Labels had $15 million in lifetime sales at the time of the pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/inchbug/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/inchbug/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://inchbug.com",
+    "websiteStatus": "up"
   },
   "s7e26-fashiontap": {
     "businessStatus": "inactive",
@@ -11297,13 +13075,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "$60,000 in prior sales at the time of the pitch (Season 7)",
     "sourceUrl": "https://www.sharktankblog.com/business/fashiontap/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/fashiontap/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://fashiontap.com",
+    "websiteStatus": "up"
   },
   "s7e26-brellabox": {
     "businessStatus": "inactive",
     "sourceUrl": "https://www.sharktankblog.com/business/brellabox/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/brellabox/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://b.delivery.consentmanager.net",
+    "websiteStatus": "up"
   },
   "s7e26-my-fruity-faces": {
     "businessStatus": "inactive",
@@ -11311,7 +13093,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$125,000 in sales over 3 years (as of Season 7 pitch); ~$2,000/month at time of pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/my-fruity-faces/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/my-fruity-faces/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://myfruityfaces.com",
+    "websiteStatus": "down"
   },
   "s7e27-yourself-expression": {
     "businessStatus": "active",
@@ -11319,7 +13103,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million annual revenue (as of April 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/yourself-expression/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/yourself-expression/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://yourselfexpression.com",
+    "websiteStatus": "unreachable"
   },
   "s7e28-camp-no-counselors": {
     "businessStatus": "active",
@@ -11327,7 +13113,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million annual revenue (as of October 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/camp-no-counselors/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/camp-no-counselors/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://campnocounselors.com",
+    "websiteStatus": "up"
   },
   "s7e28-gladiator-lacrosse": {
     "businessStatus": "active",
@@ -11336,7 +13124,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$8 million annual revenue (as of October 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/gladiator-lacrosse/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/gladiator-lacrosse/ ; https://gladiatorlacrosse.com/about-us/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://gladiatorlacrosse.com",
+    "websiteStatus": "up"
   },
   "s7e29-pms-bites": {
     "businessStatus": "inactive",
@@ -11344,7 +13134,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$13,400.07 in total sales (as of Season 7 episode air date)",
     "sourceUrl": "https://www.sharktankblog.com/business/pms-bites/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/pms-bites/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pmsbites.com",
+    "websiteStatus": "up"
   },
   "s7e29-pavlok": {
     "businessStatus": "active",
@@ -11352,7 +13144,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$800,000 in sales (pre-appearance, 75% pre-orders)",
     "sourceUrl": "https://www.sharktankblog.com/business/pavlok/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/pavlok/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pavlok.com",
+    "websiteStatus": "up"
   },
   "s6e1-hammer-nails": {
     "businessStatus": "active",
@@ -11360,7 +13154,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$25 million annual revenue across all locations (as of April 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/hammer-and-nails/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/hammer-and-nails/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://hammerandnailsgrooming.com",
+    "websiteStatus": "up"
   },
   "s6e1-amber": {
     "businessStatus": "inactive",
@@ -11373,7 +13169,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "around $4.5 million (per Season 7 Beyond-the-Tank-style update, episode 706)",
     "sourceUrl": "https://www.sharktankblog.com/business/roominate/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/roominate/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://roominatetoy.com",
+    "websiteStatus": "up"
   },
   "s6e2-the-floating-mug-co": {
     "businessStatus": "inactive",
@@ -11381,7 +13179,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "first year sales were $105K (at time of pitch, Season 6)",
     "sourceUrl": "https://www.sharktankblog.com/business/floating-mug-company/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/floating-mug-company/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://floatingmug.com",
+    "websiteStatus": "up"
   },
   "s6e2-wedding-wagon": {
     "businessStatus": "active",
@@ -11390,7 +13190,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "continues doing business as of October, 2023 with annual revenue of $2 million",
     "sourceUrl": "https://www.sharktankblog.com/business/wedding-wagon/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/wedding-wagon/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://lasvegasweddingwagon.com",
+    "websiteStatus": "up"
   },
   "s6e3-soapsox": {
     "businessStatus": "active",
@@ -11398,7 +13200,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "estimated annual revenue of $8 million (as of March 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/soapsox/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/soapsox/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://soapsoxkids.com",
+    "websiteStatus": "up"
   },
   "s6e3-ninja-cards": {
     "businessStatus": "inactive",
@@ -11406,13 +13210,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue is $100,000 (last update; business listed as closing down in 2018)",
     "sourceUrl": "https://www.sharktankblog.com/business/ninja-cards/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/ninja-cards/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://ninjacards.com",
+    "websiteStatus": "up"
   },
   "s6e3-drumpants": {
     "businessStatus": "inactive",
     "sourceUrl": "https://www.sharktankblog.com/business/drumpants/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/drumpants/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://drumpants.com",
+    "websiteStatus": "unreachable"
   },
   "s6e4-funcakes-rental": {
     "businessStatus": "active",
@@ -11420,7 +13228,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of August 2021, the company reported annual revenue of $1.1 million",
     "sourceUrl": "https://www.sharktankblog.com/business/fun-cakes-rental/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/fun-cakes-rental/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://cakerental.com",
+    "websiteStatus": "up"
   },
   "s6e4-table-jacks": {
     "businessStatus": "active",
@@ -11429,7 +13239,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$2 million in annual revenue as of October 2023 (had $200,000 in lifetime sales at the time of the pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/table-jack/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/table-jack/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://tablejacks.com",
+    "websiteStatus": "up"
   },
   "s6e5-jungle-jumparoo": {
     "businessStatus": "active",
@@ -11437,7 +13249,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1-$2 million in annual revenue as of August 2024",
     "sourceUrl": "https://sharktankblog.com/business/jungle-jumparoo/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/jungle-jumparoo/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://junglejumparoo.com",
+    "websiteStatus": "up"
   },
   "s6e5-the-caddy-girls": {
     "businessStatus": "active",
@@ -11445,7 +13259,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "annual revenue of $13 million as of August 2024 ($148K in sales the year before the pitch)",
     "sourceUrl": "https://sharktankblog.com/business/caddy-girls/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/caddy-girls/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thecaddygirls.com",
+    "websiteStatus": "up"
   },
   "s6e6-oilerie-usa": {
     "businessStatus": "active",
@@ -11454,7 +13270,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $2 million in annual revenue as of November 2022",
     "sourceUrl": "https://sharktankblog.com/business/oilerie/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/oilerie/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://oilerie.com",
+    "websiteStatus": "unreachable"
   },
   "s6e6-emergensee": {
     "businessStatus": "inactive",
@@ -11462,7 +13280,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $185,000 in total sales at the time of the pitch (company is now out of business)",
     "sourceUrl": "https://sharktankblog.com/business/emergensee/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/emergensee/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://emergensee.com",
+    "websiteStatus": "up"
   },
   "s6e7-beardbrand": {
     "businessStatus": "active",
@@ -11471,7 +13291,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$7 million in annual revenue as of August 2021 ($1.2 million in first full year at the time of the pitch)",
     "sourceUrl": "https://sharktankblog.com/business/beardbrand/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/beardbrand/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://beardbrand.com",
+    "websiteStatus": "up"
   },
   "s6e7-singtrix": {
     "businessStatus": "active",
@@ -11488,7 +13310,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $2 million in annual revenue as of January 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/priority-1-canine/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/priority-1-canine/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://priority1canine.com",
+    "websiteStatus": "up"
   },
   "s6e8-man-pack": {
     "businessStatus": "active",
@@ -11497,7 +13321,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $3 million in annual revenue as of January 2023 (at pitch: $76,000 prior-year sales)",
     "sourceUrl": "https://sharktankblog.com/business/man-pack/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/man-pack/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://man-pack.com",
+    "websiteStatus": "up"
   },
   "s6e9-storm-stoppers": {
     "businessStatus": "active",
@@ -11506,7 +13332,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $3 million in annual revenue as of November 2022 (at pitch: $5.5 million cumulative sales over ten years)",
     "sourceUrl": "https://sharktankblog.com/business/storm-stoppers/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/storm-stoppers/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://plywoodalternative.com",
+    "websiteStatus": "up"
   },
   "s6e10-off-the-cob": {
     "businessStatus": "inactive",
@@ -11521,7 +13349,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Approximately $2 million in annual revenue as of January 2022 (at pitch: ~$54,000 in sales)",
     "sourceUrl": "https://www.sharktankblog.com/business/swag-essentials/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/swag-essentials/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://swagessentials.com",
+    "websiteStatus": "up"
   },
   "s6e12-eve-drop": {
     "businessStatus": "inactive",
@@ -11530,7 +13360,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4,500 in sales at the time of the Shark Tank pitch (2014)",
     "sourceUrl": "https://www.sharktankblog.com/business/evedrop/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/evedrop/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://evedrop.com",
+    "websiteStatus": "up"
   },
   "s6e13-coffee-meets-bagel": {
     "businessStatus": "active",
@@ -11538,7 +13370,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$16 million annually as of July 2023 (at pitch: ~$1 million in sales)",
     "sourceUrl": "https://www.sharktankblog.com/business/coffee-meets-bagel/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/coffee-meets-bagel/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://coffeemeetsbagel.com",
+    "websiteStatus": "up"
   },
   "s6e13-skinnyshirt": {
     "businessStatus": "inactive",
@@ -11554,13 +13388,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "$10,000 in sales over two months from ~75 Walmart locations (early 2015, at pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/vestpakz/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/vestpakz/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://vestpakz.com",
+    "websiteStatus": "unreachable"
   },
   "s6e15-napwell": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/napwell/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/napwell/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://napwell.com",
+    "websiteStatus": "up"
   },
   "s6e15-bello-verde": {
     "businessStatus": "active",
@@ -11568,7 +13406,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3 million in annual revenue as of October 2023",
     "sourceUrl": "https://sharktankblog.com/business/bello-verde/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bello-verde/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://belloverde.com",
+    "websiteStatus": "up"
   },
   "s6e16-victoria-s-kitchen": {
     "businessStatus": "inactive",
@@ -11576,13 +13416,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.4 million in lifetime sales as of the October 2017 acquisition by Hispanica International",
     "sourceUrl": "https://sharktankblog.com/business/victorias-kitchen/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/victorias-kitchen/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://drinkvictoriaskitchen.com",
+    "websiteStatus": "blocked"
   },
   "s6e16-tycoon-real-estate": {
     "businessStatus": "inactive",
     "sourceUrl": "https://www.sharktankblog.com/business/tycoonre/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/tycoonre/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://tycoonre.com",
+    "websiteStatus": "up"
   },
   "s6e17-balm-chicky-balm-balm": {
     "businessStatus": "inactive",
@@ -11590,7 +13434,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$17,000 in sales at the time of the Season 6 pitch (most recent figure disclosed; company shut down January 2016)",
     "sourceUrl": "https://sharktankblog.com/business/balm-chicky-balm-balm/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/balm-chicky-balm-balm/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://balmchicky.com",
+    "websiteStatus": "unreachable"
   },
   "s6e17-bedjet": {
     "businessStatus": "active",
@@ -11599,7 +13445,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in annual revenue as of October 2023 (over $335 million in lifetime sales as of April 2024)",
     "sourceUrl": "https://sharktankblog.com/business/bedjet/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bedjet/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bedjet.com",
+    "websiteStatus": "up"
   },
   "s6e18-himalayan-dog-chew": {
     "businessStatus": "active",
@@ -11607,7 +13455,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approaching $75 million in lifetime sales as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/himalayan-dog-chew/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/himalayan-dog-chew/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://himalayan.pet",
+    "websiteStatus": "up"
   },
   "s6e18-the-lip-bar": {
     "businessStatus": "active",
@@ -11616,7 +13466,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5.5 million annually as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/the-lip-bar/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-lip-bar/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thelipbar.com",
+    "websiteStatus": "up"
   },
   "s6e19-sseko-designs": {
     "businessStatus": "active",
@@ -11625,7 +13477,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of September, 2022, annual revenue is $24 million",
     "sourceUrl": "https://sharktankblog.com/business/sseko-designs/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/sseko-designs/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://ssekodesigns.com",
+    "websiteStatus": "up"
   },
   "s6e19-lumi": {
     "businessStatus": "active",
@@ -11633,7 +13487,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of September 2022, the business reported $9 million in annual revenue",
     "sourceUrl": "https://sharktankblog.com/business/lumi/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/lumi/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://lumi.co",
+    "websiteStatus": "unreachable"
   },
   "s6e20-taaluma-totes": {
     "businessStatus": "active",
@@ -11642,13 +13498,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "By August 2022, the company achieved annual revenue of $3 million",
     "sourceUrl": "https://sharktankblog.com/business/taaluma-totes/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/taaluma-totes/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://carryacountry.com",
+    "websiteStatus": "up"
   },
   "s6e21-bedryder": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/bedryder/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bedryder/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bedryder.com",
+    "websiteStatus": "up"
   },
   "s6e22-naja": {
     "businessStatus": "active",
@@ -11656,7 +13516,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of December, 2023, this business is still going strong with $2.9 million in annual revenue",
     "sourceUrl": "https://sharktankblog.com/business/naja/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/naja/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://naja.co",
+    "websiteStatus": "up"
   },
   "s6e23-brandyourself": {
     "businessStatus": "active",
@@ -11664,13 +13526,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of November 2023, the company achieved annual revenue of $12 million",
     "sourceUrl": "https://sharktankblog.com/business/brand-yourself/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/brand-yourself/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://brandyourself.com",
+    "websiteStatus": "up"
   },
   "s6e23-icpooch": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/icpooch/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/icpooch/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://icpooch.com",
+    "websiteStatus": "up"
   },
   "s6e23-the-home-t": {
     "businessStatus": "active",
@@ -11678,7 +13544,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of May 2024, Home T maintains $2 million in annual revenue",
     "sourceUrl": "https://www.sharktankblog.com/business/home-t/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/home-t/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://thehomet.com",
+    "websiteStatus": "up"
   },
   "s6e24-budsies": {
     "businessStatus": "active",
@@ -11695,7 +13563,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3.5 million in lifetime revenue as of July 2024",
     "sourceUrl": "https://sharktankblog.com/business/bee-thinking/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/bee-thinking/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://beethinking.com",
+    "websiteStatus": "unreachable"
   },
   "s6e24-forus-athletics": {
     "businessStatus": "inactive",
@@ -11703,7 +13573,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$500,000 in sales over six months (at time of Shark Tank pitch)",
     "sourceUrl": "https://sharktankblog.com/business/forus-athletics/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/forus-athletics/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wearforus.com",
+    "websiteStatus": "up"
   },
   "s6e25-beneath-the-ink": {
     "businessStatus": "active",
@@ -11711,13 +13583,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2.5 million in annual revenue as of April 2022",
     "sourceUrl": "https://sharktankblog.com/business/beneath-the-ink/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/beneath-the-ink/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://beneaththeink.com",
+    "websiteStatus": "unreachable"
   },
   "s6e26-snagastool": {
     "businessStatus": "inactive",
     "sourceUrl": "https://www.sharktankblog.com/business/snag-a-stool/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/snag-a-stool/ ; https://sharktanksuccess.com/snagastool-update-after-shark-tank/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://snagastool.com",
+    "websiteStatus": "unreachable"
   },
   "s6e26-buck-mason": {
     "businessStatus": "active",
@@ -11725,7 +13601,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$26 million in annual revenue as of October 2022",
     "sourceUrl": "https://sharktankblog.com/business/buck-mason/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/buck-mason/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://buckmason.com",
+    "websiteStatus": "up"
   },
   "s6e27-the-paleo-diet-foods": {
     "businessStatus": "active",
@@ -11733,7 +13611,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in annual revenue as of December 2022",
     "sourceUrl": "https://www.sharktankblog.com/business/paleo-diet-foods/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/paleo-diet-foods/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://paleoranch.com",
+    "websiteStatus": "up"
   },
   "s6e27-frameri": {
     "businessStatus": "inactive",
@@ -11742,7 +13622,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $70,000 in pre-order sales (at time of Shark Tank pitch)",
     "sourceUrl": "https://www.sharktankblog.com/business/frameri/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/frameri/ ; https://invisionmag.com/frameri-eyewear-company-on-shark-tank-closing/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://frameri.com",
+    "websiteStatus": "unreachable"
   },
   "s6e28-sunscreen-mist": {
     "businessStatus": "active",
@@ -11751,13 +13633,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$2 million in annual revenue as of August 2021 (29 machines deployed)",
     "sourceUrl": "https://sharktankblog.com/business/sunscreen-mist/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/sunscreen-mist/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://sunscreenmist.com",
+    "websiteStatus": "unreachable"
   },
   "s6e29-gato-cafe": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/gato-cafe/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/gato-cafe/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://gatocafeflorida.com",
+    "websiteStatus": "unreachable"
   },
   "s5e1-lynnae-s-gourmet-pickles": {
     "businessStatus": "inactive",
@@ -11766,13 +13652,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "$144,000 in sales at time of pitch (Season 5, 2013)",
     "sourceUrl": "https://sharktankblog.com/business/lynnaes-gourmet-pickles/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/lynnaes-gourmet-pickles/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://lynnaesgourmetpickles.com",
+    "websiteStatus": "up"
   },
   "s5e1-rolodoc": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/rolodoc/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/rolodoc/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://rolodoc.com",
+    "websiteStatus": "up"
   },
   "s5e2-mango-mango": {
     "businessStatus": "active",
@@ -11781,7 +13671,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$3 million in annual revenue as of April 2024",
     "sourceUrl": "https://sharktankblog.com/business/mango-mango/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/mango-mango/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://amangoparty.com",
+    "websiteStatus": "up"
   },
   "s5e2-man-medals": {
     "businessStatus": "inactive",
@@ -11790,7 +13682,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2,500 in total sales at time of pitch (Season 5)",
     "sourceUrl": "https://sharktankblog.com/business/man-medals/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/man-medals/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://themanmedals.com",
+    "websiteStatus": "unreachable"
   },
   "s5e3-fairytale-wishes": {
     "businessStatus": "inactive",
@@ -11798,13 +13692,17 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5,500 in annual sales at time of pitch (Season 5)",
     "sourceUrl": "https://sharktankblog.com/business/fairytale-wishes/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/fairytale-wishes/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://fairytalewishesinc.com",
+    "websiteStatus": "up"
   },
   "s5e3-kookn-kap": {
     "businessStatus": "inactive",
     "sourceUrl": "https://sharktankblog.com/business/kookn-kap/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/kookn-kap/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kooknkap.com",
+    "websiteStatus": "unreachable"
   },
   "s5e4-sunday-night-slow-jams": {
     "businessStatus": "active",
@@ -11813,14 +13711,18 @@ export const enrichmentOverrides = {
     "revenueRaw": "$350K in revenue at the time of the Season 5 pitch (2013)",
     "sourceUrl": "https://www.sharktankblog.com/business/sunday-night-slow-jams/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/sunday-night-slow-jams/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://slowjams.com",
+    "websiteStatus": "up"
   },
   "s5e4-scan": {
     "businessStatus": "inactive",
     "industry": "Technology",
     "sourceUrl": "https://www.sharktankblog.com/business/scan/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/scan/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://scan.me",
+    "websiteStatus": "unreachable"
   },
   "s5e5-bare-ease": {
     "businessStatus": "inactive",
@@ -11828,7 +13730,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Last year $45K; projected $65K for the current year (as of the Season 5 pitch, 2013)",
     "sourceUrl": "https://www.sharktankblog.com/business/bareease/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bareease/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bareease.com",
+    "websiteStatus": "unreachable"
   },
   "s5e5-rent-a-goat": {
     "businessStatus": "active",
@@ -11836,14 +13740,18 @@ export const enrichmentOverrides = {
     "revenueRaw": "$2 million annual revenue as of August 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/rent-a-goat/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/rent-a-goat/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://rentagoat.com",
+    "websiteStatus": "unreachable"
   },
   "s5e6-elephant-chat": {
     "businessStatus": "inactive",
     "industry": "Consumer Goods",
     "sourceUrl": "https://www.sharktankblog.com/business/elephant-chat/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/elephant-chat/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://elephantchat.com",
+    "websiteStatus": "unreachable"
   },
   "s5e6-ten-thirty-one-productions": {
     "businessStatus": "inactive",
@@ -11854,7 +13762,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/ten-thirty-one-productions/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://tenthirtyoneproductions.com",
+    "websiteStatus": "unreachable"
   },
   "s5e7-kymera-body-board": {
     "businessStatus": "active",
@@ -11872,7 +13782,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Venice Beach location first-year sales $190,000 (plus $30,000 first-month at SF location), as of the Season 5 pitch (2013)",
     "sourceUrl": "https://www.sharktankblog.com/business/schulzies-bread-pudding/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/schulzies-bread-pudding/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://schulziesbreadpudding.com",
+    "websiteStatus": "up"
   },
   "s5e8-bellybuds": {
     "businessStatus": "active",
@@ -11880,7 +13792,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in annual revenue (as of April 2023); company rebranded to WAVhello in 2017",
     "sourceUrl": "https://www.sharktankblog.com/business/bellybuds/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bellybuds/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://wavhello.com",
+    "websiteStatus": "up"
   },
   "s5e8-petpaint": {
     "businessStatus": "active",
@@ -11888,7 +13802,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "over $5 million in lifetime sales (as of April 2023)",
     "sourceUrl": "https://www.sharktankblog.com/petpaint/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/petpaint/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://petpaint.com",
+    "websiteStatus": "unreachable"
   },
   "s5e9-doorbot": {
     "businessStatus": "active",
@@ -11896,7 +13812,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$274 million annually in sales (as of November 2022); became Ring, acquired by Amazon for an estimated $1.2-$1.8 billion in February 2018",
     "sourceUrl": "https://www.sharktankblog.com/business/doorbot/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/doorbot/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://getdoorbot.com",
+    "websiteStatus": "unreachable"
   },
   "s5e9-slawsa": {
     "businessStatus": "active",
@@ -11904,19 +13822,25 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in annual revenue (as of August 2022); in over 8,000 stores",
     "sourceUrl": "https://www.sharktankblog.com/business/slawsa/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/slawsa/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://slawsa.com",
+    "websiteStatus": "up"
   },
   "s5e9-magic-moments": {
     "businessStatus": "inactive",
     "sourceUrl": "https://www.sharktankblog.com/business/magic-moments/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/magic-moments/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://magicmoments.com",
+    "websiteStatus": "up"
   },
   "s5e9-surprise-ride": {
     "businessStatus": "active",
     "sourceUrl": "https://www.sharktankblog.com/business/surprise-ride/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/surprise-ride/ ; https://www.fatbraintoys.com/surpriseride/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://fatbraintoys.com",
+    "websiteStatus": "up"
   },
   "s5e10-chocomize": {
     "businessStatus": "active",
@@ -11924,7 +13848,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$4 million in annual revenue (as of March 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/chocomize/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/chocomize/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://chocomize.com",
+    "websiteStatus": "up"
   },
   "s5e10-grace-and-lace": {
     "businessStatus": "active",
@@ -11935,7 +13861,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/grace-and-lace/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://graceandlace.com",
+    "websiteStatus": "up"
   },
   "s5e11-spirithoods": {
     "businessStatus": "active",
@@ -11944,7 +13872,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$5 million in annual revenue (as of 2022)",
     "sourceUrl": "https://www.sharktankblog.com/spirithoods/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/spirithoods/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://spirithoods.com",
+    "websiteStatus": "up"
   },
   "s5e11-fohawx": {
     "businessStatus": "inactive",
@@ -11961,7 +13891,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1 million in annual sales (as of December 2022)",
     "sourceUrl": "https://www.sharktankblog.com/lite-netics/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/lite-netics/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://litenetics.com",
+    "websiteStatus": "up"
   },
   "s5e12-cashmere-hair": {
     "businessStatus": "active",
@@ -11970,7 +13902,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$3.7 million in annual revenue (as of May 2024)",
     "sourceUrl": "https://www.sharktankblog.com/business/cashmere-hair/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/cashmere-hair/; https://sharktankrecap.com/cashmere-hair-update-shark-tank-season-5/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://cashmerehairextensions.com",
+    "websiteStatus": "down"
   },
   "s5e12-tipsy-elves": {
     "businessStatus": "active",
@@ -11981,7 +13915,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.cnbc.com/2019/04/29/robert-herjavec-reveals-his-best-shark-tank-investment.html",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://tipsyelves.com",
+    "websiteStatus": "up"
   },
   "s5e13-bounce-boot-camp": {
     "businessStatus": "active",
@@ -11989,7 +13925,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$1.5 million in annual revenue (as of November 2022)",
     "sourceUrl": "https://www.sharktankblog.com/business/bounce-boot-camp/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bounce-boot-camp/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bouncebootcampny.com",
+    "websiteStatus": "up"
   },
   "s5e13-eyebloc": {
     "businessStatus": "active",
@@ -11997,7 +13935,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$6 million in annual revenue (as of January 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/eyebloc/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/eyebloc/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://eyebloc.com",
+    "websiteStatus": "up"
   },
   "s5e13-groovebook": {
     "businessStatus": "inactive",
@@ -12008,7 +13948,9 @@ export const enrichmentOverrides = {
     "enrichmentConfidence": "high",
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/groovebook/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://groovebook.com",
+    "websiteStatus": "down"
   },
   "s5e18-cheek-d": {
     "businessStatus": "active",
@@ -12016,7 +13958,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "estimated annual revenues ~$1 million per year (as of November 2023)",
     "sourceUrl": "https://sharktankblog.com/business/cheekd/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/cheekd/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://cheekd.com",
+    "websiteStatus": "up"
   },
   "s5e18-zipit": {
     "businessStatus": "inactive",
@@ -12025,7 +13969,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "Annual revenue is $3 million (as of May 2022); website/social down as of July 2022",
     "sourceUrl": "https://sharktankblog.com/business/zipit/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/zipit/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://zipitbedding.com",
+    "websiteStatus": "up"
   },
   "s5e18-buzzy4shots": {
     "businessStatus": "active",
@@ -12033,7 +13979,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "approximately $1 million in annual revenue (as of 2023); rebranded Pain Care Labs",
     "sourceUrl": "https://sharktankblog.com/business/buzzy/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/buzzy/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://buzzy4shots.com",
+    "websiteStatus": "up"
   },
   "s5e19-squeeky-knees": {
     "businessStatus": "inactive",
@@ -12041,7 +13989,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "a little over $10,000 in revenue after three years (at pitch, 2014); company shut down in 2017",
     "sourceUrl": "https://sharktankblog.com/business/squeeky-knees/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/squeeky-knees/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://squeekyknees.com",
+    "websiteStatus": "unreachable"
   },
   "s5e19-the-buffer-bit": {
     "businessStatus": "active",
@@ -12049,7 +13999,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "$7 million in lifetime sales and annual revenue of $800,000 - $1 million (as of August 2023)",
     "sourceUrl": "https://www.sharktankblog.com/business/buffer-bit/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/buffer-bit/ | https://www.sharktanksuccess.com/buffer-bit/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://bufferbit.com",
+    "websiteStatus": "up"
   },
   "s5e20-define-bottle": {
     "businessStatus": "inactive",
@@ -12057,7 +14009,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "sales grew to ~$2 million post-show; founder shuttered the business in 2016",
     "sourceUrl": "https://sharktankblog.com/business/define-bottle/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/define-bottle/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://definebottle.com",
+    "websiteStatus": "up"
   },
   "s5e21-morninghead": {
     "businessStatus": "active",
@@ -12065,7 +14019,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "generates less than $100,000 a year (as of June 2022); still sold on Amazon",
     "sourceUrl": "https://sharktankblog.com/business/morninghead/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/morninghead/",
-    "enrichmentConfidence": "medium"
+    "enrichmentConfidence": "medium",
+    "website": "https://morninghead.com",
+    "websiteStatus": "unreachable"
   },
   "s5e22-kodiak-cakes": {
     "businessStatus": "active",
@@ -12073,7 +14029,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "grew into a ~$200 million company; acquired by L Catterton in 2021",
     "sourceUrl": "https://sharktankblog.com/business/kodiak-cakes/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/kodiak-cakes/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://kodiakcakes.com",
+    "websiteStatus": "up"
   },
   "s2e1-cbs-foods": {
     "businessStatus": "inactive",
@@ -12090,7 +14048,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"the brand is now doing $6 million per year\" as of September 2022 (acquired by Splash Beverage Group, Jan 2021)",
     "sourceUrl": "https://www.sharktankblog.com/business/copa-di-vino/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/copa-di-vino/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://copadivino.com",
+    "websiteStatus": "up"
   },
   "s2e2-wake-n-bacon": {
     "businessStatus": "inactive",
@@ -12120,7 +14080,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"$5 million in annual revenue\" as of January 2023",
     "sourceUrl": "https://www.sharktankblog.com/business/pure-ayre/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/pure-ayre/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://pureayre.com",
+    "websiteStatus": "up"
   },
   "s2e4-uncle-zip-s-beef-jerky": {
     "businessStatus": "active",
@@ -12128,7 +14090,9 @@ export const enrichmentOverrides = {
     "revenueRaw": "\"between $500,000 and $1 million in annual revenue\" as of July 2021",
     "sourceUrl": "https://www.sharktankblog.com/business/uncle-zips-beef-jerky/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/uncle-zips-beef-jerky/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "website": "https://unclezipsjerky.com",
+    "websiteStatus": "down"
   },
   "s2e5-new-era-brands": {
     "businessStatus": "inactive",
@@ -12149,13 +14113,17 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/a-perfect-pear/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Deal with Herjavec/Harrington never closed after filming, though Harrington helped get product on HSN"
+    "portfolioScoringNote": "On-air deal did not close: Deal with Herjavec/Harrington never closed after filming, though Harrington helped get product on HSN",
+    "website": "https://aperfectpear.com",
+    "websiteStatus": "up"
   },
   "s1e3-stress-free-kids": {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/stress-free-kids/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Sharktankblog: 'the deal with Barbara never closed'; company succeeded independently"
+    "portfolioScoringNote": "On-air deal did not close: Sharktankblog: 'the deal with Barbara never closed'; company succeeded independently",
+    "website": "https://stressfreekids.com",
+    "websiteStatus": "up"
   },
   "s1e4-gift-card-rescue": {
     "postShowDealStatus": "not_closed",
@@ -12167,25 +14135,33 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/my-therapy-journal/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Blog states the deal with Robert and Kevin never closed; brothers shuttered the company Dec 2009."
+    "portfolioScoringNote": "On-air deal did not close: Blog states the deal with Robert and Kevin never closed; brothers shuttered the company Dec 2009.",
+    "website": "https://mytherapyjournal.com",
+    "websiteStatus": "up"
   },
   "s1e6-element-bars": {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/element-bars-2/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Blog explicitly says 'the deal not closing with Kevin'; business continued without the Harrington investment."
+    "portfolioScoringNote": "On-air deal did not close: Blog explicitly says 'the deal not closing with Kevin'; business continued without the Harrington investment.",
+    "website": "https://elementbars.com",
+    "websiteStatus": "up"
   },
   "s1e7-soy-yer-dough": {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/soy-yer-dough/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Blog: 'The deal with the three Sharks never closed'; founder re-entered talks with Hasbro and ran it independently."
+    "portfolioScoringNote": "On-air deal did not close: Blog: 'The deal with the three Sharks never closed'; founder re-entered talks with Hasbro and ran it independently.",
+    "website": "https://soy-yer.com",
+    "websiteStatus": "up"
   },
   "s1e8-notehall": {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/notehall/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Partners declined Corcoran's offer after the episode, joining Dream IT Ventures instead; later acquired by Chegg."
+    "portfolioScoringNote": "On-air deal did not close: Partners declined Corcoran's offer after the episode, joining Dream IT Ventures instead; later acquired by Chegg.",
+    "website": "https://chegg.com",
+    "websiteStatus": "blocked"
   },
   "s1e8-treasure-chest-pets": {
     "postShowDealStatus": "not_closed",
@@ -12197,13 +14173,17 @@ export const enrichmentOverrides = {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/uro-club/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Source states 'The deal with Kevin never closed'; company continued operating on its own."
+    "portfolioScoringNote": "On-air deal did not close: Source states 'The deal with Kevin never closed'; company continued operating on its own.",
+    "website": "https://uroclub.com",
+    "websiteStatus": "unreachable"
   },
   "s1e10-jump-forward": {
     "postShowDealStatus": "not_closed",
     "closureSource": "https://www.sharktankblog.com/business/jump-forward/",
     "closureConfidence": "high",
-    "portfolioScoringNote": "On-air deal did not close: Source states 'This deal never closed'; company later acquired by Active Network."
+    "portfolioScoringNote": "On-air deal did not close: Source states 'This deal never closed'; company later acquired by Active Network.",
+    "website": "https://jumpforward.com",
+    "websiteStatus": "up"
   },
   "s1e11-hells-bells": {
     "postShowDealStatus": "not_closed",
@@ -12248,12 +14228,16 @@ export const enrichmentOverrides = {
   "s1e4-coverplay": {
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/coverplay/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://coverplayard.com",
+    "websiteStatus": "up"
   },
   "s1e5-body-jac": {
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/body-jac-cactus-jack/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://buybodyjac.net",
+    "websiteStatus": "unreachable"
   },
   "s1e6-pork-barrel-bbq": {
     "postShowDealStatus": "closed",
@@ -12273,7 +14257,9 @@ export const enrichmentOverrides = {
   "s1e9-gayla-bentley-fashion": {
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/gayla-bentley-fashion/",
-    "closureConfidence": "medium"
+    "closureConfidence": "medium",
+    "website": "https://gaylabentley.com",
+    "websiteStatus": "up"
   },
   "s1e12-grease-monkey-wipes": {
     "postShowDealStatus": "closed",
@@ -12288,6 +14274,352 @@ export const enrichmentOverrides = {
   "s5e4-screenmend": {
     "postShowDealStatus": "closed",
     "closureSource": "https://www.sharktankblog.com/business/screenmend/",
-    "closureConfidence": "high"
+    "closureConfidence": "high",
+    "website": "https://screenmend.com",
+    "websiteStatus": "unreachable"
+  },
+  "s2e1-tippi-toes": {
+    "website": "https://tippitoesdance.com",
+    "websiteStatus": "up"
+  },
+  "s2e4-hillbilly-brand": {
+    "website": "https://hillbillybrand.com",
+    "websiteStatus": "up"
+  },
+  "s2e9-aldo-orta-jewelry": {
+    "website": "https://aojewelry.com",
+    "websiteStatus": "up"
+  },
+  "s3e4-wine-balloon": {
+    "website": "https://aircork.com",
+    "websiteStatus": "up"
+  },
+  "s2e6-sweep-easy": {
+    "website": "https://sweepeasybroom.com",
+    "websiteStatus": "unreachable"
+  },
+  "s5e3-the-freeloader": {
+    "website": "https://myfreeloader.com",
+    "websiteStatus": "up"
+  },
+  "s5e5-rufflebutts-and-ruggedbutts": {
+    "website": "https://rufflebutts.com",
+    "websiteStatus": "blocked"
+  },
+  "s6e1-sleeping-baby": {
+    "website": "https://gopjn.com",
+    "websiteStatus": "up"
+  },
+  "s6e2-kronos": {
+    "website": "https://kronosgolf.com",
+    "websiteStatus": "up"
+  },
+  "s6e3-heart-pup": {
+    "website": "https://heartpup.com",
+    "websiteStatus": "up"
+  },
+  "s6e4-paper-box-pilots": {
+    "website": "https://paperboxpilots.com",
+    "websiteStatus": "unreachable"
+  },
+  "s6e4-reviver": {
+    "website": "https://reviverwipes.com",
+    "websiteStatus": "up"
+  },
+  "s6e5-the-red-dress-boutique": {
+    "website": "https://reddressboutique.com",
+    "websiteStatus": "up"
+  },
+  "s6e5-sunstaches": {
+    "website": "https://sunstaches.com",
+    "websiteStatus": "up"
+  },
+  "s7e1-signalvault": {
+    "website": "https://signalvault.myshopify.com",
+    "websiteStatus": "up"
+  },
+  "s7e2-loliware": {
+    "website": "https://loliware.com",
+    "websiteStatus": "unreachable"
+  },
+  "s7e4-dude-products": {
+    "website": "https://dudeproducts.com",
+    "websiteStatus": "up"
+  },
+  "s7e5-xcraft": {
+    "website": "https://xcraft.io",
+    "websiteStatus": "up"
+  },
+  "s7e4-table-87-coal-oven-pizza": {
+    "website": "https://table87.com",
+    "websiteStatus": "up"
+  },
+  "s8e1-fizzics": {
+    "website": "https://fizzics.com",
+    "websiteStatus": "up"
+  },
+  "s8e1-rethink": {
+    "website": "https://rethinkwords.com",
+    "websiteStatus": "up"
+  },
+  "s8e2-the-lapel-project": {
+    "website": "https://thelapelproject.com",
+    "websiteStatus": "up"
+  },
+  "s8e2-tactibite-fish-call": {
+    "website": "https://thefishcall.com",
+    "websiteStatus": "up"
+  },
+  "s8e3-raising-wild": {
+    "website": "https://raisingwildswim.com",
+    "websiteStatus": "unreachable"
+  },
+  "s8e4-solemates": {
+    "website": "https://thesolemates.com",
+    "websiteStatus": "up"
+  },
+  "s8e4-biem": {
+    "website": "https://biemspray.com",
+    "websiteStatus": "up"
+  },
+  "s8e3-night-runner-270": {
+    "website": "https://nightrunner270.com",
+    "websiteStatus": "up"
+  },
+  "s17e1-pelagion": {
+    "website": "https://pelagion.com",
+    "websiteStatus": "up"
+  },
+  "s17e1-dad-strength-brewing": {
+    "website": "https://dadstrengthbrewing.com",
+    "websiteStatus": "up"
+  },
+  "s17e2-gerty": {
+    "website": "https://thegerty.com",
+    "websiteStatus": "up"
+  },
+  "s17e2-qb54": {
+    "website": "https://playqb54.com",
+    "websiteStatus": "up"
+  },
+  "s17e2-impeccable-chicken": {
+    "website": "https://impeccablechicken.shop",
+    "websiteStatus": "up"
+  },
+  "s17e3-goodegg": {
+    "website": "https://goodeggstuff.co",
+    "websiteStatus": "up"
+  },
+  "s17e3-repaint-tray": {
+    "website": "https://repaintstudios.com",
+    "websiteStatus": "up"
+  },
+  "s17e2-the-snorinator": {
+    "website": "https://thesnorinator.com",
+    "websiteStatus": "up"
+  },
+  "s17e3-pluck-seasonings": {
+    "website": "https://eatpluck.com",
+    "websiteStatus": "up"
+  },
+  "s17e4-alchemize-fightwear": {
+    "website": "https://alchemizefightwear.com",
+    "websiteStatus": "up"
+  },
+  "s17e4-orka-bar": {
+    "website": "https://orkabar.com",
+    "websiteStatus": "up"
+  },
+  "s17e4-the-sprouting-company": {
+    "website": "https://thesproutingcompany.com",
+    "websiteStatus": "up"
+  },
+  "s17e3-fundraiser-blankets": {
+    "website": "https://fundraiserblankets.com",
+    "websiteStatus": "up"
+  },
+  "s17e5-warrior-kid-medic": {
+    "website": "https://warriorkidmedic.com",
+    "websiteStatus": "up"
+  },
+  "s17e5-freestyle-snacks": {
+    "website": "https://freestylesnacking.com",
+    "websiteStatus": "up"
+  },
+  "s17e5-lila": {
+    "website": "https://wearlila.com",
+    "websiteStatus": "up"
+  },
+  "s17e6-surf-skull": {
+    "website": "https://thesurfskull.com",
+    "websiteStatus": "up"
+  },
+  "s17e6-forte3d": {
+    "website": "https://forte3d.com",
+    "websiteStatus": "up"
+  },
+  "s17e6-tantos": {
+    "website": "https://eattantos.com",
+    "websiteStatus": "up"
+  },
+  "s17e7-the-christmas-carolers": {
+    "website": "https://thechristmascarolers.com",
+    "websiteStatus": "up"
+  },
+  "s17e8-peesport": {
+    "website": "https://peesport.com",
+    "websiteStatus": "up"
+  },
+  "s17e7-bauble-stockings": {
+    "website": "https://baublestockings.com",
+    "websiteStatus": "up"
+  },
+  "s17e7-edible-architecture": {
+    "website": "https://b.delivery.consentmanager.net",
+    "websiteStatus": "up"
+  },
+  "s17e8-flightpath": {
+    "website": "https://flightpathgolf.com",
+    "websiteStatus": "up"
+  },
+  "s17e8-nampons": {
+    "website": "https://nampons.com",
+    "websiteStatus": "up"
+  },
+  "s17e8-liquidview": {
+    "website": "https://theliquidview.com",
+    "websiteStatus": "up"
+  },
+  "s17e9-makers-social": {
+    "website": "https://makerssocial.com",
+    "websiteStatus": "up"
+  },
+  "s17e9-sleepy-baby": {
+    "website": "https://sleepybaby.com",
+    "websiteStatus": "up"
+  },
+  "s17e10-street-fc": {
+    "website": "https://streetfc.com",
+    "websiteStatus": "up"
+  },
+  "s17e9-bon-appesweet": {
+    "website": "https://bonappesweet.com",
+    "websiteStatus": "up"
+  },
+  "s17e10-crowd-compass": {
+    "website": "https://crowdcompass.io",
+    "websiteStatus": "up"
+  },
+  "s17e11-the-yes-girls": {
+    "website": "https://theyesgirls.com",
+    "websiteStatus": "up"
+  },
+  "s17e11-bocceroll": {
+    "website": "https://playbocceroll.com",
+    "websiteStatus": "up"
+  },
+  "s17e10-screen-skinz": {
+    "website": "https://screenskinz.com",
+    "websiteStatus": "up"
+  },
+  "s17e12-cranel": {
+    "website": "https://cranel.co",
+    "websiteStatus": "up"
+  },
+  "s17e11-boxblayde": {
+    "website": "https://boxblayde.com",
+    "websiteStatus": "up"
+  },
+  "s17e12-the-chair-blanket": {
+    "website": "https://thechairblanket.com",
+    "websiteStatus": "up"
+  },
+  "s17e12-paco-and-pepper": {
+    "website": "https://pacoandpepper.com",
+    "websiteStatus": "up"
+  },
+  "s17e13-clean-green-golf-balls": {
+    "website": "https://cleangreengolfballs.com",
+    "websiteStatus": "up"
+  },
+  "s17e13-hot-girl-soda": {
+    "website": "https://hotgirlsoda.com",
+    "websiteStatus": "up"
+  },
+  "s17e14-remplenish": {
+    "website": "https://remplenish.com",
+    "websiteStatus": "up"
+  },
+  "s17e12-brce": {
+    "website": "https://brce.shop",
+    "websiteStatus": "up"
+  },
+  "s17e13-nude-foods-market": {
+    "website": "https://nudefoodsmarket.com",
+    "websiteStatus": "up"
+  },
+  "s17e14-beer-girl": {
+    "website": "https://drinkbeergirl.com",
+    "websiteStatus": "up"
+  },
+  "s17e15-hele-outdoors": {
+    "website": "https://heleoutdoors.com",
+    "websiteStatus": "up"
+  },
+  "s17e15-hang-hero": {
+    "website": "https://myhanghero.com",
+    "websiteStatus": "up"
+  },
+  "s17e15-r1se": {
+    "website": "https://r1seup.com",
+    "websiteStatus": "up"
+  },
+  "s17e14-never-have-i-ever": {
+    "website": "https://neverhaveiever.shop",
+    "websiteStatus": "up"
+  },
+  "s17e16-bloom": {
+    "website": "https://bloom.inc",
+    "websiteStatus": "up"
+  },
+  "s17e15-everything-blocks": {
+    "website": "https://everythingblocks.com",
+    "websiteStatus": "up"
+  },
+  "s17e17-hibertec": {
+    "website": "https://hibertec.com",
+    "websiteStatus": "up"
+  },
+  "s17e17-crowned-skin": {
+    "website": "https://crownedskin.com",
+    "websiteStatus": "up"
+  },
+  "s17e16-hundy": {
+    "website": "https://hundy.com",
+    "websiteStatus": "up"
+  },
+  "s17e16-glimmer-wish": {
+    "website": "https://glimmerwish.com",
+    "websiteStatus": "up"
+  },
+  "s17e17-stomp-athletics": {
+    "website": "https://stompathletics.com",
+    "websiteStatus": "up"
+  },
+  "s17e18-packd": {
+    "website": "https://packdbags.com",
+    "websiteStatus": "up"
+  },
+  "s17e18-parrot-finance": {
+    "website": "https://parrotfinance.io",
+    "websiteStatus": "up"
+  },
+  "s17e18-pi00a": {
+    "website": "https://pi00a.com",
+    "websiteStatus": "up"
+  },
+  "s17e17-powersoul-cafe": {
+    "website": "https://powersoulcafe.com",
+    "websiteStatus": "up"
   }
 };

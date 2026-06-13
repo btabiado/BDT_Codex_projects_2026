@@ -69,6 +69,22 @@ export function getEpisodeCoverage(records) {
   };
 }
 
+export function getWebsiteHealth(records) {
+  const withSite = records.filter((r) => r.website);
+  const byStatus = {};
+  for (const r of withSite) byStatus[r.websiteStatus] = (byStatus[r.websiteStatus] || 0) + 1;
+  const live = (byStatus.up || 0) + (byStatus.blocked || 0);
+  return {
+    total: records.length,
+    withSite: withSite.length,
+    live,
+    livePctOfTracked: withSite.length ? live / withSite.length : 0,
+    up: byStatus.up || 0,
+    blocked: byStatus.blocked || 0,
+    down: (byStatus.down || 0) + (byStatus.unreachable || 0)
+  };
+}
+
 function favoriteIndustry(records) {
   const counts = new Map();
   for (const record of records) {
