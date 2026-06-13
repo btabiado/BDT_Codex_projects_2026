@@ -87,22 +87,33 @@ function firstUrl(value) {
   return raw.match(/https?:\/\/[^\s|;]+/i)?.[0] ?? null;
 }
 
+// Deterministic keyword classifier. The workbook has no industry column, so each
+// pitch is bucketed from its name + description. Rules are evaluated in order and the
+// FIRST match wins, so less-ambiguous categories (Pet, Baby & Kids) are listed before
+// broad catch-alls (Consumer Goods, Services). This is an MVP heuristic: it favors
+// coverage over precision, so a handful of rows land in a defensible-but-imperfect bucket.
+const INDUSTRY_RULES = [
+  ["Baby & Kids", /\b(baby|babies|infant|toddler|newborn|diaper|nappy|stroller|nursery|pacifier|teether|teething|crib|onesie|maternity|parenting|kids|kid|children|kid's|kids')\b/],
+  ["Pet", /\b(pet|pets|dog|dogs|puppy|cat|cats|kitten|canine|feline|animal|leash|aquarium|litter|veterinary|kennel)\b/],
+  ["Beauty", /\b(beauty|cosmetic|cosmetics|skincare|skin care|makeup|make-up|haircare|hair care|salon|spa|nail|nails|lash|lashes|brow|lipstick|fragrance|perfume|cologne|grooming|beard|shave|shaving|razor|deodorant|moisturiz|moisturis|serum|mascara|manicure)\b/],
+  ["Health", /\b(health|healthcare|medical|medicine|wellness|supplement|vitamin|nutrition|protein|therapy|therapeutic|dental|dentist|teeth|hearing|posture|brace|prosthetic|hygiene|sanitiz|mask|nasal|cbd|hemp|pain relief|recovery|immune|allergy|menstrual|feminine|diabet|first aid|mobility|sleep|snore|ergonomic|orthopedic)\b/],
+  ["Food", /\b(food|snack|snacks|sauce|salsa|spice|seasoning|coffee|tea|meal|meals|restaurant|bakery|bake|cake|cookie|cookies|candy|chocolate|pie|oat|oatmeal|bagel|donut|doughnut|muffin|waffle|pancake|pizza|taco|burger|jerky|popcorn|pasta|noodle|ramen|cheese|yogurt|granola|honey|jam|jelly|pickle|hummus|syrup|vegan|keto|gluten|dessert|ice cream|gelato|smoothie|juice|drink|beverage|soda|kombucha|wine|beer|spirit|vodka|whiskey|cocktail|brew|lobster|seafood|bbq)\b/],
+  ["Apparel", /\b(apparel|clothing|clothes|fashion|wear|shirt|t-shirt|tee|pant|pants|jean|jeans|legging|dress|skirt|sock|socks|shoe|shoes|sneaker|boot|sandal|footwear|jacket|coat|hoodie|sweater|sweatshirt|underwear|lingerie|\bbra\b|swimsuit|swimwear|swim|hat|cap|glove|scarf|belt|poncho|denim|garment|textile|fabric|costume|uniform)\b/],
+  ["Jewelry & Accessories", /\b(jewelry|jewellery|necklace|bracelet|earring|pendant|watch|watches|handbag|purse|wallet|sunglasses|eyewear|diamond|accessory|accessories)\b/],
+  ["Sports", /\b(sport|sports|fitness|gym|workout|exercise|athletic|training|yoga|pilates|running|jogging|cycling|bike|bicycle|ski|snowboard|surf|skate|skateboard|climbing|hiking|camping|fishing|hunting|golf|tennis|basketball|football|soccer|baseball|hockey|boxing|helmet|outdoor|outdoors|kayak|paddle|tailgate)\b/],
+  ["Automotive", /\b(car|cars|auto|automotive|vehicle|truck|motorcycle|tire|tyre|windshield|dashboard)\b/],
+  ["Technology", /\b(app|apps|software|saas|artificial intelligence|robot|robotic|drone|smart|sensor|wearable|charger|charging|headphone|earbud|earbuds|speaker|speakers|bluetooth|gadget|device|electronic|electronics|battery|technology|digital|online|internet|website|web app|platform|wifi|gps|virtual reality|augmented|3d print|printer|laptop|computer|smartphone|mobile app|tablet|streaming|cyber|cloud|blockchain|crypto)\b/],
+  ["Toys & Games", /\b(toy|toys|game|games|puzzle|plush|doll|board game|playset|hobby|card game|gaming)\b/],
+  ["Education", /\b(education|educational|school|learning|\blearn\b|teach|tutor|tutoring|course|college|university|student|stem|literacy|homework|curriculum|flashcard|flash card|memoriz|book|books|library)\b/],
+  ["Travel", /\b(travel|luggage|suitcase|backpack|carry-on|passport|tourism|vacation|hotel|airline|flight)\b/],
+  ["Entertainment", /\b(music|musician|film|movie|video|podcast|media|entertainment|photography|theater|theatre|concert)\b/],
+  ["Consumer Goods", /\b(home|kitchen|kitchenware|cookware|household|furniture|mattress|bedding|pillow|blanket|towel|cleaning|clean|cleaner|detergent|laundry|organizer|organization|storage|container|decor|candle|garden|gardening|lawn|patio|tool|tools|hardware|appliance|\bmug\b|\bcup\b|bottle|jar|utensil|vacuum|lighting|lamp|clock|sponge|broom|trash|fridge|refrigerator|gadget)\b/],
+  ["Services", /\b(service|services|subscription|subscribe|delivery|deliver|marketplace|rental|\brent\b|franchise|booking|staffing|consulting|insurance|on-demand|membership)\b/]
+];
+
 function deriveIndustry(companyName, description) {
   const text = `${companyName} ${description ?? ""}`.toLowerCase();
-  const rules = [
-    ["Food", /\b(food|snack|sauce|coffee|tea|meal|restaurant|bakery|cake|cookie|protein|lobster|pie|oat|bagel|drink|beverage|candy|chocolate|pancake)\b/],
-    ["Apparel", /\b(apparel|clothing|shirt|socks|shoe|fashion|wear|jacket|dress|bra|swim|sweater)\b/],
-    ["Health", /\b(health|medicine|medical|therapy|fitness|wellness|skin|dental|sleep|baby|children|oral)\b/],
-    ["Beauty", /\b(beauty|cosmetic|skincare|hair|makeup|salon|spa)\b/],
-    ["Consumer Goods", /\b(home|kitchen|clean|tool|device|gadget|container|storage|sponge|bottle|accessory)\b/],
-    ["Pet", /\b(pet|dog|cat|animal)\b/],
-    ["Sports", /\b(sport|sports|fitness|exercise|game|outdoor|bike|golf|tailgate)\b/],
-    ["Automotive", /\b(car|auto|vehicle|truck|motorcycle)\b/],
-    ["Technology", /\b(app|software|online|digital|bluetooth|electronic|internet|platform|website)\b/],
-    ["Education", /\b(education|school|student|learn|book|college)\b/],
-    ["Services", /\b(service|subscription|delivery|marketplace|rental|franchise)\b/]
-  ];
-  return rules.find(([, pattern]) => pattern.test(text))?.[0] ?? "Unclassified";
+  return INDUSTRY_RULES.find(([, pattern]) => pattern.test(text))?.[0] ?? "Unclassified";
 }
 
 export function makePitchId(row) {

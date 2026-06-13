@@ -37,6 +37,11 @@ a {
   color: var(--accent);
 }
 
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 .nav {
   position: sticky;
   top: 0;
@@ -361,6 +366,14 @@ th {
 .company-row small {
   display: block;
   margin-top: 4px;
+}
+
+.drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+  background: rgba(4, 8, 14, 0.55);
+  backdrop-filter: blur(2px);
 }
 
 .drawer {

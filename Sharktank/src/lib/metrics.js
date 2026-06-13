@@ -13,10 +13,27 @@ export function getGlobalMetrics(records) {
     totalDeals,
     dealRate: totalPitches ? totalDeals / totalPitches : 0,
     activeBusinesses,
+    knownBusinesses: knownStatus.length,
     survivalRate: knownStatus.length ? activeBusinesses / knownStatus.length : null,
     totalRevenue,
     averageRevenue: revenueRecords.length ? totalRevenue / revenueRecords.length : null
   };
+}
+
+export function getSeasonMetrics(records) {
+  const grouped = new Map();
+  for (const record of records) {
+    const season = record.season ?? "Unknown";
+    if (!grouped.has(season)) grouped.set(season, []);
+    grouped.get(season).push(record);
+  }
+  return [...grouped.entries()]
+    .map(([season, rows]) => ({ season, ...getGlobalMetrics(rows) }))
+    .sort((a, b) => {
+      if (a.season === "Unknown") return 1;
+      if (b.season === "Unknown") return -1;
+      return Number(a.season) - Number(b.season);
+    });
 }
 
 function favoriteIndustry(records) {

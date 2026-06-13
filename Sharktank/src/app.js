@@ -4,7 +4,7 @@ import { supplementalRecords } from "./data/supplementalRecords.js";
 import { applyEnrichmentOverrides } from "./lib/enrichment.js";
 import { applyDataCurations, getAnalysisRecords } from "./lib/curateData.js";
 import { normalizeRows, MAJOR_SHARKS } from "./lib/normalizeData.js";
-import { getGlobalMetrics, getSharkMetrics, getTopCompanies, getIndustryMetrics } from "./lib/metrics.js";
+import { getGlobalMetrics, getSharkMetrics, getTopCompanies, getIndustryMetrics, getSeasonMetrics } from "./lib/metrics.js";
 import { getQualityReport } from "./lib/qualityChecks.js";
 import { formatCurrency, formatNumber, formatPercent } from "./lib/formatters.js";
 
@@ -25,6 +25,38 @@ let state = {
 };
 
 const app = document.querySelector("#app");
+let lastDrawerTrigger = null;
+
+// Deep-link state. The active route plus any non-default filters are mirrored into the
+// URL hash (e.g. #/companies?shark=Mark%20Cuban&season=5) so a view can be shared or
+// survive a refresh. writeHash uses replaceState, so it never re-fires hashchange.
+const HASH_FILTER_KEYS = ["search", "season", "shark", "dealStatus", "businessStatus", "industry"];
+
+function writeHash() {
+  const params = new URLSearchParams();
+  for (const key of HASH_FILTER_KEYS) {
+    const value = state[key];
+    if (value && value !== "all") params.set(key, value);
+  }
+  if (state.sort !== "alphaScore") params.set("sort", state.sort);
+  if (state.page > 1) params.set("page", String(state.page));
+  const query = params.toString();
+  const hash = `#/${state.route}${query ? `?${query}` : ""}`;
+  if (location.hash !== hash) history.replaceState(null, "", hash);
+}
+
+function readHash() {
+  const raw = location.hash.replace(/^#\/?/, "");
+  if (!raw) return;
+  const [routePart, queryPart = ""] = raw.split("?");
+  if (ROUTES.some(([id]) => id === routePart)) state.route = routePart;
+  const params = new URLSearchParams(queryPart);
+  for (const key of [...HASH_FILTER_KEYS, "sort"]) {
+    if (params.has(key)) state[key] = params.get(key);
+  }
+  const page = Number.parseInt(params.get("page"), 10);
+  state.page = Number.isFinite(page) && page > 0 ? page : 1;
+}
 
 function unique(values) {
   return [...new Set(values.filter(Boolean))].sort((a, b) => String(a).localeCompare(String(b), undefined, { numeric: true }));
@@ -52,17 +84,19 @@ function filteredRecords() {
   });
 }
 
+const ROUTES = [
+  ["command", "Command"],
+  ["sharks", "Sharks"],
+  ["companies", "Companies"],
+  ["seasons", "Seasons"],
+  ["quality", "Quality"],
+  ["hall", "Hall of Fame"],
+  ["misses", "Misses"],
+  ["industries", "Industries"]
+];
+
 function nav() {
-  const routes = [
-    ["command", "Command"],
-    ["sharks", "Sharks"],
-    ["companies", "Companies"],
-    ["quality", "Quality"],
-    ["hall", "Hall of Fame"],
-    ["misses", "Misses"],
-    ["industries", "Industries"]
-  ];
-  return `<nav class="nav">${routes.map(([id, label]) => `<button class="${state.route === id ? "active" : ""}" data-route="${id}">${label}</button>`).join("")}</nav>`;
+  return `<nav class="nav" aria-label="Dashboard sections">${ROUTES.map(([id, label]) => `<button class="${state.route === id ? "active" : ""}" data-route="${id}"${state.route === id ? ' aria-current="page"' : ""}>${label}</button>`).join("")}</nav>`;
 }
 
 function filterBar() {
@@ -91,7 +125,7 @@ function globalCards(rows) {
     ["Total Deals", formatNumber(metrics.totalDeals), "Records normalized to deal status."],
     ["Deal Rate", formatPercent(metrics.dealRate), "Total deals divided by total pitches."],
     ["Total Revenue", formatCurrency(metrics.totalRevenue), "Sum of parsed revenue values."],
-    ["Active Businesses", formatNumber(metrics.activeBusinesses), "Companies marked active."],
+    ["Survival Rate", formatPercent(metrics.survivalRate), `Active among companies with a known status (${formatNumber(metrics.activeBusinesses)} active of ${formatNumber(metrics.knownBusinesses)} known; status unverified for the rest).`],
     ["Data Quality", `${quality.overallScore}/100`, "Completeness less consistency, source, and revenue penalties."]
   ];
   return `<section class="kpi-grid">${cards.map(([label, value, tip]) => `<article class="metric-card" title="${tip}"><span>${label}</span><strong>${value}</strong></article>`).join("")}</section>`;
@@ -109,7 +143,7 @@ function sharkCards(rows) {
     <div class="section-heading"><h2>Shark KPI Cards</h2><select data-filter="sort">${option("alphaScore", state.sort, "Alpha Score")}${option("totalRevenue", state.sort, "Revenue")}${option("survivalRate", state.sort, "Survival")}${option("totalDeals", state.sort, "Deal Count")}</select></div>
     <section class="shark-grid">
       ${sorted.map((metric, index) => `
-        <article class="shark-card" data-shark="${html(metric.sharkName)}" title="Alpha Score = revenue 40%, survival 30%, deal success 20%, deal volume 10%">
+        <article class="shark-card" data-shark="${html(metric.sharkName)}" role="button" tabindex="0" aria-label="Show companies ${html(metric.sharkName)} invested in" title="Alpha Score = revenue 40%, survival 30%, deal success 20%, deal volume 10%">
           <div class="avatar">${html(metric.sharkName.split(" ").map((part) => part[0]).join("").slice(0, 2))}</div>
           <div><span class="rank">#${index + 1}</span><h3>${html(metric.sharkName)}</h3></div>
           <strong>${metric.alphaScore}</strong>
@@ -185,6 +219,27 @@ function missesPage(rows) {
   return `<section class="panel"><h2>Biggest Misses</h2>${companyList(getTopCompanies(rows, { limit: 12, dealStatus: "no_deal" }))}</section>`;
 }
 
+function seasonsPage(rows) {
+  const seasons = getSeasonMetrics(rows);
+  if (!seasons.length) return `<section class="panel"><h2>Season Trends</h2><p class="empty">No seasons match the current filters.</p></section>`;
+  const maxPitches = Math.max(1, ...seasons.map((season) => season.totalPitches));
+  const pitchBars = seasons
+    .map((season) => `<label>S${html(season.season)}<span style="--w:${Math.round((season.totalPitches / maxPitches) * 100)}%"></span><b>${season.totalPitches}</b></label>`)
+    .join("");
+  const dealBars = seasons
+    .map((season) => `<label>S${html(season.season)}<span style="--w:${Math.round((season.dealRate ?? 0) * 100)}%"></span><b>${formatPercent(season.dealRate)}</b></label>`)
+    .join("");
+  const tableRows = seasons
+    .map((season) => `<tr><td>S${html(season.season)}</td><td>${season.totalPitches}</td><td>${season.totalDeals}</td><td>${formatPercent(season.dealRate)}</td><td>${formatPercent(season.survivalRate)}</td><td>${formatCurrency(season.totalRevenue)}</td></tr>`)
+    .join("");
+  return `
+    <section class="split">
+      <div class="panel"><h2>Pitches per Season</h2><div class="bars">${pitchBars}</div></div>
+      <div class="panel"><h2>Deal Rate per Season</h2><div class="bars">${dealBars}</div></div>
+    </section>
+    <section class="panel"><h2>Season Trends</h2><p class="muted">One row per season. Survival rate covers only companies with a known active/inactive status, so later seasons read low until status is verified.</p><table><thead><tr><th>Season</th><th>Pitches</th><th>Deals</th><th>Deal Rate</th><th>Survival</th><th>Revenue</th></tr></thead><tbody>${tableRows}</tbody></table></section>`;
+}
+
 function industriesPage(rows) {
   const industries = getIndustryMetrics(rows);
   return `<section class="panel"><h2>Industry Analytics</h2><table><thead><tr><th>Industry</th><th>Pitches</th><th>Deal Rate</th><th>Revenue</th><th>Survival</th></tr></thead><tbody>${industries.map((industry) => `<tr><td>${html(industry.industry)}</td><td>${industry.totalPitches}</td><td>${formatPercent(industry.dealRate)}</td><td>${formatCurrency(industry.totalRevenue)}</td><td>${formatPercent(industry.survivalRate)}</td></tr>`).join("")}</tbody></table></section>`;
@@ -196,12 +251,14 @@ function render() {
     command: commandPage,
     sharks: sharksPage,
     companies: companiesPage,
+    seasons: seasonsPage,
     quality: qualityPage,
     hall: hallPage,
     misses: missesPage,
     industries: industriesPage
   };
   app.innerHTML = `${nav()}${filterBar()}<main>${pages[state.route](rows)}</main>`;
+  writeHash();
 }
 
 document.addEventListener("click", (event) => {
@@ -223,14 +280,39 @@ document.addEventListener("click", (event) => {
     state.page = Math.max(1, Number(page));
     render();
   }
-  const companyId = event.target.closest("[data-company]")?.dataset.company;
+  const companyTrigger = event.target.closest("[data-company]");
+  const companyId = companyTrigger?.dataset.company;
   if (companyId) {
     const record = records.find((item) => item.id === companyId);
+    lastDrawerTrigger = companyTrigger;
     const postShowStatus = record.postShowDealStatus ? `<div><dt>Post-show Deal</dt><dd>${html(record.postShowDealStatus.replace("_", " "))}</dd></div>` : "";
     const scoringNote = record.portfolioScoringNote ? `<div><dt>Scoring Note</dt><dd>${html(record.portfolioScoringNote)}</dd></div>` : "";
-    document.querySelector("#drawer").innerHTML = `<aside class="drawer"><button class="close" data-close>Close</button><h2>${html(record.companyName)}</h2><p>${html(record.description ?? "")}</p><dl><div><dt>Season</dt><dd>${record.season ?? "N/A"} / Episode ${record.episode ?? "N/A"}</dd></div><div><dt>Deal Terms</dt><dd>${html(record.dealTermsRaw ?? "N/A")}</dd></div>${postShowStatus}<div><dt>Investors</dt><dd>${html(record.investors.join(", ") || "N/A")}</dd></div><div><dt>Revenue</dt><dd>${html(record.revenueRaw ?? "N/A")}</dd></div><div><dt>Status</dt><dd>${html(record.businessStatus)}</dd></div>${scoringNote}</dl></aside>`;
+    document.querySelector("#drawer").innerHTML = `<div class="drawer-backdrop" data-close></div><aside class="drawer" role="dialog" aria-modal="true" aria-label="${html(record.companyName)} details"><button class="close" data-close aria-label="Close details">Close</button><h2>${html(record.companyName)}</h2><p>${html(record.description ?? "")}</p><dl><div><dt>Season</dt><dd>${record.season ?? "N/A"} / Episode ${record.episode ?? "N/A"}</dd></div><div><dt>Deal Terms</dt><dd>${html(record.dealTermsRaw ?? "N/A")}</dd></div>${postShowStatus}<div><dt>Investors</dt><dd>${html(record.investors.join(", ") || "N/A")}</dd></div><div><dt>Revenue</dt><dd>${html(record.revenueRaw ?? "N/A")}</dd></div><div><dt>Status</dt><dd>${html(record.businessStatus)}</dd></div>${scoringNote}</dl></aside>`;
+    document.querySelector("#drawer .close")?.focus();
   }
-  if (event.target.matches("[data-close]")) document.querySelector("#drawer").innerHTML = "";
+  if (event.target.closest("[data-close]")) closeDrawer();
+});
+
+function closeDrawer() {
+  const drawer = document.querySelector("#drawer");
+  if (!drawer || !drawer.innerHTML) return;
+  drawer.innerHTML = "";
+  if (lastDrawerTrigger && document.body.contains(lastDrawerTrigger)) lastDrawerTrigger.focus();
+  lastDrawerTrigger = null;
+}
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    closeDrawer();
+    return;
+  }
+  if (event.key === "Enter" || event.key === " ") {
+    const shark = event.target.closest?.("[data-shark]");
+    if (shark) {
+      event.preventDefault();
+      shark.click();
+    }
+  }
 });
 
 document.addEventListener("input", (event) => {
@@ -256,4 +338,10 @@ document.addEventListener("change", (event) => {
   }
 });
 
+window.addEventListener("hashchange", () => {
+  readHash();
+  render();
+});
+
+readHash();
 render();

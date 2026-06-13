@@ -26,6 +26,17 @@ test("splits and standardizes investor names", () => {
   assert.deepEqual(splitInvestors("Mark, Lori & Kevin"), ["Mark Cuban", "Lori Greiner", "Kevin O'Leary"]);
 });
 
+test("derives an industry from name and description keywords", () => {
+  const pet = normalizeRow({ Season: "3", "Episode (Season)": "1", "Company / Product": "Happy Hound", "Short Description": "a dog treat company" });
+  const tech = normalizeRow({ Season: "3", "Episode (Season)": "2", "Company / Product": "ChargeRight", "Short Description": "a smart wireless charger app" });
+  const baby = normalizeRow({ Season: "3", "Episode (Season)": "3", "Company / Product": "SnuggleCo", "Short Description": "a diaper bag for newborns" });
+  const unknown = normalizeRow({ Season: "3", "Episode (Season)": "4", "Company / Product": "Quizzle", "Short Description": "an idea" });
+  assert.equal(pet.industry, "Pet");
+  assert.equal(tech.industry, "Technology");
+  assert.equal(baby.industry, "Baby & Kids");
+  assert.equal(unknown.industry, "Unclassified");
+});
+
 test("normalizes a raw row into a pitch record", () => {
   const record = normalizeRow({
     Season: "2",

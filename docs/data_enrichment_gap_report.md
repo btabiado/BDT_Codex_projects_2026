@@ -18,9 +18,9 @@ Generated from the normalized workbook, supplemental records, and enrichment ove
 | Unknown business status | 1238 |
 | Missing parsed revenue | 1268 |
 | Missing description | 439 |
-| Unclassified industry | 883 |
+| Unclassified industry | 641 |
 | Likely boilerplate/import-name artifacts | 0 |
-| Research queue items | 1335 |
+| Research queue items | 1327 |
 | Priority 1 queue items | 76 |
 
 ## Research Priority Rules
@@ -96,11 +96,11 @@ Generated from the normalized workbook, supplemental records, and enrichment ove
 | 11 | 96 |
 | 10 | 92 |
 | 9 | 92 |
-| 8 | 93 |
-| 7 | 115 |
-| 6 | 109 |
-| 5 | 116 |
+| 8 | 91 |
+| 7 | 113 |
+| 6 | 108 |
+| 5 | 115 |
 | 4 | 103 |
 | 3 | 60 |
 | 2 | 36 |
-| 1 | 49 |
+| 1 | 47 |

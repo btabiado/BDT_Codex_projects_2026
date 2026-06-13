@@ -6,7 +6,7 @@ import { supplementalRecords } from "../data/supplementalRecords.js";
 import { applyEnrichmentOverrides } from "../lib/enrichment.js";
 import { applyDataCurations, getAnalysisRecords } from "../lib/curateData.js";
 import { normalizeRows } from "../lib/normalizeData.js";
-import { getGlobalMetrics, getSharkMetrics, getTopCompanies, getIndustryMetrics, parseEquityPercent, getInvestorRevenueAttribution } from "../lib/metrics.js";
+import { getGlobalMetrics, getSharkMetrics, getTopCompanies, getIndustryMetrics, getSeasonMetrics, parseEquityPercent, getInvestorRevenueAttribution } from "../lib/metrics.js";
 
 const curatedRecords = applyEnrichmentOverrides(applyDataCurations([...normalizeRows(rawMasterRows), ...supplementalRecords]), enrichmentOverrides);
 const records = getAnalysisRecords(curatedRecords);
@@ -32,6 +32,18 @@ test("returns top companies and industry metrics", () => {
   assert.equal(getTopCompanies(records, { limit: 3 }).length, 3);
   assert.equal(getTopCompanies(records, { limit: 1 })[0].companyName, "Bombas");
   assert.ok(getIndustryMetrics(records).some((metric) => metric.industry === "Food"));
+});
+
+test("aggregates per-season metrics in ascending order", () => {
+  const seasons = getSeasonMetrics(records);
+  assert.ok(seasons.length >= 16);
+  const numbered = seasons.filter((season) => season.season !== "Unknown");
+  assert.equal(numbered[0].season, 1);
+  for (let i = 1; i < numbered.length; i += 1) {
+    assert.ok(numbered[i].season > numbered[i - 1].season);
+  }
+  assert.equal(seasons.reduce((sum, season) => sum + season.totalPitches, 0), records.length);
+  assert.ok(seasons.every((season) => season.dealRate >= 0 && season.dealRate <= 1));
 });
 
 test("attributes revenue using deal equity when available", () => {
