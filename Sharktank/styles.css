@@ -448,6 +448,18 @@ th[scope="row"] {
   text-transform: none;
 }
 
+.cov-headline {
+  font-family: var(--mono);
+  font-size: 1.6rem;
+  color: var(--accent);
+}
+
+.cov-gap th[scope="row"],
+.cov-gap td:nth-child(4) {
+  color: var(--warn);
+  font-weight: 600;
+}
+
 th.sortable {
   padding: 0;
   white-space: nowrap;

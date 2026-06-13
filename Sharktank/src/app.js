@@ -4,7 +4,7 @@ import { supplementalRecords } from "./data/supplementalRecords.js";
 import { applyEnrichmentOverrides } from "./lib/enrichment.js";
 import { applyDataCurations, getAnalysisRecords } from "./lib/curateData.js";
 import { normalizeRows, MAJOR_SHARKS } from "./lib/normalizeData.js";
-import { getGlobalMetrics, getSharkMetrics, getTopCompanies, getIndustryMetrics, getSeasonMetrics } from "./lib/metrics.js";
+import { getGlobalMetrics, getSharkMetrics, getTopCompanies, getIndustryMetrics, getSeasonMetrics, getEpisodeCoverage } from "./lib/metrics.js";
 import { getQualityReport } from "./lib/qualityChecks.js";
 import { formatCurrency, formatNumber, formatPercent } from "./lib/formatters.js";
 
@@ -312,9 +312,16 @@ function seasonsPage(rows) {
   const tableRows = ordered
     .map((season) => `<tr><th scope="row">S${html(season.season)}</th><td class="num">${season.totalPitches}</td><td class="num">${season.totalDeals}</td><td class="num">${formatPercent(season.dealRate)}</td><td class="num">${formatPercent(season.survivalRate)}</td><td class="num">${formatCurrency(season.totalRevenue)}</td></tr>`)
     .join("");
+  // Episode coverage uses the FULL dataset (not the filtered rows) — it measures how
+  // many aired episodes the data represents, which is a property of the whole dataset.
+  const coverage = getEpisodeCoverage(records);
+  const coverageRows = coverage.bySeason
+    .map((s) => `<tr${s.missing > 0 ? ' class="cov-gap"' : ""}><th scope="row">S${s.season}${s.ongoing ? " *" : ""}</th><td class="num">${s.present}</td><td class="num">${s.expected}</td><td class="num">${s.missing || "—"}</td><td class="num cellbar"><span class="cellbar-fill" style="--w:${Math.round(s.pct * 100)}%"></span><b>${formatPercent(s.pct)}</b></td></tr>`)
+    .join("");
   return `
+    <section class="panel"><div class="table-head"><div><h1>Episode Coverage</h1><p class="muted">Aired episodes represented in the data (an episode counts once it has ≥1 pitch), measured against the official per-season count. S17 (*) is still airing.</p></div><div class="pager"><strong class="cov-headline">${formatPercent(coverage.overall.pct)}</strong></div></div><table><caption class="sr-only">Episode coverage per season.</caption><thead><tr><th scope="col">Season</th><th scope="col" class="num">Present</th><th scope="col" class="num">Aired</th><th scope="col" class="num">Missing</th><th scope="col" class="num">Coverage</th></tr></thead><tbody>${coverageRows}</tbody></table><p class="muted">${coverage.overall.present} of ${coverage.overall.expected} aired episodes present — <strong>${coverage.overall.missing} missing</strong>, almost all in Season 15.</p></section>
     <section class="split">
-      <div class="panel"><h1>Pitches per Season</h1><div class="bars">${pitchBars}</div></div>
+      <div class="panel"><h2>Pitches per Season</h2><div class="bars">${pitchBars}</div></div>
       <div class="panel"><h2>Deal Rate per Season</h2><div class="bars">${dealBars}</div></div>
     </section>
     <section class="panel"><h2>Season Trends</h2><p class="muted">One row per season. Survival rate covers only companies with a known active/inactive status, so later seasons read low until status is verified.</p><table><caption class="sr-only">Per-season metrics, sortable by column.</caption><thead><tr>${sortableTh("Season", "season")}${sortableTh("Pitches", "totalPitches", { num: true })}${sortableTh("Deals", "totalDeals", { num: true })}${sortableTh("Deal Rate", "dealRate", { num: true })}${sortableTh("Survival", "survivalRate", { num: true })}${sortableTh("Revenue", "totalRevenue", { num: true })}</tr></thead><tbody>${tableRows}</tbody></table></section>`;

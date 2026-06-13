@@ -6,7 +6,7 @@ import { supplementalRecords } from "../data/supplementalRecords.js";
 import { applyEnrichmentOverrides } from "../lib/enrichment.js";
 import { applyDataCurations, getAnalysisRecords } from "../lib/curateData.js";
 import { normalizeRows } from "../lib/normalizeData.js";
-import { getGlobalMetrics, getSharkMetrics, getTopCompanies, getIndustryMetrics, getSeasonMetrics, parseEquityPercent, getInvestorRevenueAttribution } from "../lib/metrics.js";
+import { getGlobalMetrics, getSharkMetrics, getTopCompanies, getIndustryMetrics, getSeasonMetrics, getEpisodeCoverage, parseEquityPercent, getInvestorRevenueAttribution } from "../lib/metrics.js";
 
 const curatedRecords = applyEnrichmentOverrides(applyDataCurations([...normalizeRows(rawMasterRows), ...supplementalRecords]), enrichmentOverrides);
 const records = getAnalysisRecords(curatedRecords);
@@ -47,6 +47,20 @@ test("returns top companies and industry metrics", () => {
   assert.equal(getTopCompanies(records, { limit: 3 }).length, 3);
   assert.equal(getTopCompanies(records, { limit: 1 })[0].companyName, "Bombas");
   assert.ok(getIndustryMetrics(records).some((metric) => metric.industry === "Food"));
+});
+
+test("measures episode coverage against aired-episode counts", () => {
+  const cov = getEpisodeCoverage(records);
+  assert.equal(cov.overall.expected, 377); // S1-17 per Wikipedia
+  assert.equal(cov.bySeason.length, 17);
+  assert.ok(cov.overall.present <= cov.overall.expected);
+  assert.ok(cov.overall.pct > 0.9 && cov.overall.pct <= 1);
+  assert.equal(cov.overall.present + cov.overall.missing, cov.overall.expected);
+  // Season 15 is the known gap (only a few of its episodes are in the data).
+  const s15 = cov.bySeason.find((s) => s.season === 15);
+  assert.ok(s15.missing > 10);
+  // No season can report more present than aired.
+  assert.ok(cov.bySeason.every((s) => s.present <= s.expected));
 });
 
 test("aggregates per-season metrics in ascending order", () => {

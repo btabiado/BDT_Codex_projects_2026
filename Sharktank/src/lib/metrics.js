@@ -36,6 +36,39 @@ export function getSeasonMetrics(records) {
     });
 }
 
+// Official US Shark Tank episode counts per season (Wikipedia "List of Shark Tank
+// episodes"). Season 17 is in progress — its count reflects episodes aired/scheduled
+// to date (update as new seasons air). Used to measure how many aired episodes the
+// dataset represents (an episode counts as "present" if it has >=1 pitch).
+const EPISODES_PER_SEASON = {
+  1: 14, 2: 9, 3: 15, 4: 26, 5: 29, 6: 29, 7: 29, 8: 24, 9: 24,
+  10: 23, 11: 24, 12: 25, 13: 24, 14: 22, 15: 22, 16: 20, 17: 18
+};
+const ONGOING_SEASONS = new Set([17]);
+
+export function getEpisodeCoverage(records) {
+  const present = new Map();
+  for (const record of records) {
+    if (record.season == null) continue;
+    if (!present.has(record.season)) present.set(record.season, new Set());
+    if (record.episode != null) present.get(record.season).add(record.episode);
+  }
+  const bySeason = Object.keys(EPISODES_PER_SEASON)
+    .map(Number)
+    .sort((a, b) => a - b)
+    .map((season) => {
+      const expected = EPISODES_PER_SEASON[season];
+      const have = Math.min(present.get(season)?.size ?? 0, expected);
+      return { season, present: have, expected, missing: expected - have, pct: expected ? have / expected : 0, ongoing: ONGOING_SEASONS.has(season) };
+    });
+  const totalPresent = bySeason.reduce((sum, s) => sum + s.present, 0);
+  const totalExpected = bySeason.reduce((sum, s) => sum + s.expected, 0);
+  return {
+    bySeason,
+    overall: { present: totalPresent, expected: totalExpected, missing: totalExpected - totalPresent, pct: totalExpected ? totalPresent / totalExpected : 0 }
+  };
+}
+
 function favoriteIndustry(records) {
   const counts = new Map();
   for (const record of records) {
