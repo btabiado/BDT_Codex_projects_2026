@@ -20,6 +20,8 @@ let state = {
   businessStatus: "all",
   industry: "all",
   sort: "alphaScore",
+  tsortKey: "",
+  tsortDir: "desc",
   page: 1,
   pageSize: 100
 };
@@ -39,6 +41,7 @@ function writeHash() {
     if (value && value !== "all") params.set(key, value);
   }
   if (state.sort !== "alphaScore") params.set("sort", state.sort);
+  if (state.tsortKey) params.set("ts", `${state.tsortKey}:${state.tsortDir}`);
   if (state.page > 1) params.set("page", String(state.page));
   const query = params.toString();
   const hash = `#/${state.route}${query ? `?${query}` : ""}`;
@@ -54,8 +57,41 @@ function readHash() {
   for (const key of [...HASH_FILTER_KEYS, "sort"]) {
     if (params.has(key)) state[key] = params.get(key);
   }
+  if (params.has("ts")) {
+    const [tk, td] = params.get("ts").split(":");
+    state.tsortKey = tk || "";
+    state.tsortDir = td === "asc" ? "asc" : "desc";
+  }
   const page = Number.parseInt(params.get("page"), 10);
   state.page = Number.isFinite(page) && page > 0 ? page : 1;
+}
+
+// ---- Sortable tables -------------------------------------------------------
+// A table declares its sortable columns; clicking a header sets state.tsortKey/Dir.
+// applyTableSort only acts when the active key belongs to the current table, so a
+// sort set on one tab harmlessly falls back to the page's natural order elsewhere.
+function sortableTh(label, key, { num = false } = {}) {
+  const active = state.tsortKey === key;
+  const ariaSort = active ? (state.tsortDir === "asc" ? "ascending" : "descending") : "none";
+  const indicator = active ? ` <span class="sort-ind">${state.tsortDir === "asc" ? "↑" : "↓"}</span>` : "";
+  return `<th scope="col" class="sortable${num ? " num" : ""}" data-sortkey="${html(key)}" aria-sort="${ariaSort}" tabindex="0">${html(label)}${indicator}</th>`;
+}
+
+function applyTableSort(rows, validKeys) {
+  const key = state.tsortKey;
+  if (!key || !validKeys.includes(key)) return rows;
+  const dir = state.tsortDir === "asc" ? 1 : -1;
+  return rows.slice().sort((a, b) => {
+    const av = a[key];
+    const bv = b[key];
+    const aNull = av === null || av === undefined;
+    const bNull = bv === null || bv === undefined;
+    if (aNull && bNull) return 0;
+    if (aNull) return 1; // nulls always last
+    if (bNull) return -1;
+    if (typeof av === "number" && typeof bv === "number") return (av - bv) * dir;
+    return String(av).localeCompare(String(bv), undefined, { numeric: true }) * dir;
+  });
 }
 
 function unique(values) {
@@ -117,6 +153,24 @@ function option(value, selected, label = value) {
   return `<option value="${html(value)}" ${String(value) === String(selected) ? "selected" : ""}>${html(label)}</option>`;
 }
 
+function copyLink() {
+  return `<button class="copylink" type="button" data-copylink title="Copy a shareable link to this exact view">Copy link</button>`;
+}
+
+const FILTER_LABELS = { search: "Search", season: "Season", shark: "Shark", dealStatus: "Deal", businessStatus: "Status", industry: "Industry" };
+
+function activeChips() {
+  const active = HASH_FILTER_KEYS.filter((key) => state[key] && state[key] !== "all" && state[key] !== "");
+  if (!active.length) return "";
+  const chips = active
+    .map((key) => {
+      const value = key === "dealStatus" || key === "businessStatus" ? String(state[key]).replace("_", " ") : state[key];
+      return `<button class="chip" type="button" data-clearfilter="${html(key)}" aria-label="Remove ${html(FILTER_LABELS[key])} filter ${html(value)}">${html(FILTER_LABELS[key])}: ${html(value)} <span class="x" aria-hidden="true">×</span></button>`;
+    })
+    .join("");
+  return `<section class="chips" aria-label="Active filters"><span class="chips-label">Filters</span>${chips}<button class="chip chip-clear" type="button" data-clearall>Clear all</button></section>`;
+}
+
 function globalCards(rows) {
   const metrics = getGlobalMetrics(rows);
   const quality = getQualityReport(rows);
@@ -140,7 +194,7 @@ function sharkCards(rows) {
     return b.alphaScore - a.alphaScore;
   });
   return `
-    <div class="section-heading"><h2>Shark KPI Cards</h2><select data-filter="sort">${option("alphaScore", state.sort, "Alpha Score")}${option("totalRevenue", state.sort, "Revenue")}${option("survivalRate", state.sort, "Survival")}${option("totalDeals", state.sort, "Deal Count")}</select></div>
+    <div class="section-heading"><h2>Shark KPI Cards</h2><select data-filter="sort" aria-label="Sort shark cards">${option("alphaScore", state.sort, "Alpha Score")}${option("totalRevenue", state.sort, "Revenue")}${option("survivalRate", state.sort, "Survival")}${option("totalDeals", state.sort, "Deal Count")}</select></div>
     <section class="shark-grid">
       ${sorted.map((metric, index) => `
         <article class="shark-card" data-shark="${html(metric.sharkName)}" role="button" tabindex="0" aria-label="Show companies ${html(metric.sharkName)} invested in" title="Alpha Score = revenue 40%, survival 30%, deal success 20%, deal volume 10%">
@@ -169,8 +223,8 @@ function commandPage(rows) {
   return `
     <header class="hero"><p>Investor Intelligence</p><h1>Shark Tank Intelligence Platform</h1><span>Who is the best Shark, and what patterns drive success?</span></header>
     ${globalCards(rows)}
-    ${sharkCards(rows)}
     ${leaderboard(rows)}
+    ${sharkCards(rows)}
     <section class="split">
       <div class="panel"><h2>Top Investment Draft Board</h2>${companyList(getTopCompanies(rows, { limit: 10 }))}</div>
       <div class="panel"><h2>Biggest Misses Preview</h2>${companyList(getTopCompanies(rows, { limit: 6, dealStatus: "no_deal" }))}</div>
@@ -195,16 +249,24 @@ function companyList(rows) {
 }
 
 function companiesPage(rows) {
-  const totalPages = Math.max(1, Math.ceil(rows.length / state.pageSize));
+  const sorted = applyTableSort(rows, ["companyName", "season", "dealStatus", "businessStatus", "revenueAmount"]);
+  const totalPages = Math.max(1, Math.ceil(sorted.length / state.pageSize));
   const page = Math.min(state.page, totalPages);
   const start = (page - 1) * state.pageSize;
-  const visibleRows = rows.slice(start, start + state.pageSize);
-  return `<section class="panel"><div class="table-head"><div><h2>Company Explorer</h2><p class="muted">${rows.length} companies match the current filters. Showing ${visibleRows.length ? start + 1 : 0}-${Math.min(start + visibleRows.length, rows.length)}.</p></div><div class="pager"><button data-page="${page - 1}" ${page <= 1 ? "disabled" : ""}>Previous</button><span>Page ${page} of ${totalPages}</span><button data-page="${page + 1}" ${page >= totalPages ? "disabled" : ""}>Next</button></div></div><table><thead><tr><th>Company</th><th>Season</th><th>Deal</th><th>Investors</th><th>Status</th><th>Revenue</th><th>Source</th></tr></thead><tbody>${visibleRows.map((record) => `<tr class="company-row"><td><button class="linklike" data-company="${html(record.id)}">${html(record.companyName)}</button><small>${html(record.description ?? "")}</small></td><td>S${record.season ?? "?"} E${record.episode ?? "?"}</td><td>${html(record.dealStatus.replace("_", " "))}</td><td>${html(record.investors.join(", ") || "N/A")}</td><td>${html(record.businessStatus)}</td><td>${formatCurrency(record.revenueAmount)}</td><td>${record.sourceUrl ? `<a href="${html(record.sourceUrl)}" target="_blank" rel="noreferrer">Open</a>` : "N/A"}</td></tr>`).join("")}</tbody></table></section><div id="drawer"></div>`;
+  const visibleRows = sorted.slice(start, start + state.pageSize);
+  const maxRev = Math.max(1, ...rows.map((record) => record.revenueAmount || 0));
+  return `<section class="panel"><div class="table-head"><div><h1>Company Explorer</h1><p class="muted">${rows.length} companies match the current filters. Showing ${visibleRows.length ? start + 1 : 0}-${Math.min(start + visibleRows.length, sorted.length)}.</p></div><div class="pager">${copyLink()}<button data-page="${page - 1}" ${page <= 1 ? "disabled" : ""}>Previous</button><span>Page ${page} of ${totalPages}</span><button data-page="${page + 1}" ${page >= totalPages ? "disabled" : ""}>Next</button></div></div><table><caption class="sr-only">Companies matching the current filters, sortable by column.</caption><thead><tr>${sortableTh("Company", "companyName")}${sortableTh("Season", "season")}${sortableTh("Deal", "dealStatus")}<th scope="col">Investors</th>${sortableTh("Status", "businessStatus")}${sortableTh("Revenue", "revenueAmount", { num: true })}<th scope="col">Source</th></tr></thead><tbody>${visibleRows.map((record) => {
+    const revPct = record.revenueAmount ? Math.round((record.revenueAmount / maxRev) * 100) : 0;
+    const revCell = record.revenueAmount
+      ? `<td class="num cellbar"><span class="cellbar-fill" style="--w:${revPct}%"></span><b>${formatCurrency(record.revenueAmount)}</b></td>`
+      : `<td class="num">${formatCurrency(record.revenueAmount)}</td>`;
+    return `<tr class="company-row" data-company="${html(record.id)}"><td><button class="linklike" data-company="${html(record.id)}">${html(record.companyName)}</button><small>${html(record.description ?? "")}</small></td><td>S${record.season ?? "?"} E${record.episode ?? "?"}</td><td>${html(record.dealStatus.replace("_", " "))}</td><td>${html(record.investors.join(", ") || "N/A")}</td><td>${html(record.businessStatus)}</td>${revCell}<td>${record.sourceUrl ? `<a href="${html(record.sourceUrl)}" target="_blank" rel="noreferrer">Open</a>` : "N/A"}</td></tr>`;
+  }).join("")}</tbody></table></section><div id="drawer"></div>`;
 }
 
 function qualityPage(rows) {
   const report = getQualityReport(rows);
-  return `<section class="panel quality-hero"><h2>Data Quality Center</h2><strong>${report.overallScore}/100</strong><p>Weighted completeness, consistency, source coverage, and revenue coverage.</p></section><section class="split"><div class="panel"><h2>Field Completeness</h2><table><thead><tr><th>Field</th><th>Complete</th><th>Missing</th><th>Coverage</th></tr></thead><tbody>${report.completeness.map((field) => `<tr><td><span class="dot ${field.severity}"></span>${field.field}</td><td>${field.complete}</td><td>${field.missing}</td><td>${formatPercent(field.percent)}</td></tr>`).join("")}</tbody></table></div><div class="panel"><h2>Coverage and Exceptions</h2><div class="bars">${report.seasonCoverage.map((item) => `<label>S${item.season}<span style="--w:${Math.max(6, item.count * 8)}%"></span><b>${item.count}</b></label>`).join("")}</div><p>Quarantined import artifacts: ${excludedArtifacts}</p><p>Duplicate groups: ${report.duplicates.length}</p><p>Missing deal investors: ${report.investorQuality.missingDealInvestors}</p><p>Missing revenue: ${report.revenueQuality.missing}</p><p>Missing source URLs: ${report.sourceQuality.missing}</p></div></section>`;
+  return `<section class="panel quality-hero"><h1>Data Quality Center</h1><strong>${report.overallScore}/100</strong><p>Weighted completeness, consistency, source coverage, and revenue coverage.</p></section><section class="split"><div class="panel"><h2>Field Completeness</h2><table><caption class="sr-only">Field completeness across all records.</caption><thead><tr><th scope="col">Field</th><th scope="col" class="num">Complete</th><th scope="col" class="num">Missing</th><th scope="col" class="num">Coverage</th></tr></thead><tbody>${report.completeness.map((field) => `<tr><th scope="row"><span class="dot ${field.severity}"></span>${field.field}</th><td class="num">${field.complete}</td><td class="num">${field.missing}</td><td class="num">${formatPercent(field.percent)}</td></tr>`).join("")}</tbody></table></div><div class="panel"><h2>Coverage and Exceptions</h2><div class="bars">${report.seasonCoverage.map((item) => `<label>S${item.season}<span data-w="${Math.max(6, item.count * 8)}%" style="--w:0"></span><b>${item.count}</b></label>`).join("")}</div><p>Quarantined import artifacts: ${excludedArtifacts}</p><p>Duplicate groups: ${report.duplicates.length}</p><p>Missing deal investors: ${report.investorQuality.missingDealInvestors}</p><p>Missing revenue: ${report.revenueQuality.missing}</p><p>Missing source URLs: ${report.sourceQuality.missing}</p></div></section>`;
 }
 
 function sharksPage(rows) {
@@ -212,11 +274,11 @@ function sharksPage(rows) {
 }
 
 function hallPage(rows) {
-  return `<section class="panel"><h2>Hall of Fame</h2>${companyList(getTopCompanies(rows, { limit: 12 }))}</section>`;
+  return `<section class="panel"><h1>Hall of Fame</h1>${companyList(getTopCompanies(rows, { limit: 12 }))}</section>`;
 }
 
 function missesPage(rows) {
-  return `<section class="panel"><h2>Biggest Misses</h2>${companyList(getTopCompanies(rows, { limit: 12, dealStatus: "no_deal" }))}</section>`;
+  return `<section class="panel"><h1>Biggest Misses</h1>${companyList(getTopCompanies(rows, { limit: 12, dealStatus: "no_deal" }))}</section>`;
 }
 
 function seasonsPage(rows) {
@@ -224,25 +286,30 @@ function seasonsPage(rows) {
   if (!seasons.length) return `<section class="panel"><h2>Season Trends</h2><p class="empty">No seasons match the current filters.</p></section>`;
   const maxPitches = Math.max(1, ...seasons.map((season) => season.totalPitches));
   const pitchBars = seasons
-    .map((season) => `<label>S${html(season.season)}<span style="--w:${Math.round((season.totalPitches / maxPitches) * 100)}%"></span><b>${season.totalPitches}</b></label>`)
+    .map((season) => `<label>S${html(season.season)}<span data-w="${Math.round((season.totalPitches / maxPitches) * 100)}%" style="--w:0"></span><b>${season.totalPitches}</b></label>`)
     .join("");
   const dealBars = seasons
-    .map((season) => `<label>S${html(season.season)}<span style="--w:${Math.round((season.dealRate ?? 0) * 100)}%"></span><b>${formatPercent(season.dealRate)}</b></label>`)
+    .map((season) => `<label>S${html(season.season)}<span data-w="${Math.round((season.dealRate ?? 0) * 100)}%" style="--w:0"></span><b>${formatPercent(season.dealRate)}</b></label>`)
     .join("");
-  const tableRows = seasons
-    .map((season) => `<tr><td>S${html(season.season)}</td><td>${season.totalPitches}</td><td>${season.totalDeals}</td><td>${formatPercent(season.dealRate)}</td><td>${formatPercent(season.survivalRate)}</td><td>${formatCurrency(season.totalRevenue)}</td></tr>`)
+  const ordered = applyTableSort(seasons, ["season", "totalPitches", "totalDeals", "dealRate", "survivalRate", "totalRevenue"]);
+  const tableRows = ordered
+    .map((season) => `<tr><th scope="row">S${html(season.season)}</th><td class="num">${season.totalPitches}</td><td class="num">${season.totalDeals}</td><td class="num">${formatPercent(season.dealRate)}</td><td class="num">${formatPercent(season.survivalRate)}</td><td class="num">${formatCurrency(season.totalRevenue)}</td></tr>`)
     .join("");
   return `
     <section class="split">
-      <div class="panel"><h2>Pitches per Season</h2><div class="bars">${pitchBars}</div></div>
+      <div class="panel"><h1>Pitches per Season</h1><div class="bars">${pitchBars}</div></div>
       <div class="panel"><h2>Deal Rate per Season</h2><div class="bars">${dealBars}</div></div>
     </section>
-    <section class="panel"><h2>Season Trends</h2><p class="muted">One row per season. Survival rate covers only companies with a known active/inactive status, so later seasons read low until status is verified.</p><table><thead><tr><th>Season</th><th>Pitches</th><th>Deals</th><th>Deal Rate</th><th>Survival</th><th>Revenue</th></tr></thead><tbody>${tableRows}</tbody></table></section>`;
+    <section class="panel"><h2>Season Trends</h2><p class="muted">One row per season. Survival rate covers only companies with a known active/inactive status, so later seasons read low until status is verified.</p><table><caption class="sr-only">Per-season metrics, sortable by column.</caption><thead><tr>${sortableTh("Season", "season")}${sortableTh("Pitches", "totalPitches", { num: true })}${sortableTh("Deals", "totalDeals", { num: true })}${sortableTh("Deal Rate", "dealRate", { num: true })}${sortableTh("Survival", "survivalRate", { num: true })}${sortableTh("Revenue", "totalRevenue", { num: true })}</tr></thead><tbody>${tableRows}</tbody></table></section>`;
 }
 
 function industriesPage(rows) {
-  const industries = getIndustryMetrics(rows);
-  return `<section class="panel"><h2>Industry Analytics</h2><table><thead><tr><th>Industry</th><th>Pitches</th><th>Deal Rate</th><th>Revenue</th><th>Survival</th></tr></thead><tbody>${industries.map((industry) => `<tr><td>${html(industry.industry)}</td><td>${industry.totalPitches}</td><td>${formatPercent(industry.dealRate)}</td><td>${formatCurrency(industry.totalRevenue)}</td><td>${formatPercent(industry.survivalRate)}</td></tr>`).join("")}</tbody></table></section>`;
+  const industries = applyTableSort(getIndustryMetrics(rows), ["industry", "totalPitches", "dealRate", "totalRevenue", "survivalRate"]);
+  const maxRev = Math.max(1, ...industries.map((industry) => industry.totalRevenue || 0));
+  return `<section class="panel"><h1>Industry Analytics</h1><table><caption class="sr-only">Per-industry metrics, sortable by column.</caption><thead><tr>${sortableTh("Industry", "industry")}${sortableTh("Pitches", "totalPitches", { num: true })}${sortableTh("Deal Rate", "dealRate", { num: true })}${sortableTh("Revenue", "totalRevenue", { num: true })}${sortableTh("Survival", "survivalRate", { num: true })}</tr></thead><tbody>${industries.map((industry) => {
+    const revPct = industry.totalRevenue ? Math.round((industry.totalRevenue / maxRev) * 100) : 0;
+    return `<tr><th scope="row">${html(industry.industry)}</th><td class="num">${industry.totalPitches}</td><td class="num">${formatPercent(industry.dealRate)}</td><td class="num cellbar"><span class="cellbar-fill" style="--w:${revPct}%"></span><b>${formatCurrency(industry.totalRevenue)}</b></td><td class="num">${formatPercent(industry.survivalRate)}</td></tr>`;
+  }).join("")}</tbody></table></section>`;
 }
 
 function render() {
@@ -257,8 +324,17 @@ function render() {
     misses: missesPage,
     industries: industriesPage
   };
-  app.innerHTML = `${nav()}${filterBar()}<main>${pages[state.route](rows)}</main>`;
+  app.innerHTML = `${nav()}${filterBar()}${activeChips()}<main id="main" tabindex="-1">${pages[state.route](rows)}</main>`;
   writeHash();
+  animateBars();
+}
+
+function animateBars() {
+  requestAnimationFrame(() => {
+    document.querySelectorAll(".bars span[data-w]").forEach((el) => {
+      el.style.setProperty("--w", el.dataset.w);
+    });
+  });
 }
 
 document.addEventListener("click", (event) => {
@@ -280,6 +356,37 @@ document.addEventListener("click", (event) => {
     state.page = Math.max(1, Number(page));
     render();
   }
+  const sortKey = event.target.closest("[data-sortkey]")?.dataset.sortkey;
+  if (sortKey) {
+    if (state.tsortKey === sortKey) {
+      state.tsortDir = state.tsortDir === "desc" ? "asc" : "desc";
+    } else {
+      state.tsortKey = sortKey;
+      state.tsortDir = "desc";
+    }
+    state.page = 1;
+    render();
+  }
+  if (event.target.closest("[data-copylink]")) {
+    const button = event.target.closest("[data-copylink]");
+    navigator.clipboard?.writeText(location.href).then(() => {
+      button.textContent = "Copied";
+      setTimeout(() => { button.textContent = "Copy link"; }, 1200);
+    }).catch(() => {});
+  }
+  const clearFilter = event.target.closest("[data-clearfilter]")?.dataset.clearfilter;
+  if (clearFilter) {
+    state[clearFilter] = clearFilter === "search" ? "" : "all";
+    state.page = 1;
+    render();
+  }
+  if (event.target.closest("[data-clearall]")) {
+    for (const key of HASH_FILTER_KEYS) state[key] = key === "search" ? "" : "all";
+    state.page = 1;
+    render();
+  }
+  // Source links inside a company row must open the link, not the detail drawer.
+  if (event.target.closest("a")) return;
   const companyTrigger = event.target.closest("[data-company]");
   const companyId = companyTrigger?.dataset.company;
   if (companyId) {
@@ -307,10 +414,10 @@ document.addEventListener("keydown", (event) => {
     return;
   }
   if (event.key === "Enter" || event.key === " ") {
-    const shark = event.target.closest?.("[data-shark]");
-    if (shark) {
+    const activatable = event.target.closest?.("[data-shark],[data-sortkey]");
+    if (activatable) {
       event.preventDefault();
-      shark.click();
+      activatable.click();
     }
   }
 });
