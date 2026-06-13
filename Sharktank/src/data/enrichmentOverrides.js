@@ -344,7 +344,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/left-field/",
     "enrichmentConfidence": "medium",
     "website": "https://left-field.co",
-    "websiteStatus": "down"
+    "websiteStatus": "down",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/left-field/",
+    "closureConfidence": "medium"
   },
   "s17e11-somnia": {
     "revenueAmount": 188000,
@@ -1201,7 +1204,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/kent/ | https://sharktankrecap.com/kent-update-shark-tank-season-14/",
     "enrichmentConfidence": "high",
     "website": "https://wearkent.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/kent/",
+    "closureConfidence": "medium"
   },
   "s14e1-oogiebear": {
     "businessStatus": "active",
@@ -1217,7 +1223,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/oogiebear/ | https://www.sportskeeda.com/pop-culture/oogiebear-update-what-happened-barbara-corcoran-robert-herjavec-invested-business-after-shark-tank",
     "enrichmentConfidence": "high",
     "website": "https://oogiebear.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/oogiebear/",
+    "closureConfidence": "medium"
   },
   "s14e1-pizzapack": {
     "businessStatus": "active",
@@ -1370,7 +1379,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/pretty-rugged/",
     "enrichmentConfidence": "high",
     "website": "https://prettyruggedshop.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/pretty-rugged/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: une, 2024, we can confirm the deal did not close, but the company is doing more than $3 million in annual revenue. The S"
   },
   "s14e6-collars-co": {
     "businessStatus": "active",
@@ -1694,7 +1707,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/frescos-naturales/ | https://sharktanksuccess.com/frescos-naturales/ | https://sharktankseason.com/shark-tank-usa-season/season-14/frescos-naturales",
     "enrichmentConfidence": "medium",
     "website": "https://drinkfrescos.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://www.sharktankblog.com/business/frescos-naturales/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: invest in Frescos Naturales? No deal was finalized. Although, Juan Stewart of Frescos Naturales secured a deal with Dan"
   },
   "s14e13-slick-barrier": {
     "businessStatus": "active",
@@ -1722,7 +1739,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/anytongs/ | https://www.looper.com/1408521/whatever-happened-anytongs-shark-tank/",
     "enrichmentConfidence": "high",
     "website": "https://anytongs.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/anytongs/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: 0,000 for 49% equity, but the deal did not close. Overview Category Details Name AnyTongs Founder Tog Samphel Industry K"
   },
   "s14e13-fryaway": {
     "businessStatus": "active",
@@ -1940,7 +1961,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/parting-stone/",
     "enrichmentConfidence": "high",
     "website": "https://partingstone.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/parting-stone/",
+    "closureConfidence": "medium"
   },
   "s14e19-cincha-travel": {
     "businessStatus": "active",
@@ -2031,7 +2055,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/noshi/",
     "enrichmentConfidence": "high",
     "website": "https://noshiforkids.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/noshi/",
+    "closureConfidence": "medium"
   },
   "s14e21-you-go-natural": {
     "businessStatus": "active",
@@ -2129,7 +2156,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/songlorious/ | https://sharktankrecap.com/shark-tank-songlorious-update-season-13/",
     "enrichmentConfidence": "high",
     "website": "https://songlorious.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://www.sharktankblog.com/business/songlorious/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: eter Jones, and Daymond John (deal did not close) Investment Ask $400,000 Equity Offered 10% Valuation $4 million (at th"
   },
   "s13e2-proper-good": {
     "businessStatus": "active",
@@ -2217,7 +2248,10 @@ export const enrichmentOverrides = {
     "revenueRaw": "$43,000 in revenue at time of pitch (with 31,000 users)",
     "sourceUrl": "https://www.sharktankblog.com/business/tabby/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/tabby/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/tabby/",
+    "closureConfidence": "medium"
   },
   "s13e4-soapen": {
     "businessStatus": "active",
@@ -2232,7 +2266,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/soapen/",
     "enrichmentConfidence": "high",
     "website": "https://soapen.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/soapen/",
+    "closureConfidence": "medium"
   },
   "s13e4-54-thrones": {
     "businessStatus": "active",
@@ -2275,7 +2312,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/wad/",
     "enrichmentConfidence": "high",
     "website": "https://wadfree.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/wad/",
+    "closureConfidence": "medium"
   },
   "s13e5-spergo": {
     "businessStatus": "active",
@@ -2319,7 +2359,10 @@ export const enrichmentOverrides = {
     "revenueRaw": "~$3 million in sales within two years of airing (as of ~2024)",
     "sourceUrl": "https://sharktankblog.com/business/hello-prenup/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/hello-prenup/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/hello-prenup/",
+    "closureConfidence": "medium"
   },
   "s13e6-hidrent": {
     "businessStatus": "active",
@@ -2349,7 +2392,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/sheets-laundry-club/",
     "enrichmentConfidence": "high",
     "website": "https://sheetslaundryclub.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/sheets-laundry-club/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: % advisory shares, though the deal ultimately did not close. Overview Category Details Name Sheets Laundry Club Founder"
   },
   "s13e7-pink-picasso": {
     "businessStatus": "active",
@@ -2500,7 +2547,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/roq-innovation/",
     "enrichmentConfidence": "high",
     "website": "https://roq-innovation.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/roq-innovation/",
+    "closureConfidence": "medium"
   },
   "s13e11-vabroom": {
     "businessStatus": "active",
@@ -2800,7 +2850,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/apolla/",
     "enrichmentConfidence": "high",
     "website": "https://apollaperformance.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/apolla/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: come $300,000 for 25% equity (deal did not close) Valuation $2 million (at the time of the Shark Tank pitch) The busines"
   },
   "s13e19-lucy": {
     "businessStatus": "active",
@@ -2913,7 +2967,11 @@ export const enrichmentOverrides = {
     "revenueRaw": "Over $100 million in lifetime sales (July 2024); $4.9 million in annual sales at pitch",
     "sourceUrl": "https://www.sharktankblog.com/business/plunge/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/plunge/ | https://sharktankrecap.com/plunge-update-shark-tank-season-13/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://www.sharktankblog.com/business/plunge/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: as not closed. The reason the deal didn't close is the company was growing so fast, its books were a mess and Robert's p"
   },
   "s13e21-handy-pan": {
     "businessStatus": "active",
@@ -2987,7 +3045,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/pricklee/ | https://www.foodrepublic.com/1872294/pricklee-shark-tank-now/",
     "enrichmentConfidence": "high",
     "website": "https://pricklee.com",
-    "websiteStatus": "blocked"
+    "websiteStatus": "blocked",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/pricklee/",
+    "closureConfidence": "medium"
   },
   "s13e23-stryx-cosmetics": {
     "businessStatus": "active",
@@ -3057,7 +3118,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/sparkcharge/",
     "enrichmentConfidence": "high",
     "website": "https://sparkcharge.io",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/sparkcharge/",
+    "closureConfidence": "medium"
   },
   "s12e2-sharks-mark-kendra-scott-kevin-lori-barbara-bootaybag": {
     "businessStatus": "active",
@@ -3378,7 +3442,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/luna-magic/",
     "enrichmentConfidence": "high",
     "website": "https://lunamagic.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/luna-magic/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: hange for 30% equity, but the deal did not close. Check out other Shark Tank Season 12 Episodes . Curious to know about"
   },
   "s12e10-bubbly-blaster": {
     "businessStatus": "active",
@@ -3392,7 +3460,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/bubbly-blaster/",
     "enrichmentConfidence": "high",
     "website": "https://bubblyblaster.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/bubbly-blaster/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: the entrepreneurs accept. The deal did not close, but Bubbly Blaster continues to sell well, with annual revenue reachin"
   },
   "s12e11-sharks-mark-daniel-kevin-lori-robert-quevos": {
     "businessStatus": "inactive",
@@ -3406,7 +3478,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/quevos/ | https://www.foodrepublic.com/1762817/quevos-shark-tank-now/",
     "enrichmentConfidence": "high",
     "website": "https://quevos.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/quevos/",
+    "closureConfidence": "medium"
   },
   "s12e11-aura-bora": {
     "businessStatus": "active",
@@ -3459,7 +3534,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/night-cap/ | https://sharktankrecap.com/nightcap-drink-cover-update-shark-tank-season-12/",
     "enrichmentConfidence": "high",
     "website": "https://nightcapit.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/night-cap/",
+    "closureConfidence": "medium"
   },
   "s12e12-mountainflow-eco-wax": {
     "businessStatus": "active",
@@ -3473,7 +3551,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/mountainflow-eco-wax/",
     "enrichmentConfidence": "high",
     "website": "https://mountainflow.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/mountainflow-eco-wax/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: ly, 2021, it looks as if this deal did not close. The company also added bike lubricants and recycled aluminum ski poles"
   },
   "s12e13-the-pizza-cupcake": {
     "businessStatus": "active",
@@ -3499,7 +3581,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/icebeanie/",
     "enrichmentConfidence": "high",
     "website": "https://icebeanie.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/icebeanie/",
+    "closureConfidence": "medium"
   },
   "s12e13-draft-top": {
     "businessStatus": "active",
@@ -3512,7 +3597,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/draft-top/",
     "enrichmentConfidence": "high",
     "website": "https://drafttop.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/draft-top/",
+    "closureConfidence": "medium"
   },
   "s12e14-souper-cubes": {
     "businessStatus": "active",
@@ -3571,7 +3659,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/everything-legendary/",
     "enrichmentConfidence": "high",
     "website": "https://eatlegendaryvegan.com",
-    "websiteStatus": "unreachable"
+    "websiteStatus": "unreachable",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/everything-legendary/",
+    "closureConfidence": "medium"
   },
   "s12e15-hopscotch": {
     "businessStatus": "active",
@@ -3617,7 +3708,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/misfit-foods/",
     "enrichmentConfidence": "high",
     "website": "https://philsfinest.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/misfit-foods/",
+    "closureConfidence": "medium"
   },
   "s12e17-tandem-boogie": {
     "businessStatus": "active",
@@ -3632,7 +3726,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/tandem-boogie/",
     "enrichmentConfidence": "high",
     "website": "https://tandemboogie.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/tandem-boogie/",
+    "closureConfidence": "medium"
   },
   "s12e17-totes-babies": {
     "businessStatus": "active",
@@ -3643,7 +3740,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/totes-babies/",
     "enrichmentConfidence": "high",
     "website": "https://totesbabies.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/totes-babies/",
+    "closureConfidence": "medium"
   },
   "s12e18-sharks-mark-barbara-kevin-lori-daymond-numilk": {
     "businessStatus": "active",
@@ -3685,7 +3785,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/bunch/ | https://www.slashgear.com/1367454/what-happened-bunch-bikes-shark-tank-season-12/",
     "enrichmentConfidence": "high",
     "website": "https://bunchbike.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/bunch/",
+    "closureConfidence": "medium"
   },
   "s12e19-sharks-mark-daymond-kevin-lori-robert-stepnpull": {
     "businessStatus": "active",
@@ -3733,7 +3836,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/the-matte/",
     "enrichmentConfidence": "medium",
     "website": "https://thematte.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/the-matte/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: 100,000 for 33.3% equity, the deal did not close. Overview Category Details Name The Matte Founder Melissa Clayton Indus"
   },
   "s12e20-furzapper": {
     "businessStatus": "active",
@@ -3843,7 +3950,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/float-n-grill/",
     "enrichmentConfidence": "medium",
     "website": "https://floatngrill.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/float-n-grill/",
+    "closureConfidence": "medium"
   },
   "s12e24-the-original-stretchlace": {
     "businessStatus": "active",
@@ -3867,7 +3977,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/dino-don/ | https://sharktankseason.com/shark-tank-usa-season/season-12/dinodon",
     "enrichmentConfidence": "high",
     "website": "https://dinodoninc.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://www.sharktankblog.com/business/dino-don/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: e couple accepted, though the deal did not close immediately. Dino Don has since expanded, growing from 150 to over 400"
   },
   "s12e25-copper-cow-coffee": {
     "businessStatus": "active",
@@ -3890,7 +4004,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/lit-handlers/",
     "enrichmentConfidence": "high",
     "website": "https://lithandlers.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/lit-handlers/",
+    "closureConfidence": "medium"
   },
   "s12e25-super-potty-trainer": {
     "businessStatus": "active",
@@ -3968,7 +4085,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/boost-oxygen/",
     "enrichmentConfidence": "high",
     "website": "https://boostoxygen.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/boost-oxygen/",
+    "closureConfidence": "medium"
   },
   "s11e3-robert-eterneva": {
     "businessStatus": "active",
@@ -4000,7 +4120,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/aira/",
     "enrichmentConfidence": "high",
     "website": "https://airapower.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/aira/",
+    "closureConfidence": "medium"
   },
   "s11e3-squid-socks": {
     "businessStatus": "active",
@@ -4060,7 +4183,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/snacklins/",
     "enrichmentConfidence": "high",
     "website": "https://snacklins.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/snacklins/",
+    "closureConfidence": "medium"
   },
   "s11e5-matt-higgins-tailgate-n-go": {
     "businessStatus": "active",
@@ -4104,7 +4230,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/myo-storm/",
     "enrichmentConfidence": "high",
     "website": "https://myostorm.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/myo-storm/",
+    "closureConfidence": "medium"
   },
   "s11e6-robert-the-measuring-shovel": {
     "investors": [
@@ -4316,7 +4445,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/kreyol-essence/",
     "enrichmentConfidence": "high",
     "website": "https://kreyolessence.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/kreyol-essence/",
+    "closureConfidence": "medium"
   },
   "s11e11-wanna-date": {
     "businessStatus": "active",
@@ -4367,7 +4499,10 @@ export const enrichmentOverrides = {
     "revenueRaw": "As of June 2024, annual revenue is estimated to be somewhere between $3 million and $5 million",
     "sourceUrl": "https://www.sharktankblog.com/business/ready-set-food/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/ready-set-food/ | https://sennhauser.com/shark_pitch/s11e12-ready-set-food/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/ready-set-food/",
+    "closureConfidence": "medium"
   },
   "s11e13-daymond-bala-bangles": {
     "businessStatus": "active",
@@ -4398,7 +4533,11 @@ export const enrichmentOverrides = {
     "revenueRaw": "They had done $105,000 in sales in the year prior to taping (2019)",
     "sourceUrl": "https://sharktankblog.com/business/shake-it-pup/",
     "sourceUrlsRaw": "https://sharktankblog.com/business/shake-it-pup/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/shake-it-pup/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: Deal Secured with Mark Cuban (Deal did not close) Investment Asked $100,000 for 10% equity Deal Outcome $100,000 for 25%"
   },
   "s11e13-fur": {
     "businessStatus": "active",
@@ -4485,7 +4624,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/boho/",
     "enrichmentConfidence": "high",
     "website": "https://boho.life",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/boho/",
+    "closureConfidence": "medium"
   },
   "s11e16-bohana": {
     "businessStatus": "active",
@@ -4500,7 +4642,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/bohana/",
     "enrichmentConfidence": "high",
     "website": "https://bohanalife.com",
-    "websiteStatus": "down"
+    "websiteStatus": "down",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/bohana/",
+    "closureConfidence": "medium"
   },
   "s11e16-grouphug": {
     "businessStatus": "active",
@@ -4532,7 +4677,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/safety-nailer/",
     "enrichmentConfidence": "high",
     "website": "https://safetynailer.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/safety-nailer/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: d Rohan Oza for 33.3% equity (deal did not close) Investment Ask $100,000 Equity Offered 14% Valuation $714,286 (at the"
   },
   "s11e17-daymond-pasta-by-hudson": {
     "businessStatus": "active",
@@ -4876,7 +5025,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/beyond-sushi/",
     "enrichmentConfidence": "high",
     "website": "https://beyondsushi.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://www.sharktankblog.com/business/beyond-sushi/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: % of the east coast business (deal did not close) Deal Status Deal secured with Lori Greiner and Matt Higgins Investment"
   },
   "s10e3-cup-board-pro": {
     "businessStatus": "active",
@@ -5188,7 +5341,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/kitty-kasas/",
     "enrichmentConfidence": "high",
     "website": "https://kittykasas.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/kitty-kasas/",
+    "closureConfidence": "medium"
   },
   "s10e11-sonnet-james": {
     "businessStatus": "active",
@@ -5391,7 +5547,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/pooch-selfie/",
     "enrichmentConfidence": "medium",
     "website": "https://poochselfie.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/pooch-selfie/",
+    "closureConfidence": "medium"
   },
   "s10e17-press-waffle-co": {
     "businessStatus": "active",
@@ -5433,7 +5592,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/dare-u-go/",
     "enrichmentConfidence": "medium",
     "website": "https://dareugo.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/dare-u-go/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: d a $200,000 loan, though the deal did not close post-show. Overview Category Details Name Dare U Go Founder Lisa D'Amat"
   },
   "s10e18-kanga": {
     "businessStatus": "active",
@@ -5463,7 +5626,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/certifikid/",
     "enrichmentConfidence": "high",
     "website": "https://certifikid.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/certifikid/",
+    "closureConfidence": "medium"
   },
   "s10e19-oza-pricetitution": {
     "businessStatus": "active",
@@ -5551,7 +5717,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/best-wardrobe-solutions/ | https://sharktankrecap.com/best-pocket-square-holder-update-shark-tank-season-10/",
     "enrichmentConfidence": "high",
     "website": "https://bestpocketsquareholder.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/best-wardrobe-solutions/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: ith a $1.00 per unit royalty (deal did not close) Investment Ask $200,000 Equity Offered 15% Valuation $1.33 million Ced"
   },
   "s10e21-kymera-body-boards": {
     "businessStatus": "active",
@@ -5578,7 +5748,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/cubicall/ | https://www.statsforsharks.com/entry/Cubicall",
     "enrichmentConfidence": "high",
     "website": "https://cubicallbooth.com",
-    "websiteStatus": "blocked"
+    "websiteStatus": "blocked",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/cubicall/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: n the Shark Tank TV show. The deal did not close with Barbara, though Nick and Anthony say she has advised them on certa"
   },
   "s10e22-saucemoto": {
     "businessStatus": "active",
@@ -5623,7 +5797,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/quikflip/",
     "enrichmentConfidence": "high",
     "website": "https://quikflipapparel.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/quikflip/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: it for 10% equity, though the deal ultimately did not close. After Shark Tank, QuikFlip experienced significant growth a"
   },
   "s10e23-batbnb": {
     "businessStatus": "active",
@@ -6413,7 +6591,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/potato-parcel/",
     "enrichmentConfidence": "high",
     "website": "https://pntra.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/potato-parcel/",
+    "closureConfidence": "medium"
   },
   "s8e7-eco-flower": {
     "businessStatus": "inactive",
@@ -6661,7 +6842,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/dbest-products/",
     "enrichmentConfidence": "high",
     "website": "https://dbest-products.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/dbest-products/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: on line of credit, though the deal ultimately did not close. dBest Products continues to thrive, with its carts availabl"
   },
   "s8e16-tranquilo": {
     "businessStatus": "active",
@@ -6674,7 +6859,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/tranquilo/ | https://www.sharktanksuccess.com/is-tranquilo-mat-still-in-business/",
     "enrichmentConfidence": "high",
     "website": "https://tranquilomat.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://sharktankblog.com/business/tranquilo/",
+    "closureConfidence": "medium"
   },
   "s8e16-doc-spartan": {
     "businessStatus": "active",
@@ -6701,7 +6889,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/firefighter-turnout-bags/",
     "enrichmentConfidence": "high",
     "website": "https://firefighterturnoutbag.com",
-    "websiteStatus": "unreachable"
+    "websiteStatus": "unreachable",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://www.sharktankblog.com/business/firefighter-turnout-bags/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: cts page, which indicates the deal didn't close. Niki did move back to her warehouse and did begin making bags with new"
   },
   "s8e17-toymail": {
     "businessStatus": "inactive",
@@ -6892,7 +7084,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/thompson-tee/ | https://sharktanksuccess.com/thompson-tee-update-after-shark-tank/",
     "enrichmentConfidence": "high",
     "website": "https://thompsontee.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://www.sharktankblog.com/business/thompson-tee/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: 00 for 25% equity, though the deal ultimately did not close. Since appearing on Shark Tank, Thompson Tee has continued t"
   },
   "s8e23-rumi-spice": {
     "businessStatus": "active",
@@ -6905,7 +7101,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/rumi-spice/ | https://www.cnbc.com/2017/05/06/why-billionaire-mark-cuban-invested-in-an-afghan-saffron-start-up-run-by-veterans-on-shark-tank.html",
     "enrichmentConfidence": "high",
     "website": "https://rumispice.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://www.sharktankblog.com/business/rumi-spice/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: for 15% equity, although the deal did not close post-show. Rumi Spice expanded their product line and secured $2.5 mill"
   },
   "s8e23-peoples-design": {
     "businessStatus": "inactive",
@@ -7248,7 +7448,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/shefit/",
     "enrichmentConfidence": "high",
     "website": "https://pntrs.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/shefit/",
+    "closureConfidence": "medium"
   },
   "s7e15-2400-expert": {
     "businessStatus": "active",
@@ -7344,7 +7547,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/insta-fire/",
     "enrichmentConfidence": "high",
     "website": "https://instafire.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/insta-fire/",
+    "closureConfidence": "medium"
   },
   "s7e19-prx-performance": {
     "businessStatus": "active",
@@ -7731,7 +7937,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/earthlog/",
     "enrichmentConfidence": "high",
     "website": "https://earthlog.com",
-    "websiteStatus": "unreachable"
+    "websiteStatus": "unreachable",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://www.sharktankblog.com/business/earthlog/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: er for $160K for 30%, but the deal fell through, and the company went out of business in 2018. Overview Category Details"
   },
   "s6e11-biaggi": {
     "businessStatus": "active",
@@ -8138,7 +8348,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/neatcheeks/ | https://www.looper.com/1068717/whatever-happened-to-neatcheeks-after-shark-tank/",
     "enrichmentConfidence": "high",
     "website": "https://neatcheeks.com",
-    "websiteStatus": "unreachable"
+    "websiteStatus": "unreachable",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://www.sharktankblog.com/business/neatcheeks/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: for 25% equity, although the deal ultimately did not close. NeatCheeks has continued to grow, achieving $1 million in a"
   },
   "s6e25-melni-connectors": {
     "businessStatus": "active",
@@ -8205,7 +8419,11 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://sharktankblog.com/business/zero-pollution-motors/",
     "enrichmentConfidence": "medium",
     "website": "https://zeropollutionmotors.us",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://sharktankblog.com/business/zero-pollution-motors/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: equity from Robert Herjavec (deal did not close) Investment Ask $5 million Equity Offered 50% Valuation $10 million Eth"
   },
   "s6e27-world-record-striper-company": {
     "businessStatus": "inactive",
@@ -9000,7 +9218,11 @@ export const enrichmentOverrides = {
     ],
     "sourceUrl": "https://www.sharktankblog.com/business/the-bzbox/",
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/the-bzbox/",
-    "enrichmentConfidence": "high"
+    "enrichmentConfidence": "high",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://www.sharktankblog.com/business/the-bzbox/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: t a storage solution, but the deal didn't close. Overview Category Details Name The BZBox Founder Kaeya Majmundar Indust"
   },
   "s4e1-bev-buckle": {
     "businessStatus": "active",
@@ -12734,7 +12956,10 @@ export const enrichmentOverrides = {
     "sourceUrlsRaw": "https://www.sharktankblog.com/business/three-jerks-beef-jerky/",
     "enrichmentConfidence": "high",
     "website": "https://threejerksjerky.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/three-jerks-beef-jerky/",
+    "closureConfidence": "medium"
   },
   "s7e5-the-skinny-mirror": {
     "businessStatus": "inactive",
@@ -14320,7 +14545,10 @@ export const enrichmentOverrides = {
   },
   "s6e4-paper-box-pilots": {
     "website": "https://paperboxpilots.com",
-    "websiteStatus": "unreachable"
+    "websiteStatus": "unreachable",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/paper-box-pilots/",
+    "closureConfidence": "medium"
   },
   "s6e4-reviver": {
     "website": "https://reviverwipes.com",
@@ -14376,7 +14604,11 @@ export const enrichmentOverrides = {
   },
   "s8e4-solemates": {
     "website": "https://thesolemates.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://www.sharktankblog.com/business/solemates/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: $500,000 for 20%, though the deal did not close post-show. Post-Shark Tank, Solemates expanded to over 4,000 CVS stores"
   },
   "s8e4-biem": {
     "website": "https://biemspray.com",
@@ -14396,7 +14628,10 @@ export const enrichmentOverrides = {
   },
   "s17e2-gerty": {
     "website": "https://thegerty.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "closed",
+    "closureSource": "https://www.sharktankblog.com/business/gerty/",
+    "closureConfidence": "medium"
   },
   "s17e2-qb54": {
     "website": "https://playqb54.com",
@@ -14484,7 +14719,11 @@ export const enrichmentOverrides = {
   },
   "s17e8-nampons": {
     "website": "https://nampons.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://www.sharktankblog.com/business/nampons/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: Later, Barbara Corcoran also backed out of the deal because she was on the same page as Kevin and Lori. Markedly, Rober"
   },
   "s17e8-liquidview": {
     "website": "https://theliquidview.com",
@@ -14516,11 +14755,19 @@ export const enrichmentOverrides = {
   },
   "s17e11-bocceroll": {
     "website": "https://playbocceroll.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://www.sharktankblog.com/business/bocceroll/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: cale this into retail. So, he backed out of the deal negotiations. As mentioned earlier, Barbara Corcoran did not find i"
   },
   "s17e10-screen-skinz": {
     "website": "https://screenskinz.com",
-    "websiteStatus": "up"
+    "websiteStatus": "up",
+    "postShowDealStatus": "not_closed",
+    "closureSource": "https://www.sharktankblog.com/business/screen-skinz/",
+    "closureConfidence": "medium",
+    "portfolioScoringNote": "On-air deal did not close: Lori Greiner and Daymond John backed out of the deal negotiations because they thought it was too early. Also, Kendra Sc"
   },
   "s17e12-cranel": {
     "website": "https://cranel.co",
