@@ -15,7 +15,7 @@ test("calculates global KPIs from records", () => {
   const metrics = getGlobalMetrics(records);
   assert.equal(records.length, 1436);
   assert.equal(metrics.totalPitches, records.length);
-  assert.equal(metrics.totalDeals, 834);
+  assert.equal(metrics.totalDeals, 881); // 834 + 47 deals resolved by the sourced backfill overlay
   assert.ok(metrics.dealRate > 0);
   assert.ok(metrics.totalRevenue > 0);
 });
