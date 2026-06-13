@@ -74,6 +74,14 @@ export function getSharkMetrics(records, sharks = MAJOR_SHARKS) {
     const attributedRevenue = revenuePortfolio.reduce((sum, record) => sum + getInvestorRevenueAttribution(record), 0);
     const successfulDeals = portfolio.filter((record) => record.businessStatus === "active" || (record.revenueAmount ?? 0) > 0).length;
     const largest = revenuePortfolio.slice().sort((a, b) => b.revenueAmount - a.revenueAmount)[0];
+    // Close ratio: of the deals this shark struck ON AIR (handshake), how many
+    // actually closed after due diligence? Computed over VERIFIED deals only (those
+    // with a researched post-show status), so the ratio is not biased by how much of
+    // each shark's slate has been researched yet. verifiedDeals exposes the sample size.
+    const onAir = records.filter((record) => record.investors.includes(sharkName) && record.dealStatus === "deal");
+    const verified = onAir.filter((record) => record.postShowDealStatus === "closed" || record.postShowDealStatus === "not_closed");
+    const notClosedDeals = verified.filter((record) => record.postShowDealStatus === "not_closed").length;
+    const verifiedClosed = verified.length - notClosedDeals;
     return {
       sharkName,
       totalDeals: portfolio.length,
@@ -85,7 +93,12 @@ export function getSharkMetrics(records, sharks = MAJOR_SHARKS) {
       largestWinner: largest?.companyName ?? null,
       favoriteIndustry: favoriteIndustry(portfolio),
       dealSuccessRate: portfolio.length ? successfulDeals / portfolio.length : 0,
-      revenueCoverage: portfolio.length ? revenuePortfolio.length / portfolio.length : 0
+      revenueCoverage: portfolio.length ? revenuePortfolio.length / portfolio.length : 0,
+      onAirDeals: onAir.length,
+      verifiedDeals: verified.length,
+      verifiedClosed,
+      notClosedDeals,
+      closeRatio: verified.length ? verifiedClosed / verified.length : null
     };
   });
   return calculateAlphaScores(base).sort((a, b) => b.alphaScore - a.alphaScore);

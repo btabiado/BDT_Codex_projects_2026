@@ -28,6 +28,21 @@ test("calculates shark metrics and rankings", () => {
   assert.ok(sharks.every((metric) => typeof metric.attributedRevenue === "number"));
 });
 
+test("computes on-air deal close ratio per shark", () => {
+  const sharks = getSharkMetrics(records);
+  for (const m of sharks) {
+    assert.equal(m.verifiedClosed + m.notClosedDeals, m.verifiedDeals); // ratio is over verified deals only
+    assert.ok(m.verifiedDeals <= m.onAirDeals);
+    assert.ok(m.closeRatio === null || (m.closeRatio >= 0 && m.closeRatio <= 1));
+  }
+  // Mark has documented fall-throughs (Morrison Outdoors, plus researched), so his
+  // close rate must be below 100% and computed over a real verified sample.
+  const mark = sharks.find((m) => m.sharkName === "Mark Cuban");
+  assert.ok(mark.notClosedDeals >= 1);
+  assert.ok(mark.verifiedDeals > 0);
+  assert.ok(mark.closeRatio < 1);
+});
+
 test("returns top companies and industry metrics", () => {
   assert.equal(getTopCompanies(records, { limit: 3 }).length, 3);
   assert.equal(getTopCompanies(records, { limit: 1 })[0].companyName, "Bombas");
@@ -76,7 +91,9 @@ test("excludes not-closed post-show deals from shark portfolio scoring", () => {
     .reduce((sum, record) => sum + record.revenueAmount, 0);
   assert.equal(morrison.dealStatus, "deal");
   assert.equal(morrison.postShowDealStatus, "not_closed");
-  assert.equal(allMarkRevenue - mark.totalRevenue, morrison.revenueAmount);
+  // Morrison (and any other not_closed Mark deals surfaced by closure research) are
+  // excluded from his scored revenue, so the excluded delta covers at least Morrison.
+  assert.ok(allMarkRevenue - mark.totalRevenue >= morrison.revenueAmount);
 });
 
 test("curates known import artifacts without deleting source rows", () => {

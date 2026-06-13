@@ -206,10 +206,11 @@ function sharkCards(rows) {
     if (state.sort === "totalRevenue") return b.totalRevenue - a.totalRevenue;
     if (state.sort === "survivalRate") return (b.survivalRate ?? -1) - (a.survivalRate ?? -1);
     if (state.sort === "totalDeals") return b.totalDeals - a.totalDeals;
+    if (state.sort === "closeRatio") return (b.closeRatio ?? -1) - (a.closeRatio ?? -1);
     return b.alphaScore - a.alphaScore;
   });
   return `
-    <div class="section-heading"><h2>Shark KPI Cards</h2><select data-filter="sort" aria-label="Sort shark cards">${option("alphaScore", state.sort, "Alpha Score")}${option("totalRevenue", state.sort, "Revenue")}${option("survivalRate", state.sort, "Survival")}${option("totalDeals", state.sort, "Deal Count")}</select></div>
+    <div class="section-heading"><h2>Shark KPI Cards</h2><select data-filter="sort" aria-label="Sort shark cards">${option("alphaScore", state.sort, "Alpha Score")}${option("closeRatio", state.sort, "Close Rate")}${option("totalRevenue", state.sort, "Revenue")}${option("survivalRate", state.sort, "Survival")}${option("totalDeals", state.sort, "Deal Count")}</select></div>
     <section class="shark-grid">
       ${sorted.map((metric, index) => `
         <article class="shark-card" data-shark="${html(metric.sharkName)}" role="button" tabindex="0" aria-label="Show companies ${html(metric.sharkName)} invested in" title="Alpha Score = revenue 40%, survival 30%, deal success 20%, deal volume 10%">
@@ -218,6 +219,7 @@ function sharkCards(rows) {
           <strong>${metric.alphaScore}</strong>
           <dl>
             <div><dt>Deals</dt><dd>${metric.totalDeals}</dd></div>
+            <div title="${metric.verifiedClosed} of ${metric.verifiedDeals} verified on-air deals closed (${metric.notClosedDeals} fell through); closure research preliminary"><dt>Close Rate</dt><dd>${metric.verifiedDeals ? `${formatPercent(metric.closeRatio)} <small>n=${metric.verifiedDeals}</small>` : "—"}</dd></div>
             <div><dt>Survival</dt><dd>${formatPercent(metric.survivalRate)}</dd></div>
             <div><dt>Scored Revenue</dt><dd>${formatCurrency(metric.totalRevenue)}</dd></div>
             <div><dt>Attributed Scored Revenue</dt><dd>${formatCurrency(metric.attributedRevenue)}</dd></div>
@@ -231,7 +233,7 @@ function sharkCards(rows) {
 
 function leaderboard(rows) {
   const metrics = getSharkMetrics(rows);
-  return `<section class="panel"><h2>Shark Alpha Leaderboard</h2><p class="muted">Alpha Score uses scored Shark investments only. Bombas remains in the company database, but is excluded from Daymond scoring so company-level sales are not treated as Daymond-owned revenue.</p><table><thead><tr><th>Rank</th><th>Shark</th><th>Alpha</th><th>Attributed Scored Revenue</th><th>Scored Revenue</th><th>Survival</th><th>Movement</th></tr></thead><tbody>${metrics.map((metric, index) => `<tr><td>${index + 1}</td><td>${html(metric.sharkName)}</td><td>${metric.alphaScore}</td><td>${formatCurrency(metric.attributedRevenue)}</td><td>${formatCurrency(metric.totalRevenue)}</td><td>${formatPercent(metric.survivalRate)}</td><td><span class="muted">New</span></td></tr>`).join("")}</tbody></table></section>`;
+  return `<section class="panel"><h2>Shark Alpha Leaderboard</h2><p class="muted">Alpha Score uses scored Shark investments only. <strong>Close Rate</strong> = share of <em>verified</em> on-air handshake deals that actually closed after due diligence — computed over the deals whose post-show outcome has been researched (the "Verified / On-Air" column), so it is not skewed by research coverage. Closure research is preliminary (~125 of 662 deals so far), so read it as directional alongside the sample size. Bombas remains in the database but is excluded from Daymond scoring so company-level sales are not treated as Daymond-owned revenue.</p><table><thead><tr><th>Rank</th><th>Shark</th><th class="num">Alpha</th><th class="num">Close Rate</th><th class="num">Verified / On-Air</th><th class="num">Attributed Scored Revenue</th><th class="num">Scored Revenue</th><th class="num">Survival</th></tr></thead><tbody>${metrics.map((metric, index) => `<tr><td class="num">${index + 1}</td><td>${html(metric.sharkName)}</td><td class="num">${metric.alphaScore}</td><td class="num" title="${metric.verifiedClosed} of ${metric.verifiedDeals} verified deals closed; ${metric.notClosedDeals} fell through">${metric.verifiedDeals ? formatPercent(metric.closeRatio) : "—"}</td><td class="num">${metric.verifiedDeals} / ${metric.onAirDeals}</td><td class="num">${formatCurrency(metric.attributedRevenue)}</td><td class="num">${formatCurrency(metric.totalRevenue)}</td><td class="num">${formatPercent(metric.survivalRate)}</td></tr>`).join("")}</tbody></table></section>`;
 }
 
 function commandPage(rows) {
