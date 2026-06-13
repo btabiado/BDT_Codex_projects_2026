@@ -17616,5 +17616,206 @@ export const enrichmentOverrides = {
   "s15e21-hood": {
     "website": "https://hoodhat.com",
     "websiteStatus": "up"
+  },
+  "s16e5-y-all-sweet": {
+    "companyName": "Y'all Sweet Tea",
+    "dealStatus": "deal",
+    "businessStatus": "active",
+    "description": "Alabama-based sweet tea brand offering caffeinated, decaffeinated, and flavored tea blends that customers sweeten to taste.",
+    "industry": "Food",
+    "investors": [
+      "Rashaun Williams",
+      "Lori Greiner"
+    ],
+    "dealTermsRaw": "$500,000 for 15% equity",
+    "revenueRaw": "$10.3M total sales since 2021; $4M revenue in 2023; 2024 projected above $5M",
+    "revenueAmount": 10300000,
+    "revenueStatus": "known",
+    "sourceUrl": "https://www.sharktankblog.com/business/yall-sweet-tea/",
+    "sourceUrlsRaw": "https://abc.com/news/5161d7b1-3cea-42b4-af4f-9cd7854b32e8/category/2887649 | https://www.sharktankblog.com/shark-tank/shark-tank-episodes/season-16-shark-tank-episodes/episode-5/ | https://www.foodrepublic.com/1998642/yall-sweet-tea-shark-tank-now/",
+    "enrichmentConfidence": "high",
+    "website": "https://yallsweettea.com",
+    "websiteStatus": "up"
+  },
+  "s16e10-tabeeze": {
+    "dealStatus": "deal",
+    "businessStatus": "active",
+    "description": "Baby clothing with snap shoulders and a bottom-up design that eliminates pulling garments over an infant's head.",
+    "industry": "Baby & Kids",
+    "investors": [
+      "Daymond John"
+    ],
+    "dealTermsRaw": "$100,000 for 33.3% equity",
+    "revenueRaw": "Revenue not defensibly disclosed in researched sources; self-funding, ask/deal, product expansion, and donations reported.",
+    "revenueAmount": null,
+    "revenueStatus": "undisclosed",
+    "sourceUrl": "https://www.sharktankblog.com/business/tabeeze/",
+    "sourceUrlsRaw": "https://abc.com/news/c41b4bc4-a25e-4509-b9cd-1bba47f39807/category/2887649 | https://www.sharktankblog.com/business/tabeeze/",
+    "enrichmentConfidence": "medium",
+    "website": "https://tabeeze.com",
+    "websiteStatus": "up"
+  },
+  "s17e17-hibertec": {
+    "revenueStatus": "pre_revenue"
+  },
+  "s17e18-parrot-finance": {
+    "revenueStatus": "undisclosed"
+  },
+  "s16e1-card-io": {
+    "dealStatus": "deal",
+    "businessStatus": "active",
+    "description": "A gamified cardio fitness app that turns exercise into a team-based virtual game with events and a map-based turf war.",
+    "industry": "Technology",
+    "investors": [
+      "Rashaun Williams",
+      "Daymond John"
+    ],
+    "dealTermsRaw": "$150,000 for 15% equity",
+    "revenueRaw": "$4,000 in the month before pitch; $470,000 figure includes grants/funding, not clean revenue",
+    "revenueAmount": 4000,
+    "revenueStatus": "known",
+    "sourceUrl": "https://www.sharktankblog.com/business/card-io/",
+    "sourceUrlsRaw": "https://abc.com/news/14614656-b909-4400-af47-2db5d646b346/category/2887649 | https://www.sharktankblog.com/business/card-io/ | https://www.slashgear.com/1852775/what-happened-card-io-running-app-shark-tank-season-16/",
+    "enrichmentConfidence": "medium"
+  },
+  "s16e7-coordinates": {
+    "dealStatus": "deal",
+    "businessStatus": "active",
+    "description": "Coordinated pajamas and loungewear collection for families to wear matching outfits.",
+    "industry": "Apparel",
+    "investors": [
+      "Robert Herjavec"
+    ],
+    "dealTermsRaw": "Deal made; exact terms not confirmed in accessible source",
+    "revenueRaw": "$25,000 sales in 2023",
+    "revenueAmount": 25000,
+    "revenueStatus": "known",
+    "sourceUrl": "https://www.sharktankblog.com/business/coordinates-shark-tank-season-16/",
+    "sourceUrlsRaw": "https://abc.com/news/8dcde5c5-705a-4f39-9a30-c36fc100ed7c/category/2887649 | https://www.sharktankblog.com/business/coordinates-shark-tank-season-16/ | https://www.sharktankblog.com/what-made-robert-herjavec-say-he-loves-fun-stuff-shark-tank-season-16-deals/",
+    "enrichmentConfidence": "high"
+  },
+  "s16e14-blackdot": {
+    "dealStatus": "no_deal",
+    "businessStatus": "active",
+    "description": "An automated tattooing device paired with an online marketplace of licensed tattoo art designs that applies tattoos with reduced pain.",
+    "industry": "Technology",
+    "investors": [],
+    "dealTermsRaw": "No deal",
+    "revenueRaw": "Revenue not disclosed; funding raised is reported but is not revenue.",
+    "revenueStatus": "undisclosed",
+    "sourceUrl": "https://www.sharktankblog.com/business/blackdot/",
+    "sourceUrlsRaw": "https://abc.com/news/4458db47-52ee-45a7-abab-09c6f3582703/category/2887649 | https://www.sharktankblog.com/business/blackdot/ | https://blackdot.tattoo/",
+    "enrichmentConfidence": "high"
+  },
+  "s16e15-dream-park": {
+    "dealStatus": "no_deal",
+    "businessStatus": "active",
+    "description": "A mixed-reality gaming experience that transforms physical spaces into interactive virtual game environments using Meta Quest headsets.",
+    "industry": "Entertainment",
+    "investors": [],
+    "dealTermsRaw": "No deal",
+    "revenueRaw": "Pre-revenue / no actual sales yet at pitch",
+    "revenueStatus": "pre_revenue",
+    "sourceUrl": "https://www.sharktankblog.com/business/dream-park/",
+    "sourceUrlsRaw": "https://abc.com/news/113869a8-964e-4b2b-8dbd-776245a002df/category/2887649 | https://www.sharktankblog.com/business/dream-park/ | https://www.sharktankblog.com/shark-tank/shark-tank-episodes/season-16-shark-tank-episodes/episode-15/",
+    "enrichmentConfidence": "high"
+  },
+  "s16e16-airtulip": {
+    "dealStatus": "no_deal",
+    "businessStatus": "active",
+    "description": "A bed headboard that creates a bubble of purified air over the sleeper to reduce allergen exposure and improve sleep.",
+    "industry": "Health",
+    "investors": [],
+    "dealTermsRaw": "No deal",
+    "revenueRaw": "100 presold units at $2,000+ each; only crowdfunding campaign generated sales; no other sales disclosed",
+    "revenueAmount": 200000,
+    "revenueStatus": "known",
+    "sourceUrl": "https://www.sharktankblog.com/business/airtulip/",
+    "sourceUrlsRaw": "https://abc.com/news/51c60505-04c6-4636-a7cd-a6636bbd03e6/category/2887649 | https://www.sharktankblog.com/business/airtulip/ | https://hauteliving.com/2025/06/airtulip-founder-breakthrough-sleep-tech-to-shark-tank/773198/",
+    "enrichmentConfidence": "medium"
+  },
+  "s16e17-frame-your-feline": {
+    "dealStatus": "no_deal",
+    "businessStatus": "active",
+    "description": "A cat shelf system designed to display and exercise indoor cats.",
+    "industry": "Pet",
+    "investors": [],
+    "dealTermsRaw": "No deal",
+    "revenueRaw": "$3,000 in 2022 and $10,000 the following year per secondary pitch breakdown; Shark Tank Blog says low/not much sales",
+    "revenueAmount": 10000,
+    "revenueStatus": "known",
+    "sourceUrl": "https://www.sharktankblog.com/business/frame-your-feline/",
+    "sourceUrlsRaw": "https://abc.com/news/4dfd1f4a-a319-4f6c-9203-45a3bcdaf4d8/category/2887649 | https://www.sharktankblog.com/business/frame-your-feline/ | https://sennhauser.com/shark_pitch/s16e17-frame-your-feline/ | https://www.freshpatch.com/blogs/news/how-frame-your-feline-transformed-cat-furniture-forever",
+    "enrichmentConfidence": "low"
+  },
+  "s16e18-fanion": {
+    "dealStatus": "no_deal",
+    "businessStatus": "active",
+    "description": "Kitchen fan built to reduce onion fumes while chopping.",
+    "industry": "Consumer Goods",
+    "investors": [],
+    "dealTermsRaw": "No deal",
+    "revenueRaw": "Sales not publicly disclosed at pitch; $468,000 reported invested mostly in inventory",
+    "revenueAmount": null,
+    "revenueStatus": "undisclosed",
+    "sourceUrl": "https://www.sharktankblog.com/business/fanion/",
+    "sourceUrlsRaw": "https://abc.com/news/3a8bcc1a-accc-4774-9828-3efbf77ffd9c/category/2887649 | https://www.sharktankblog.com/business/fanion/ | https://www.youtube.com/watch?v=nzD3vT7L9OE",
+    "enrichmentConfidence": "medium",
+    "website": "https://myfanion.com",
+    "websiteStatus": "up"
+  },
+  "s15e4-monosuit": {
+    "businessStatus": "active",
+    "website": "https://monosuit.com/",
+    "websiteStatus": "up",
+    "sourceUrlsRaw": "https://monosuit.com/collections/jumpsuit | https://www.glam.com/2035921/monosuit-shark-tank-what-happened/",
+    "enrichmentConfidence": "high"
+  },
+  "s13e8-santa-s-enchanted-mailbox": {
+    "businessStatus": "active",
+    "website": "https://santasenchantedmailbox.com/",
+    "websiteStatus": "up",
+    "sourceUrlsRaw": "https://santasenchantedmailbox.com/ | https://mrchristmas.com/products/10-in-santas-enchanted-mailbox",
+    "enrichmentConfidence": "high"
+  },
+  "s8e11-hand-out-gloves": {
+    "dealStatus": "no_deal",
+    "investors": [],
+    "dealTermsRaw": "No deal; Barbara Corcoran offered a $300,000 line of credit at 6% interest for 25% equity, but the founders left without a deal.",
+    "description": "Convertible winter gloves with zippered openings for bare-handed tasks without removing the gloves.",
+    "sourceUrl": "https://www.sharktankblog.com/business/handout-gloves/",
+    "sourceUrlsRaw": "https://www.sharktankblog.com/business/handout-gloves/",
+    "enrichmentConfidence": "medium"
+  },
+  "s7e11-piperwai": {
+    "dealStatus": "deal",
+    "investors": [
+      "Barbara Corcoran"
+    ],
+    "dealTermsRaw": "$50,000 for 25% equity",
+    "description": "All-natural deodorant brand using activated charcoal.",
+    "sourceUrl": "https://www.sharktankblog.com/business/piperwai/",
+    "sourceUrlsRaw": "https://www.sharktankblog.com/business/piperwai/ | https://www.businessinsider.com/barbara-corcoran-advice-to-piper-wai-2016-3 | https://www.phillyvoice.com/local-startup-survives-swim-sharks/",
+    "enrichmentConfidence": "high"
+  },
+  "s5e11-virtuix-omni": {
+    "dealStatus": "no_deal",
+    "investors": [],
+    "dealTermsRaw": "No deal; asked $2,000,000 for 10% equity.",
+    "description": "Omnidirectional virtual reality treadmill/platform for immersive gaming and training.",
+    "sourceUrl": "https://www.sharktankblog.com/business/virtuix-omni/",
+    "sourceUrlsRaw": "https://www.sharktankblog.com/business/virtuix-omni/ | https://roadtovr.com/mark-cuban-shark-tank-virtuix-omni-3-million-3000000-investment-funding-venture-capital/",
+    "enrichmentConfidence": "high"
+  },
+  "s4e5-marz-sprays": {
+    "dealStatus": "deal",
+    "investors": [
+      "Lori Greiner"
+    ],
+    "dealTermsRaw": "$200,000 for 25% equity, with option to buy back 12.5% equity for $800,000",
+    "description": "Vitamin and supplement oral sprays.",
+    "sourceUrl": "https://www.sharktankblog.com/business/marz-sprays/",
+    "sourceUrlsRaw": "https://www.sharktankblog.com/business/marz-sprays/",
+    "enrichmentConfidence": "high"
   }
 };

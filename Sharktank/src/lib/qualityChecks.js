@@ -1,10 +1,18 @@
 const REQUIRED_FIELDS = ["season", "episode", "companyName", "dealStatus"];
 const SHOULD_HAVE_FIELDS = ["description", "investors", "businessStatus", "revenueAmount", "sourceUrl", "industry"];
 
+export function hasRevenueSignal(record) {
+  return (
+    typeof record.revenueAmount === "number" ||
+    ["known", "undisclosed", "pre_revenue", "no_sales"].includes(record.revenueStatus)
+  );
+}
+
 export function getFieldCompleteness(records) {
   const fields = [...REQUIRED_FIELDS, ...SHOULD_HAVE_FIELDS];
   return fields.map((field) => {
     const complete = records.filter((record) => {
+      if (field === "revenueAmount") return hasRevenueSignal(record);
       const value = record[field];
       if (Array.isArray(value)) return value.length > 0;
       return value !== null && value !== undefined && value !== "" && value !== "unknown";
@@ -41,7 +49,7 @@ export function getCoverageBySeason(records) {
 export function getQualityReport(records) {
   const completeness = getFieldCompleteness(records);
   const duplicates = findDuplicateCompanies(records);
-  const missingRevenue = records.filter((record) => record.revenueAmount === null || record.revenueAmount === undefined).length;
+  const missingRevenue = records.filter((record) => !hasRevenueSignal(record)).length;
   const missingInvestors = records.filter((record) => record.dealStatus === "deal" && record.investors.length === 0).length;
   const missingSources = records.filter((record) => !record.sourceUrl).length;
   const completenessScore = completeness.reduce((sum, field) => sum + field.percent, 0) / Math.max(completeness.length, 1);

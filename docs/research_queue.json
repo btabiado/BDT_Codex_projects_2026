@@ -1,198 +1,14 @@
 [
   {
-    "id": "s17e17-hibertec",
-    "priority": 1,
-    "season": 17,
-    "episode": 17,
-    "companyName": "HiberTec",
-    "missingFields": [
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/hibertec/",
-    "sourceSearchHint": "HiberTec Shark Tank Season 17 Episode 17 deal revenue investors"
-  },
-  {
-    "id": "s17e18-parrot-finance",
-    "priority": 1,
-    "season": 17,
-    "episode": 18,
-    "companyName": "Parrot Finance",
-    "missingFields": [
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/parrot-finance/",
-    "sourceSearchHint": "Parrot Finance Shark Tank Season 17 Episode 18 deal revenue investors"
-  },
-  {
-    "id": "s16e1-card-io",
-    "priority": 1,
-    "season": 16,
-    "episode": 1,
-    "companyName": "Card.io",
-    "missingFields": [
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/card-io/",
-    "sourceSearchHint": "Card.io Shark Tank Season 16 Episode 1 deal revenue investors"
-  },
-  {
-    "id": "s16e5-y-all-sweet",
-    "priority": 1,
-    "season": 16,
-    "episode": 5,
-    "companyName": "Y’all Sweet",
-    "missingFields": [
-      "dealStatus",
-      "businessStatus",
-      "revenue",
-      "description",
-      "industry"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/yall-sweet-tea/",
-    "sourceSearchHint": "Y’all Sweet Shark Tank Season 16 Episode 5 deal revenue investors"
-  },
-  {
-    "id": "s16e7-coordinates",
-    "priority": 1,
-    "season": 16,
-    "episode": 7,
-    "companyName": "Coordinates",
-    "missingFields": [
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/coordinates-shark-tank-season-16/",
-    "sourceSearchHint": "Coordinates Shark Tank Season 16 Episode 7 deal revenue investors"
-  },
-  {
-    "id": "s16e10-tabeeze",
-    "priority": 1,
-    "season": 16,
-    "episode": 10,
-    "companyName": "Tabeeze",
-    "missingFields": [
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/tabeeze/",
-    "sourceSearchHint": "Tabeeze Shark Tank Season 16 Episode 10 deal revenue investors"
-  },
-  {
-    "id": "s16e14-blackdot",
-    "priority": 1,
-    "season": 16,
-    "episode": 14,
-    "companyName": "Blackdot",
-    "missingFields": [
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/blackdot/",
-    "sourceSearchHint": "Blackdot Shark Tank Season 16 Episode 14 deal revenue investors"
-  },
-  {
-    "id": "s16e15-dream-park",
-    "priority": 1,
-    "season": 16,
-    "episode": 15,
-    "companyName": "Dream Park",
-    "missingFields": [
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/dream-park/",
-    "sourceSearchHint": "Dream Park Shark Tank Season 16 Episode 15 deal revenue investors"
-  },
-  {
-    "id": "s16e16-airtulip",
-    "priority": 1,
-    "season": 16,
-    "episode": 16,
-    "companyName": "AirTulip",
-    "missingFields": [
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/airtulip/",
-    "sourceSearchHint": "AirTulip Shark Tank Season 16 Episode 16 deal revenue investors"
-  },
-  {
-    "id": "s16e17-frame-your-feline",
-    "priority": 1,
-    "season": 16,
-    "episode": 17,
-    "companyName": "Frame Your Feline",
-    "missingFields": [
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/frame-your-feline/",
-    "sourceSearchHint": "Frame Your Feline Shark Tank Season 16 Episode 17 deal revenue investors"
-  },
-  {
-    "id": "s16e18-fanion",
-    "priority": 1,
-    "season": 16,
-    "episode": 18,
-    "companyName": "Fanion",
-    "missingFields": [
-      "revenue"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/fanion/",
-    "sourceSearchHint": "Fanion Shark Tank Season 16 Episode 18 deal revenue investors"
-  },
-  {
-    "id": "s8e11-hand-out-gloves",
-    "priority": 2,
-    "season": 8,
-    "episode": 11,
-    "companyName": "Hand Out Gloves",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/handout-gloves/",
-    "sourceSearchHint": "Hand Out Gloves Shark Tank Season 8 Episode 11 deal revenue investors"
-  },
-  {
-    "id": "s7e11-piperwai",
-    "priority": 2,
-    "season": 7,
-    "episode": 11,
-    "companyName": "PiperWai",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/piperwai/",
-    "sourceSearchHint": "PiperWai Shark Tank Season 7 Episode 11 deal revenue investors"
-  },
-  {
-    "id": "s5e11-virtuix-omni",
-    "priority": 2,
-    "season": 5,
-    "episode": 11,
-    "companyName": "Virtuix Omni",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/virtuix-omni/",
-    "sourceSearchHint": "Virtuix Omni Shark Tank Season 5 Episode 11 deal revenue investors"
-  },
-  {
-    "id": "s4e5-marz-sprays",
-    "priority": 2,
-    "season": 4,
-    "episode": 5,
-    "companyName": "Marz Sprays",
-    "missingFields": [
-      "investors"
-    ],
-    "currentSource": "https://www.sharktankblog.com/business/marz-sprays/",
-    "sourceSearchHint": "Marz Sprays Shark Tank Season 4 Episode 5 deal revenue investors"
-  },
-  {
     "id": "s15e4-monosuit",
     "priority": 3,
     "season": 15,
     "episode": 4,
     "companyName": "Monosuit",
     "missingFields": [
-      "businessStatus"
+      "revenue"
     ],
-    "currentSource": "https://www.sharktankblog.com/business/monosuit/",
+    "currentSource": "https://en.wikipedia.org/wiki/Shark_Tank_season_15",
     "sourceSearchHint": "Monosuit Shark Tank Season 15 Episode 4 deal revenue investors"
   },
   {
@@ -550,9 +366,11 @@
     "episode": 8,
     "companyName": "Santa's Enchanted Mailbox",
     "missingFields": [
-      "businessStatus"
+      "revenue",
+      "description",
+      "industry"
     ],
-    "currentSource": "https://sharktankblog.com/business/santas-enchanted-mailbox/",
+    "currentSource": "https://www.sharktank-api.dev/episodes",
     "sourceSearchHint": "Santa's Enchanted Mailbox Shark Tank Season 13 Episode 8 deal revenue investors"
   },
   {
@@ -1290,6 +1108,20 @@
     "sourceSearchHint": "Sunscreenr Shark Tank Season 8 Episode 6 deal revenue investors"
   },
   {
+    "id": "s8e11-hand-out-gloves",
+    "priority": 3,
+    "season": 8,
+    "episode": 11,
+    "companyName": "Hand Out Gloves",
+    "missingFields": [
+      "businessStatus",
+      "revenue",
+      "industry"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/handout-gloves/",
+    "sourceSearchHint": "Hand Out Gloves Shark Tank Season 8 Episode 11 deal revenue investors"
+  },
+  {
     "id": "s8e12-pdx-pet-design",
     "priority": 3,
     "season": 8,
@@ -1432,6 +1264,19 @@
     ],
     "currentSource": "https://www.sharktankblog.com/business/geekmytree/",
     "sourceSearchHint": "GeekMyTree Shark Tank Season 7 Episode 11 deal revenue investors"
+  },
+  {
+    "id": "s7e11-piperwai",
+    "priority": 3,
+    "season": 7,
+    "episode": 11,
+    "companyName": "PiperWai",
+    "missingFields": [
+      "businessStatus",
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/piperwai/",
+    "sourceSearchHint": "PiperWai Shark Tank Season 7 Episode 11 deal revenue investors"
   },
   {
     "id": "s7e14-village-scholarships",
@@ -1914,6 +1759,19 @@
     ],
     "currentSource": "https://www.sharktankblog.com/business/surprise-ride/",
     "sourceSearchHint": "Surprise Ride Shark Tank Season 5 Episode 9 deal revenue investors"
+  },
+  {
+    "id": "s5e11-virtuix-omni",
+    "priority": 3,
+    "season": 5,
+    "episode": 11,
+    "companyName": "Virtuix Omni",
+    "missingFields": [
+      "businessStatus",
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/virtuix-omni/",
+    "sourceSearchHint": "Virtuix Omni Shark Tank Season 5 Episode 11 deal revenue investors"
   },
   {
     "id": "s5e14-alaska-glacial-mud-co",
@@ -2435,6 +2293,19 @@
     ],
     "currentSource": "https://en.wikipedia.org/wiki/Shark_Tank_season_4",
     "sourceSearchHint": "Spatty Shark Tank Season 4 Episode 5 deal revenue investors"
+  },
+  {
+    "id": "s4e5-marz-sprays",
+    "priority": 3,
+    "season": 4,
+    "episode": 5,
+    "companyName": "Marz Sprays",
+    "missingFields": [
+      "businessStatus",
+      "revenue"
+    ],
+    "currentSource": "https://www.sharktankblog.com/business/marz-sprays/",
+    "sourceSearchHint": "Marz Sprays Shark Tank Season 4 Episode 5 deal revenue investors"
   },
   {
     "id": "s4e6-freaker-usa",

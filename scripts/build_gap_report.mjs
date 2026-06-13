@@ -6,7 +6,7 @@ import { supplementalRecords } from "../Sharktank/src/data/supplementalRecords.j
 import { applyEnrichmentOverrides } from "../Sharktank/src/lib/enrichment.js";
 import { applyDataCurations, getAnalysisRecords } from "../Sharktank/src/lib/curateData.js";
 import { normalizeRows, MAJOR_SHARKS } from "../Sharktank/src/lib/normalizeData.js";
-import { getQualityReport } from "../Sharktank/src/lib/qualityChecks.js";
+import { getQualityReport, hasRevenueSignal } from "../Sharktank/src/lib/qualityChecks.js";
 
 const curatedRecords = applyEnrichmentOverrides(applyDataCurations([...normalizeRows(rawMasterRows), ...supplementalRecords]), enrichmentOverrides);
 const records = getAnalysisRecords(curatedRecords);
@@ -20,7 +20,7 @@ function missingFields(record) {
   if (record.dealStatus === "unknown") fields.push("dealStatus");
   if (record.dealStatus === "deal" && record.investors.length === 0) fields.push("investors");
   if (record.businessStatus === "unknown") fields.push("businessStatus");
-  if (record.revenueAmount === null || record.revenueAmount === undefined) fields.push("revenue");
+  if (!hasRevenueSignal(record)) fields.push("revenue");
   if (!record.description) fields.push("description");
   if (record.industry === "Unclassified") fields.push("industry");
   if (hasLikelyBoilerplateName(record)) fields.push("companyName");
@@ -65,7 +65,7 @@ const counts = {
   unknownDealStatus: records.filter((record) => record.dealStatus === "unknown").length,
   dealRowsMissingInvestors: records.filter((record) => record.dealStatus === "deal" && record.investors.length === 0).length,
   unknownBusinessStatus: records.filter((record) => record.businessStatus === "unknown").length,
-  missingRevenue: records.filter((record) => record.revenueAmount === null || record.revenueAmount === undefined).length,
+  missingRevenue: records.filter((record) => !hasRevenueSignal(record)).length,
   missingDescription: records.filter((record) => !record.description).length,
   unclassifiedIndustry: records.filter((record) => record.industry === "Unclassified").length,
   likelyBoilerplateNames: records.filter((record) => /^(sharks:|mark |daymond |lori |kevin |barbara |robert )/i.test(record.companyName)).length,

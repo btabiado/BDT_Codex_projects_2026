@@ -12,16 +12,16 @@ Generated from the normalized workbook, supplemental records, and enrichment ove
 | Analysis rows after artifact quarantine | 1504 |
 | Quarantined import artifacts | 44 |
 | Cleaned company names | 124 |
-| Data quality score | 77/100 |
-| Unknown deal status | 1 |
-| Deal rows missing investors | 4 |
-| Unknown business status | 170 |
-| Missing parsed revenue | 335 |
+| Data quality score | 78/100 |
+| Unknown deal status | 0 |
+| Deal rows missing investors | 0 |
+| Unknown business status | 171 |
+| Missing parsed revenue | 330 |
 | Missing description | 1 |
-| Unclassified industry | 51 |
+| Unclassified industry | 52 |
 | Likely boilerplate/import-name artifacts | 0 |
-| Research queue items | 356 |
-| Priority 1 queue items | 11 |
+| Research queue items | 345 |
+| Priority 1 queue items | 0 |
 
 ## Research Priority Rules
 
@@ -42,22 +42,7 @@ Generated from the normalized workbook, supplemental records, and enrichment ove
 
 | ID | Season | Episode | Company | Missing fields | Current source |
 | --- | ---: | ---: | --- | --- | --- |
-| s17e17-hibertec | 17 | 17 | HiberTec | revenue | https://www.sharktankblog.com/business/hibertec/ |
-| s17e18-parrot-finance | 17 | 18 | Parrot Finance | revenue | https://www.sharktankblog.com/business/parrot-finance/ |
-| s16e1-card-io | 16 | 1 | Card.io | revenue | https://www.sharktankblog.com/business/card-io/ |
-| s16e5-y-all-sweet | 16 | 5 | Y’all Sweet | dealStatus, businessStatus, revenue, description, industry | https://www.sharktankblog.com/business/yall-sweet-tea/ |
-| s16e7-coordinates | 16 | 7 | Coordinates | revenue | https://www.sharktankblog.com/business/coordinates-shark-tank-season-16/ |
-| s16e10-tabeeze | 16 | 10 | Tabeeze | revenue | https://www.sharktankblog.com/business/tabeeze/ |
-| s16e14-blackdot | 16 | 14 | Blackdot | revenue | https://www.sharktankblog.com/business/blackdot/ |
-| s16e15-dream-park | 16 | 15 | Dream Park | revenue | https://www.sharktankblog.com/business/dream-park/ |
-| s16e16-airtulip | 16 | 16 | AirTulip | revenue | https://www.sharktankblog.com/business/airtulip/ |
-| s16e17-frame-your-feline | 16 | 17 | Frame Your Feline | revenue | https://www.sharktankblog.com/business/frame-your-feline/ |
-| s16e18-fanion | 16 | 18 | Fanion | revenue | https://www.sharktankblog.com/business/fanion/ |
-| s8e11-hand-out-gloves | 8 | 11 | Hand Out Gloves | investors | https://www.sharktankblog.com/business/handout-gloves/ |
-| s7e11-piperwai | 7 | 11 | PiperWai | investors | https://www.sharktankblog.com/business/piperwai/ |
-| s5e11-virtuix-omni | 5 | 11 | Virtuix Omni | investors | https://www.sharktankblog.com/business/virtuix-omni/ |
-| s4e5-marz-sprays | 4 | 5 | Marz Sprays | investors | https://www.sharktankblog.com/business/marz-sprays/ |
-| s15e4-monosuit | 15 | 4 | Monosuit | businessStatus | https://www.sharktankblog.com/business/monosuit/ |
+| s15e4-monosuit | 15 | 4 | Monosuit | revenue | https://en.wikipedia.org/wiki/Shark_Tank_season_15 |
 | s15e8-black-paper-party | 15 | 8 | Black Paper Party | revenue | https://sharktankrecap.com/black-paper-party-update-shark-tank-season-15/ |
 | s15e8-pick-up-bricks | 15 | 8 | Pick-Up Bricks | revenue | https://www.sharktankblog.com/business/pick-up-bricks/ |
 | s15e9-flywithwine | 15 | 9 | FlyWithWine | revenue | https://www.sharktankblog.com/shark-tank/shark-tank-episodes/season-15-shark-tank-episodes/episode-1509/ |
@@ -82,13 +67,26 @@ Generated from the normalized workbook, supplemental records, and enrichment ove
 | s13e1-lion-latch | 13 | 1 | Lion Latch | revenue | https://www.sharktankblog.com/business/lion-latch/ |
 | s13e1-paskho | 13 | 1 | Paskho | revenue | https://www.sharktankblog.com/business/paskho/ |
 | s13e2-muteme | 13 | 2 | MuteMe | revenue | https://www.sharktankblog.com/business/muteme/ |
+| s13e2-long-wharf | 13 | 2 | Long Wharf | revenue | https://www.sharktankblog.com/business/long-wharf-supply-company/ |
+| s13e3-oathaus | 13 | 3 | OatHaus | revenue | https://www.sharktankblog.com/business/oat-haus/ |
+| s13e3-flasky-flowers | 13 | 3 | Flasky Flowers | revenue | https://www.sharktankblog.com/business/flasky-flowers/ |
+| s13e5-beulr | 13 | 5 | Beulr | revenue | https://www.sharktankblog.com/business/beulr/ |
+| s13e8-the-real-elf | 13 | 8 | The Real Elf | revenue | https://sharktankblog.com/business/the-real-elf/ |
+| s13e8-santa-s-enchanted-mailbox | 13 | 8 | Santa's Enchanted Mailbox | revenue, description, industry | https://www.sharktank-api.dev/episodes |
+| s13e10-smart-tire-company | 13 | 10 | Smart Tire Company | revenue | https://sharktankblog.com/business/the-smart-tire-company/ |
+| s13e18-umaro | 13 | 18 | Umaro | revenue | https://www.sharktankblog.com/business/umaro/ |
+| s12e6-k9-mask | 12 | 6 | K9 Mask | revenue | https://www.sharktankblog.com/business/k9-mask/ |
+| s12e9-sharks-mark-barbara-kevin-lori-daymond-electra | 12 | 9 | Electra | revenue | https://sharktankblog.com/business/electra/ |
+| s12e9-his-and-her-bar | 12 | 9 | His and Her Bar | revenue | https://www.sharktankblog.com/business/his-and-her-bar/ |
+| s12e10-sharks-mark-kevin-lori-barbara-alex-rodriguez-slice-of-sauce | 12 | 10 | Slice of Sauce | revenue | https://sharktankblog.com/business/slice-of-sauce/ |
+| s12e11-brumachen | 12 | 11 | Brumachen | revenue | https://www.sharktankblog.com/business/brumachen/ |
+| s12e12-sharks-mark-barbara-kevin-lori-daymond-yono-clip | 12 | 12 | Yono Clip | revenue | https://www.sharktankblog.com/business/yono-clip/ |
+| s12e14-byoot-company | 12 | 14 | Byoot Company | revenue | https://sharktankblog.com/business/byoot-company/ |
 
 ## Queue Items by Season
 
 | Season | Queue items |
 | ---: | ---: |
-| 17 | 2 |
-| 16 | 9 |
 | 15 | 11 |
 | 14 | 10 |
 | 13 | 12 |

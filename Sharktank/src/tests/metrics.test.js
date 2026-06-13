@@ -15,7 +15,7 @@ test("calculates global KPIs from records", () => {
   const metrics = getGlobalMetrics(records);
   assert.equal(records.length, 1504); // +68 Season 15 records added (eps 5-21 backfill)
   assert.equal(metrics.totalPitches, records.length);
-  assert.equal(metrics.totalDeals, 929); // grew with the S15 deal records
+  assert.equal(metrics.totalDeals, 928); // adjusted after sourced no-deal correction for Hand Out Gloves
   assert.ok(metrics.dealRate > 0);
   assert.ok(metrics.totalRevenue > 0);
 });

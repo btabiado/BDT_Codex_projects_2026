@@ -18,6 +18,7 @@
  *   businessStatus: BusinessStatus,
  *   revenueRaw?: string | null,
  *   revenueAmount?: number | null,
+ *   revenueStatus?: "known" | "undisclosed" | "pre_revenue" | "no_sales" | null,
  *   revenueDate?: string | null,
  *   sourceUrl?: string | null,
  *   industry?: string | null
